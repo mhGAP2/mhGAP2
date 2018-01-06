@@ -1,0 +1,150 @@
+<resources>
+    <string name="app_name">mhGAP2</string>
+    <string name="title_activity_home">HomeActivity</string>
+
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+
+    <string name="action_settings">Settings</string>
+    <string name="title_activity_contactus">Contactus</string>
+    <string name="title_activity_essential">Essential</string>
+    <string name="title_activity_symbols">symbols</string>
+    <string name="title_activity_masterc">masterc</string>
+    <string name="title_activity_glossery">Glossery</string>
+    <string name="title_activity_aboutus">Aboutus</string>
+    <string name="rd">This module outlines the principles of essential care for all people seeking health care, including those
+        with MNS conditions, and their carers. The first section of this module covers the general principles of clinical care
+        and aims to promote respect for the privacy of people seeking care for MNS conditions, foster good relationships between
+        health care providers, service users and their carers, and ensure care is provided in a non-judgmental, non-stigmatizing,
+        and supportive manner. The second section covers essentials of mental health clinical practice and aims to present
+        healthcare providers with an overview of the assessment and management of MNS conditions in non-specialized settings.
+    </string>
+    <string name="depcontent">
+        -> Multiple persistent physical symptoms with no clear cause \n
+        -> Low energy, fatigue, sleep problems Persistent sadness or depressed mood, anxiety \n
+        -> Loss of interest or pleasure in activities that are normally pleasurable
+    </string>
+    <string name="phycontent">
+        -> Marked behavioural changes; neglecting usual responsibilities related to work, school, domestic or social activities
+        -> Agitated, aggressive behavior, decreased or increased activity \n
+        -> Fixed false beliefs not shared by others in the person’s culture \n
+        -> Hearing voices or seeing things that are not there \n
+        -> Lack of realization that one is having mental health problems \n
+    </string>
+    <string name="elipcontent">
+        -> Convulsive movement or ﬁts/seizures \n
+        -> During the convulsion: loss of consciousness or impaired consciousness, stiffness, rigidity, tongue bite, injury,
+        incontinence of urine or faeces \n
+        -> After the convulsion: fatigue, drowsiness, sleepiness, confusion, abnormal behaviour, headache, muscle aches, or
+        weakness on one side of the body \n
+    </string>
+    <string name="discontent">
+        -> Child/adolescent being seen for physical complaints or a general health assessment who has: \n
+        -> Problem with development, emotions or behaviour (e.g. inattention, over-activity, or repeated deﬁant, disobedient and
+        aggressive behaviour) \n
+        -> Risk factors such as malnutrition, abuse and/or neglect, frequent illness, chronic diseases (e.g. HIV/AIDS or history
+        of difﬁcult birth) \n
+        -> Carer with concerns about the child/adolescent’s: \n
+        -> Difﬁculty keeping up with peers or carrying out daily activities considered normal for age \n
+        -> Behaviour (e.g. too active, aggressive, having frequent and/or severe tantrums, wanting to be alone too much,
+        refusing to do regular activities or go to school) \n
+        -> Teacher with concerns about a child/adolescent \n
+        -> e.g. easily distracted, disruptive in class, often getting into trouble, difﬁculty completing school work \n\n
+        Community health or social services worker with concerns about a child/adolescent \n
+        -> e.g. rule- or law-breaking behaviour, physical aggression at home or in the community \n
+    </string>
+    <string name="dementia">
+        -> Decline or problems with memory (severe forgetfulness) and orientation (awareness of time, place and person) \n
+        -> Mood or behavioural problems such as apathy (appearing uninterested) or irritability \n
+        -> Loss of emotional control (easily upset, irritable or tearful) Difﬁculties in carrying out usual work, domestic or
+        social activities \n
+    </string>
+    <string name="demcontent">
+        -> Appearing affected by alcohol or other substance (e.g. smell of alcohol, slurred speech, sedated, erratic
+        behaviour) \n
+        -> Signs and symptoms of acute behavioural effects, withdrawal features or effects of prolonged use \n
+        -> Deterioration of social functioning (i.e. difﬁculties at work or home, unkempt appearance) \n
+        -> Signs of chronic liver disease (abnormal liver enzymes), jaundiced (yellow) skin and eyes, palpable and tender liver
+        edge (in early liver disease), ascites (distended abdomen is ﬁlled with ﬂuid), spider naevi (spider-like blood vessels
+        visible on the surface of the skin), and altered mental status (hepatic encephalopathy) \n
+        -> Problems with balance, walking, coordinated movements, and nystagmus \n
+        -> Incidental ﬁndings: macrocytic anaemia, low platelet count, elevated mean corpuscular volume (MCV) \n
+        -> Emergency presentation due to substance withdrawal, overdose, or intoxication. Person may appear sedated,
+        overstimulated, agitated, anxious or confused"\n"> Persons with disorders due to substance use may not report any
+        problems with substance use. Look for:"\n"\t – Recurrent requests for psychoactive medications including analgesics \n
+        \t – Injuries \n \t – Infections associated with intravenous drug use (HIV/AIDS, Hepatitis C) \n
+    </string>
+    <string name="selfcontent">
+        -> Extreme hopelessness and despair \n
+        -> Current thoughts, plan or act of self-harm/ suicide, or history thereof \n
+        -> Any of the other priority conditions, chronic pain, or extreme emotional distress \n
+    </string>
+    <string name="glossary">
+        <b>Activities of daily living (ADLs)</b>\n
+        A concept of functioning – activities of daily living are basic activities that are necessary
+        for independent living, including eating, bathing and toileting. This concept has several assessment
+        tools to determine an individual’s ability to perform the activity with or without assistance.\n\n
+        <b>Agitation</b> \n
+        Marked restlessness and excessive motor activity, accompanied by anxiety \n\n
+        Agranulocytosis\n
+        A blood disorder in which there is an absence of granulocytes  (a type of white blood cell). It is an
+        acute condition involving a severe and dangerous leukopenia, also known as drug-induced secondary agranulocytosis.\n\n
+        <b>Akathisia</b> \n
+         A subjective sense of restlessness, often accompanied by observed excessive movements
+        (e.g. ﬁdgety movements of the legs, rocking from foot to foot, pacing, inability to sit or stand still).\n\n
+
+        <b>Akinesia</b> \n
+        The absence or lack of voluntary movement. A state of difﬁculty in initiating movements or changing from one motor
+        pattern to another that is associated with Parkinson’s disease. \n\n
+        <b>Altered mental status</b> \n
+        A changed level of awareness or mental state that falls short of unconsciousness which is often induced by
+        substance intake or other mental or neurological conditions. Examples include confusion and disorientation.
+        See delirium and confusional state. \n\n
+
+         <b>Alzheimers disease</b> \n
+         A primary degenerative cerebral disease of unknown etiology in  the majority of cases with characteristic
+        neuropathological and neurochemical features. The disorder is usually insidious in onset and develops slowly but
+        steadily over a period of several years.\n\n
+         <b>Anticholinergic side effects</b> \n
+       Anticholinergic medicines block the effects of acetylcholine at muscarinic receptors. Anticholinergic
+        effects include dryness of the mouth, urinary frequency or retention, palpitations and sinus tachycardia.\n\n
+       <b>Aplastic anaemia</b> \n
+       A disease characterized by the inability of  blood stem cells to generate new mature cells. This disease is also
+        characterised by low levels of red blood cells, white blood cells, and platelets. This disease may present with
+        pallor, fatigue, dizziness, increased risk of infection or increased bruising or bleeding.\n\n
+     <b>Distractibility</b> \n
+     Difﬁculty concentrating and focusing on tasks; attention is easily diverted by extraneous stimuli.\n\n
+        <b>Dystonia</b> \n
+     Sustained muscle contraction or involuntary movements that can lead to ﬁxed abnormal postures. See tardive dyskinesia.\n\n
+        <b>Eclampsia</b> \n
+        Any condition affecting pregnant women, characterized by seizure or convulsions newly arising in pregnancy. The
+        condition is often associated with pregnancy-induced hypertension, convulsions, seizure, anxiety, epigastric pain,
+        severe headache, blurred vision, proteinuria, and oedema that may occur during pregnancy, labour, or the puerperium.\n\n
+     <b>Convulsion, convulsive movement</b> \n
+    Clinical or subclinical disturbances of cortical function due to a sudden, abnormal, excessive, and disorganized
+        discharge of brain cells (see seizure). Clinical manifestations include abnormal motor, sensory and psychic phenomena.\n\n
+    </string>
+    <string name="t">"> Always be respectful."\n"> Don’t judge people by their behaviours and appearance."\n"> Stay calm and patient."</string>
+    <string name="s">"> Include the person (and with their consent, their carers and family) in all aspects of assessment and management as much as possible. This includes children, adolescents and older adults."</string>
+    <string name="h">Show extra sensitivity with difﬁcult topics. Remind the person that what they tell you will remain conﬁdential. Acknowledge that it may have been difﬁcult for the person to disclose the information.</string>
+    <string name="e">Use simple language. Be clear and concise. Use open-ended questions, summarizing and clarifying statements. Summarize and repeat key points. Allow the person to ask questions about the information provided.</string>
+    <string name="r">"> Actively listen. Be empathic and sensitive."\n"> Allow the person to speak without interruption."\n"> If the history is unclear, be patient and ask for clariﬁcation."\n"> For children, use language that they can understand. For example, ask about their interests (toys, friends, school, etc.)."\n"> For adolescents, convey that you understand their feelings and situation."</string>
+    <string name="i">"> Meet the person in a private space, if possible."\n ">Be welcoming and conduct introductions in a culturally appropriate manner."\n"> Maintain eye contact and use body language and facial expressions that facilitate trust."\n"> Explain that information discussed during the visit will be kept conﬁdential and will not be shared without prior permission."\n"> If carers are present, suggest to speak with the person alone (except for young children) and obtain consent to share clinical information."\n"> When interviewing a young woman, consider having another female staff member or carer present."\n</string>
+    <string name="n">"COMMUNICATION TIP #1"\n" Create an environment that facilitates open communication"</string>
+    <string name="g">"COMMUNICATION TIP #2"\n" Involve the person"</string>
+    <string name="j">"COMMUNICATION TIP #3"\n" Start by listening"</string>
+    <string name="a">"COMMUNICATION TIP #4" \n"Be friendly, respectful and nonjudgemental at all times"</string>
+    <string name="m">"COMMUNICATION TIP #5"\n" Use good verbal communication skills"</string>
+    <string name="o">"COMMUNICATION TIP #6"\n" Respond with sensitivity when people disclose difﬁcult experiences (e.g. sexual assault, violence or self-harm)"</string>
+    <string name="donts">DONTs</string>
+    <string name="dos">DOs</string>
+    <string name="y">">Do not discriminate against people with MNS conditions."\n"> Do not ignore the priorities or wishes of people with MNS conditions."\n"> Do not make decisions for, on behalf of, or instead of the person with MNS conditions."\n"> Do not use overly technical language in explaining proposed treatment."</string>
+    <string name="d">I. Use Effective Communication Skills</string>
+    <string name="l">II. Promote Respect and Dignity</string>
+    <string name="k">Persons with MNS conditions should be treated with respect and dignity in a culturally appropriate manner. As a health care provider, make every effort to respect and promote the will and preference of people with MNS conditions and support and engage them and their carers in the most inclusive way. Persons with MNS conditions are often more vulnerable to human rights violations. Therefore, it is essential that in the health care setting, providers promote the rights of people with MNS conditions in line with international human rights standards, including the UN Convention on the Rights of Persons with Disability (CRPD)*.</string>
+    <string name="u">"> Treat people with MNS conditions with respect and dignity."\n"> Protect the conﬁdentiality of people with MNS conditions."\n"> Ensure privacy in the clinical setting."\n"> Always provide access to information and explain the proposed treatment risks and beneﬁts in writing, if possible."\n"> Make sure the person provides consent to treatment."\n"> Promote autonomy and independent living in the community."\n"> Provide persons with MNS conditions with access to supported decision making options."</string>
+    <string name="v">Using effective communication skills allows healthcare providers to deliver good quality care to adults, adolescents, and children with mental, neurological and substance use (MNS) conditions. Consider the following core communication skills and tips:</string>
+    <string name="title_activity_essentail1">Essentail1</string>
+    <string name="title_activity_essential2">Essential2</string>
+
+</resources>

@@ -1,0 +1,190 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    tools:context="com.example.tencho.mhgap2.masterc"
+    tools:showIn="@layout/app_bar_masterc">
+
+
+    <ScrollView
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        tools:layout_constraintTop_creator="1"
+        tools:layout_constraintRight_creator="1"
+        tools:layout_constraintBottom_creator="1"
+        android:layout_marginStart="8dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        android:layout_marginEnd="8dp"
+        app:layout_constraintRight_toRightOf="parent"
+        android:layout_marginTop="8dp"
+        tools:layout_constraintLeft_creator="1"
+        android:layout_marginBottom="8dp"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+            tools:ignore="ScrollViewSize">
+            <TextView
+                android:id="@+id/t5"
+                android:layout_width="310dp"
+                android:layout_height="35dp"
+                android:layout_marginStart="19dp"
+                android:background="@drawable/dep"
+                android:onClick="depression"
+                android:text="Depression"
+                android:textAlignment="center"
+                android:textColor="#ffffff"
+                android:textSize="25dp"
+                tools:ignore="HardcodedText,SpUsage" />
+
+            <TextView
+                android:id="@+id/t6"
+                android:layout_width="match_parent"
+                android:textColor="#000000"
+                android:textSize="13sp"
+                android:textAlignment="textStart"
+                android:layout_height="wrap_content"
+                android:text="@string/depcontent" />
+
+            <TextView
+                android:id="@+id/t11"
+                android:background="@drawable/psy"
+                android:onClick="psychoses"
+                android:text="Psychoses"
+                android:layout_width="310dp"
+                android:layout_height="35dp"
+                android:layout_marginStart="19dp"
+                android:textAlignment="center"
+                android:textColor="#FFFFFF"
+                android:textSize="25dp"
+                tools:ignore="HardcodedText,SpUsage" />
+
+            <TextView
+                android:id="@+id/t12"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textColor="#000000"
+                android:textSize="13sp"
+                android:textAlignment="textStart"
+                android:text="@string/phycontent"/>
+
+            <TextView
+                android:id="@+id/t15"
+                android:background="@drawable/epi"
+                android:onClick="EPI"
+                android:layout_width="310dp"
+                android:layout_height="35dp"
+                android:layout_marginStart="19dp"
+                android:text="Epilepsy"
+                android:textAlignment="center"
+                android:textColor="#FFFFFF"
+                android:textSize="25dp"
+                tools:ignore="HardcodedText,SpUsage" />
+
+            <TextView
+                android:id="@+id/t16"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textColor="#000000"
+                android:textSize="13sp"
+                android:textAlignment="textStart"
+                android:text="@string/elipcontent"/>
+
+            <TextView
+                android:id="@+id/t26"
+                android:background="@drawable/child"
+                android:onClick="child"
+                android:layout_width="310dp"
+                android:layout_height="35dp"
+                android:layout_marginStart="19dp"
+                android:text="CAH Behavioural Disorders"
+                android:textAlignment="center"
+                android:textColor="#FFFFFF"
+                android:textSize="25dp"
+                tools:ignore="HardcodedText,SpUsage" />
+
+            <TextView
+                android:id="@+id/t27"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textColor="#000000"
+                android:textSize="13sp"
+                android:textAlignment="textStart"
+                android:text="@string/discontent" />
+
+            <TextView
+                android:id="@+id/t32"
+                android:background="@drawable/dem"
+                android:onClick="Dementia"
+                android:layout_width="310dp"
+                android:layout_height="35dp"
+                android:layout_marginStart="19dp"
+                android:text="Dementia"
+                android:textAlignment="center"
+                android:textColor="#FFFFFF"
+                android:textSize="25dp"
+                tools:ignore="HardcodedText,SpUsage" />
+
+            <TextView
+                android:id="@+id/t33"
+                android:layout_width="match_parent"
+                android:textColor="#000000"
+                android:textSize="13sp"
+                android:textAlignment="textStart"
+                android:layout_height="wrap_content"
+                android:text="@string/dementia" />
+
+            <TextView
+                android:id="@+id/t28"
+                android:background="@drawable/sub"
+                android:onClick="Disorder"
+                android:layout_width="310dp"
+                android:layout_height="35dp"
+                android:layout_marginStart="19dp"
+                android:text="Substance Use"
+                android:textAlignment="center"
+                android:textColor="#ffffff"
+                android:textSize="25dp"
+                tools:ignore="HardcodedText,SpUsage" />
+
+            <TextView
+                android:id="@+id/t29"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textColor="#000000"
+                android:textSize="13sp"
+                android:textAlignment="textStart"
+                android:text="@string/demcontent"/>
+
+            <TextView
+                android:id="@+id/t30"
+                android:background="@drawable/self"
+                android:onClick="Self"
+                android:layout_width="310dp"
+                android:layout_height="35dp"
+                android:layout_marginStart="19dp"
+                android:text="Self-Harm/Suicide"
+                android:textAlignment="center"
+                android:textColor="#ffffff"
+                android:textSize="25dp"
+                tools:ignore="HardcodedText,SpUsage" />
+
+            <TextView
+                android:id="@+id/t31"
+                android:layout_width="match_parent"
+                android:textColor="#000000"
+                android:textSize="13sp"
+                android:textAlignment="textStart"
+                android:layout_height="wrap_content"
+                android:text="@string/selfcontent"/>
+
+
+        </LinearLayout>
+    </ScrollView>
+</android.support.constraint.ConstraintLayout>

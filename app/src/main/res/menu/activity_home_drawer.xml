@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/symbols"
+            android:icon="@drawable/iconvs"
+            android:title="Visual Symbols" />
+        <item
+            android:id="@+id/essentials"
+            android:icon="@drawable/iconess"
+            android:title="Essential care" />
+        <item
+            android:id="@+id/mchart"
+            android:icon="@drawable/iconmanage"
+            android:title="Master Chart" />
+        <item
+            android:id="@+id/glossery"
+            android:icon="@drawable/iconglossery"
+            android:title="Glossery" />
+    </group>
+
+    <item android:title="Communicate">
+        <menu>
+            <item
+                android:id="@+id/Aboutus"
+                android:icon="@drawable/iconaboutus"
+                android:title="About us" />
+            <item
+                android:id="@+id/contact"
+                android:icon="@drawable/iconcontact"
+                android:title="Contact us" />
+        </menu>
+    </item>
+
+</menu>
