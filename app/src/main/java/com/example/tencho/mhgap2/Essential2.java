@@ -1,5 +1,6 @@
 package com.example.tencho.mhgap2;
 
+import android.content.Intent;
 import android.os.Bundle;
 import android.support.design.widget.FloatingActionButton;
 import android.support.design.widget.Snackbar;
@@ -79,19 +80,27 @@ public class Essential2 extends AppCompatActivity
     public boolean onNavigationItemSelected(MenuItem item) {
         // Handle navigation view item clicks here.
         int id = item.getItemId();
+        if (id == R.id.symbols) {
 
-        if (id == R.id.nav_camera) {
-            // Handle the camera action
-        } else if (id == R.id.nav_gallery) {
+        } else if (id == R.id.essentials) {
+            Intent intent=new Intent(Essential2.this,Essential.class);
+            startActivity(intent);
 
-        } else if (id == R.id.nav_slideshow) {
+        } else if (id == R.id.mchart) {
+            Intent intent=new Intent(Essential2.this,masterc.class);
+            startActivity(intent);
 
-        } else if (id == R.id.nav_manage) {
+        }else if (id == R.id.glossery) {
+            Intent intent=new Intent(Essential2.this,Glossery.class);
+            startActivity(intent);
 
-        } else if (id == R.id.nav_share) {
+        }
+        else if (id == R.id.contact) {
+            Intent intent=new Intent(Essential2.this,Contactus.class);
+            startActivity(intent);
 
-        } else if (id == R.id.nav_send) {
-
+        }
+        else if (id == R.id.Aboutus) {
         }
 
         DrawerLayout drawer = (DrawerLayout) findViewById(R.id.drawer_layout);

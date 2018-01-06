@@ -22,7 +22,7 @@
             android:layout_weight="1"
             android:text="Test your health"
             android:textAlignment="center"
-            android:textColor="#2c8689"
+            android:textColor="#035777"
             android:layout_marginBottom="5dp"
             android:textSize="30dp"
             tools:ignore="SpUsage" />
