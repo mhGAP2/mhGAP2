@@ -1,17 +1,17 @@
 <resources>
     <string name="app_name">mhGAP2</string>
-    <string name="title_activity_home">HomeActivity</string>
+    <string name="title_activity_home">Home</string>
 
     <string name="navigation_drawer_open">Open navigation drawer</string>
     <string name="navigation_drawer_close">Close navigation drawer</string>
 
     <string name="action_settings">Settings</string>
-    <string name="title_activity_contactus">Contactus</string>
-    <string name="title_activity_essential">Essential</string>
-    <string name="title_activity_symbols">symbols</string>
-    <string name="title_activity_masterc">masterc</string>
+    <string name="title_activity_contactus">Contact Us</string>
+    <string name="title_activity_essential">Essential Care</string>
+    <string name="title_activity_symbols">Symbols</string>
+    <string name="title_activity_masterc">Master Chart</string>
     <string name="title_activity_glossery">Glossery</string>
-    <string name="title_activity_aboutus">Aboutus</string>
+    <string name="title_activity_aboutus">About Us</string>
     <string name="rd">This module outlines the principles of essential care for all people seeking health care, including those
         with MNS conditions, and their carers. The first section of this module covers the general principles of clinical care
         and aims to promote respect for the privacy of people seeking care for MNS conditions, foster good relationships between
