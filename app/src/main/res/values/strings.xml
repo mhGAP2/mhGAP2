@@ -79,51 +79,7 @@
         -> Current thoughts, plan or act of self-harm/ suicide, or history thereof \n
         -> Any of the other priority conditions, chronic pain, or extreme emotional distress \n
     </string>
-    <string name="glossary">
-        <b>Activities of daily living (ADLs)</b>\n
-        A concept of functioning – activities of daily living are basic activities that are necessary
-        for independent living, including eating, bathing and toileting. This concept has several assessment
-        tools to determine an individual’s ability to perform the activity with or without assistance.\n\n
-        <b>Agitation</b> \n
-        Marked restlessness and excessive motor activity, accompanied by anxiety \n\n
-        Agranulocytosis\n
-        A blood disorder in which there is an absence of granulocytes  (a type of white blood cell). It is an
-        acute condition involving a severe and dangerous leukopenia, also known as drug-induced secondary agranulocytosis.\n\n
-        <b>Akathisia</b> \n
-         A subjective sense of restlessness, often accompanied by observed excessive movements
-        (e.g. ﬁdgety movements of the legs, rocking from foot to foot, pacing, inability to sit or stand still).\n\n
 
-        <b>Akinesia</b> \n
-        The absence or lack of voluntary movement. A state of difﬁculty in initiating movements or changing from one motor
-        pattern to another that is associated with Parkinson’s disease. \n\n
-        <b>Altered mental status</b> \n
-        A changed level of awareness or mental state that falls short of unconsciousness which is often induced by
-        substance intake or other mental or neurological conditions. Examples include confusion and disorientation.
-        See delirium and confusional state. \n\n
-
-         <b>Alzheimers disease</b> \n
-         A primary degenerative cerebral disease of unknown etiology in  the majority of cases with characteristic
-        neuropathological and neurochemical features. The disorder is usually insidious in onset and develops slowly but
-        steadily over a period of several years.\n\n
-         <b>Anticholinergic side effects</b> \n
-       Anticholinergic medicines block the effects of acetylcholine at muscarinic receptors. Anticholinergic
-        effects include dryness of the mouth, urinary frequency or retention, palpitations and sinus tachycardia.\n\n
-       <b>Aplastic anaemia</b> \n
-       A disease characterized by the inability of  blood stem cells to generate new mature cells. This disease is also
-        characterised by low levels of red blood cells, white blood cells, and platelets. This disease may present with
-        pallor, fatigue, dizziness, increased risk of infection or increased bruising or bleeding.\n\n
-     <b>Distractibility</b> \n
-     Difﬁculty concentrating and focusing on tasks; attention is easily diverted by extraneous stimuli.\n\n
-        <b>Dystonia</b> \n
-     Sustained muscle contraction or involuntary movements that can lead to ﬁxed abnormal postures. See tardive dyskinesia.\n\n
-        <b>Eclampsia</b> \n
-        Any condition affecting pregnant women, characterized by seizure or convulsions newly arising in pregnancy. The
-        condition is often associated with pregnancy-induced hypertension, convulsions, seizure, anxiety, epigastric pain,
-        severe headache, blurred vision, proteinuria, and oedema that may occur during pregnancy, labour, or the puerperium.\n\n
-     <b>Convulsion, convulsive movement</b> \n
-    Clinical or subclinical disturbances of cortical function due to a sudden, abnormal, excessive, and disorganized
-        discharge of brain cells (see seizure). Clinical manifestations include abnormal motor, sensory and psychic phenomena.\n\n
-    </string>
     <string name="t">"> Always be respectful."\n"> Don’t judge people by their behaviours and appearance."\n"> Stay calm and patient."</string>
     <string name="s">"> Include the person (and with their consent, their carers and family) in all aspects of assessment and management as much as possible. This includes children, adolescents and older adults."</string>
     <string name="h">Show extra sensitivity with difﬁcult topics. Remind the person that what they tell you will remain conﬁdential. Acknowledge that it may have been difﬁcult for the person to disclose the information.</string>
@@ -185,5 +141,210 @@
     <string name="b_essentials_of_mental_health_clinical_practice">B. ESSENTIALS OF MENTAL HEALTH CLINICAL PRACTICE</string>
     <string name="hu">"Identify the MNS Condition"\n"> Identify the MNS condition using the appropriate module(s)."\n "> Assess for other MNS symptoms and priority conditions (see Master Chart)." \n"> Follow the appropriate management algorithm and treatment protocols."</string>
     <string name="title_activity_depression">Depression</string>
+
+
+    <string-array name="glossary">
+        <item>Activities of daily living (ADLs)</item>
+        <item>Agitation</item>
+        <item>Agranulocytosis</item>
+        <item>Akathisia</item>
+        <item>Akinesia</item>
+        <item>Altered mental status</item>
+        <item>Alzheimers disease</item>
+        <item>Anticholinergic sideeffects</item>
+        <item>Aplastic anaemia</item>
+        <item>Ataxi</item>
+        <item>Autism spectrum disorders</item>
+        <item>Autonomy</item>
+        <item>Behavioural activation </item>
+        <item>Bereavement</item>
+        <item>Cerebrovascular accident</item>
+        <item>Cognitive</item>
+        <item>Cognitive behavioural therapy (CBT)</item>
+        <item>Comborbid,comorbidity</item>
+        <item>Conﬁdentiality</item>
+        <item>Confusion,  confusional state</item>
+        <item>Contingency management therapy</item>
+        <item>Convulsion, convulsive movement</item>
+        <item>Delirium</item>
+        <item>Delusion</item>
+        <item>Detoxiﬁcation</item>
+        <item>Disability</item>
+        <item>Disinhibited behaviour, disinhibition</item>
+        <item>Disorganized / disordered thinking</item>
+        <item>Disorganized behaviour</item>
+        <item>Distractibility</item>
+        <item>Dystonia</item>
+        <item>Eclampsia</item>
+        <item>Elevated mood</item>
+        <item>Extrapyramidal  side-effects / symptoms (EPS)</item>
+        <item>Fetal alcohol syndrome </item>
+        <item>Fits</item>
+        <item>Focal deﬁcits</item>
+        <item>Hallucination</item>
+        <item>Hepatic encephalopathy</item>
+        <item>Herbal products </item>
+        <item>Hyperarousal</item>
+        <item>Hypersensitivity reaction</item>
+        <item>Idiosyncratic reaction </item>
+        <item>Informed consent </item>
+        <item>Interpersonal therapy (IPT)</item>
+        <item>irritability,irritable mood</item>
+        <item>Maculopapular rash</item>
+        <item>Meningeal irritation </item>
+        <item>Meningitis</item>
+        <item>Motivational enhancement therapy</item>
+        <item>Motor twitching </item>
+        <item>Myasthenia gravis </item>
+        <item>Neonatal abstinence syndrome</item>
+        <item>Neuroinfection</item>
+        <item>Neuroleptic malignant syndrome (NMS)</item>
+        <item>Occupational therapy </item>
+        <item>Oppositional behaviour </item>
+        <item>Orthostatic hypotension</item>
+        <item>Parent Skills Training </item>
+        <item>Phaeochromocytoma</item>
+        <item>Polyneuropathy</item>
+        <item>Polytherapy</item>
+        <item>Porphyria</item>
+        <item>Privacy</item>
+        <item>Problem-solving counselling</item>
+        <item>Pruritus</item>
+        <item>Pseudodementia</item>
+        <item>Psychoeducation</item>
+        <item>QT prolongation</item>
+        <item>Racing thoughts</item>
+        <item>Relapse</item>
+        <item>Relaxation training</item>
+        <item>Respiratory depression </item>
+        <item>Respite care </item>
+        <item>Rigidity</item>
+        <item>Saving group </item>
+        <item>Seizure</item>
+        <item>Self-harm </item>
+        <item>Serotonin syndrome </item>
+        <item>Slurred speech</item>
+        <item>Social network</item>
+        <item>Social withdrawal</item>
+        <item>Spider naevus </item>
+        <item>Spinal abscess </item>
+        <item>Status epilepticus </item>
+        <item>Stevens-Johnson syndrome</item>
+        <item>Stigma</item>
+        <item>Stroke</item>
+        <item>Sucidal thoughts/ideation</item>
+        <item>Tardive dyskinesia </item>
+        <item>Temper tantrum </item>
+        <item>Thrombocytopenia</item>
+        <item>Toxic epidermal necrolysis</item>
+        <item>Traditional Healing </item>
+        <item>Transient ischaemic attack (TIA)</item>
+        <item>Tremor</item>
+        <item>Vitamin K deﬁciency disease of the newborn</item>
+        <item>Wandering</item>
+    </string-array>
+
+    <string-array name="glossary_meaning">
+        <item>A concept of functioning – activities of daily living are basic activities that are necessary for independent living, including eating, bathing and toileting. This concept has several assessment tools to determine an individual’s ability to perform the activity with or without assistance.</item>
+        <item> Marked restlessness and excessive motor activity, accompanied by anxiety. </item>
+        <item> A blood disorder in which there is an absence of granulocytes  (a type of white blood cell). It is an acute condition involving a severe and dangerous leukopenia, also known as drug-induced secondary agranulocytosis. </item>
+        <item> A subjective sense of restlessness, often accompanied by observed excessive movements (e.g. ﬁdgety movements of the legs, rocking from foot to foot, pacing, inability to sit or stand still). </item>
+        <item> The absence or lack of voluntary movement. A state of difﬁculty in initiating movements or changing from one motor pattern to another that is associated with Parkinson’s disease. </item>
+        <item> A changed level of awareness or mental state that falls short of unconsciousness which is often induced by substance intake or other mental or neurological conditions. Examples include confusion and disorientation. See delirium and confusional state. </item>
+        <item> A primary degenerative cerebral disease of unknown etiology in  the majority of cases with characteristic neuropathological and neurochemical features. The disorder is usually insidious in onset and develops slowly but steadily over a period of several years. </item>
+        <item>Anticholinergic medicines block the effects of acetylcholine at muscarinic receptors. Anticholinergic effects include dryness of the mouth, urinary frequency or retention, palpitations and sinus tachycardia. </item>
+        <item>A disease characterized by the inability of  blood stem cells to generate new mature cells. This disease is also characterised by low levels of red blood cells, white blood cells, and platelets. This disease may present with pallor, fatigue, dizziness, increased risk of infection or increased bruising or bleeding.
+Ataxia </item>
+        <item>Failure of muscular coordination. People with ataxiz have problems with coordination because parts of the nervous system that control movement and balance are affected. Ataxia may affect the ﬁngers, hands, arms, legs, body, speech, and eye movements.</item>
+        <item>An umbrella term that covers conditions such as autism, childhood disintegration disorder and Asperger’s syndrome. </item>
+        <item>The perceived ability to control, cope with and make personal decisions about how one lives on a daily basis, according to one’s own rules and preferences. </item>
+        <item>Psychological treatment that focuses on improving mood by engaging again in activities that are task-oriented and used to be enjoyable, in spite of current low mood. It may be used as a stand-alone treatment, and it is also a component of cognitive behavioural therapy. </item>
+        <item> A process of loss, grief and recovery, usually associated with death.</item>
+        <item>A sudden disturbance of cerebral function attributable to vascular disease, principally thrombosis, haemorrhage, or embolism. See stroke.</item>
+        <item> Mental processes associated with thinking. These include reasoning, remembering, judgement, problem-solving and planning. </item>
+        <item>Psychological treatment that combines cognitive components (aimed at thinking differently, for example through identifying and challenging unrealistic negative thoughts) and behavioural components (aimed at doing things differently, for example by helping the person to do more rewarding activities). </item>
+        <item> Describing diseases or disorders that exist simultaneously. </item>
+        <item> Privacy in the context of privileged communication (such as patient doctor consultations) and medical records is safeguarded. </item>
+        <item>A state of impaired consciousness associated with acute or chronic cerebral organic disease. Clinically it is characterized by disorientation, slowness of mental processes with scanty association of ideas, apathy, lack of initiative, fatigue, and poor attention. In mild confusional states, rational responses and behaviour may be provoked by examination but more severe degrees of the disorder render the individual unable to retain contact with the environment.</item>
+        <item>A structured method of rewarding certain desired behaviours, such as attending treatment and avoiding harmful substance use. Rewards for desired behaviours are reduced over time as the natural rewards become established. </item>
+        <item>Clinical or subclinical disturbances of cortical function due to a sudden, abnormal, excessive, and disorganized discharge of brain cells (see seizure). Clinical manifestations include abnormal motor, sensory and psychic phenomena. </item>
+        <item>Transient ﬂuctuating mental state characterized by disturbed attention (i.e., reduced ability to direct, focus, sustain, and shift attention) and awareness (i.e., reduced orientation to the environment) that develops over a short period of time and tends to ﬂuctuate during the course of a day. It is accompanied by (other) disturbances of perception, memory, thinking, emotions or psychomotor functions. It may result from acute organic causes such as infections, medication, metabolic abnormalities, substance intoxication or substance withdrawal. </item>
+        <item> Fixed belief that is contrary to available evidence. It cannot be changed by rational argument and is not accepted by other members of the person’s culture or subculture (i.e., it is not an aspect of religious faith). </item>
+        <item> The process by which an individual is withdrawn from the effects of a psychoactive substance. Also referring to a clinical procedure, the withdrawal process is carried out in a safe and effective manner, such that withdrawal symptoms are minimized. </item>
+        <item>Any restriction or lack (resulting from an impairment) of ability to perform an activity in the manner, or within the range, considered to be normal for a human being. The term disability reﬂects the consequences of impairment in terms of functional performance and activity by the individual. </item>
+        <item>Lack of restraint manifested in disregard for social conventions, impulsivity and poor risk assessment. It can affect motor, emotional, cognitive and perceptual aspects of a person’s functioning.</item>
+        <item>Lack of restraint manifested in disregard for social conventions, impulsivity and poor risk assessment. It can affect motor, emotional, cognitive and perceptual aspects of a person’s functioning.</item>
+        <item>Behaviour including posture, gait, and other activity that is unpredictable or not goal-directed (e.g., shouting at strangers on the street).</item>
+        <item> Difﬁculty concentrating and focusing on tasks; attention is easily diverted by extraneous stimuli.</item>
+        <item>Sustained muscle contraction or involuntary movements that can lead to ﬁxed abnormal postures. See tardive dyskinesia. </item>
+        <item> Any condition affecting pregnant women, characterized by seizure or convulsions newly arising in pregnancy. The condition is often associated with pregnancy-induced hypertension, convulsions, seizure, anxiety, epigastric pain, severe headache, blurred vision, proteinuria, and oedema that may occur during pregnancy, labour, or the puerperium. </item>
+        <item> A positive mood state typically characterized by increased energy and self-esteem which may be out of proportion to the individuals life circumstances. </item>
+        <item>Abnormalities in muscle movement, mostly caused by antipsychotic medication. These include muscle tremors, stiffness, spasms and/or akathisia.</item>
+        <item> Counselling that entails multiple (usually more than six) planned sessions over a period of months. It should be delivered to individual families or groups of families, and should include the person living with mental illness, if feasible. It has supportive and educational or treatment functions. It often includes negotiated problem-solving or crisis management work. </item>
+        <item> Fetal alcohol syndrome is a malformation syndrome caused by maternal consumption of alcohol during pregnancy. It is characterized by prenatal and/or postnatal growth deﬁciency and a unique cluster of minor facial anomalies that presents across all ethnic groups, is identiﬁable at birth, and does not diminish with age. Affected children present severe central nervous system abnormalities including: microcephaly, cognitive and behavioural impairment (intellectual disability, deﬁcit in general cognition, learning and language, executive function, visual-spatial processing, memory, and attention). </item>
+        <item>Colloquial term for convulsions. See convulsion</item>
+        <item>Neurological signs that are observable bodily phenomena or responses suggestive of the localization of a relatively circumscribed lesion of the nervous system.</item>
+        <item>False perception of reality: seeing, hearing, feeling, smelling or tasting things that are not real. </item>
+        <item>Abnormal mental state including drowsiness, confusion or coma caused by liver dysfunction.</item>
+        <item>A range of folk medicines, many of them empirically discovered hundreds of years ago to be effective, derived from or consisting of portions of plants. In many cultures, knowledge about the efﬁcacy of herbal remedies is carefully preserved and handed on by oral tradition from one generation to the next. </item>
+        <item> Intense and prolonged autonomic discharge accompanied by a state of frozen watchfulness and alertness to environmental stimuli. Such responses are seen most frequently in post-traumatic stress disorders and often associated with substance use or withdrawal.</item>
+        <item>Hypersensitivity reactions are the adverse effects of pharmaceutical formulations (including active drugs and excipients) that clinically resemble allergy. It belongs to type B adverse drug reactions, which are deﬁned by the WHO as the dose-independent, unpredictable, noxious, and unintended response to a medicine taken at a dose normally used in humans. It covers many different clinical phenotypes with variable onset and severity. </item>
+        <item> Individual, unpredictable, and non-dose-dependent response to any substance: drowsiness or euphoria, ﬂushing, carpopedal spasms, apnoea, etc.</item>
+        <item>The process by which the health care provider discloses appropriate information to a person who can then make a  voluntary choice to accept or refuse treatment. informed consent includes a discussion of the following elements: the nature of the decision/procedure; reasonable alternatives to the proposed intervention; the relevant risks, beneﬁts, and uncertainties related to each alternative; assessment of the person’s understanding, and the acceptance of the intervention by the person. </item>
+        <item>Psychological treatment that focuses on the link between depressive symptoms and interpersonal problems, especially those involving grief, disputes, life changes and social isolation. It is also known as Interpersonal Psychotherapy. Irritability</item>
+        <item>A mood state characterized by being easily annoyed and provoked to anger, out of proportion to the circumstances</item>
+        <item>A rash that consists of both macules (ﬂat (impalpable), circumscribed areas of skin or areas of altered skin colour (e.g. freckles)) and papules (small raised spots on the skin, often dome-shaped and less than 5 mm in diameter). </item>
+        <item> Irritation of the layers of tissue that cover the brain and spinal cord, usually caused by an infection. </item>
+        <item> A disease of the meninges (the membranes covering the brain and spinal cord) usually caused by an infection with a bacterial, viral, fungal, or parasitic source. </item>
+        <item>A structured therapy (lasting 4 or less sessions) to help people with substance use disorders. It involves an approach to motivate change by using motivational interviewing techniques i.e. engaging the person in a discussion about their substance use including perceived beneﬁts and harms in relation to the persons own values, avoiding arguing with the person if there is resistance, encouraging the person to decide for themselves what their goal may be. </item>
+        <item>See convulsion. </item>
+        <item>A disorder of neuromuscular transmission characterized by fatigable weakness of cranial and skeletal muscles. Clinical manifestations may include ﬂuctuating diplopia and ptosis, and fatigable weakness of facial, bulbar, respiratory, and proximal limb muscles. </item>
+        <item>Intrauterine exposure to addictive drugs can lead to neonatal withdrawal symptoms. Withdrawal symptoms are usually neurological, preventing normal autonomic function. The clinical presentation of drug withdrawal is variable and dependent on several factors, such as, the type and dose of drug used, and rate of metabolism and excretion of the mother and infant. </item>
+        <item>Infection involving the brain and/or spinal cord. </item>
+        <item>A rare but life-threatening condition caused by antipsychotic medications, which is characterised by fever, delirium, muscular rigidity and high blood pressure.</item>
+        <item>Therapy designed to help individuals improve their independence in daily living activities through rehabilitation, exercises and the use of assistive devices. In addition, such therapy provides activities to promote growth, self-fulﬁlment and self-esteem. </item>
+        <item> Markedly deﬁant, disobedient, provocative or spiteful behaviour that may be manifest in prevailing, persistent angry or irritable mood, often accompanied by severe temper outbursts or in headstrong, argumentative and deﬁant behaviour. </item>
+        <item>Sudden drop of blood pressure that can occur when one changes position from lying to sitting or standing up, usually leading to feelings of light-headedness or dizziness. It is not life-threatening. </item>
+        <item> A family of treatment programs that aims to change parenting behaviours and strengthen conﬁdence in adoption of effective parenting strategies. It involves teaching parents emotional communication and positive parent-child interaction skills, and positive reinforcement methods to improve children/adolescent’s behaviour and functioning. </item>
+        <item> A neuroendocrine tumour of the medulla of the adrenal glands  causing symptoms (mainly headaches, palpitations and excess sweating) and signs (mainly hypertension, weight loss and diabetes) reﬂecting the effects of epinephrine and norepinephrine on alpha- and beta-adrenergic receptors. </item>
+        <item> Disorder and functional disturbance of the peripheral nerves. This may be manifest as numbness of the extremities, paraesthesia ("pins and needles" sensations), weakness of the limbs, or wasting of the muscles and loss of deep tendon reﬂexes. </item>
+        <item> Provision of more than one medicine at the same time for the same condition. </item>
+        <item> Porphyrias constitute a group of diseases characterized by intermittent neuro-visceral manifestations, cutaneous lesions or by the combination of both. Clinical signs of the disease usually appear in adulthood, but some porphyrias affect children. Direct or indirect neurotoxicity may cause neurological manifestations.</item>
+        <item>The state of being free from unsanctioned intrusion. For example, personal privacy in daily living activities (e.g. for clients in residential facilities) or conﬁdential health records. </item>
+        <item>Psychological treatment that involves the systematic use of problem iden- tiﬁcation and problem-solving techniques over a number of sessions.</item>
+        <item>Itching, an intense sensation that produces the urge to rub or scratch the skin to obtain relief.</item>
+        <item> A disorder resembling dementia but not due to organic brain disease and potentially reversible by treatment; can manifest as symptoms of depression in some older adults. </item>
+        <item>The process of teaching people with MNS disorders and their carers/ family members about the nature of the illness, including its likely causes, progression, consequences, prognosis, treatment and alternatives. </item>
+        <item> A potential medication induced side-effect of ventricular myocardial repolarization characterized by a prolonged QT interval on the electrocardiogram (ECG) that can lead to symptomatic ventricular arrhythmias and an increased risk of sudden cardiac death.</item>
+        <item>Rapid thought pattern with tangential movement from one idea to the next often associated with mania or other mental illnesses.</item>
+        <item>A return to drinking or other drug use after a period, of abstinence, often accompanied by reinstatement of dependence symptoms. The term is also used to indicate return of symptoms of MNS disorder after a period of recovery. </item>
+        <item>Involves training in techniques such as breathing exercises to elicit the relaxation response. </item>
+        <item>Inadequate slow breathing rate, resulting in insufﬁcient oxygen. Common causes include brain injury and intoxication (e.g. due to benzodiazepines). </item>
+        <item> Provision of temporary health-care facilities to a person normally cared for at home. </item>
+        <item>Resistance to the passive movement of a limb that persists throughout its range. It is a symptom of parkinsonism. </item>
+        <item> A saving activity in which the poor can accumulate a large amount of money quickly by pooling their savings in a common fund which can then be used by the group or a member of the group for productive investment.</item>
+        <item>Episode of brain malfunction due to disturbances of cortical function resulting in sudden, abnormal, excessive, and disorganized discharge of brain cells. Clinical manifestations include abnormal motor, sensory and psychic phenomena. </item>
+        <item> Intentional self-inﬂicted poisoning or injury to oneself, which may or may not have a fatal intent or outcome.</item>
+        <item>Characterised by an excess of serotonin in the central nervous system, associated with the use of various agents, including selective serotonin reuptake inhibitors (SSRIs). Serotonin syndrome may result in muscle rigidity, myoclonus, agitation, confusion, hyperthermia,  hyperreﬂexia as well as dysautonomic symptoms, with a risk of  shock with low peripheral vascular resistance, seizures, coma, rhabdomyolysis and/or disseminated intravascular coagulation (DIC). </item>
+        <item>Speech with indistinctive pronunciation. </item>
+        <item> A construct of analytical sociology referring to the characteristics of the social linkages among people as a means of understanding their behaviour, rather than focusing on the attributes of individuals. </item>
+        <item> Inability of a person to engage in age appropriate activities or interactions with his or her peers or family members.</item>
+        <item> A cluster of minute red blood vessels visible under the skin, occurring typically during pregnancy or as a symptom of certain diseases (e.g. cirrhosis or acne rosacea). </item>
+        <item>A condition of the spinal cord, caused by an infection with a bacterial, viral, or fungal source. This condition is characterized by a focal accumu- lation of purulent material within the spinal cord. This condition may present with fever, back pain and neurological deﬁcits. Transmission is through haematogenous spread of the infectious agent. </item>
+        <item>Deﬁned as 5 min or more of continuous clinical and/or electrographic seizure activity or recurrent seizure activity without recovery (returning to baseline) between seizures; it can be convulsive or non-convulsive. </item>
+        <item>Life-threatening skin condition characterized by painful skin peeling, ulcers, blisters and crusting of mucocutaneous tissues such as mouth, lips, throat, tongue, eyes and genitals, sometimes associated with fever. It is most often caused by severe reaction to medications, especially antiepileptic medicines. </item>
+        <item>A distinguishing mark establishing a demarcation between the stigmatized person and others attributing negative characteristics to this person. The stigma attached to mental illness often leads to social exclusion and discrimination and creates an additional burden for the affected individual. </item>
+        <item>See cerebrovascular accident (CVA).</item>
+        <item>Thoughts, idead, or ruminations about the possibility of ending ones life, ranging from thinking that one would be better off dead to formulation of elaborate plans.</item>
+        <item>This is dystonia characterized by twisting and sustained muscle spasms that affect regions of the head, neck, and occasionally, the back. It may not improve after stopping the antipsychotic medicine. </item>
+        <item> An emotional outburst from a child or those in emotional distress. </item>
+        <item> Abnormally low number of platelets in the blood. This disease may present with increased bruising or haemorrhaging. Conﬁrmation is by identiﬁcation of decreased platelet count in a blood sample. </item>
+        <item>Life-threatening skin peeling that is usually caused by a reaction to a medicine or infection. It is similar to but more severe than StevensJohnson syndrome. </item>
+        <item> A system of treatment modalities based on indigenous knowledge of different cultures pertaining to healing. </item>
+        <item>A transient episode of acute focal neurological dysfunction caused by focal ischemia of the brain or retina, without demonstrated acute infarction in the clinically relevant area of the brain. Symptoms should resolve completely within 24 hours. </item>
+        <item>Trembling or shaking movements, usually of the ﬁngers, that is an involuntary oscillation of a body part. </item>
+        <item>Lack of vitamin K can cause severe bleeding in newborn babies usually immediately after birth but sometimes up to 6 months of age. Bleeding may be cutaneous, gastro-intestinal, intracranial or mucosal. Maternal intake of antiepiletic medicines is one of its causes.</item>
+        <item> People living with dementia feel the urge to walk about and in some cases leave their homes. They can often experience problems with orientation, which may cause them to become lost.</item>
+    </string-array>
 
 </resources>
