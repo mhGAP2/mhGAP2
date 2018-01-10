@@ -7,5 +7,238 @@
     app:layout_behavior="@string/appbar_scrolling_view_behavior"
     tools:context="com.example.tencho.mhgap2.Essential2"
     tools:showIn="@layout/app_bar_essential2">
+    <ScrollView
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        tools:layout_constraintTop_creator="1"
+        tools:layout_constraintRight_creator="1"
+        tools:layout_constraintBottom_creator="1"
+        android:layout_marginStart="8dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        android:layout_marginEnd="8dp"
+        app:layout_constraintRight_toRightOf="parent"
+        android:layout_marginTop="8dp"
+        tools:layout_constraintLeft_creator="1"
+        android:layout_marginBottom="8dp"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        android:layout_marginLeft="8dp"
+        android:layout_marginRight="8dp"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintVertical_bias="0.0">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:weightSum="1">
+
+            <TextView
+                android:id="@+id/t5"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="27dp"
+                android:textColor="#36744e"
+                android:textAlignment="center"
+                android:text="@string/p"
+                tools:ignore="SpUsage"
+                />
+
+            <TextView
+                android:id="@+id/t6"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/ge"/>
+
+            <TextView
+                android:id="@+id/t11"
+                android:layout_marginTop="15dp"
+                android:layout_marginBottom="15dp"
+                android:textColor="#36744e"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/ja"
+                android:textAlignment="center"
+                android:textSize="23dp"
+                tools:ignore="SpUsage" />
+
+            <TextView
+                android:id="@+id/t12"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/li"
+                />
+
+            <TextView
+                android:id="@+id/t15"
+                android:layout_width="match_parent"
+                android:textColor="#3c7e4a"
+                android:layout_marginTop="15dp"
+                android:layout_marginBottom="15dp"
+                android:layout_height="wrap_content"
+                android:text="@string/pe"
+                android:textSize="24dp"
+                tools:ignore="SpUsage" />
+
+            <TextView
+                android:id="@+id/t16"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/he"/>
+
+            <TextView
+                android:id="@+id/t26"
+                android:layout_width="394dp"
+                android:layout_height="wrap_content"
+                android:text="@string/ml"
+                tools:ignore="InefficientWeight,SpUsage"
+                android:layout_weight="0.39" />
+
+            <TextView
+                android:id="@+id/t27"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/jaa"/>
+
+            <TextView
+                android:id="@+id/t32"
+                android:layout_width="match_parent"
+                android:layout_marginBottom="15dp"
+                android:layout_marginTop="15dp"
+                android:textColor="#3c6e47"
+                android:layout_height="wrap_content"
+                android:text="@string/history_taking"
+                android:textSize="25dp"
+                tools:ignore="SpUsage"
+                />
+            <TextView
+                android:id="@+id/t33"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/ri"/>
+
+            <TextView
+                android:id="@+id/t29"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/cs"
+                />
+
+            <TextView
+                android:id="@+id/t30"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/qa"
+                tools:ignore="SpUsage"
+                />
+            <TextView
+                android:id="@+id/t31"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/_te"
+                />
+            <TextView
+                android:id="@+id/t9"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/ni"/>
+            <TextView
+                android:id="@+id/t3"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/po"
+                tools:ignore="SpUsage" />
+
+            <TextView
+                android:id="@+id/t2"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/ju"
+                />
+
+
+            <TextView
+                android:id="@+id/t1"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/hu"
+                tools:ignore="SpUsage" />
+
+            <TextView
+                android:id="@+id/t10"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textColor="#358b4a"
+                android:textSize="24sp"
+                android:text="@string/f"/>
+            <TextView
+                android:id="@+id/t"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/hg"
+                tools:ignore="SpUsage" />
+            <TextView
+                android:id="@+id/t90"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/mj"
+                tools:ignore="SpUsage" />
+            <TextView
+                android:id="@+id/t91"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/ui"
+                tools:ignore="SpUsage" />
+            <TextView
+                android:id="@+id/t92"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/vd"
+                tools:ignore="SpUsage" />
+
+            <TextView
+                android:id="@+id/t95"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/_2_always_offer_psychosocial_interventions_for_the_person_and_their_carers"
+                tools:ignore="SpUsage" />
+            <TextView
+                android:id="@+id/t97"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/lo"
+                tools:ignore="SpUsage" />
+            <TextView
+                android:id="@+id/t98"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/ki"
+                tools:ignore="SpUsage" />
+            <TextView
+                android:id="@+id/t89"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/we"
+                tools:ignore="SpUsage" />
+            <TextView
+                android:id="@+id/t67"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/are"
+                tools:ignore="SpUsage" />
+            <TextView
+                android:id="@+id/t76"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/ln"
+                tools:ignore="SpUsage" />
+            <TextView
+                android:id="@+id/t62"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/jh"
+                tools:ignore="SpUsage" />
+
+        </LinearLayout>
+    </ScrollView>
 
 </android.support.constraint.ConstraintLayout>
