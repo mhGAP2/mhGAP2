@@ -185,5 +185,142 @@
     <string name="b_essentials_of_mental_health_clinical_practice">B. ESSENTIALS OF MENTAL HEALTH CLINICAL PRACTICE</string>
     <string name="hu">"Identify the MNS Condition"\n"> Identify the MNS condition using the appropriate module(s)."\n "> Assess for other MNS symptoms and priority conditions (see Master Chart)." \n"> Follow the appropriate management algorithm and treatment protocols."</string>
     <string name="title_activity_depression">Depression</string>
+    <string name="dep">People with depression experience a range of symptoms
+including persistent depressed mood or loss of interest and
+pleasure for at least 2 weeks.\n\n
+People with depression as described in this module have
+considerable difficulty with daily functioning in personal, family,
+social, educational, occupational or other areas.\n\n
+Many people with depression also suffer from anxiety symptoms
+and medically unexplained somatic symptoms.\n\nDepression commonly occurs alongside other MNS conditions as
+well as physical conditions.\n\n
+The management of symptoms not fully meeting the criteria
+for depression is covered within the module on Other Significant
+Mental Health Complaints. Go to » OTH.
+    </string>
+    <string name="psy">The psychoses module covers management of two severe mental
+health conditions, psychosis and bipolar disorder. People with
+psychosis or bipolar disorder are at high risk of exposure to stigma,
+discrimination and violation of their right to live with dignity.\n\n
+Psychosis is characterised by distorted thoughts and perceptions,
+as well as disturbed emotions and behaviours. Incoherent or irrelevant
+speech may also be present. Symptoms such as hallucinations –
+hearing voices, or seeing things that are not there; delusions –
+fixed, false beliefs; severe abnormalities of behaviour – disorganised
+behaviour, agitation, excitement, inactivity, or hyperactivity;
+disturbances of emotion – marked apathy, or disconnect between
+reported emotion and observed affect, such as facial expression
+and body language, may also be detected.\n\n
+Bipolar disorder is characterized by episodes in which the person’s
+mood and activity levels are significantly disturbed. This disturbance
+consists on some occasions of an elevation of mood and increased
+energy and activity (mania), and on others of a lowering of mood
+and decreased energy and activity (depression). Characteristically,
+recovery is complete between episodes. People who experience only
+manic episodes are also classified as having bipolar disorder.
+33</string>
+    <string name="epi">Epilepsy is a chronic noncommunicable disorder of the brain,
+characterized by recurrent unprovoked seizures. Epilepsy is one
+of the most common neurological disorders and with proper
+treatment, can be well controlled in the majority of people.\n\n
+Epilepsy has many causes. It may be genetic. Epilepsy may occur
+in people who have a past history of birth trauma, brain injury
+(including head trauma and strokes), or brain infections. In some
+people, no cause may be identified.\n\n
+Seizures are caused by abnormal electrical activity in the brain and
+are of two types: convulsive and non-convulsive. Non-convulsive
+epilepsy has features such as change in mental status while convulsive
+epilepsy has features such as sudden abnormal movements,
+including stiffening and shaking of the body. The latter is associated
+with greater stigma and higher morbidity and mortality. This module
+covers only convulsive epilepsy.</string>
 
+    <string name="cmh">DEVELOPMENTAL DISORDER is an umbrella term covering
+disorders such as intellectual disability as well as autism spectrum
+disorders. These disorders usually have a childhood onset, impairment
+or delay in functions related to central nervous system maturation,
+and a steady course rather than the remissions and relapses
+that tend to characterize many other mental disorders.\n\n
+BEHAVIOURAL DISORDERS is an umbrella term that includes
+specific disorders such as attention deficit hyperactivity disorder
+(ADHD) and conduct disorders. Behavioural symptoms of varying
+levels of severity are very common in the general population. Only
+children and adolescents with a moderate to severe degree of psychological,
+social, educational or occupational impairment in multiple
+settings should be diagnosed as having behavioural disorders.\n\n
+EMOTIONAL DISORDERS are among the leading mental healthrelated
+causes of the global burden of disease in young people.
+Emotional disorders are characterized by increased levels of anxiety,
+depression, fear, and somatic symptoms.
+</string>
+    <string name="dem">Dementia is a chronic and progressive syndrome due to changes
+in the brain. Although it can occur at any age, it is more common
+in older people. Dementia is a significant cause of disability and
+dependency among older people worldwide; it has a physical,
+psychological, social, and economic impact on carers, families,
+and society at large.\n\n
+The conditions that cause dementia produce changes in a person’s
+mental ability, personality, and behaviour. People with dementia
+commonly experience problems with memory and the skills needed
+to carry out everyday activities. Dementia is not part of normal
+ageing. Alzheimer’s disease is the most common cause, however,
+dementia can be caused by a variety of diseases and injuries to the
+brain. People with dementia often present with forgetfulness or
+feeling depressed. Other common symptoms include deterioration
+in emotional control, social behaviour, or motivation. People with
+dementia may be totally unaware of these changes and may not
+seek help. Family members may notice memory problems, changes
+in personality or behaviour, confusion, wandering, or incontinence.
+
+ </string>
+
+    <string name="sub">Disorders due to substance use include both drug and alcohol
+use disorders and certain conditions including acute intoxication,
+overdose and withdrawal.\n\n
+ACUTE INTOXICATION is a transient condition following intake of
+a psychoactive substance resulting in disturbances of consciousness,
+cognition, perception, affect, or behaviour.\n\n
+OVERDOSE is the use of any drug in such an amount that acute
+adverse physical or mental effects are produced.\n\n
+WITHDRAWAL is the experience of a set of unpleasant symptoms
+following the abrupt cessation or reduction in dose of a psychoactive
+substance; it has been consumed in high enough doses and for a
+long enough duration for the person to be physically or mentally
+dependent on it.\n\n
+HARMFUL USE is a pattern of psychoactive substance use
+that damages health. This damage may be physical, e.g. liver
+disease, or mental.
+</string>
+
+    <string name="sui">Suicide is the act of deliberately killing oneself. Self-harm is a
+broader term referring to intentional self-inflicted poisoning or
+injury, which may or may not have a fatal intent or outcome.
+Any person over 10 years of age experiencing any of the following
+conditions should be asked about thoughts or plans of self-harm
+in the last month, and about acts of self-harm in the last year:\n\n
+» Any of the priority MNS conditions. See Master Chart ( MC)\n
+» Chronic pain\n
+» Acute emotional distress\n\n
+        CLINICAL TIP:\n
+Asking about self-harm does NOT provoke acts of self-harm. It often reduces
+anxiety associated with thoughts or acts of self-harm and helps the person feel
+understood. However, try to establish a relationship with the person before asking
+questions about self-harm. Ask the person to explain their reasons for harming
+themselves.
+    </string>
+
+    <string name="oth">This module aims to provide basic guidance on management
+of a range of mental health complaints not covered elsewhere in
+this guide. Some of these complaints may be similar to depression,
+but upon closer examination are distinct from the conditions
+covered in this guide.\n\n
+    Other mental health complaints are considered significant
+when they impair daily functioning or when the person seeks
+help for them. Other mental health complaints can be due
+to stress.\n\n
+    This module should not be considered for people who meet the criteria for any of the mhGAP priority conditions (except self-harm).\n
+This module should only be used after explicitly ruling out depression.\n
+This module should be used when helping adults. In case the person is a child or adolescent, go to » CMH.</string>
+    <string name="title_activity_depression3">depression3</string>
+    <string name="section_format">Hello World from section: %1$d</string>>
 </resources>

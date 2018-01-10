@@ -6,7 +6,8 @@
     android:layout_height="match_parent"
     app:layout_behavior="@string/appbar_scrolling_view_behavior"
     tools:context="com.example.tencho.mhgap2.HomeActivity"
-    tools:showIn="@layout/app_bar_home">
+    tools:showIn="@layout/app_bar_home"
+    android:background="#ffffff">
     <LinearLayout
         android:layout_width="356dp"
         android:layout_height="497dp"
@@ -26,8 +27,9 @@
             android:layout_marginBottom="5dp"
             android:paddingBottom="3sp"
             android:text="Test your Health"
+            android:textStyle="bold"
             android:textAlignment="center"
-            android:textColor="#035777"
+            android:textColor="#0c3669"
             android:textSize="30dp"
             tools:ignore="HardcodedText,SpUsage" />
 
@@ -54,14 +56,14 @@
             tools:ignore="HardcodedText" />
 
         <Button
-            android:id="@+id/Psychoses"
-            android:layout_gravity="center"
+            android:id="@+id/psy"
             android:layout_width="300dp"
             android:layout_height="32dp"
+            android:layout_gravity="center"
             android:layout_marginBottom="15dp"
+            android:layout_weight="1"
             android:background="@drawable/d2"
             android:text="Psychoses"
-            android:layout_weight="1"
             android:textAlignment="center"
             android:textColor="#FFFFFF"
             tools:ignore="HardcodedText" />
@@ -74,7 +76,7 @@
             android:layout_height="32dp"
             android:layout_marginBottom="15dp"
             android:background="@drawable/d3"
-            android:text="Epilipsy"
+            android:text="Epilepsy"
             android:layout_weight="1"
             android:textColor="#FFFFFF"
             tools:ignore="HardcodedText" />
