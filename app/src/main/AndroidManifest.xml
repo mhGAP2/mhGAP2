@@ -52,7 +52,15 @@
         <activity
             android:name=".Essential2"
             android:label="@string/title_activity_essential2"
-            android:theme="@style/AppTheme.NoActionBar"></activity>
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity android:name=".psychoses" />
+        <activity android:name=".epilipsy" />
+        <activity android:name=".behavioural" />
+        <activity android:name=".dementia" />
+        <activity android:name=".substance" />
+        <activity android:name=".suicide" />
+        <activity android:name=".other" />
+        <activity android:name=".depression2"></activity>
     </application>
 
 </manifest>

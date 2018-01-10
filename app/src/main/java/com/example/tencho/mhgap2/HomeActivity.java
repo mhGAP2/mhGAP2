@@ -13,9 +13,19 @@ import android.support.v7.app.AppCompatActivity;
 import android.support.v7.widget.Toolbar;
 import android.view.Menu;
 import android.view.MenuItem;
-
+import android.view.Window;
+import android.view.WindowManager;
+import android.widget.Button;
 public class HomeActivity extends AppCompatActivity
         implements NavigationView.OnNavigationItemSelectedListener {
+    Button btn1;
+    Button btn2;
+    Button btn3;
+    Button btn4;
+    Button btn5;
+    Button btn6;
+    Button btn7;
+    Button btn8;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -33,6 +43,85 @@ public class HomeActivity extends AppCompatActivity
 
         NavigationView navigationView = (NavigationView) findViewById(R.id.nav_view);
         navigationView.setNavigationItemSelectedListener(this);
+
+        btn1=(Button)findViewById(R.id.depression);
+        btn1.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                Intent intent=new Intent(HomeActivity.this,Depression1.class);
+                startActivity(intent);
+            }
+        });
+
+        btn2=(Button)findViewById(R.id.psy);
+        btn2.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                Intent intent=new Intent(HomeActivity.this,psychoses.class);
+                startActivity(intent);
+            }
+        });
+
+
+        btn3=(Button)findViewById(R.id.Epilipsy);
+        btn3.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                Intent intent=new Intent(HomeActivity.this,epilipsy.class);
+                startActivity(intent);
+            }
+        });
+
+
+        btn4=(Button)findViewById(R.id.Disorder);
+        btn4.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                Intent intent=new Intent(HomeActivity.this,behavioural.class);
+                startActivity(intent);
+            }
+        });
+
+        btn5=(Button)findViewById(R.id.Dementia);
+        btn5.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                Intent intent=new Intent(HomeActivity.this,dementia.class);
+                startActivity(intent);
+            }
+        });
+
+
+        btn6=(Button)findViewById(R.id.Substance);
+        btn6.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                Intent intent=new Intent(HomeActivity.this,substance.class);
+                startActivity(intent);
+            }
+        });
+
+
+
+        btn7=(Button)findViewById(R.id.SUICIDE);
+        btn7.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                Intent intent=new Intent(HomeActivity.this,suicide.class);
+                startActivity(intent);
+            }
+        });
+
+
+        btn8=(Button)findViewById(R.id.OTH);
+        btn8.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                Intent intent=new Intent(HomeActivity.this,other.class);
+                startActivity(intent);
+            }
+        });
+
     }
 
     @Override
@@ -44,8 +133,6 @@ public class HomeActivity extends AppCompatActivity
             super.onBackPressed();
         }
     }
-
-
 
     @Override
     public boolean onOptionsItemSelected(MenuItem item) {
