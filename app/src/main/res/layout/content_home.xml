@@ -6,26 +6,30 @@
     android:layout_height="match_parent"
     app:layout_behavior="@string/appbar_scrolling_view_behavior"
     tools:context="com.example.tencho.mhgap2.HomeActivity"
-    tools:showIn="@layout/app_bar_home">
-
+    tools:showIn="@layout/app_bar_home"
+    android:background="#ffffff">
     <LinearLayout
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
+        android:layout_width="356dp"
+        android:layout_height="497dp"
         android:orientation="vertical"
         tools:ignore="MissingConstraints"
-        tools:layout_editor_absoluteX="23dp"
-        tools:layout_editor_absoluteY="0dp">
+        android:layout_marginRight="8dp"
+        app:layout_constraintRight_toRightOf="parent"
+        android:layout_marginLeft="8dp"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        android:layout_marginTop="26dp">
 
         <TextView
             android:id="@+id/textView2"
             android:layout_width="368dp"
-            android:layout_height="wrap_content"
+            android:layout_height="45dp"
             android:layout_marginBottom="5dp"
-            android:layout_weight="1"
             android:paddingBottom="3sp"
-            android:text="Test your health"
+            android:text="Test your Health"
+            android:textStyle="bold"
             android:textAlignment="center"
-            android:textColor="#035777"
+            android:textColor="#0c3669"
             android:textSize="30dp"
             tools:ignore="HardcodedText,SpUsage" />
 
@@ -52,7 +56,7 @@
             tools:ignore="HardcodedText" />
 
         <Button
-            android:id="@+id/Psychoses"
+            android:id="@+id/psy"
             android:layout_width="300dp"
             android:layout_height="32dp"
             android:layout_gravity="center"
@@ -73,7 +77,8 @@
             android:layout_marginBottom="15dp"
             android:layout_weight="1"
             android:background="@drawable/d3"
-            android:text="Epilipsy"
+            android:text="Epilepsy"
+            android:layout_weight="1"
             android:textColor="#FFFFFF"
             tools:ignore="HardcodedText" />
 
@@ -137,7 +142,7 @@
             android:layout_marginBottom="15dp"
             android:layout_weight="1"
             android:background="@drawable/d8"
-            android:text="OTH"
+            android:text="other significant health COMPLAINTS "
             android:textAlignment="center"
             android:textColor="#FFFFFF"
             tools:ignore="HardcodedText" />

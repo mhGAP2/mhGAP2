@@ -18,6 +18,12 @@
             android:id="@+id/glossery"
             android:icon="@drawable/iconglossery"
             android:title="Glossery" />
+        <item
+            android:id="@+id/help"
+            android:icon="@drawable/iconglossery"
+            android:title="Help" />
+
+
     </group>
 
     <item android:title="Communicate">
