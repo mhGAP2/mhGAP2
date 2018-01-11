@@ -37,10 +37,6 @@
             android:label="@string/title_activity_masterc"
             android:theme="@style/AppTheme.NoActionBar" />
         <activity
-            android:name=".Glossery"
-            android:label="@string/title_activity_glossery"
-            android:theme="@style/AppTheme.NoActionBar" />
-        <activity
             android:name=".Aboutus"
             android:label="@string/title_activity_aboutus"
             android:theme="@style/AppTheme.NoActionBar" />
@@ -53,6 +49,7 @@
             android:name=".Essential2"
             android:label="@string/title_activity_essential2"
             android:theme="@style/AppTheme.NoActionBar" />
+        <activity android:name=".Glossery" />
         <activity android:name=".psychoses" />
         <activity android:name=".epilipsy" />
         <activity android:name=".behavioural" />
@@ -60,7 +57,7 @@
         <activity android:name=".substance" />
         <activity android:name=".suicide" />
         <activity android:name=".other" />
-        <activity android:name=".depression2"></activity>
+      <activity android:name=".depression2"></activity>
     </application>
 
 </manifest>

@@ -37,20 +37,20 @@
             android:id="@+id/imageView"
             android:layout_width="match_parent"
             android:layout_height="130dp"
-            app:srcCompat="@drawable/logo"
             android:contentDescription="logo"
+            app:srcCompat="@drawable/logo"
             tools:ignore="HardcodedText,InefficientWeight" />
 
 
         <Button
             android:id="@+id/depression"
-            android:layout_gravity="center"
             android:layout_width="300dp"
             android:layout_height="32dp"
+            android:layout_gravity="center"
             android:layout_marginBottom="15dp"
+            android:layout_weight="1"
             android:background="@drawable/d1"
             android:text="depression"
-            android:layout_weight="1"
             android:textAlignment="center"
             android:textColor="#FFFFFF"
             tools:ignore="HardcodedText" />
@@ -71,10 +71,11 @@
 
         <Button
             android:id="@+id/Epilipsy"
-            android:layout_gravity="center"
             android:layout_width="300dp"
             android:layout_height="32dp"
+            android:layout_gravity="center"
             android:layout_marginBottom="15dp"
+            android:layout_weight="1"
             android:background="@drawable/d3"
             android:text="Epilepsy"
             android:layout_weight="1"
@@ -83,9 +84,9 @@
 
         <Button
             android:id="@+id/Disorder"
-            android:layout_gravity="center"
             android:layout_width="300dp"
             android:layout_height="32dp"
+            android:layout_gravity="center"
             android:layout_marginBottom="15dp"
             android:layout_weight="1"
             android:background="@drawable/d4"
@@ -96,35 +97,35 @@
 
         <Button
             android:id="@+id/Dementia"
-            android:layout_gravity="center"
             android:layout_width="300dp"
             android:layout_height="32dp"
+            android:layout_gravity="center"
             android:layout_marginBottom="15dp"
+            android:layout_weight="1"
             android:background="@drawable/d5"
             android:text="Dementia"
-            android:layout_weight="1"
             android:textAlignment="center"
             android:textColor="#FFFFFF"
             tools:ignore="HardcodedText" />
 
         <Button
             android:id="@+id/Substance"
-            android:layout_gravity="center"
             android:layout_width="300dp"
             android:layout_height="32dp"
+            android:layout_gravity="center"
             android:layout_marginBottom="15dp"
+            android:layout_weight="1"
             android:background="@drawable/d6"
             android:text="Substance use"
             android:textAlignment="center"
-            android:layout_weight="1"
             android:textColor="#FFFFFF"
             tools:ignore="HardcodedText" />
 
         <Button
             android:id="@+id/SUICIDE"
-            android:layout_gravity="center"
             android:layout_width="300dp"
             android:layout_height="32dp"
+            android:layout_gravity="center"
             android:layout_marginBottom="15dp"
             android:layout_weight="1"
             android:background="@drawable/d7"
@@ -132,11 +133,12 @@
             android:textAlignment="center"
             android:textColor="#FFFFFF"
             tools:ignore="HardcodedText" />
+
         <Button
             android:id="@+id/OTH"
-            android:layout_gravity="center"
             android:layout_width="300dp"
             android:layout_height="32dp"
+            android:layout_gravity="center"
             android:layout_marginBottom="15dp"
             android:layout_weight="1"
             android:background="@drawable/d8"
