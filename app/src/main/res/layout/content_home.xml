@@ -78,7 +78,6 @@
             android:layout_weight="1"
             android:background="@drawable/d3"
             android:text="Epilepsy"
-            android:layout_weight="1"
             android:textColor="#FFFFFF"
             tools:ignore="HardcodedText" />
 
