@@ -50,7 +50,6 @@
             android:label="@string/title_activity_essential2"
             android:theme="@style/AppTheme.NoActionBar" />
         <activity android:name=".Glossery" />
-        <activity android:name=".Glossery_mean"></activity>
     </application>
 
 </manifest>
