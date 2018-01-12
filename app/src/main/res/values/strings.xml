@@ -483,4 +483,70 @@ This module should only be used after explicitly ruling out depression.\n
 This module should be used when helping adults. In case the person is a child or adolescent, go to » CMH.</string>
     <string name="title_activity_depression3">depression3</string>
     <string name="section_format">Hello World from section: %1$d</string>
+    <string name="help1">The mhGAP-IG is a model guide and it is essential that it is
+adapted to the unique national or local situation. Users may
+select a subset of the priority conditions or interventions to
+adapt and implement, depending on the context.</string>
+
+    <string name="help2">The mhGAP App begins with “Essential Care and Practice”,
+        a set of good clinical practices and general guidelines for
+        interactions of health care providers with people seeking
+        mental health care. All users of the mhGAP-IG should
+        familiarize themselves with these principles and should
+        follow them as far as possible.\n\n
+
+        The mhGAP App includes a “Master Chart”, which provides
+information on common presentations of the priority
+conditions. This guides the clinician to the relevant modules.
+The most serious conditions should be managed first.
+mhGAP-IG 2.0 has a new addition to the Master Chart –
+Emergency Presentations of Priority MNS Conditions.
+This section has been added to help identify emergency
+situations and direction to management guidelines.\n\n
+The modules, organized by individual priority conditions, are
+a tool for clinical decision-making and management. Each
+module is in a different colour to allow easy differentiation.
+There is an introduction at the beginning of each module
+that explains which condition(s) the module covers and a
+quick overview describing key assessment and management
+steps.
+ </string>
+    <string name="jam">Mental, neurological and substance use (MNS) disorders are highly prevalent,
+accounting for a large burden of disease and disability globally. There remains a
+wide gap between available health systems capacity and resources, what is urgently
+needed, and what is available to reduce the burden.\n\n
+    The key objectives of mhGAP
+are to reinforce the commitment of governments, international organizations and other
+stakeholders to increase the allocation of financial and human resources for care
+of MNS disorders and to achieve much higher coverage with key interventions in lowand
+middle-income countries.</string>
+    <string name="help3">The Assessment section is presented in a framework of
+flowcharts with multiple clinical assessment points. Each
+module starts with common presentations of the suspected
+condition, from which there are a series of clinical assessment
+questions one should move down answering yes or no,
+which directs the user to move on for further instructions to
+reach a final clinical assessment. It is important that users of
+the mhGAP start at the top of the assessment and move
+through all the decision points to develop a comprehensive
+clinical assessment and management plan.\n\n
+The Management section consists of intervention details
+which provide information on how to manage the specific
+conditions that have been assessed. This includes more
+technical psychosocial and pharmacological interventions
+when appropriate.\n\n
+The Follow-up section provides detailed information on
+how to continue the clinical relationship and detailed
+instructions for follow-up management.\n\n
+The mhGAP uses a series of symbols to highlight
+certain aspects within the modules. A list of the symbols
+and their explanation is given on the following page.
+Throughout the modules, important points are also
+highlighted as key clinical tips.\n\n
+Also included is a module on Implementation of mhGAP-IG,
+which provides summary steps on how to implement
+mhGAP.\n\n
+At the end of the guide, a glossary of terms used in
+mhGAP is provided.</string>
+
 </resources>

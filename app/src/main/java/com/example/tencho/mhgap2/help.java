@@ -14,13 +14,13 @@ import android.support.v7.widget.Toolbar;
 import android.view.Menu;
 import android.view.MenuItem;
 
-public class Aboutus extends AppCompatActivity
+public class help extends AppCompatActivity
         implements NavigationView.OnNavigationItemSelectedListener {
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_aboutus);
+        setContentView(R.layout.activity_help);
         Toolbar toolbar = (Toolbar) findViewById(R.id.toolbar);
         setSupportActionBar(toolbar);
 
@@ -60,7 +60,7 @@ public class Aboutus extends AppCompatActivity
 
         //noinspection SimplifiableIfStatement
         if (id == R.id.action_settings) {
-            Intent intent=new Intent(Aboutus.this,HomeActivity.class);
+            Intent intent=new Intent(help.this,HomeActivity.class);
             startActivity(intent);
             return true;
         }
@@ -77,32 +77,24 @@ public class Aboutus extends AppCompatActivity
         if (id == R.id.symbols) {
 
         } else if (id == R.id.essentials) {
-            Intent intent=new Intent(Aboutus.this,Essential.class);
+            Intent intent=new Intent(help.this,Essential.class);
             startActivity(intent);
 
         } else if (id == R.id.mchart) {
-            Intent intent=new Intent(Aboutus.this,masterc.class);
+            Intent intent=new Intent(help.this,masterc.class);
             startActivity(intent);
 
         }else if (id == R.id.glossery) {
-            Intent intent=new Intent(Aboutus.this,Glossery.class);
-            startActivity(intent);
-
-        }
-        else if (id == R.id.help) {
-            Intent intent=new Intent(Aboutus.this,help.class);
+            Intent intent=new Intent(help.this,Glossery.class);
             startActivity(intent);
 
         }
         else if (id == R.id.contact) {
-            Intent intent=new Intent(Aboutus.this,Contactus.class);
+            Intent intent=new Intent(help.this,Contactus.class);
             startActivity(intent);
 
         }
         else if (id == R.id.Aboutus) {
-
-            Intent intent=new Intent(Aboutus.this,Aboutus.class);
-            startActivity(intent);
         }
         DrawerLayout drawer = (DrawerLayout) findViewById(R.id.drawer_layout);
         drawer.closeDrawer(GravityCompat.START);

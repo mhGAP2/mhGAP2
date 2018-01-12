@@ -9,9 +9,9 @@
     tools:openDrawer="start">
 
     <include
-        layout="@layout/app_bar_about"
+        layout="@layout/app_bar_help"
         android:layout_width="match_parent"
-        android:layout_height="match_parent"/>
+        android:layout_height="match_parent" />
 
     <android.support.design.widget.NavigationView
         android:id="@+id/nav_view"
@@ -23,4 +23,3 @@
         app:menu="@menu/activity_home_drawer" />
 
 </android.support.v4.widget.DrawerLayout>
-

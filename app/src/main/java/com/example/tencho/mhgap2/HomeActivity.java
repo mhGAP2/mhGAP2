@@ -170,12 +170,20 @@ public class HomeActivity extends AppCompatActivity
             startActivity(intent);
 
         }
+        else if (id == R.id.help) {
+            Intent intent=new Intent(HomeActivity.this,help.class);
+            startActivity(intent);
+
+        }
         else if (id == R.id.contact) {
             Intent intent=new Intent(HomeActivity.this,Contactus.class);
             startActivity(intent);
 
         }
         else if (id == R.id.Aboutus) {
+
+            Intent intent=new Intent(HomeActivity.this,Aboutus.class);
+            startActivity(intent);
                     }
         DrawerLayout drawer = (DrawerLayout) findViewById(R.id.drawer_layout);
         drawer.closeDrawer(GravityCompat.START);
