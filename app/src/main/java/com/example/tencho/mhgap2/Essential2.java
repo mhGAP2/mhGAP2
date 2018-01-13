@@ -79,8 +79,8 @@ public class Essential2 extends AppCompatActivity
             Intent intent=new Intent(Essential2.this,Essential.class);
             startActivity(intent);
 
-        } else if (id == R.id.mchart) {
-            Intent intent=new Intent(Essential2.this,masterc.class);
+        } else if (id == R.id.master) {
+            Intent intent=new Intent(Essential2.this,master.class);
             startActivity(intent);
 
         }else if (id == R.id.glossery) {

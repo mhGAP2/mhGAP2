@@ -161,8 +161,8 @@ public class HomeActivity extends AppCompatActivity
             Intent intent=new Intent(HomeActivity.this,Essential.class);
             startActivity(intent);
 
-        } else if (id == R.id.mchart) {
-            Intent intent=new Intent(HomeActivity.this,masterc.class);
+        } else if (id == R.id.master) {
+            Intent intent=new Intent(HomeActivity.this,master.class);
             startActivity(intent);
 
         }else if (id == R.id.glossery) {

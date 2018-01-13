@@ -9,9 +9,10 @@
     <string name="title_activity_contactus">Contact Us</string>
     <string name="title_activity_essential">Essential Care</string>
     <string name="title_activity_symbols">Symbols</string>
-    <string name="title_activity_masterc">Master Chart</string>
+    <string name="activity_master">Master Chart</string>
     <string name="title_activity_glossery">Glossery</string>
     <string name="title_activity_aboutus">About Us</string>
+    <string name="title_activity_help">Help</string>
     <string name="rd">This module outlines the principles of essential care for all people seeking health care, including those
         with MNS conditions, and their carers. The first section of this module covers the general principles of clinical care
         and aims to promote respect for the privacy of people seeking care for MNS conditions, foster good relationships between
@@ -19,26 +20,30 @@
         and supportive manner. The second section covers essentials of mental health clinical practice and aims to present
         healthcare providers with an overview of the assessment and management of MNS conditions in non-specialized settings.
     </string>
-    <string name="depcontent">
+    <string-array name="depcontent"><item>
+        <b>DEPRESSION</b>
         -> Multiple persistent physical symptoms with no clear cause \n
         -> Low energy, fatigue, sleep problems Persistent sadness or depressed mood, anxiety \n
         -> Loss of interest or pleasure in activities that are normally pleasurable
-    </string>
-    <string name="phycontent">
+        </item>
+
+    <item>
+        PSYCHOSES\n\n
         -> Marked behavioural changes; neglecting usual responsibilities related to work, school, domestic or social activities
         -> Agitated, aggressive behavior, decreased or increased activity \n
         -> Fixed false beliefs not shared by others in the person’s culture \n
         -> Hearing voices or seeing things that are not there \n
         -> Lack of realization that one is having mental health problems \n
-    </string>
-    <string name="elipcontent">
+ </item>
+        <item>
+            EPILEPSY\n\n
         -> Convulsive movement or ﬁts/seizures \n
         -> During the convulsion: loss of consciousness or impaired consciousness, stiffness, rigidity, tongue bite, injury,
         incontinence of urine or faeces \n
         -> After the convulsion: fatigue, drowsiness, sleepiness, confusion, abnormal behaviour, headache, muscle aches, or
         weakness on one side of the body \n
-    </string>
-    <string name="discontent">
+        </item>
+        <item>CMH BEHAVIOURAL DISORDER\n\n
         -> Child/adolescent being seen for physical complaints or a general health assessment who has: \n
         -> Problem with development, emotions or behaviour (e.g. inattention, over-activity, or repeated deﬁant, disobedient and
         aggressive behaviour) \n
@@ -52,14 +57,14 @@
         -> e.g. easily distracted, disruptive in class, often getting into trouble, difﬁculty completing school work \n\n
         Community health or social services worker with concerns about a child/adolescent \n
         -> e.g. rule- or law-breaking behaviour, physical aggression at home or in the community \n
-    </string>
-    <string name="dementia">
+        </item>
+        <item>DEMENTIA\n\n
         -> Decline or problems with memory (severe forgetfulness) and orientation (awareness of time, place and person) \n
         -> Mood or behavioural problems such as apathy (appearing uninterested) or irritability \n
         -> Loss of emotional control (easily upset, irritable or tearful) Difﬁculties in carrying out usual work, domestic or
         social activities \n
-    </string>
-    <string name="demcontent">
+        </item>
+        <item>SUBSTANCE USE\n\n
         -> Appearing affected by alcohol or other substance (e.g. smell of alcohol, slurred speech, sedated, erratic
         behaviour) \n
         -> Signs and symptoms of acute behavioural effects, withdrawal features or effects of prolonged use \n
@@ -73,12 +78,13 @@
         overstimulated, agitated, anxious or confused"\n"> Persons with disorders due to substance use may not report any
         problems with substance use. Look for:"\n"\t – Recurrent requests for psychoactive medications including analgesics \n
         \t – Injuries \n \t – Infections associated with intravenous drug use (HIV/AIDS, Hepatitis C) \n
-    </string>
-    <string name="selfcontent">
+        </item>
+        <item>SELF-HARM/SUICIDE\n\n
         -> Extreme hopelessness and despair \n
         -> Current thoughts, plan or act of self-harm/ suicide, or history thereof \n
         -> Any of the other priority conditions, chronic pain, or extreme emotional distress \n
-    </string>
+        </item>
+    </string-array>
 
     <string name="t">"> Always be respectful."\n"> Don’t judge people by their behaviours and appearance."\n"> Stay calm and patient."</string>
     <string name="s">"> Include the person (and with their consent, their carers and family) in all aspects of assessment and management as much as possible. This includes children, adolescents and older adults."</string>
@@ -141,7 +147,8 @@
     <string name="b_essentials_of_mental_health_clinical_practice">B. ESSENTIALS OF MENTAL HEALTH CLINICAL PRACTICE</string>
     <string name="hu">"Identify the MNS Condition"\n"> Identify the MNS condition using the appropriate module(s)."\n "> Assess for other MNS symptoms and priority conditions (see Master Chart)." \n"> Follow the appropriate management algorithm and treatment protocols."</string>
     <string name="title_activity_depression">Depression</string>
-    <string name="dep">People with depression experience a range of symptoms
+    <string name="dep">
+        People with depression experience a range of symptoms
 including persistent depressed mood or loss of interest and
 pleasure for at least 2 weeks.\n\n
 People with depression as described in this module have
@@ -154,7 +161,10 @@ The management of symptoms not fully meeting the criteria
 for depression is covered within the module on Other Significant
 Mental Health Complaints. Go to » OTH.
     </string>
-    <string name="psy">The psychoses module covers management of two severe mental
+
+
+    <string name="psy">
+        \n\nThe psychoses module covers management of two severe mental
 health conditions, psychosis and bipolar disorder. People with
 psychosis or bipolar disorder are at high risk of exposure to stigma,
 discrimination and violation of their right to live with dignity.\n\n

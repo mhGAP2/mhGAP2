@@ -80,8 +80,8 @@ public class Aboutus extends AppCompatActivity
             Intent intent=new Intent(Aboutus.this,Essential.class);
             startActivity(intent);
 
-        } else if (id == R.id.mchart) {
-            Intent intent=new Intent(Aboutus.this,masterc.class);
+        } else if (id == R.id.master) {
+            Intent intent=new Intent(Aboutus.this,master.class);
             startActivity(intent);
 
         }else if (id == R.id.glossery) {

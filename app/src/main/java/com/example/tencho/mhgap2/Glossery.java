@@ -130,8 +130,8 @@ public class Glossery extends AppCompatActivity
             Intent intent=new Intent(Glossery.this,Essential.class);
             startActivity(intent);
 
-        } else if (id == R.id.mchart) {
-            Intent intent=new Intent(Glossery.this,masterc.class);
+        } else if (id == R.id.master) {
+            Intent intent=new Intent(Glossery.this,master.class);
             startActivity(intent);
 
         }else if (id == R.id.glossery) {

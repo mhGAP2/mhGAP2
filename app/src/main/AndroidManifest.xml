@@ -33,10 +33,6 @@
             android:label="@string/title_activity_symbols"
             android:theme="@style/AppTheme.NoActionBar" />
         <activity
-            android:name=".masterc"
-            android:label="@string/title_activity_masterc"
-            android:theme="@style/AppTheme.NoActionBar" />
-        <activity
             android:name=".Aboutus"
             android:label="@string/title_activity_aboutus"
             android:theme="@style/AppTheme.NoActionBar" />
@@ -61,7 +57,8 @@
             android:name=".Glossery"
             android:label="@string/title_activity_glossery"
             android:theme="@style/AppTheme" />
-        <activity android:name=".help"></activity>
+        <activity android:name=".help" />
+        <activity android:name=".master"></activity>
     </application>
 
 </manifest>
