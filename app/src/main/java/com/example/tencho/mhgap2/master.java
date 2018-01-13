@@ -1,5 +1,14 @@
 package com.example.tencho.mhgap2;
 
+import android.app.Activity;
+import android.os.Bundle;
+import android.view.View;
+import android.widget.AdapterView;
+import android.widget.ArrayAdapter;
+import android.widget.ListAdapter;
+import android.widget.ListView;
+import android.widget.Toast;
+import android.content.Intent;
 import android.os.Bundle;
 import android.support.design.widget.FloatingActionButton;
 import android.support.design.widget.Snackbar;
@@ -12,14 +21,39 @@ import android.support.v7.app.AppCompatActivity;
 import android.support.v7.widget.Toolbar;
 import android.view.Menu;
 import android.view.MenuItem;
+import android.widget.Button;
 
-public class masterc extends AppCompatActivity
-        implements NavigationView.OnNavigationItemSelectedListener {
+public class master extends AppCompatActivity
+    implements NavigationView.OnNavigationItemSelectedListener {
+
+    String[] diseases;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_masterc);
+        setContentView(R.layout.activity_master);
+
+
+
+
+        diseases = getResources().getStringArray(R.array.depcontent);
+        ListAdapter jamsAdapter = new ArrayAdapter<String>(this,android.R.layout.simple_list_item_1,diseases);
+        ListView jamlist = (ListView) findViewById(R.id.jamlist);
+        jamlist.setAdapter(jamsAdapter);
+
+        jamlist.setOnItemClickListener(
+                new AdapterView.OnItemClickListener(){
+
+                    @Override
+                    public void onItemClick(AdapterView<?> parent, View view, int position, long id) {
+                        String disease= String.valueOf(parent.getItemAtPosition(position));
+                        Toast.makeText(master.this,disease,Toast.LENGTH_LONG).show();
+                    }
+                }
+
+
+        );
+
         Toolbar toolbar = (Toolbar) findViewById(R.id.toolbar);
         setSupportActionBar(toolbar);
 
@@ -59,6 +93,8 @@ public class masterc extends AppCompatActivity
 
         //noinspection SimplifiableIfStatement
         if (id == R.id.action_settings) {
+            Intent intent=new Intent(master.this,HomeActivity.class);
+            startActivity(intent);
             return true;
         }
 
@@ -74,19 +110,30 @@ public class masterc extends AppCompatActivity
         if (id == R.id.symbols) {
 
         } else if (id == R.id.essentials) {
+            Intent intent = new Intent(master.this, Essential.class);
+            startActivity(intent);
 
-        } else if (id == R.id.mchart) {
+        } else if (id == R.id.master) {
+            Intent intent = new Intent(master.this, master.class);
+            startActivity(intent);
 
-        }else if (id == R.id.glossery) {
+        } else if (id == R.id.glossery) {
+            Intent intent = new Intent(master.this, Glossery.class);
+            startActivity(intent);
 
-        }
-        else if (id == R.id.contact) {
+        } else if (id == R.id.contact) {
+            Intent intent = new Intent(master.this, Contactus.class);
+            startActivity(intent);
 
-        }
-        else if (id == R.id.Aboutus) {
+        } else if (id == R.id.Aboutus) {
         }
         DrawerLayout drawer = (DrawerLayout) findViewById(R.id.drawer_layout);
         drawer.closeDrawer(GravityCompat.START);
         return true;
+
+
+
+
     }
 }
+

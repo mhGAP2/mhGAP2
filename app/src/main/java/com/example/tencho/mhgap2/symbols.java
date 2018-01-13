@@ -77,7 +77,7 @@ public class symbols extends AppCompatActivity
 
         } else if (id == R.id.essentials) {
 
-        } else if (id == R.id.mchart) {
+        } else if (id == R.id.master) {
 
         }else if (id == R.id.glossery) {
 

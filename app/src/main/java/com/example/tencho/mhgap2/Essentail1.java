@@ -80,8 +80,8 @@ public class Essentail1 extends AppCompatActivity
             Intent intent=new Intent(Essentail1.this,Essential.class);
             startActivity(intent);
 
-        } else if (id == R.id.mchart) {
-            Intent intent=new Intent(Essentail1.this,masterc.class);
+        } else if (id == R.id.master) {
+            Intent intent=new Intent(Essentail1.this,master.class);
             startActivity(intent);
 
         }else if (id == R.id.glossery) {
