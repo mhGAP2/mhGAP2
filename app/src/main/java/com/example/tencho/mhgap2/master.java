@@ -33,9 +33,6 @@ public class master extends AppCompatActivity
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_master);
 
-
-
-
         diseases = getResources().getStringArray(R.array.depcontent);
         ListAdapter jamsAdapter = new ArrayAdapter<String>(this,android.R.layout.simple_list_item_1,diseases);
         ListView jamlist = (ListView) findViewById(R.id.jamlist);
