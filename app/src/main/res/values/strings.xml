@@ -47,9 +47,9 @@
         <item>CMH BEHAVIOURAL DISORDER\n\n
         -> Child/adolescent being seen for physical complaints or a general health assessment who has: \n
         -> Problem with development, emotions or behaviour (e.g. inattention, over-activity, or repeated deﬁant, disobedient and
-        aggressive behaviour) \n
+           aggressive behaviour) \n
         -> Risk factors such as malnutrition, abuse and/or neglect, frequent illness, chronic diseases (e.g. HIV/AIDS or history
-        of difﬁcult birth) \n
+           of difﬁcult birth) \n
         -> Carer with concerns about the child/adolescent’s: \n
         -> Difﬁculty keeping up with peers or carrying out daily activities considered normal for age \n
         -> Behaviour (e.g. too active, aggressive, having frequent and/or severe tantrums, wanting to be alone too much,
@@ -559,5 +559,7 @@ which provides summary steps on how to implement
 mhGAP.\n\n
 At the end of the guide, a glossary of terms used in
 mhGAP is provided.</string>
+    <string name="title_activity_dep_assesment">Dep_assesment</string>
+    <string name="begin_test">Begin test</string>
 
 </resources>
