@@ -1,0 +1,102 @@
+
+<resources>
+    <string name="fst">1) \n
+            Does the person have depression? \n
+            Has the person had at least one of the following core symptoms of depression for at least 2 weeks?\n\n
+            - Persistent depressed mood \n
+            - Markedly diminished interest in or pleasure from activities
+    </string>
+    <string-array name="yq">
+        <item> 1) \n
+            Does the person have depression? \n
+            Has the person had at least one of the following core symptoms of depression for at least 2 weeks?\n\n
+            - Persistent depressed mood \n
+            - Markedly diminished interest in or pleasure from activities
+        </item>
+
+        <item>Has the person had several of the following additional symptoms  for at least 2 weeks:\n\n
+            –  Disturbed sleep or sleeping too much \n
+            –  Signiﬁcant change in appetite or weight (decrease or increase) \n
+            –  Beliefs of worthlessness or excessive guilt \n
+            –  Fatigue or loss of energy \n
+            –  Reduced concentration\n
+            –  Indecisiveness \n
+            –  Observable agitation or physical restlessness \n
+            –  Talking or moving more slowly than usual –  Hopelessness \n
+            –  Suicidal thoughts or acts
+
+        </item>
+        <item>Does the person have considerable difﬁculty with
+            daily functioning in personal, family, social, educational, occupational or other areas?\n\n
+        </item>
+
+        <item> 2) \n
+            <b>Consider DEPRESSION</b>\n
+            Are there other possible explanations  for the symptoms?
+            IS THIS A PHYSICAL CONDITION THAT CAN RESEMBLE OR EXACERBATE DEPRESSION? \n\n
+            Are there signs and symptoms suggesting anaemia, malnutrition,  hypothyroidism,
+            mood changes from substance use and medication side-effects  (e.g. mood changes from steroids)
+        </item>
+        <item>  - MANAGE THE PHYSICAL CONDITION \n\n
+            Do depressive symptoms remain after treatment?
+        </item>
+        <item> <b>IS THERE A HISTORY OF MANIA? </b>\n
+            Have several of the following symptoms occurred simultaneously, lasting for at least 1 week, and
+            severely enough to interfere signiﬁcantly with work and social activities or requiring hospitalization or
+            conﬁnement? \n
+            – Elevation of mood and/or irritability \n
+            – Decreased need for sleep \n
+            –  Increased activity, feeling of increased energy, increased  talkativeness or rapid speech \n
+            –  Impulsive or reckless behaviours such as excessive spending, making important decisions without
+            planning and sexual indiscretion
+            – Loss of normal social inhibitions resulting in inappropriate behaviours \n
+            – Being easily distracted \n
+            – Unrelistically inflated self-esteem \n
+        </item>
+        <item>DEPRESSIVE EPISODE IN BIPOLAR DISORDER is likely \n\n
+               Go to STEP  3  then to PROTOCOL 2 \n
+        </item>
+        <item>
+            Are any of the following symptoms present? \n
+            – Suicidal ideation  \n
+            – Beliefs of worthlessness \n
+            – Psychotic symptoms \n
+            – Talking or moving more slowly than nornal
+        </item>
+        <item> 3) \n
+            DEPRESSION is likely \n
+        Are there concurrent priority MNS conditions? \n\\n
+            Assess for concurrent MNS conditions according to the  mhGAP-IG master chart. Go to » MC.\n
+            Go to PROTOCOL 1\n
+        </item>
+    </string-array>
+
+    <string-array name="nq">
+        <item>Depression is unlikely\n Go to  OTH </item>
+        <item>No Treatment required</item>
+        <item> <b>IS THERE A HISTORY OF MANIA? </b>\n
+            Have several of the following symptoms occurred simultaneously, lasting for at least 1 week, and
+            severely enough to interfere signiﬁcantly with work and social activities or requiring hospitalization or
+            conﬁnement? \n
+            – Elevation of mood and/or irritability \n
+            – Decreased need for sleep \n
+            –  Increased activity, feeling of increased energy, increased  talkativeness or rapid speech \n
+            –  Impulsive or reckless behaviours such as excessive spending, making important decisions without
+            planning and sexual indiscretion
+            – Loss of normal social inhibitions resulting in inappropriate behaviours \n
+            – Being easily distracted \n
+            – Unrelistically inflated self-esteem \n
+        </item>
+        <item>HAS THERE BEEN A MAJOR LOSS (E.G. BEREAVEMENT)  WITHIN THE LAST 6 MONTHS?</item>
+        <item>DEPRESSION is likely \n\n
+            Go to STEP  3   then to PROTOCOL
+        </item>
+        <item>
+            Does the person have a previous history of depression?
+        </item>
+        <item>
+            Do not manage for depression. \n\n Go to  OTH
+        </item>
+    </string-array>
+
+</resources>
