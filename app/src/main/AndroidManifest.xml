@@ -33,9 +33,10 @@
             android:label="@string/title_activity_symbols"
             android:theme="@style/AppTheme.NoActionBar" />
         <activity
-            android:name=".masterc"
-            android:label="@string/title_activity_masterc"
+            android:name=".master"
+            android:label="Master Chart"
             android:theme="@style/AppTheme.NoActionBar" />
+
         <activity
             android:name=".Aboutus"
             android:label="@string/title_activity_aboutus"
