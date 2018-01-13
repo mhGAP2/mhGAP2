@@ -17,11 +17,5 @@
         android:layout_height="551dp"
         tools:layout_editor_absoluteX="8dp"
         tools:layout_editor_absoluteY="8dp">
-
-
-        <item
-
-            > </item>
-
     </ListView>
 </android.support.constraint.ConstraintLayout>
