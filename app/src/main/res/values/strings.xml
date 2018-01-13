@@ -20,8 +20,9 @@
         and supportive manner. The second section covers essentials of mental health clinical practice and aims to present
         healthcare providers with an overview of the assessment and management of MNS conditions in non-specialized settings.
     </string>
-    <string-array name="depcontent"><item>
-        <b>DEPRESSION</b>
+    <string-array name="depcontent">
+        <item>
+        DEPRESSION\n\n
         -> Multiple persistent physical symptoms with no clear cause \n
         -> Low energy, fatigue, sleep problems Persistent sadness or depressed mood, anxiety \n
         -> Loss of interest or pleasure in activities that are normally pleasurable
