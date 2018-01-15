@@ -9,7 +9,7 @@ import android.view.WindowManager;
 import android.widget.Button;
 
 public class depression2 extends AppCompatActivity {
-    Button btn1;
+    Button btn1,btn2;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -19,10 +19,19 @@ public class depression2 extends AppCompatActivity {
         setContentView(R.layout.activity_depression2);
 
         btn1=(Button)findViewById(R.id.button3);
+        btn2=(Button)findViewById(R.id.button4);
         btn1.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
                 Intent intent=new Intent(depression2.this,Dep_assesment.class);
+                startActivity(intent);
+            }
+        });
+
+        btn2.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                Intent intent=new Intent(depression2.this,Dep_followup.class);
                 startActivity(intent);
             }
         });

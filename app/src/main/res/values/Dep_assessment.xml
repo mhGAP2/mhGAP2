@@ -98,5 +98,49 @@
             Do not manage for depression. \n\n Go to  OTH
         </item>
     </string-array>
+    <string-array name="depfollowyes">
+        <item>
+            1 \n ASSESS FOR IMPROVEMENT \n  Is the person improving?
+        </item>
+        <item>
+            »  Encourage the person to continue with their  current management plan until they are symptom free for 9-12 months. \n\n
+            »  Arrange a further follow up appointment  in 1-2 weeks. \n\n
+            »  Decrease contact as the person’s symptoms improve, e.g. once every 3 months after the initial 3 months.
+               Note: follow up should continue until the person no longer  has any symptoms of depression.
+        </item>
+        <item>
+            2 \n  MONITOR TREATMENT \n <b>At every contact: </b> \n
+            »  Provide psychoeducation, reduce stress and strengthen social supports, promote functioning in daily activities and
+                community life, and review, if applicable, antidepressant medication use and psychological treatment.  \n
+            »  Does the person have any new symptoms of concern? Review for MNS and concurrent physical conditions. \n
+            »  Is the person a woman of childbearing age and considering pregnancy? If so, CONSULT A SPECIALIST.   \n
+               Assess for any IMMINENT RISK OF SUICIDE (Go to  SUI).\n\n
+            3 \n  REVISE TREATMENT AS APPROPRIATE  \n\n
+                Has the person been symptom free for 9-12 months? \n
+        </item>
+        <item>
+            »  Discuss with the person the risks and beneﬁts of stopping the medication.\n
+            »  Taper the dose of medication gradually, over a minimum of 4 weeks. Monitor the person for symptom recurrence.\n
+
+        </item>
+    </string-array>
+    <string-array name="depfollowno">
+        <item>
+            »  If not yet receiving psychological treatment,  consider psychological treatment. \n
+            »  If receiving a psychological treatment, evaluate engagement in  and experience of current psychological treatment. \n
+            »  If not yet on antidepressants, consider antidepressants. \n
+            »  If on antidepressants, assess: –  Does the person take the medication as prescribed? If not, explore reasons why and
+               encourage adherence.\n
+               <b>Are there side effects?</b>
+            »   If yes, evaluate and weigh beneﬁts of treatment.  If no to side effects to antidepressants, increase dose (TABLE 1).
+               Follow-up in 1-2 weeks. \n
+               CAUTION WITH DOSE INCREASE. \n
+               CLOSE FOLLOW-UP NEEDED   DUE TO POSSIBLE INCREASE IN SIDE EFFECTS.
+        </item>
+        <item>
+            »  Continue medication until person is  symptom free for 9-12 months.
+        </item>
+    </string-array>
+
 
 </resources>
