@@ -45,7 +45,7 @@ public class Dep_followup extends AppCompatActivity {
         hmbtn.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                Intent intent=new Intent(Dep_followup.this,HomeActivity.class);
+                Intent intent=new Intent(Dep_followup.this,depression2.class);
                 startActivity(intent);
             }
         });
