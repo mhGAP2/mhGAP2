@@ -1,5 +1,6 @@
 package com.example.tencho.mhgap2;
 
+import android.content.Intent;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 import android.view.View;
@@ -7,7 +8,7 @@ import android.widget.Button;
 import android.widget.TextView;
 
 public class Dep_followup extends AppCompatActivity {
-    Button yesbtn,nobtn;
+    Button yesbtn,nobtn,hmbtn;
     TextView mquestion;
     String [] Yesfollowquestions;
     String [] Nofollowquestions;
@@ -23,6 +24,9 @@ public class Dep_followup extends AppCompatActivity {
 
         yesbtn=(Button)findViewById(R.id.yes);
         nobtn=(Button)findViewById(R.id.no);
+        hmbtn=(Button)findViewById(R.id.home);
+        hmbtn.setVisibility(View.GONE);
+
         mquestion=(TextView)findViewById(R.id.question);
 
         yesbtn.setOnClickListener(new View.OnClickListener() {
@@ -38,6 +42,14 @@ public class Dep_followup extends AppCompatActivity {
                 updateNoquestion();
             }
         });
+        hmbtn.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                Intent intent=new Intent(Dep_followup.this,HomeActivity.class);
+                startActivity(intent);
+            }
+        });
+
     }
 
     private void updateYesquestion()
@@ -53,6 +65,7 @@ public class Dep_followup extends AppCompatActivity {
             mquestion.setText(Yesfollowquestions[3]);
             yesbtn.setVisibility(View.GONE);
             nobtn.setVisibility(View.GONE);
+            hmbtn.setVisibility(View.VISIBLE);
         }
 
         else if(mquestion.getText().toString().equals(Yesfollowquestions[2]))
@@ -60,6 +73,7 @@ public class Dep_followup extends AppCompatActivity {
             mquestion.setText(Yesfollowquestions[3]);
             yesbtn.setVisibility(View.GONE);
             nobtn.setVisibility(View.GONE);
+            hmbtn.setVisibility(View.VISIBLE);
         }
 
     }
@@ -70,7 +84,11 @@ public class Dep_followup extends AppCompatActivity {
         else if(mquestion.getText().toString().equals(Nofollowquestions[0]))
             mquestion.setText(Yesfollowquestions[2]);
         else if(mquestion.getText().toString().equals(Yesfollowquestions[2]))
+        {
             mquestion.setText(Nofollowquestions[1]);
+            hmbtn.setVisibility(View.VISIBLE);
+        }
+
 
 
 

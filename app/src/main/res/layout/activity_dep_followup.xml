@@ -42,7 +42,7 @@
                 android:layout_height="65dp"
                 android:background="#15e553"
                 android:orientation="horizontal"
-                android:weightSum="2">
+                android:weightSum="3">
 
                 <Button
                     android:id="@+id/yes"
@@ -62,6 +62,14 @@
                     android:layout_weight="1"
                     android:textSize="10sp"
                     tools:ignore="ButtonStyle,HardcodedText,SmallSp" />
+                <Button
+                    android:id="@+id/home"
+                    android:layout_width="wrap_content"
+                    android:layout_height="48dp"
+                    android:text="Home"
+                    android:textSize="10sp"
+                    android:layout_weight="1"
+                    tools:ignore="ButtonStyle,HardcodedText,SmallSp"/>
 
             </LinearLayout>
 </LinearLayout>
