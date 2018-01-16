@@ -36,6 +36,7 @@
             android:name=".master"
             android:label="Master Chart"
             android:theme="@style/AppTheme.NoActionBar" />
+
         <activity
             android:name=".Aboutus"
             android:label="@string/title_activity_aboutus"
