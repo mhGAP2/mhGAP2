@@ -84,8 +84,6 @@
             android:textColor="#881D6C"
             android:textSize="18dp" />
 
-
-
     </LinearLayout>
 </android.support.constraint.ConstraintLayout>
 
