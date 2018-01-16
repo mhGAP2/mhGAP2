@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.tencho.mhgap2.Depression1"
+    android:background="#881D6C">
+
+
+    <LinearLayout
+        android:layout_width="368dp"
+        android:layout_height="551dp"
+        android:orientation="vertical"
+        tools:layout_editor_absoluteY="8dp"
+        tools:layout_editor_absoluteX="8dp">
+
+
+        <TextView
+            android:layout_marginTop="20dp"
+            android:id="@+id/textView16"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textColor="#FFFFFF"
+            android:text="Management"
+            android:textAlignment="center"
+            android:layout_marginBottom="50dp"
+            android:textSize="35dp"
+            />
+
+        <Button
+            android:id="@+id/button1"
+            android:layout_width="270dp"
+            android:layout_height="52dp"
+            android:layout_marginLeft="45dp"
+            android:layout_marginBottom="20dp"
+            android:background="@drawable/depre"
+            android:text="Protocol 1"
+            android:textColor="#881D6C"
+            android:textSize="18dp" />
+
+        <Button
+            android:id="@+id/button2"
+            android:layout_width="270dp"
+            android:layout_height="52dp"
+            android:layout_marginBottom="20dp"
+            android:layout_marginLeft="45dp"
+            android:background="@drawable/depre"
+            android:text="protocol 2"
+            android:textColor="#881D6C"
+            android:textSize="18dp" />
+
+        <Button
+            android:id="@+id/button3"
+            android:layout_width="270dp"
+            android:layout_height="52dp"
+            android:background="@drawable/depre"
+            android:layout_marginLeft="45dp"
+            android:layout_marginBottom="20dp"
+            android:text="Special population"
+            android:textColor="#881D6C"
+            android:textSize="18dp" />
+
+
+        <Button
+            android:id="@+id/button4"
+            android:layout_width="270dp"
+            android:layout_height="52dp"
+            android:background="@drawable/depre"
+            android:layout_marginLeft="45dp"
+            android:layout_marginBottom="20dp"
+            android:text="Caution"
+            android:textColor="#881D6C"
+            android:textSize="18dp" />
+
+        <Button
+            android:id="@+id/button5"
+            android:layout_width="270dp"
+            android:layout_height="52dp"
+            android:background="@drawable/depre"
+            android:layout_marginLeft="45dp"
+            android:layout_marginBottom="20dp"
+            android:text="Antidepressants"
+            android:textColor="#881D6C"
+            android:textSize="18dp" />
+
+
+
+    </LinearLayout>
+</android.support.constraint.ConstraintLayout>
+

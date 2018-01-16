@@ -10,19 +10,29 @@ import android.widget.Button;
 
 public class depression2 extends AppCompatActivity {
     Button btn1;
+    Button btn2;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         requestWindowFeature(Window.FEATURE_NO_TITLE);
-        getWindow().setFlags(WindowManager.LayoutParams.FLAG_FULLSCREEN,WindowManager.LayoutParams.FLAG_FULLSCREEN);
+        getWindow().setFlags(WindowManager.LayoutParams.FLAG_FULLSCREEN, WindowManager.LayoutParams.FLAG_FULLSCREEN);
         setContentView(R.layout.activity_depression2);
 
-        btn1=(Button)findViewById(R.id.button3);
+
+        btn1 = (Button) findViewById(R.id.button3);
         btn1.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                Intent intent=new Intent(depression2.this,Dep_assesment.class);
+                Intent intent = new Intent(depression2.this, Dep_assesment.class);
+                startActivity(intent);
+            }
+        });
+        btn2 = (Button) findViewById(R.id.button2);
+        btn2.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                Intent intent = new Intent(depression2.this, depression3.class);
                 startActivity(intent);
             }
         });

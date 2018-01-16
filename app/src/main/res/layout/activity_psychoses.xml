@@ -27,18 +27,18 @@
     <TextView
         android:id="@+id/t6"
         android:layout_width="0dp"
-        android:layout_height="421dp"
+        android:layout_height="432dp"
         android:textColor="#ffffff"
         android:textSize="13dp"
         android:text="@string/psy"
         tools:layout_constraintRight_creator="1"
         tools:layout_constraintBottom_creator="1"
-        android:layout_marginStart="8dp"
+        android:layout_marginStart="10dp"
         app:layout_constraintBottom_toBottomOf="parent"
-        android:layout_marginEnd="8dp"
+        android:layout_marginEnd="10dp"
         app:layout_constraintRight_toRightOf="parent"
         tools:layout_constraintLeft_creator="1"
-        android:layout_marginBottom="92dp"
+        android:layout_marginBottom="109dp"
         app:layout_constraintLeft_toLeftOf="parent" />
 
     <Button
