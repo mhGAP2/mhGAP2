@@ -64,7 +64,8 @@
             android:theme="@style/AppTheme" />
         <activity android:name=".help" />
         <activity android:name=".Dep_assesment" />
-        <activity android:name=".Dep_followup"></activity>
+        <activity android:name=".Dep_followup" />
+        <activity android:name=".depression3" />
     </application>
 
 </manifest>

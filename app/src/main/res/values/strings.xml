@@ -28,7 +28,7 @@
         -> Loss of interest or pleasure in activities that are normally pleasurable
         </item>
 
-    <item>
+        <item>
         PSYCHOSES\n\n
         -> Marked behavioural changes; neglecting usual responsibilities related to work, school, domestic or social activities
         -> Agitated, aggressive behavior, decreased or increased activity \n
@@ -561,5 +561,148 @@ At the end of the guide, a glossary of terms used in
 mhGAP is provided.</string>
     <string name="title_activity_dep_assesment">Dep_assesment</string>
     <string name="begin_test">Begin test</string>
+    <string name="dep_protocol2.1">Depression is a very common condition that can happen
+to anybody.\n\n
+The occurrence of depression does not mean that the person
+is weak or lazy.\n\n
+Negative attitudes of others (e.g. “You should be stronger”,
+“Pull yourself together”) may be because depression is
+not a visible condition, unlike a fracture or a wound. There
+is also the misconception that people with depression can
+easily control their symptoms by sheer willpower.\n\n
+People with depression tend to have unrealistically negative
+opinions about themselves, their life and their future. Their
+current situation may be very difficult, but depression can
+cause unjustified thoughts of hopelessness and
+worthlessness. These views are likely to improve once the
+depression improves.\n\n
+Thoughts of self-harm or suicide are common. If they
+notice these thoughts, they should not act on them, but
+should tell a trusted person and come back for help
+immediately.</string>
+    <string name="dep_protocol2.2">Assess for and try to reduce stressors. (Go to » ECP)\n\n
+Reactivate the person’s previous social network. Identify prior
+social activities that, if started again, may potentially provide
+direct or indirect psychosocial support, e.g. family gatherings,
+visiting neighbours, and community activities.</string>
+
+    <string name="dep_protocol2.3">Even if it is difficult, encourage the person to try to do as
+many of the following as possible:\n\n
+– Try to start again (or continue) activities that were
+previously pleasurable.\n
+– Try to maintain regular sleeping and waking times.\n
+– Try to be as physically active as possible.\n
+– Try to eat regularly despite changes in appetite.\n
+– Try to spend time with trusted friends and family.\n
+– Try to participate in community and other social activities
+as much as possible.\n\n
+Explain to the person and carer that these activities can
+all help improve mood.</string>
+    <string name="dep_protocol2.4">2.4 If available, consider referral for one of the
+following brief psychological treatments:
+interpersonal therapy (IPT), cognitive behavioural
+therapy (CBT), behaviour activation and problem solving
+counselling.</string>
+    <string name="dep_protocol2.5">2.5 Consider antidepressants.</string>
+    <string name="dep_protocol2.6"> DO NOT manage the symptoms with ineffective
+treatments, e.g. vitamin injections.\nOffer regular follow-up.</string>
+
+    <string name="dep_protocol">Discuss with the person and decide together whether to
+prescribe antidepressants. Explain that:\n\n
+– Antidepressants are not addictive.\n
+– It is very important to take the medication every day as
+prescribed.\n
+– Some side effects may be experienced within the first few
+days but they usually resolve.\n
+– It usually takes several weeks before improvements in
+mood, interest or energy is noticed.\n\n
+Consider the person’s age, concurrent medical conditions,
+and drug side-effect profile.\n\n
+Start with only one medication at the lowest starting dose.\n\n
+Antidepressant medications usually need to be continued
+for at least 9-12 months after the resolution of symptoms.\n\n
+Medications should never be stopped just because the
+person experiences some improvement. Educate the person
+on the recommended time frame to take medications.</string>
+    <string name="caution1">If the person develops a manic episode, stop the antidepressant
+immediately; it may trigger a manic episode
+in untreated bipolar disorder.\n\n
+Do not combine with other antidepressants, as this may
+cause serotonin syndrome.\n\n
+Antidepressants may increase suicidal</string>
+    <string name="caution2">If symptoms persist or worsen despite psychosocial interventions,
+consider fluoxetine (but no other selective serotonin
+reuptake inhibitor (SSRI) or tricyclic antidepressant (TCA).\n\n
+If fluoxetine is prescribed, ask the adolescent to return weekly,
+for the first 4 weeks, to monitor thoughts or plans of suicide.</string>
+    <string name="caution3">Avoid antidepressants, if possible.\n\n
+Consider antidepressants at the lowest effective dose if there
+is no response to psychosocial interventions.\n\n
+If the woman is breastfeeding, avoid long acting
+antidepressant medication such as fluoxetine.\n\n
+Consult a specialist if available.</string>
+    <string name="caution4">Avoid amitriptyline if possible.</string>
+    <string name="caution5">SSRIs are the first choice. Overdose of TCAs such as
+amitriptyline may be fatal and therefore should be avoided in
+this group.\n\n
+If there is an imminent risk of self-harm or suicide
+(Go to » SUI), give a limited supply of antidepressants
+(e.g. one week supply at a time).\n\n
+Ask the person’s carers to keep and monitor medications
+and to follow-up frequently to prevent medication overdose.</string>
+    <string name="population">Follow treatment for depression
+(PROTOCOL 1) but AVOID antidepressants
+if possible, especially during
+the first trimester.\n\n
+ If no response to psychological treatment,
+consider using with caution the
+lowest effective dose of antidepressants.\n\n
+ If breastfeeding, avoid long acting
+medication such as fluoxetine.\n\n
+ CONSULT A SPECIALIST, if available.</string>
+    <string name="dosing1">Start 25 mg at bedtime.\n
+Increase by 25-50 mg per week to 100-150 mg
+daily (maximum 300 mg).\n
+Note: Minimum effective dose in adults is 75 mg.
+Sedation may be seen at lower doses.\n\n
+Elderly/Medically Ill: Start 25 mg at bedtime to
+50-75 mg daily (maximum 100 mg).\n\n
+Children/Adolescents: Do not use. </string>
+    <string name="side1">Common: Sedation, orthostatic hypotension (risk of fall),
+blurred vision, difficulty urinating, nausea, weight gain,
+sexual dysfunction.\n\n
+Serious: ECG changes (e.g. QTc prolongation), cardiac
+arrhythmia, increased risk of seizure.</string>
+    <string name="cautions1">Avoid in persons with cardiac disease, history of seizure,
+hyperthyroidism, urinary retention, or narrow angle-closure glaucoma,
+and bipolar disorder (can trigger mania in people with untreated bipolar
+disorder).\n\n
+Overdose can lead to seizures, cardiac arrhythmias, hypotension,
+coma, or death.\n\n
+Levels of amitriptyline may be increased by anti-malarials including
+quinine.</string>
+
+    <string name="dosing2">Start 10 mg daily for one week then 20 mg daily.
+If no response in 6 weeks, increase to 40 mg
+(maximum 80 mg).\n\n
+Elderly/medically ill: preferred choice.
+Start 10 mg daily, then increase to 20 mg
+(maximum 40 mg).\n\n
+Adolescents\n
+Start 10 mg daily. Increase to 20 mg daily if no
+response in 6 weeks (maximum 40 mg).</string>
+
+    <string name="side2">Common: Sedation, insomnia, headache, dizziness,
+gastrointestinal disturbances, changes in appetite, and
+sexual dysfunction.\n\n
+Serious: bleeding abnormalities in those who use
+aspirin or other non-steroidal anti-inflammatory drugs, low
+sodium levels.</string>
+    <string name="cautions2">Caution in persons with history of seizure.\n\n
+Drug-Drug interactions: Avoid combination with warfarin
+(may increase bleeding risk). May increase levels of TCAs, antipsychotics,
+and beta-blockers.\n\n
+Caution in combination with tamoxifen, codeine, and tramadol (reduces
+the effect of these drugs).</string>
 
 </resources>
