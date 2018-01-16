@@ -1,5 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:background="#ffffff">
@@ -8,9 +9,10 @@
 
     <LinearLayout
         android:layout_width="match_parent"
-        android:layout_height="match_parent"
+        android:layout_height="wrap_content"
         android:orientation="vertical"
-        android:layout_marginLeft="5dp">
+        android:layout_marginLeft="5dp"
+        tools:ignore="RtlHardcoded">
 
 
         <TextView
@@ -19,8 +21,9 @@
             android:layout_height="wrap_content"
             android:text="Protocol 1(Depression)"
             android:textColor="#881D6C"
-            android:textSize="30dp"
-            android:textAlignment="center"/>
+            android:textSize="30sp"
+            android:textAlignment="center"
+            tools:ignore="HardcodedText" />
         <TextView
             android:id="@+id/textView2"
             android:textColor="#361818"
@@ -28,8 +31,9 @@
             android:layout_height="wrap_content"
             android:layout_marginTop="10dp"
             android:text="PSYCHOSOCIAL INTERVENTIONS"
-            android:textSize="15dp"
-            android:textAlignment="center"/>
+            android:textSize="15sp"
+            android:textAlignment="center"
+            tools:ignore="HardcodedText" />
 
         <TextView
             android:id="@+id/textView3"
@@ -37,8 +41,8 @@
             android:layout_height="wrap_content"
             android:textColor="#881D6C"
             android:layout_marginTop="10dp"
-            android:text="2.1 Psychoeducation: key messages to the person and the carers"
-            android:textSize="15dp"
+            android:text="@string/_2_1_psychocarers"
+            android:textSize="15sp"
             />
 
 
@@ -60,8 +64,8 @@
             android:textColor="#881D6C"
             android:layout_marginTop="20dp"
             android:text="2.2 Reduce stress and strengthen social support"
-            android:textSize="15dp"
-            />
+            android:textSize="15sp"
+            tools:ignore="HardcodedText" />
 
         <TextView
             android:id="@+id/textView6"
@@ -80,8 +84,8 @@
             android:textColor="#881D6C"
             android:layout_marginTop="20dp"
             android:text="2.3 Promote functioning in daily activities and community life"
-            android:textSize="15dp"
-            />
+            android:textSize="15sp"
+            tools:ignore="HardcodedText" />
 
 
         <TextView
@@ -112,7 +116,7 @@
             android:layout_marginTop="20dp"
             android:textColor="#881D6C"
             android:text="@string/dep_protocol2.5"
-            android:textSize="15dp"
+            android:textSize="15sp"
             />
 
         <TextView

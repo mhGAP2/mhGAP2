@@ -704,5 +704,9 @@ Drug-Drug interactions: Avoid combination with warfarin
 and beta-blockers.\n\n
 Caution in combination with tamoxifen, codeine, and tramadol (reduces
 the effect of these drugs).</string>
+    <string name="child_adolescent">CHILD / ADOLESCENT</string>
+    <string name="adolescent">For management of depression in children/adolescents, go to CMH.</string>
+    <string name="populations">Note that interventions may differ for these populations</string>
+    <string name="_2_1_psychocarers">2.1 Psychoeducation: key messages to the person and the carers</string>
 
 </resources>

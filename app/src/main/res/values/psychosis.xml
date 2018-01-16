@@ -1,0 +1,86 @@
+
+<resources>
+    <string-array name="PSY_Asse_Yes">
+        <item>
+        1 \n
+        Are there any other explanations for the symptoms? \n
+        EVALUATE FOR MEDICAL CONDITIONS \n
+        By history, clinical examination, or laboratory findings, are there signs and symptoms
+        suggesting delirium due to an acute physical condition, e.g. infection, cerebral malaria,
+        dehydration, metabolic abnormalities (such as hypoglycaemia or hyponatraemia);
+        or medication side effects, e.g. due to some antimalarial medication or steroids?
+    </item>
+        <item>
+            Assess and manage the acute physical condition, and refer to emergency services/ specialist as needed.
+            If symptoms persist after management of the acute cause, go to STEP 2
+        </item>
+
+        <item>
+            Consider consultation with a mental health specialist for management of concurrent conditions.
+            Manage concurrent conditions.
+            Go to relevant modules.
+        </item>
+        <item>
+           2\n
+           Is the person having an acute manic episode? \n
+            Have several of the following symptoms occurred simultaneously, lasting for at least 1 week, and severely enough
+            to interfere significantly with work and social activities or requiring confinement or hospitalization: \n
+            – Elevated or irritable mood \n
+            – Decreased need for sleep \n
+            – Increased activity, feeling of increased energy, increased talkativeness or rapid speech \n
+            – Loss of normal social inhibitions such as sexual indiscretion \n
+            – Impulsive or reckless behaviours such as excessive spending, making important decisions without planning \n
+            – Being easily distracted \n
+            – Unrealistically inflated self-esteem \n
+        </item>
+
+        <item>
+            Suspect \n
+            BIPOLAR DISORDER Manic Episode \n
+            Go to PROTOCOL 1
+        </item>
+
+        <item>
+        Suspect \n
+        PSYCHOSIS \n
+        Go to PROTOCOL 2
+        </item>
+    </string-array>
+
+    <string-array name="PSY_Asse_No">
+        <item>
+        » EVALUATE FOR DEMENTIA, DEPRESSION, DRUG/ALCOHOL INTOXICATION OR WITHDRAWAL.
+        </item>
+
+        <item>
+            2\n
+           Is the person having an acute manic episode? \n
+
+            Have several of the following symptoms occurred simultaneously, lasting for at least 1 week, and severely enough
+            to interfere significantly with work and social activities or requiring confinement or hospitalization: \n
+            – Elevated or irritable mood \n
+            – Decreased need for sleep \n
+            – Increased activity, feeling of increased energy, increased talkativeness or rapid speech \n
+            – Loss of normal social inhibitions such as sexual indiscretion \n
+            – Impulsive or reckless behaviours such as excessive spending, making important decisions without planning \n
+            – Being easily distracted \n
+            – Unrealistically inflated self-esteem \n
+        </item>
+
+        <item>
+            3\n
+            Does the person have psychosis? \n
+
+            Does the person have at least two of the following: \n
+            – Delusions, fixed false beliefs not shared by others in the person’s culture \n
+            – Hallucinations, hearing voices or seeing things that are not there \n
+            – Disorganized speech and/or behaviour,e.g. incoherent/irrelevant speech such as mumbling or laughing to self, strange appearance, signs of self-neglect or appearing unkempt
+        </item>
+
+        <item>
+            Consider consultation with specialist to review other possible causes of psychoses.
+        </item>
+    </string-array>
+
+
+</resources>

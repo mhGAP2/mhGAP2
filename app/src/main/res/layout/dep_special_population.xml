@@ -1,5 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent" android:layout_height="match_parent"
     android:background="#ffffff"
     >
@@ -11,7 +12,7 @@
         android:layout_height="wrap_content"
         android:orientation="vertical"
         android:layout_marginLeft="5dp"
-        >
+        tools:ignore="RtlHardcoded">
 
         <TextView
             android:id="@+id/textView17"
@@ -20,7 +21,8 @@
             android:textAlignment="center"
             android:textColor="#cc0808"
             android:textSize="25dp"
-            android:text="Special populations"/>
+            android:text="Special populations"
+            tools:ignore="HardcodedText,SpUsage" />
 
 
         <TextView
@@ -30,7 +32,7 @@
             android:layout_height="wrap_content"
             android:layout_marginTop="7dp"
             android:textStyle="italic"
-            android:text="Note that interventions may differ for these populations"/>
+            android:text="@string/populations"/>
 
 
         <TextView
@@ -41,7 +43,8 @@
             android:layout_marginTop="10dp"
             android:textSize="15dp"
 
-            android:text="CHILD / ADOLESCENT"/>
+            android:text="@string/child_adolescent"
+            tools:ignore="SpUsage" />
 
         <TextView
             android:id="@+id/textView20"
@@ -49,7 +52,7 @@
             android:layout_height="wrap_content"
             android:textColor="#361818"
             android:layout_marginTop="5dp"
-            android:text="For management of depression in children/adolescents, go to CMH."/>
+            android:text="@string/adolescent"/>
 
 
         <TextView
@@ -58,9 +61,10 @@
             android:textColor="#cc0808"
             android:layout_height="wrap_content"
             android:layout_marginTop="10dp"
-            android:textSize="15dp"
+            android:textSize="15sp"
 
-            android:text="WOMEN WHO ARE PREGNANT OR BREASTFEEDING"/>
+            android:text="WOMEN WHO ARE PREGNANT OR BREASTFEEDING"
+            tools:ignore="HardcodedText" />
 
         <TextView
             android:id="@+id/textView22"
