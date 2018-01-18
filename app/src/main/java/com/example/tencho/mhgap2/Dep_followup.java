@@ -54,9 +54,7 @@ public class Dep_followup extends AppCompatActivity {
 
     private void updateYesquestion()
     {
-        if(mquestion.getText().toString().equals("follow up"))
-            mquestion.setText(Yesfollowquestions[0]);
-        else if(mquestion.getText().toString().equals(Yesfollowquestions[0]))
+        if(mquestion.getText().toString().equals(Yesfollowquestions[0]))
             mquestion.setText(Yesfollowquestions[1]);
         else if(mquestion.getText().toString().equals(Yesfollowquestions[1]))
             mquestion.setText(Yesfollowquestions[2]);
@@ -75,7 +73,6 @@ public class Dep_followup extends AppCompatActivity {
             nobtn.setVisibility(View.GONE);
             hmbtn.setVisibility(View.VISIBLE);
         }
-
     }
 
     private void updateNoquestion() {
@@ -88,9 +85,5 @@ public class Dep_followup extends AppCompatActivity {
             mquestion.setText(Nofollowquestions[1]);
             hmbtn.setVisibility(View.VISIBLE);
         }
-
-
-
-
     }
 }

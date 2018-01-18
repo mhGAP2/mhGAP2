@@ -99,6 +99,11 @@
             Do not manage for depression. \n\n Go to  OTH
         </item>
     </string-array>
+
+    <string name="depfollow1">
+         1 \n
+        ASSESS FOR IMPROVEMENT \n  Is the person improving?
+    </string>
     <string-array name="depfollowyes">
         <item>
             1 \n ASSESS FOR IMPROVEMENT \n  Is the person improving?
