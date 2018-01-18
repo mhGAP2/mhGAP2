@@ -72,7 +72,8 @@
     </string-array>
 
     <string-array name="nq">
-        <item>Depression is unlikely\n Go to  OTH </item>
+        <item>Depression is unlikely \n
+            Go to OTH (Other Significant Disease) </item>
         <item>No Treatment required</item>
         <item> <b>IS THERE A HISTORY OF MANIA? </b>\n
             Have several of the following symptoms occurred simultaneously, lasting for at least 1 week, and
