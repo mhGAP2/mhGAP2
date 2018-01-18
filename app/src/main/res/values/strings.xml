@@ -709,4 +709,176 @@ the effect of these drugs).</string>
     <string name="populations">Note that interventions may differ for these populations</string>
     <string name="_2_1_psychocarers">2.1 Psychoeducation: key messages to the person and the carers</string>
 
+    <string name="psy_protocol2.1">Key messages for the person and their carers:\n\n
+Explain that the symptoms are due to a mental health
+condition, that psychosis and bipolar disorders can be
+treated, and that the person can recover. Clarify common
+misconceptions about psychosis and bipolar disorder.\n\n
+Do not blame the person or their family or accuse them
+of being the cause of the symptoms.\n\n
+Educate the person and the family that the person needs
+to take the prescribed medications and return for follow-up
+regularly.\n\n
+Explain that return and/or worsening of symptoms are
+common and that it is important to recognize these early
+and visit to the health facility as soon as possible.\n\n
+Plan a regular work or school schedule that avoids sleep
+deprivation and stress for both the person and the carers.
+Encourage the person to solicit advice about major decisions
+    especially ones involving money or major commitments.\n\n
+    Recommend avoiding alcohol, cannabis or other nonprescription
+drugs, as they can worsen the psychotic or
+bipolar symptoms.\n\n
+Advise them about maintaining a healthy lifestyle, e.g. a
+balanced diet, physical activity, regular sleep, good personal
+hygiene, and no stressors. Stress can worsen psychotic
+symptoms. Note: Lifestyle changes should be continued as long
+as needed, potentially indefinitely. These changes should be
+planned and developed for sustainability.</string>
+    <string name="psytip1">Mutual trust between the person and the
+health-care provider is critical to ensure
+treatment adherence and long-term outcomes.</string>
+    <string name="psy_protocol2.6">If patient is on antidepressants – DISCONTINUE
+to prevent further risk of mania.
+– Begin treatment with lithium, valproate, carbamazepine,
+or with antipsychotics. Consider a short term (2-4 weeks
+maximum) benzodiazepine for behavioural disturbance or
+agitation.(see Table 3).</string>
+    <string name="Lithium">consider using lithium as first line treatment of
+bipolar disorder only if clinical and laboratory monitoring are
+available, and prescribe only under specialist supervision. If
+laboratory examinations are not available or feasible, lithium
+should be avoided and valproate or carbamazepine should
+be considered. Erratic compliance or stopping lithium
+treatment suddenly may increase the risk of relapse. Do not
+prescribe lithium where the lithium supply may be frequently
+interrupted. Obtain kidney and thyroid function, complete
+blood count, ECG, and pregnancy tests before beginning
+treatment if possible.</string>
+    <string name="Valproate">Consider these
+medications if clinical or laboratory monitoring for lithium is
+not available or if specialist is not available to supervise
+lithium prescription.</string>
+    <string name="Haloperidol">consider haloperidol and
+risperidone only if no clinical or laboratory monitoring is
+available to start lithium or valproate. Risperidone can be
+used as an alternative to haloperidol in individuals with
+bipolar mania if availability can be assured, and cost is not a
+constraint.</string>
+    <string name="psy_caution1">For women who are pregnant or breastfeeding, avoid
+valproate, lithium and carbamazepine. Use of low-dose
+haloperidol is recommended with caution and under the
+care of a specialist, if available.</string>
+    <string name="psy_2.6">Persons with mania who are experiencing agitation may
+benefit from short-term ( 2-4 weeks maximum) use of a
+benzodiazepine such as diazepam.\n
+– Benzodiazepines should be discontinued gradually as soon
+as symptoms improve, as tolerance can develop.\n\n
+Continue maintenance treatment for at least 2 years
+after the last bipolar episode.\n
+– Lithium or valproate can be offered for the maintenance
+treatment of bipolar disorder. If treatment with one of
+these agents is not feasible, haloperidol, chloropromazine
+or carbamazepine may be used. Offer maintenance
+treatment in primary care settings under specialist
+supervision.</string>
+    <string name="psy_protocol2.3">Continue regular social, educational and occupational
+activities as much as possible. It is best for the person to have
+a job or to be otherwise meaningfully occupied.\n\n
+Facilitate inclusion in economic activities, including culturally
+appropriate supported employment.\n\n
+Offer life skills training and/or social skills training to enhance
+independent living skills for people with psychosis and bipolar
+disorders and for their families and/or carers.\n\n
+Facilitate, if available and needed, independent living and
+supported housing that is culturally and contextually appropriate
+in the community.</string>
+    <string name="psy_protocol">Ensure safety of the person and safety of others.\nProvide regular follow-up.\n
+ Support rehabilitation in the community.</string>
+
+    <string name="psy_protocol2.2">Coordinate with available health and social resources to meet
+the family’s physical, social, and mental health needs.\n\n
+Identify the person’s prior social activities that, if reinitiated,
+would have the potential to provide direct or indirect psychological
+and social support, e.g. family gatherings, outings with
+friends, visiting neighbors, social activities at work sites, sports,
+and community activities. Encourage the person to resume
+these social activities and advise family members about this.\n\n
+Encourage the person and carers to improve social
+support systems.</string>
+    <string name="psy_tip2">Ensure persons with psychosis are
+treated with respect and dignity. For
+further details go to » ECP.</string>
+    <string name="psy_protocol2.5">Start with a low dose within the therapeutic range and
+increase slowly to the lowest effective dose, in order to reduce
+the risk of side-effects.</string>
+    <string name="psy_protocol2.51">Antipsychotics should routinely be offered to a person
+with psychosis.\n\n
+Start antipsychotic medication immediately. See Table 1.\n\n
+Prescribe one antipsychotic at a time.\n\n
+Start at lowest dose and titrate up slowly to reduce risk of
+side effects.\n\n
+Try the medication at a typically effective dose for at
+least 4-6 weeks before considering it ineffective.\n\n
+Continue to monitor at that dose as frequently as possible and
+as required for the first 4-6 weeks of therapy. If there is no
+improvement, see Follow-up and Table 4.\n\n
+Monitor weight, blood pressure, fasting sugar, cholesterol and
+ECG for persons on antipsychotics if possible (see below).</string>
+<string name="psy_caution2">Side effects to look for:\n\n
+– Extrapyramidal side effects (EPS): akathisia, acute
+dystonic reactions, tremor, cog- wheeling, muscular rigidity,
+and tardive dyskinesia. Treat with anticholinergic medications
+when indicated and available (see Table 2).\n\n
+– Metabolic changes: weight gain, high blood pressure,
+increased blood sugar and cholesterol.\n\n
+– ECG changes (prolonged QT interval): monitor ECG
+if possible.\n\n
+– Neuroleptic malignant syndrome (NMS): a rare,
+potentially life-threatening disorder characterized by muscular
+rigidity, elevated temperature, and high blood pressure.</string>
+    <string name="psy_special1">Liaise with maternal health specialists to organize care.\n\n
+Consider consultation with mental health specialist if available.\n\n
+Explain the risk of adverse consequences for the mother and her baby, including obstetric
+complications and psychotic relapses, particularly if medication stopped.\n\n
+Consider pharmacological intervention when appropriate and available. See below.</string>
+    <string name="psy_special2">In women with psychosis who are planning
+a pregnancy or pregnant or breastfeeding,
+low-dose oral haloperidol, or chlorpromazine
+may be considered.\n\n
+Anticholinergics should NOT prescribed
+to women who are pregnant due to extrapyramidal
+side-effects of antipsychotic medications,
+except in cases of acute, short-term use.\n\n
+ Depot antipsychotics should not be routinely
+prescribed to women with psychotic disorders
+who are planning a pregnancy, pregnant, or
+breastfeeding because there is relatively little
+information on their safety in this population.</string>
+    <string name="psy_special3">AVOID VALPROATE, LITHIUM and
+CARBAMAZEPINE during pregnancy and
+breastfeeding due to the risk of birth defects.\n\n
+ Consider low-dose haloperidol with caution
+and in consultation with a specialist, if available.\n\n
+        Weigh the risks and benefits of medications in
+women of childbearing age.\n\n
+ If a pregnant woman develops acute mania
+while taking mood stabilizers, consider switching
+to low dose haloperidol.</string>
+    <string name="psy_special4">Consider consultation with mental health
+specialist.\n\n
+In adolescents with psychotic or bipolar
+disorder, risperidone can be offered as a
+treatment option only under supervision of
+a specialist.\n\n
+If treatment with risperidone is not feasible,
+haloperidol or chlorpromazine may be
+used only under supervision of a specialist.</string>
+    <string name="psy_special5">Use lower doses of medication.\n\n
+Anticipate an increased risk of drug-drug
+interactions.</string>
+    <string name="psy_caution3">Antipsychotics carry an increased risk of
+cerebrovascular events and death in older
+adults with dementia-related psychosis.</string>
+
 </resources>

@@ -36,7 +36,6 @@
             android:name=".master"
             android:label="Master Chart"
             android:theme="@style/AppTheme.NoActionBar" />
-
         <activity
             android:name=".Aboutus"
             android:label="@string/title_activity_aboutus"
@@ -66,6 +65,10 @@
         <activity android:name=".Dep_assesment" />
         <activity android:name=".Dep_followup" />
         <activity android:name=".depression3" />
+        <activity android:name=".psychoses2" />
+        <activity android:name=".psy_assesment" />
+        <activity android:name=".psy_management" />
+        <activity android:name=".psy_followup"></activity>
     </application>
 
 </manifest>

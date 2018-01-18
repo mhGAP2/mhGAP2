@@ -4,26 +4,24 @@ import android.content.Intent;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 import android.view.View;
-import android.view.Window;
-import android.view.WindowManager;
 import android.widget.Button;
 
-public class depression2 extends AppCompatActivity {
+
+public class psychoses2 extends AppCompatActivity {
+
     Button btn1,btn2,btn3;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        requestWindowFeature(Window.FEATURE_NO_TITLE);
-        getWindow().setFlags(WindowManager.LayoutParams.FLAG_FULLSCREEN, WindowManager.LayoutParams.FLAG_FULLSCREEN);
-        setContentView(R.layout.activity_depression2);
+        setContentView(R.layout.activity_psychoses2);
 
 
-        btn1 = (Button) findViewById(R.id.button3);
+        btn1 = (Button) findViewById(R.id.button1);
         btn1.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                Intent intent = new Intent(depression2.this, Dep_assesment.class);
+                Intent intent = new Intent(psychoses2.this, psy_assesment.class);
                 startActivity(intent);
             }
         });
@@ -31,19 +29,18 @@ public class depression2 extends AppCompatActivity {
         btn2.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                Intent intent = new Intent(depression2.this, depression3.class);
+                Intent intent = new Intent(psychoses2.this, psy_management.class);
                 startActivity(intent);
             }
         });
-        btn3 = (Button) findViewById(R.id.button4);
+        btn3 = (Button) findViewById(R.id.button3);
         btn3.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                Intent intent = new Intent(depression2.this, Dep_followup.class);
+                Intent intent = new Intent(psychoses2.this, psy_followup.class);
                 startActivity(intent);
             }
         });
 
     }
-
 }
