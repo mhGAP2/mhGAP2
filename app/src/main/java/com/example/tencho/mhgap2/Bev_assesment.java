@@ -50,81 +50,12 @@ public class Bev_assesment extends AppCompatActivity {
 
     private void updateYesquestion()
     {
-        if(mquestion.getText().toString().equals(YesQuestions[0]))
-            mquestion.setText(YesQuestions[1]);
-        else if(mquestion.getText().toString().equals(YesQuestions[1]))
-            mquestion.setText(YesQuestions[2]);
-        else if(mquestion.getText().toString().equals(YesQuestions[2]))
-            mquestion.setText(YesQuestions[3]);
-        else if(mquestion.getText().toString().equals(YesQuestions[3]))
-            mquestion.setText(YesQuestions[4]);
-        else if(mquestion.getText().toString().equals(YesQuestions[4]))
-            mquestion.setText(YesQuestions[5]);
-        else if(mquestion.getText().toString().equals(YesQuestions[5]))
-        {
-            mquestion.setText(YesQuestions[6]);
-            exitQuest();
-        }
 
-        else if(mquestion.getText().toString().equals(YesQuestions[6]))
-            mquestion.setText(YesQuestions[7]);
-        else if(mquestion.getText().toString().equals(YesQuestions[7]))
-        {
-            mquestion.setText(YesQuestions[8]);
-            mtruebtn.setVisibility(View.GONE);
-            mfalsebtn.setVisibility(View.GONE);
-            othbtn2.setVisibility(View.VISIBLE);
-        }
-        else if(mquestion.getText().toString().equals(NoQuestions[3]))
-            mquestion.setText(YesQuestions[7]);
-        else if(mquestion.getText().toString().equals(NoQuestions[5]))
-            mquestion.setText(YesQuestions[8]);
-        else if(mquestion.getText().toString().equals(NoQuestions[2]))
-        {
-            mquestion.setText(YesQuestions[6]);
-            exitQuestoth();
-        }
 
     }
 
     private void updateNoquestion() {
-        if(mquestion.getText().toString().equals(YesQuestions[0]) ||mquestion.getText().toString().equals(YesQuestions[1])||mquestion.getText().toString().equals(YesQuestions[2]))
-        {
-            mquestion.setText(NoQuestions[0]);
-            exitQuest();
-        }
-        else if(mquestion.getText().toString().equals(YesQuestions[3]))
-            mquestion.setText(NoQuestions[2]);
-        else if(mquestion.getText().toString().equals(YesQuestions[5]))
-            mquestion.setText(NoQuestions[3]);
-        else if(mquestion.getText().toString().equals(NoQuestions[3]))
-        {
-            mquestion.setText(NoQuestions[4]);
-            exitQuest();
-        }
-        else if(mquestion.getText().toString().equals(YesQuestions[4]))
-        {
-            mquestion.setText(NoQuestions[1]);
-            exitQuest();
-        }
-        else if(mquestion.getText().toString().equals(YesQuestions[7]))
-            mquestion.setText(NoQuestions[5]);
-        else if(mquestion.getText().toString().equals(NoQuestions[5]))
-        {
-            mquestion.setText(NoQuestions[6]);
-            exitQuestoth();
-        }
 
-    }
 
-    public void exitQuest() {
-        homebtn.setVisibility(View.VISIBLE);
-        mtruebtn.setVisibility(View.GONE);
-        mfalsebtn.setVisibility(View.GONE);
-    }
-    public void exitQuestoth() {
-        othbtn.setVisibility(View.VISIBLE);
-        mtruebtn.setVisibility(View.GONE);
-        mfalsebtn.setVisibility(View.GONE);
     }
 }
