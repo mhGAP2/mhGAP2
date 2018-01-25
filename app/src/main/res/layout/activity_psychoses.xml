@@ -15,7 +15,7 @@
         android:text="PSYCHOSES"
         android:textColor="#FFFFFF"
         android:textSize="30dp"
-        android:id="@+id/textView4"
+        android:id="@+id/textView"
         tools:layout_constraintTop_creator="1"
         tools:layout_constraintRight_creator="1"
         android:layout_marginTop="26dp"
@@ -25,7 +25,6 @@
         app:layout_constraintLeft_toLeftOf="parent"
         app:layout_constraintHorizontal_bias="0.502"
         tools:ignore="HardcodedText,SpUsage" />
-
     <TextView
         android:id="@+id/t6"
         android:layout_width="0dp"
@@ -42,23 +41,20 @@
         android:layout_marginStart="11dp"
         app:layout_constraintRight_toRightOf="parent"
         tools:layout_constraintLeft_creator="1"
-        app:layout_constraintLeft_toLeftOf="parent" />
+        android:layout_marginBottom="88dp"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintTop_toBottomOf="@+id/textView" />
 
     <Button
         android:id="@+id/btnpsy"
         android:layout_width="142dp"
         android:layout_height="52dp"
-        android:layout_marginBottom="16dp"
         android:background="@drawable/depre"
         android:text="Begin Test"
         android:textColor="#223C97"
         android:textSize="20sp"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintLeft_toLeftOf="parent"
-        app:layout_constraintRight_toRightOf="parent"
-        tools:ignore="HardcodedText"
-        tools:layout_constraintBottom_creator="1"
-        tools:layout_constraintLeft_creator="1"
-        tools:layout_constraintRight_creator="1" />
+        tools:layout_editor_absoluteY="520dp"
+        tools:layout_editor_absoluteX="112dp" />
 
 </android.support.constraint.ConstraintLayout>

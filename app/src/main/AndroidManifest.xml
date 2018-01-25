@@ -69,6 +69,14 @@
         <activity android:name=".psy_assesment" />
         <activity android:name=".psy_management" />
         <activity android:name=".psy_followup"></activity>
+        <activity android:name=".behavioural1" />
+        <activity android:name=".Bev_assesment" />
+        <activity android:name=".behavioural2" />
+        <activity android:name=".suicide1" />
+        <activity android:name=".sui_assesment" />
+        <activity android:name=".suicide2" />
+        <activity android:name=".epilipsy1" />
+        <activity android:name=".epi_assesment" />
+        <activity android:name=".epilipsy2"></activity>
     </application>
-
 </manifest>

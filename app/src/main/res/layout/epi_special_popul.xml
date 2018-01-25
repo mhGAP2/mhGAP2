@@ -1,0 +1,129 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent" android:layout_height="match_parent"
+    android:background="#ffffff"
+    >
+
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_marginLeft="5dp"
+        tools:ignore="RtlHardcoded">
+
+        <TextView
+            android:id="@+id/textView17"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textAlignment="center"
+            android:textColor="#51b0d6"
+            android:textSize="25dp"
+            android:text="Special populations"
+            tools:ignore="HardcodedText,SpUsage" />
+
+
+        <TextView
+            android:id="@+id/textView18"
+            android:layout_width="match_parent"
+            android:textColor="#361818"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="7dp"
+            android:textStyle="italic"
+            android:text="@string/epi_population"
+            />
+
+
+        <TextView
+            android:id="@+id/textView19"
+            android:textColor="#51b0d6"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:textSize="15dp"
+            android:text="WOMAN OF CHILDBEARING AGE"
+            tools:ignore="SpUsage"
+            />
+
+        <TextView
+            android:id="@+id/textView"
+            android:layout_width="match_parent"
+            android:textColor="#361818"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="7dp"
+            android:textStyle="italic"
+            android:text="Concern: Risk of antiepileptic medication to fetus/child"
+            />
+
+        <TextView
+            android:id="@+id/textView20"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textColor="#361818"
+            android:layout_marginTop="5dp"
+            android:text="@string/epi_childbearing1"/>
+
+
+        <TextView
+            android:id="@+id/textView21"
+            android:layout_width="match_parent"
+            android:textColor="#51b0d6"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:textSize="15sp"
+            android:text="CHILD / ADOLESCENT"
+            tools:ignore="HardcodedText"
+            />
+
+        <TextView
+            android:id="@+id/textView1"
+            android:layout_width="match_parent"
+            android:textColor="#361818"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="7dp"
+            android:textStyle="italic"
+            android:text="Concern: Effect of antiepileptic medication  on development and/or behavior."
+            />
+
+        <TextView
+            android:id="@+id/textView22"
+            android:textColor="#361818"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="5dp"
+            android:text="@string/epi_child_adol1"
+            />
+
+        <TextView
+            android:id="@+id/textView2"
+            android:layout_width="match_parent"
+            android:textColor="#51b0d6"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:textSize="15sp"
+            android:text="PERSON LIVING WITH HIV"
+            tools:ignore="HardcodedText"
+            />
+
+        <TextView
+            android:id="@+id/textView3"
+            android:layout_width="match_parent"
+            android:textColor="#361818"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="7dp"
+            android:textStyle="italic"
+            android:text="Concern: Drug interactions between antiepileptic  medications and antiretrovirals."
+            />
+
+        <TextView
+            android:id="@+id/textView4"
+            android:textColor="#361818"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="5dp"
+            android:text="@string/epi_hiv_perso1"
+            />
+    </LinearLayout>
+</ScrollView>
