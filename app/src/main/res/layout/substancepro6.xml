@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#ffffff">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_marginLeft="5dp"
+        tools:ignore="RtlHardcoded">
+        <TextView
+            android:id="@+id/textView1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Protocol 6(Substance use)"
+            android:textColor="#F68B1F"
+            android:textSize="30sp"
+            android:textAlignment="center"
+            tools:ignore="HardcodedText" />
+        <TextView
+            android:id="@+id/textView2"
+            android:textColor="#F68B1F"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:text="@string/substance18"
+            android:textSize="15sp"
+            android:textAlignment="center"
+            />
+
+        <TextView
+            android:id="@+id/textView9"
+            android:textColor="#F68B1F"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:text="@string/substance19"
+            android:textSize="15sp"
+            android:textAlignment="center"
+            />
+    </LinearLayout>
+</ScrollView>
+
