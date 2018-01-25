@@ -709,4 +709,416 @@ the effect of these drugs).</string>
     <string name="populations">Note that interventions may differ for these populations</string>
     <string name="_2_1_psychocarers">2.1 Psychoeducation: key messages to the person and the carers</string>
 
+
+
+
+    <string name="epi_topic1">Provide information on: "What is a convulsion/epilepsy" and the importance of medication. \n\n
+
+    </string>
+
+    <string name="epi_protocol_2_1">
+        “A convulsion is caused by excess electrical activity in the brain – it is not caused by witchcraft or spirits.” \n\n
+        “Epilepsy is the recurrent tendency for convulsions.” \n\n
+        “It is a chronic condition, but if you take your medicine as prescribed, in the majority of people it can be fully controlled.” \n\n
+         The person may have several people helping them take care of their convulsions. Discuss this with the person. \n\n
+         Ask the person to let you know if they are seeing a traditional or a faith healer, showing respect for this, but emphasizing the
+         need for being seen at a healthcare facility. The person should also be informed that medicines and herbal products can sometimes have adverse interactions,
+        so the health care providers must know about everything they take. \n\n
+     </string>
+
+    <string name="epi_clinical_tip">
+        Seizures lasting greater than 5 minutes are  a medical emergency – one should seek help immediately. \n\n
+        Most people with epilepsy can have normal lives with good adherence to treatment. \n\n
+        </string>
+
+
+    <string name="epi_topic2">Provide information on: How carers can manage convulsion at home. \n\n
+
+    </string>
+
+    <string name="epi_protocol2_1">
+        Lay person down, on their side, head turned to help breathing. \n\n
+
+        DO NOT PUT ANYTHING IN THEIR MOUTH OR RESTRAIN THE PERSON. \n\n
+
+        Ensure the person is breathing properly. \n\n
+        Stay with person until the convulsion stops and they wake up. \n\n
+        Sometimes people with epilepsy know that a convulsion is imminent. They should lie down somewhere safe if they have that feeling. \n\n
+        Epilepsy is not contagious. You cannot catch the disorder by assisting the person experiencing convulsions. \n\n
+
+      </string>
+
+    <string name="epi_topic3">Provide information on: When to get medical help. \n\n
+
+    </string>
+
+    <string name="epi_protocol__2_1">
+        When a person with epilepsy appears to have trouble breathing during a convulsion, they need immediate  medical help. \n\n
+        When a person with epilepsy has a convulsion lasting longer than 5 minutes outside of a health facility,
+        they need to be taken to one. \n\n
+        When a person with epilepsy is not waking up after a convulsion, they need to be taken to a health facility. \n\n
+    </string>
+
+    <string name="epi_protocol_2_3">Choose a medication that will be consistently available. \n\n
+              If special population (children, women of childbearing age, person living with HIV), see relevant section of this module. \n\n
+              Start with only one medication at lowest starting dose. \n\n
+              Increase dose slowly until convulsions are controlled. \n\n
+              Consider monitoring blood count, blood chemistry and  liver function tests, if available. \n\n
+    </string>
+
+    <string name="epi_protocol_2_2">Refer to Essential Care and Practice (ECP) for interventions that promote functioning in daily living and community life. \n\n
+                                       In addition, inform carers and people  with epilepsy that:  \n\n
+                                        –  People with epilepsy can lead normal lives.  They can marry and have children. \n
+                                        –  Parents should not remove children with epilepsy from school.  \n
+                                        –  People with epilepsy can work in most jobs. However they should avoid jobs with high risk of injury to self or others (e.g. working with heavy machinery).  \n
+                                        –  People with epilepsy should avoid cooking on open ﬁres and swimming alone.  \n
+                                        –  People with epilepsy should avoid excessive alcohol and recreational substances, sleeping too little, or going to places with ﬂashing lights.  \n
+                                        –  Local driving laws related to epilepsy should be observed. \n
+                                        – People with epilepsy may qualify for disability beneﬁts.  \n
+                                        –  Community programs for people with epilepsy can provide assistance in jobs and support for both the person and family.
+
+
+    </string>
+
+    <string name="epi_population">Note that interventions are different for EPILEPSY in these populations.
+
+    </string>
+
+    <string name="epi_childbearing1">  Advise folate (5 mg/day) to prevent neural tube  defects, in ALL women of childbearing age. \n\n
+                                       AVOID VALPROATE. \n\n
+                                       CAUTION If Pregnant: \n\n
+                                        –  Avoid polytherapy. Multiple medications in combination increase the risk of teratogenic effects during pregnancy. \n
+                                        –   If medications are stopped during pregnancy,  they should always be tapered. \n
+                                        – Advise delivery in hospital. \n
+                                        –  At delivery, give 1 mg vitamin K i.m. to the newborn to prevent haemorrhagic disease. \n\n
+                                       If breastfeeding, carbamazepine preferred to other medication
+    </string>
+
+    <string name="epi_child_adol1"> For those with a developmental disorder,  manage the condition. Go to >>CMH. \n\n
+                                    For children with behavioural disorder, avoid phenobarbital if possible. Manage the condition.  Go to>>CMH. \n\n
+    </string>
+
+    <string name="epi_hiv_perso1">   When available, refer to speciﬁc drug interactions  for person’s antiretroviral regimen and antiepileptic medication. \n \n
+                                     Valproate is preferred due to fewer drug-drug interactions. \n \n
+                                     AVOID PHENYTOIN AND CARBAMAZEPINE  WHEN POSSIBLE. \n\n
+    </string>
+
+    <string name="epi_caution">  Check for drug-drug interactions. When used together, antiepileptics may increase or reduce the effect of other antiepilepileptics. Antiepileptics may also reduce effect of hormonal birth control, immunosuppressants, antipsychotics, methadone, and some antiretrovirals.  \n\n
+                                 Rarely, can cause severe bone marrow depression, hypersensitivity reactions including Stevens-Johnson Syndrome, altered Vitamin D metabolism and Vitamin K-deﬁcient hemorrhagic disease of newborns. \n\n
+                                 When possible, avoid use of sodium valproate in pregnant women due to risk of neural tube defects. \n\n
+                                 All anticonvulsant medications should be discontinued slowly as stopping them abruptly can cause seizure breakthrough. \n\n
+</string>
+
+
+    <string name="epi_oraldosing1">Adults: \n\n
+    Start 100-200 mg daily in 2-3 divided doses. \n
+    Increase by 200 mg each week (max 1400mg daily). \n\n
+
+    Children: \n\n
+    Start 5 mg/kg daily in 2-3 divided doses. Increase by 5 mg/kg daily each week (max 40mg/kg daily OR 1400mg daily). \n\n
+
+    Women who are pregnant or breastfeeding: Use with caution.
+</string>
+
+    <string name="epi_sideeffect1">Common: Sedation, confusion, dizziness, ataxia double vision, nausea, diarrhea, benign leukopenia. \n\n
+                    Serious: Hepatotoxicity, cardiac conduction delay,  low sodium levels \n\n
+    </string>
+
+    <string name="epi_caution1">Caution in patients with history of blood disorders, kidney,  liver or cardiac disease. \n\n
+                    Dose may need to be adjusted after 2 weeks due to induction of  its own metabolism. \n\n
+    </string>
+
+    <string name="epi_oraldosing2"> Adults: \n\n
+                Start 60 mg daily in 1-2 divided doses.   Increase weekly by 2.5-5 mg (maximum 180 mg daily). \n\n
+                Children: \n\n
+                Start 2-3 mg/kg daily in 2 divided doses. \n
+                Increase weekly by 1-2 mg/kg daily depending  on tolerance (maximum 6mg daily).
+</string>
+    <string name="epi_sideeffect2">Common: Sedation, hyperactivity in children, ataxia, nystagmus, sexual dysfunction, depression. \n\n
+                                Serious: Liver failure (hypersensitivity reaction), decreased bone mineral density. \n\n
+    </string>
+
+    <string name="epi_caution2"> Contraindicated in patients with acute intermittent porphyria. \n\n
+    Lower doses for patients with kidney or liver disease. \n\n
+    </string>
+
+    <string name="epi_oraldosing3"> Adults: \n
+        Start 150-200 mg daily in two divided doses. Increase by 50 mg daily every 3-4 weeks  (max 400 mg daily). \n\n
+
+        Children: \n
+        Start 3-4 mg/kg daily in 2 divided doses.   Increase by 5 mg/kg daily every 3-4 weeks (maximum 300 mg per day). \n\n
+          Women who are pregnant or breastfeeding: Avoid \n\n
+          Older adults: Use lower doses \n\n
+    </string>
+
+    <string name="epi_sideeffect3"> Common: Sedation, confusion, dizziness, tremor, motor twitching, ataxia, double vision, nystagmus, slurred speech, nausea, vomiting, constipation. \n\n
+                            Serious: Hematologic abnormalities, hepatitis, polyneuropathy, gum hypertrophy, acne, lymphadenopathy, increase in suicidal ideation.
+    </string>
+
+    <string name="epi_caution3">Lower doses for patients with kidney or liver disease.
+    </string>
+
+    <string name="epi_oraldosing4"> Adults: \n
+        Start 400 mg daily in 2 divided doses. Increase by 500 mg daily each week  (maximum 3000 mg daily). \n\n
+        Children: \n
+        Start 15-20 mg/kg daily in 2-3 divided doses. Increase each week by 15 mg/kg daily  (max 15-40 mg/kg daily). \n\n
+        Women who are pregnant: Avoid \n\n
+        Older adults: Use lower doses \n\n
+    </string>
+    <string name="epi_sideeffect4">Common: Sedation, headache, tremor, ataxia, nausea, vomiting, diarrhea, weight gain, transient hair loss. \n\n
+            Serious: Impaired hepatic function, thrombocytopenia, leukopenia, drowsiness/confusion (valproate-induced hyperammonemic encephalopathy, a sign of toxicity),  liver failure, hemorrhagic pancreatitis. \n\n
+    </string>
+
+    <string name="epi_caution4">Use with caution if underlying or suspected hepatic disease. \n\n
+        Drug-drug interactions: Valproate levels decreased by carbamazepine, increased by aspirin.
+    </string>
+
+
+
+
+
+    <string name="bev_2_1_cmh">  Spend time with their child in enjoyable activities.  Play and communicate with their child/adolescent.  http://www.who.int/maternal_child_adolescent/documents/ care_child_development/en/ \n\n
+
+     Listen to the child/adolescent and show understanding  and respect. \n\n
+     Protect them from any form of maltreatment, including bullying and exposure to violence in the home, at school, and in the community. \n\n
+     Anticipate major life changes (such as puberty, starting school, or birth of a sibling) and provide support. \n\n
+
+    </string>
+
+    <string name="bev_2_1_cmh_p1">    Get enough sleep. Promote regular bed routines and remove TV or other electronic devices  with screens from the sleeping area/bedroom. \n\n
+     Eat regularly. All children/adolescents need three meals (breakfast, mid-day, and evening) and some snacks each day. \n\n
+     Be physically active. If they are able, children and adolescents aged 5–17 should do 60 minutes or more of physical activity each day through daily activities, play, or sports. See www.who.int/dietphysicalactivity/publications/ recommendations5_17years \n\n
+     Participate in school, community, and other social activities as much as possible. \n\n
+     Spend time with trusted friends and family. \n\n
+     Avoid the use of drugs, alcohol, and nicotine. \n\n
+</string>
+
+    <string name="bev_2_2_cmh">    Explain the delay or difﬁculty to the carer and the child/ adolescent as appropriate and help them identify strengths and resources. \n\n
+     Praise the carer and the child/adolescents for their efforts. \n\n
+     Explain to the carer that parenting a child/adolescent with an emotional, behavioural or developmental delay or disorder can be rewarding but also very challenging. \n\n
+    Explain that persons with mental disorders should not be blamed for having the disorder. Encourage carers to be kind and supportive and show love and affection. \n\n
+    Promote and protect human rights of the person and the family and be vigilant about maintaining human rights and dignity.\n\n
+    Help carers to have realistic expectations and encourage them to contact other carers of children/adolescents with similar conditions for mutual support. \n\n
+</string>
+
+    <string name="bev_2_3_cmh"> Give loving attention, including playing with the child every day.  Provide opportunities for the adolescents to talk to you. \n\n
+     Be consistent about what your child/adolescent is allowed and not allowed to do. Give clear, simple, and short instructions on what the child should and should not do. \n\n
+     Give the child/adolescent simple daily household tasks to do that match their ability level and praise them immediately after they do the task. \n\n
+     Praise or reward the child/adolescent when you observe good behaviour and give no reward when behaviour is problematic. \n\n
+     Find ways to avoid severe confrontations or foreseeable difﬁcult situations. \n\n
+     Respond only to the most important problem behaviours and make punishment mild (e.g. witholding rewards and fun activities) and infrequent compared to the amount of praise. \n\n
+     Put off discussions with the child/adolescent until you are calm. Avoid using criticism, yelling, and name-calling. \n\n
+      DO NOT use threats or physical punishment, and never physically abuse the child/adolescent. Physical punishment can harm the child-carer relationship; it does not work as well as other methods and can make behaviour problems worse. \n\n
+     Encourage age-appropriate play (e.g. sports, drawing or other hobbies) for adolescents and offer age-appropriate support in practical ways (e.g. with homework or other  life skillls). \n\n
+ </string>
+
+    <string name="bev_2_6_cmh">    Assess the psychosocial impact of the child/adolescent’s disorders on the carers, and offer support for their personal, social, and mental health needs. \n\n
+     Promote necessary support and resources for their family life, employment, social activities, and health. \n\n
+     Arrange for respite care (trustworthy carers taking over  care on a short term basis) to give primary carers a break, especially if the child has a developmental disorder. \n\n
+     Support family to handle social and familial problems and help to problem solve. \n\n
+</string>
+
+    <string name="bev_2_7_cmh">    After getting consent from the child/adolescent and carer, contact the child/adolescent’s teacher and provide advice/ make a plan on how to support the child with learning and participation in school activities. \n\n
+     Explain that the child/adolescent’s mental disorder is affecting their learning/behaviour/social functioning and that there are things the teacher can do to help. \n\n
+     Ask about any stressful situations that may have an adverse impact on the child’s emotional well-being and learning. If the child is being bullied, advise the teacher on appropriate action to stop it. \n\n
+     Explore strategies to help engage the child in school activities and facilitate learning, inclusion, and participation. \n\n
+     Simple tips: \n\n
+ –  Provide opportunities for the child/adolescent to use  their skills and strengths. \n
+ –  Ask the student to sit at the front of the class. \n
+ –  Give the student extra time to understand and complete assignments. \n
+ –  Divide long assignments into smaller pieces and assign  one piece at a time. \n
+ –  Provide extra praise for effort and rewards for achievements.  –   DO NOT use threats or physical punishments or  excessive criticism. \n
+ –  For students with signiﬁcant difﬁculties in the classroom, recruit a volunteer to come to class to provide one-on-one attention or pair the student with a peer who can provide support or help with learning. \n
+ –  If the child/adolescent has been out of school, help them return as soon as possible by creating a gradually increasing reintegration schedule. During the reintegration period, the student should be excused from quizzes and exams. \n
+
+    </string>
+
+    <string name="bev_2_8_cmh"> This guide does not provide speciﬁc protocols to implement  brief psychological interventions, such as parent skills training, interpersonal therapy and behavioural therapy. WHO has developed Parent Skills Training package for caregivers of children with developmental delay/disorders and is available  on request.
+
+    </string>
+
+    <string name="bev_2_8_cmhp1"> This guide does not provide speciﬁc protocols to implement  brief psychological interventions, such as parent skills training, interpersonal therapy and behavioural therapy. WHO has developed Parent Skills Training package for caregivers of children with developmental delay/disorders and is available  on request.
+
+    </string>
+
+    <string name="bev_2_1_cmhproto2">  Spend time with their child in enjoyable activities.  Play and communicate with their child/adolescent.  http://www.who.int/maternal_child_adolescent/documents/ care_child_development/en/ \n\n
+
+     Listen to the child/adolescent and show understanding  and respect. \n\n
+     Protect them from any form of maltreatment, including bullying and exposure to violence in the home, at school, and in the community. \n\n
+     Anticipate major life changes (such as puberty, starting school, or birth of a sibling) and provide support. \n\n
+
+    </string>
+
+    <string name="bev_2_1_cmh_proto">    Get enough sleep. Promote regular bed routines and remove TV or other electronic devices  with screens from the sleeping area/bedroom. \n\n
+     Eat regularly. All children/adolescents need three meals (breakfast, mid-day, and evening) and some snacks each day. \n\n
+     Be physically active. If they are able, children and adolescents aged 5–17 should do 60 minutes or more of physical activity each day through daily activities, play, or sports. See www.who.int/dietphysicalactivity/publications/ recommendations5_17years \n\n
+     Participate in school, community, and other social activities as much as possible. \n\n
+     Spend time with trusted friends and family. \n\n
+     Avoid the use of drugs, alcohol, and nicotine. \n\n
+</string>
+
+    <string name="bev_2_2_cmhproto2">    Explain the delay or difﬁculty to the carer and the child/ adolescent as appropriate and help them identify strengths and resources. \n\n
+     Praise the carer and the child/adolescents for their efforts. \n\n
+     Explain to the carer that parenting a child/adolescent with an emotional, behavioural or developmental delay or disorder can be rewarding but also very challenging. \n\n
+    Explain that persons with mental disorders should not be blamed for having the disorder. Encourage carers to be kind and supportive and show love and affection. \n\n
+    Promote and protect human rights of the person and the family and be vigilant about maintaining human rights and dignity.\n\n
+    Help carers to have realistic expectations and encourage them to contact other carers of children/adolescents with similar conditions for mutual support. \n\n
+</string>
+
+    <string name="bev_2_7_cmhproto2">    After getting consent from the child/adolescent and carer, contact the child/adolescent’s teacher and provide advice/ make a plan on how to support the child with learning and participation in school activities. \n\n
+     Explain that the child/adolescent’s mental disorder is affecting their learning/behaviour/social functioning and that there are things the teacher can do to help. \n\n
+     Ask about any stressful situations that may have an adverse impact on the child’s emotional well-being and learning. If the child is being bullied, advise the teacher on appropriate action to stop it. \n\n
+     Explore strategies to help engage the child in school activities and facilitate learning, inclusion, and participation. \n\n
+     Simple tips: \n\n
+ –  Provide opportunities for the child/adolescent to use  their skills and strengths. \n
+ –  Ask the student to sit at the front of the class. \n
+ –  Give the student extra time to understand and complete assignments. \n
+ –  Divide long assignments into smaller pieces and assign  one piece at a time. \n
+ –  Provide extra praise for effort and rewards for achievements.  –   DO NOT use threats or physical punishments or  excessive criticism. \n
+ –  For students with signiﬁcant difﬁculties in the classroom, recruit a volunteer to come to class to provide one-on-one attention or pair the student with a peer who can provide support or help with learning. \n
+ –  If the child/adolescent has been out of school, help them return as soon as possible by creating a gradually increasing reintegration schedule. During the reintegration period, the student should be excused from quizzes and exams. \n
+
+    </string>
+
+    <string name="bev_2_1_cmhproto3">  Spend time with their child in enjoyable activities.  Play and communicate with their child/adolescent.  http://www.who.int/maternal_child_adolescent/documents/ care_child_development/en/ \n\n
+
+     Listen to the child/adolescent and show understanding  and respect. \n\n
+     Protect them from any form of maltreatment, including bullying and exposure to violence in the home, at school, and in the community. \n\n
+     Anticipate major life changes (such as puberty, starting school, or birth of a sibling) and provide support. \n\n
+
+    </string>
+
+    <string name="bev_2_1_cmh_proto3">    Get enough sleep. Promote regular bed routines and remove TV or other electronic devices  with screens from the sleeping area/bedroom. \n\n
+     Eat regularly. All children/adolescents need three meals (breakfast, mid-day, and evening) and some snacks each day. \n\n
+     Be physically active. If they are able, children and adolescents aged 5–17 should do 60 minutes or more of physical activity each day through daily activities, play, or sports. See www.who.int/dietphysicalactivity/publications/ recommendations5_17years \n\n
+     Participate in school, community, and other social activities as much as possible. \n\n
+     Spend time with trusted friends and family. \n\n
+     Avoid the use of drugs, alcohol, and nicotine. \n\n
+</string>
+
+    <string name="bev_2_2_cmhproto3">    Explain the delay or difﬁculty to the carer and the child/ adolescent as appropriate and help them identify strengths and resources. \n\n
+     Praise the carer and the child/adolescents for their efforts. \n\n
+     Explain to the carer that parenting a child/adolescent with an emotional, behavioural or developmental delay or disorder can be rewarding but also very challenging. \n\n
+    Explain that persons with mental disorders should not be blamed for having the disorder. Encourage carers to be kind and supportive and show love and affection. \n\n
+    Promote and protect human rights of the person and the family and be vigilant about maintaining human rights and dignity.\n\n
+    Help carers to have realistic expectations and encourage them to contact other carers of children/adolescents with similar conditions for mutual support. \n\n
+</string>
+
+    <string name="bev_2_3_cmhproto3"> Give loving attention, including playing with the child every day.  Provide opportunities for the adolescents to talk to you. \n\n
+     Be consistent about what your child/adolescent is allowed and not allowed to do. Give clear, simple, and short instructions on what the child should and should not do. \n\n
+     Give the child/adolescent simple daily household tasks to do that match their ability level and praise them immediately after they do the task. \n\n
+     Praise or reward the child/adolescent when you observe good behaviour and give no reward when behaviour is problematic. \n\n
+     Find ways to avoid severe confrontations or foreseeable difﬁcult situations. \n\n
+     Respond only to the most important problem behaviours and make punishment mild (e.g. witholding rewards and fun activities) and infrequent compared to the amount of praise. \n\n
+     Put off discussions with the child/adolescent until you are calm. Avoid using criticism, yelling, and name-calling. \n\n
+      DO NOT use threats or physical punishment, and never physically abuse the child/adolescent. Physical punishment can harm the child-carer relationship; it does not work as well as other methods and can make behaviour problems worse. \n\n
+     Encourage age-appropriate play (e.g. sports, drawing or other hobbies) for adolescents and offer age-appropriate support in practical ways (e.g. with homework or other  life skillls). \n\n
+ </string>
+    <string name="bev_2_5_cmhproto6">    Address any stressful situation in the family environment such as parental discord or a parent’s mental disorder. With the help of teachers explore possible adverse circumstances in the school environment. \n\n
+     Provide opportunities for quality time with the carer and  the family. \n\n
+     Encourage and help the child/adolescent to continue  (or restart) pleasurable and social activities. \n\n
+     Encourage the child/adolescent to practice regular physical activity, gradually increasing the duration of sessions. \n\n
+     Consider training the child/adolescent and carer in breathing exercises, progressive muscle relaxation and other cultural equivalents. \n\n
+     Make predictable routines in the morning and at bedtime. Promote regular sleep habits. Schedule the day with regular times for eating, playing, learning, and sleeping. \n\n
+     For excessive and unrealistic fears: \n\n
+    –  Praise the child/adolescent or give small rewards when they try new things or act bravely. \n
+    –  Help the child practice facing the difﬁcult situation one small step at a time (e.g. if the child is afraid of separating from the carer, help the child gradually increase the amount of time he/she plays alone while the carer is nearby). \n
+    –  Acknowledge the child’s feelings and worries and encourage them to confront their fears. \n
+    –  Help the child/adolescent create a plan to help them cope in case a feared situation occurs. \n
+     Explain that emotional disorders are common and can happen to anybody. The occurrence of emotional disorders does not mean that the person is weak or lazy. \n\n
+     Emotional disorders can cause unjustiﬁed thoughts of hopelessness and worthlessness. Explain that these views are likely to improve once the emotional disorders improve. \n\n
+     Make the  person aware that if they notice thoughts of self-harm or suicide, they should tell a trusted person and come back for help immediately. \n\n
+</string>
+
+
+    <string name="sui_proto1"> For all cases: Place the person in a  secure and supportive environment at a health facility</string>
+
+    <string name="sui_2_1proto1"> Medically treat injury or poisoning.  If there is acute pesticide intoxication, follow “Management of pesticide intoxication”.</string>
+
+    <string name="sui_2_1">If the health care facility has a minimum set of skills and resources, then treat using the WHO document, “Clinical Management of Acute Pesticide Intoxication” (http://www. who.int/mental_health/publications/9789241596732/en). \n\n
+  Otherwise, transfer the person immediately to a health facility that has the following resources: \n\n
+ –  Skills and knowledge on how to resuscitate individuals  and assess for clinical features of pesticide poisoning; \n
+ –  Skills and knowledge to manage the airway; in particular, to intubate and support breathing until a ventilator can  be attached; \n
+ –  Atropine and means for its intravenous (i.v.) administration if signs of cholinergic poisoning develop; \n
+ –  Diazepam and means for its i.v. administration if the person develops seizures. \n\n
+   Consider administering activated charcoal if the person  is conscious, gives informed consent, and presents for care within one hour of the poisoning. \n\n
+   Forced vomiting is not recommended. \n\n
+    Oral ﬂuids should not be given. \n\n
+
+    </string>
+
+    <string name="sui_2_2"> Place the person in a secure and supportive environment  at a health facility ( do not leave them alone). If the person must wait for treatment, offer an environment that minimizes distress; if possible, in a separate,
+        quiet room  with constant supervision and contact with a designated staff or family member to ensure safety at all times. \n\n
+   Remove access to means of self-harm. \n\n
+   Consult a mental health specialist, if available. \n\n
+   Mobilize family, friends and other concerned individuals or available community resources to monitor and
+        support the person during the imminent risk period (see “Offer and activate psychosocial support”. (2.3) \n\n
+   Treat people who have self-harmed with the same care, respect and privacy given to other people, and be sensitive to the emotional distress associated with self-harm. \n\n
+   Include the carers if the person wants their support during assessment and treatment; if possible, the psychosocial assessment should include a one-to-one interview between the person and the health worker, to explore private issues. \n\n
+   Provide emotional support to carers/family members if they need it. (2.4) \n\n
+   Ensure continuity of care. \n\n
+   Hospitalization in non-psychiatric services of a general hospital is not recommended for the prevention of self-harm. However, if admission to a general (non-psychiatric) hospital is necessary for the management of the medical consequences of self-harm, monitor the person closely to prevent further self-harm in the hospital. \n\n
+    If prescribing medication: \n\n
+ –  See relevant mhGAP-IG modules for pharmacological interventions in the management of concurrent conditions. \n
+ –  Use medicines that are the least hazardous, in case  of intentional overdose. \n
+ –  Give prescriptions as short courses (e.g. one week  at a time). \n
+
+    </string>
+
+    <string name="sui_2_3">Offer support to the person \n\n
+ – Explore reasons and ways to stay alive. \n
+ –  Focus on the person’s strengths by encouraging them to talk of how earlier problems have been resolved. \n
+ –  Consider problem-solving therapy to help people with acts of self-harm within the last year, if sufﬁcient human resources are available. Go to Essential care and practice  ECP
+     Activate psychosocial support \n
+ –  Mobilize family, friends, concerned  individuals and other available resources to ensure close monitoring of the person as long as the risk of self-harm/suicide persists. \n
+ –  Advise the person and carers to restrict access to means  of self-harm/suicide (e.g. pesticides/toxic substances, prescription medications, ﬁrearms, etc.) when the person has thoughts or plans of self-harm/suicide. \n
+ –  Optimize social support from available community resources. These include informal resources, such as relatives, friends, acquaintances, colleagues and religious leaders or formal community resources, if available, such  as crisis centres, and local mental health centres. \n
+</string>
+
+    <string name="sui_2_4">
+    Inform carers and family members that asking about suicide will often help the person feel relieved, less anxious, and better understood. \n\n
+    Carers and family members of people at risk of self-harm often experience severe stress. Provide emotional support to them if they need it. \n\n
+    Inform carers that even though they may feel frustrated  with the person, they should avoid hostility and severe criticism towards the vulnerable person at risk of self-harm/suicide. \n\n
+</string>
+
+    <string name="sui_proto2">Create a secure and supportive environment;  if possible, offer a separate, quiet room while waiting for treatment.
+
+    </string>
+
+    <string name="sui_2_5_proto2">  Key messages to the person and the carers: \n\n
+ –  If one has thoughts of self-harm/suicide, seek help immediately from a trusted family member, friend or health care provider. \n
+ –  It is okay to talk about suicide. Talking about suicide does not provoke the act of suicide. \n
+ –  Suicides are preventable. \n
+ –  Having an episode of self-harm/suicide is an indicator of severe emotional distress. The person does not see an alternative or a solution. Therefore, it is important to get the person immediate support for emotional problems and stressors. \n
+ –  Means of self-harm (e.g. pesticides, ﬁrearms, medications) should be removed from the home. \n
+ –  The social network, including the family and relevant others, is important for provision of social support. \n
+</string>
+
+    <string name="sui_2_3_proto2">Offer support to the person: \n\
+ – Explore reasons and ways to stay alive. \n
+ –  Focus on the person’s strengths by encouraging them to talk of how earlier problems have been resolved. \n
+ –  Consider problem-solving therapy to help people with acts of self-harm within the last year, if sufﬁcient human resources are available. Go to Essential care and practice  ECP. \n\n
+     Activate psychosocial support: \n\
+ –  Mobilize family, friends, concerned  individuals and other available resources to ensure close monitoring of the person as long as the risk of self-harm/suicide persists. \n
+ –  Advise the person and carers to restrict access to means  of self-harm/suicide (e.g. pesticides/toxic substances, prescription medications, ﬁrearms, etc.) when the person has thoughts or plans of self-harm/suicide. \n
+ –  Optimize social support from available community resources. These include informal resources, such as relatives, friends, acquaintances, colleagues and religious leaders or formal community resources, if available, such  as crisis centres, and local mental health centres. \n
+</string>
+
+    <string name="sui_2_4_proto2">   Inform carers and family members that asking about suicide will often help the person feel relieved, less anxious, and better understood. \n\n
+   Carers and family members of people at risk of self-harm often experience severe stress. Provide emotional support to them if they need it. \n\n
+   Inform carers that even though they may feel frustrated  with the person, they should avoid hostility and severe criticism towards the vulnerable person at risk of self-harm/suicide. \n\n
+
+    </string>
+
+    <string name="sui_2_3_proto3">Offer support to the person: \n\
+ – Explore reasons and ways to stay alive. \n
+ –  Focus on the person’s strengths by encouraging them to talk of how earlier problems have been resolved. \n
+ –  Consider problem-solving therapy to help people with acts of self-harm within the last year, if sufﬁcient human resources are available. Go to Essential care and practice  ECP. \n\n
+     Activate psychosocial support: \n\
+ –  Mobilize family, friends, concerned  individuals and other available resources to ensure close monitoring of the person as long as the risk of self-harm/suicide persists. \n
+ –  Advise the person and carers to restrict access to means  of self-harm/suicide (e.g. pesticides/toxic substances, prescription medications, ﬁrearms, etc.) when the person has thoughts or plans of self-harm/suicide. \n
+ –  Optimize social support from available community resources. These include informal resources, such as relatives, friends, acquaintances, colleagues and religious leaders or formal community resources, if available, such  as crisis centres, and local mental health centres. \n
+</string>
+
+
 </resources>
