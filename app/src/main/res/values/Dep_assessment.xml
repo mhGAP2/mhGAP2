@@ -72,7 +72,8 @@
     </string-array>
 
     <string-array name="nq">
-        <item>Depression is unlikely\n Go to  OTH </item>
+        <item>Depression is unlikely \n
+            Go to OTH (Other Significant Disease) </item>
         <item>No Treatment required</item>
         <item> <b>IS THERE A HISTORY OF MANIA? </b>\n
             Have several of the following symptoms occurred simultaneously, lasting for at least 1 week, and
@@ -98,6 +99,11 @@
             Do not manage for depression. \n\n Go to  OTH
         </item>
     </string-array>
+
+    <string name="depfollow1">
+         1 \n
+        ASSESS FOR IMPROVEMENT \n  Is the person improving?
+    </string>
     <string-array name="depfollowyes">
         <item>
             1 \n ASSESS FOR IMPROVEMENT \n  Is the person improving?
