@@ -1,8 +1,16 @@
 <?xml version="1.0" encoding="utf-8"?>
-<TableLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent" android:layout_height="match_parent"
-    android:background="#ffffff">
+    android:background="#dfd5d5"
+  >
+
+    <TableLayout
+
+        android:layout_width="match_parent" android:layout_height="match_parent"
+        android:layout_marginLeft="5dp"
+        android:layout_marginRight="5dp"
+        >
 
 
     <TextView
@@ -45,7 +53,7 @@
         <TextView
             android:layout_width="match_parent"
             android:layout_height="match_parent"
-            android:ems="6"
+            android:ems="5"
             android:textColor="#ffffff"
             android:id="@+id/textView3"
             android:textSize="12dp"
@@ -55,7 +63,7 @@
             android:layout_width="match_parent"
             android:textColor="#ffffff"
             android:layout_height="match_parent"
-            android:ems="8"
+            android:ems="7"
             android:textSize="12dp"
             android:id="@+id/textView4"
             android:text="CONTRAINDICATIONS / CAUTIONS"
@@ -159,5 +167,6 @@
 
 
     </TableRow>
+    </TableLayout>
 
-</TableLayout>
+</ScrollView>

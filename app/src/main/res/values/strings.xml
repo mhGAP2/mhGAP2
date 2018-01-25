@@ -881,4 +881,231 @@ interactions.</string>
 cerebrovascular events and death in older
 adults with dementia-related psychosis.</string>
 
+    <string name="psy_dosing1.1">Start 1.5-3 mg daily.\n
+Increase as needed (maximum 20 mg daily).\n
+Route: oral (p.o.) or intramuscular (i.m.).</string>
+    <string name="psy_side1.1">Common: sedation, dizziness, blurred vision,
+dry mouth, urinary retention, constipation.\n\n
+Serious: orthostatic hypotension, extrapyramidal side
+effects (EPS), ECG changes (prolonged QT interval),
+weight gain, galactorrhea, amenorrhea, Neuroleptic
+malignant syndrome (NMS).</string>
+    <string name="psy_cau1.1">Caution in patients with: kidney disease, liver disease,
+cardiac disease, long QT syndrome or taking QT-prolonging medications.
+Monitor ECG if possible.</string>
+    <string name="psy_dosing1.2">Start 1 mg daily.\n
+Increase to 2-6 mg daily (maximum 10 mg).\n
+Route: p.o.</string>
+    <string name="psy_side1.2">Common: sedation, dizziness, tachycardia.\n\n
+Serious: orthostatic hypotension, metabolic effects (elevated
+lipids, insulin resistance, weight gain), EPS, elevated prolactin,
+sexual dysfunction, NMS.</string>
+    <string name="psy_cau1.2"> Caution in patients with: cardiac disease.\n\n
+Drug-drug interactions: carbamazepine can reduce levels of
+risperidone, whereas fluoxetine can increase levels.</string>
+
+    <string name="psy_dosing1.3">Start 25-50 mg daily.\n
+Increase to 75-300 mg daily (up to 1000 mg
+may be necessary for severe cases).\n
+Route: p.o.</string>
+    <string name="psy_side1.3">Common: sedation, dizziness, blurred vision, dry mouth,
+urinary retention, constipation, tachycardia.\n\n
+Serious: orthostatic hypotension, syncope, EPS,
+photosensitivity, weight gain, galactorrhea, amenorrhea,
+sexual dysfunction, priapism, NMS, agranulocytosis,
+jaundice.</string>
+    <string name="psy_cau1.3">Contraindications: impaired consciousness, bone marrow depression,
+pheochromocytoma.\n\n
+Caution in patients with: respiratory disease, kidney disease, liver
+disease, glaucoma, urinary retention, cardiac disease, long QT syndrome
+or taking QT-prolonging medications. Monitor ECG if possible.\n\n
+Drug-drug interactions:\n
+– Increases effects of blood pressure lowering medications.\n
+– Lowers blood pressure if combined with epinephrine.\n
+– Levels may be increased by antimalarials including quinine.</string>
+    <string name="psy_dosing1.4">Start 12.5 mg.\n
+Use 12.5-50 mg every 2-4 weeks.\n
+Route: i.m. in gluteal region.\n\n
+    Avoid in women who are pregnant/
+breastfeeding.\n\n
+Do not use in children/adolescents.</string>
+    <string name="psy_side1.4">Common: sedation, dizziness, blurred vision, dry mouth,
+urinary retention, constipation, tachycardia.\n\n
+Serious: orthostatic hypotension, syncope, EPS,
+photosensitivity, weight gain,galactorrhea, amenorrhea,
+sexual dysfunction, priapism, NMS, agranulocytosis,
+jaundice.</string>
+    <string name="psy_cau1.4">Contraindications: impaired consciousness, parkinsonism.\n\n
+Caution in patients with: cardiac disease, kidney disease, liver disease.
+Use with caution in older adults.\n\n
+Drug-drug interactions:\n
+– Increases effects of blood pressure lowering medications.\n
+– Can lower blood pressure if used with epinephrine.</string>
+    <string name="psy_dosing2.1">Start 1 mg twice daily.\n
+Increase to 3-12 mg daily.\n
+Route: p.o or intravenous (i.v.).</string>
+    <string name="psy_side2.1">Common: sedation, confusion and memory
+disturbance (especially in older adults), tachycardia, dry
+mouth, urinary retention and constipation.\n
+Rarely, angle-closure glaucoma, myasthenia gravis and
+gastrointestinal obstruction.</string>
+    <string name="psy_cau2.1">Caution in patients with: cardiac, liver, or kidney disease.\n\n
+Drug-drug interactions: Caution when combining with other
+anticholinergic medications.</string>
+    <string name="psy_dosing2.2">Start 1 mg daily.\n
+Increase to 4-12 mg per day in 3-4 divided doses
+(maximum 20 mg daily).\n
+Route: p.o </string>
+
+    <string name="psy_dosing3.1"> Start 300 mg daily. Increase gradually every
+7 days until target blood level reached (maximum
+600-1200 mg daily). Monitor every 2-3 months.\n
+Route: p.o\n\n
+Target blood levels: 0.6-1.0 mEq/liter
+– In acute manic episode: 0.8-1.0 mEq/liter
+– For maintenance treatment: 0.6-0.8 mEq/liter.\n\n
+6 months on medication is needed to determine full
+effectiveness of maintenance treatment.</string>
+    <string name="psy_side3.1">Common: sedation, cognitive problems, tremor, :
+impaired coordination, hypotension, leukocytosis,
+polyuria, polydipsia, nausea, diarrhea, weight gain, hair
+loss, rash.\n\n
+Serious: diabetes insipidus, hypothyroidism,
+ECG changes (arrhythmia, sick sinus syndrome, T-wave
+changes). </string>
+    <string name="psy_cau3.1">Contraindicated in patients with: severe cardiac or kidney disease.\n\n
+Dehydration can increase lithium levels.\n\n
+Drug-drug interactions: nonsteroidal anti-inflammatory drugs (NSAIDs),
+angiotensin-converting-enzyme inhibitor (ACE inhibitor), thiazide diuretics,
+metronidazole, and tetracycline can increase lithium levels.\n\n
+Lithium toxicity can cause seizures, delirium, coma, and death. </string>
+    <string name="psy_dosing3.2">Start 500 mg daily.\n
+Increase slowly to 1000-2000 mg daily
+(maximum 60 mg/kg/day).\n
+Route: p.o\n\n
+Preferred choice in persons living with
+HIV/AIDS due to drug-drug interactions.</string>
+    <string name="psy_side3.2">Common: sedation, headache, tremor, ataxia, nausea,
+vomiting, diarrhea, weight gain, transient hair loss.\n\n
+Serious: impaired hepatic function, thrombocytopenia,
+leucopenia, drowsiness/confusion, liver failure,
+hemorrhagic pancreatitis.</string>
+    <string name="psy_cau3.2">Caution in patients with: underlying or suspected hepatic disease.
+Monitor liver function tests and platelets if possible.\n\n
+Drug-drug interactions:\n
+Valproate levels decreased by carbamazepine, increased by aspirin.</string>
+    <string name="psy_dosing3.3">Start 200 mg daily.\n
+Increase by 200 mg weekly to 400-600 mg daily in
+two divided doses (maximum 1200 mg daily).\n
+Route: p.o\n\n
+Note: Dose may need to be adjusted after
+2 weeks due to induction of its own metabolism.</string>
+    <string name="psy_side3.3">Common: sedation, confusion, dizziness, ataxia,
+double vision, nausea, diarrhea, benign leucopenia.\n\n
+Serious: hepatotoxicity, cardiac conduction delay, low
+sodium levels, severe rash.</string>
+    <string name="psy_cau3.3">Contraindicated in patients with: history of blood disorders,
+kidney, liver, or cardiac disease.\n\n
+Drug-drug interactions.\n
+– May reduce the effects of hormonal birth control, immunosuppressants,
+antiepileptics, antipsychotics, methadone and some antiretrovirals.\n
+– Levels can be increased by certain antifungals and antibiotics.</string>
+
+    <string name="phy_clinical1.1">
+The person is not tolerating antipsychotic
+medication, i.e. the person has
+extrapyramidal symptoms (EPS) or other
+serious side effects
+</string>
+
+
+    <string name="psy_action1.1">
+Reduce the dose of antipsychotic medication.\n
+If side-effects persist, consider switching to another antipsychotic medication.\n
+Consider adding anticholinergic medication for short-term use to treat EPS if these strategies fail or if symptoms are severe (see Table 2).
+
+</string>
+
+    <string name="psy_clinical2.1">Adherence to treatment is
+unsatisfactory</string>
+
+
+    <string name="psy_action2.1">
+Discuss reasons for non-adherence with the person and carers.\n
+And provide information regarding importance of medication.\n
+Consider depot/long-acting injectable antipsychotic medication as an option after discussing possible side effects of oral versus
+depot preparations.
+
+</string>
+
+    <string name="psy_clinical3.1">
+Treatment response is inadequate
+(i.e. symptoms persist or worsen) despite
+adherence to medication
+</string>
+    <string name="psy_action3.1">
+Verify that the person is receiving an effective dose of medication. If the dose is low, increase gradually to lowest effective dose to reduce
+the risk of side effects.\n
+Enquire about alcohol or substance use and take measures to reduce this. Go to » SUB.\n
+Enquire about recent stressful event that may have led to worsening of clinical condition and take measures to reduce stress.
+Review symptoms to rule out physical and/or other priority MNS conditions. Go to » PSY 1, see STEP 1\n
+Consider risperidone as an alternative to haloperidol or chlorpromazine, if cost and availability are not constraints.\n
+If the person does not respond to adequate dose and duration of more than one antipsychotic medication, using one medicine at a time,
+then antipsychotic combination treatment may be considered; preferably under the supervision of a specialist, with close clinical monitoring.\n
+Consider consultation with a specialist for the use of clozapine in those who have not responded to other antipsychotic medications
+at adequate doses and durations. Only use clozapine under the supervision of a specialist and only if routine laboratory monitoring is available,
+due to the risk of life-threatening agranulocytosis.
+
+
+</string>
+
+    <string name="psy_ass">Attempt to communicate with the person.\n
+Evaluate for underlying cause:\n\n
+– Check Blood Glucose. If low, give glucose.\n
+– Check vital signs, including temperature and oxygen
+saturation. Give oxygen if needed.\n
+– Rule out delirium and medical causes
+including poisoning.\n
+– Rule out drug and alcohol use.\n
+Specifically consider stimulant intoxication and/or
+alcohol/sedative withdrawal. Go to SUB.\n
+– Rule out agitation due to psychosis or manic
+episode in bipolar disorder. Go to Assessment,
+» PSY 1.</string>
+    <string name="psy_com">Safety is first!\n\n
+Remain calm and encourage the patient to talk
+about his or her concerns.\n\n
+Use a calm voice and try to address the concerns
+if possible.\n\n
+Listen attentively. Devote time to the person.\n\n
+Never laugh at the person.\n\n
+Do not be aggressive back.\n\n
+Try to find the source of the problem and solutions
+for the person.\n\n
+Involve carers and other staff members.\n\n
+Remove from the situation anyone who may be a
+trigger for the aggression.\n\n
+If all possibilities have been exhausted and the person
+is still aggressive, it may be necessary to use medication
+(if available) to prevent injury.</string>
+    <string name="psy_sed">Sedate as appropriate to prevent injury.\n\n
+For agitation due to psychosis or mania, consider use of haloperidol
+2mg p.o./i.m. hourly up to 5 doses (maximum 10 mg).
+Caution: high doses of haloperidol can cause dystonic reactions.
+Use biperiden to treat acute reactions.\n\n
+For agitation due to ingestion of substances, such as
+alcohol/sedative withdrawal or stimulant intoxication,
+use diazepam 10-20 mg p.o. and repeat as needed. Go to SUB.\n\n
+In cases of extreme violence\n
+– Seek help from police or staff\n
+– Use haloperidol 5mg i.m., repeat in 15-30mins if needed
+(maximum 15 mg)\n\n
+– Consult a specialist.
+if the person remains agitated, recheck oxygen saturation,
+vital signs and glucose. Consider pain. Refer to hospital.\n\n
+Once agitation subsides, refer to the master chart (MC) and
+select relevant modules for assessment.\n\n
+Special Populations:\n
+Consult a specialist for treatment.</string>
+
 </resources>
