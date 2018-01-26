@@ -1,13 +1,16 @@
 package com.example.tencho.mhgap2;
 
+import android.content.Intent;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 import android.view.View;
+import android.view.Window;
+import android.view.WindowManager;
 import android.widget.Button;
 import android.widget.TextView;
 
 public class Dep_followup extends AppCompatActivity {
-    Button yesbtn,nobtn;
+    Button yesbtn,nobtn,hmbtn;
     TextView mquestion;
     String [] Yesfollowquestions;
     String [] Nofollowquestions;
@@ -15,6 +18,8 @@ public class Dep_followup extends AppCompatActivity {
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
+        requestWindowFeature(Window.FEATURE_NO_TITLE);
+        getWindow().setFlags(WindowManager.LayoutParams.FLAG_FULLSCREEN, WindowManager.LayoutParams.FLAG_FULLSCREEN);
         setContentView(R.layout.activity_dep_followup);
 
         Yesfollowquestions = getResources().getStringArray(R.array.depfollowyes);
@@ -23,6 +28,9 @@ public class Dep_followup extends AppCompatActivity {
 
         yesbtn=(Button)findViewById(R.id.yes);
         nobtn=(Button)findViewById(R.id.no);
+        hmbtn=(Button)findViewById(R.id.home);
+        hmbtn.setVisibility(View.GONE);
+
         mquestion=(TextView)findViewById(R.id.question);
 
         yesbtn.setOnClickListener(new View.OnClickListener() {
@@ -38,13 +46,19 @@ public class Dep_followup extends AppCompatActivity {
                 updateNoquestion();
             }
         });
+        hmbtn.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                Intent intent=new Intent(Dep_followup.this,depression2.class);
+                startActivity(intent);
+            }
+        });
+
     }
 
     private void updateYesquestion()
     {
-        if(mquestion.getText().toString().equals("follow up"))
-            mquestion.setText(Yesfollowquestions[0]);
-        else if(mquestion.getText().toString().equals(Yesfollowquestions[0]))
+        if(mquestion.getText().toString().equals(Yesfollowquestions[0]))
             mquestion.setText(Yesfollowquestions[1]);
         else if(mquestion.getText().toString().equals(Yesfollowquestions[1]))
             mquestion.setText(Yesfollowquestions[2]);
@@ -53,6 +67,7 @@ public class Dep_followup extends AppCompatActivity {
             mquestion.setText(Yesfollowquestions[3]);
             yesbtn.setVisibility(View.GONE);
             nobtn.setVisibility(View.GONE);
+            hmbtn.setVisibility(View.VISIBLE);
         }
 
         else if(mquestion.getText().toString().equals(Yesfollowquestions[2]))
@@ -60,8 +75,8 @@ public class Dep_followup extends AppCompatActivity {
             mquestion.setText(Yesfollowquestions[3]);
             yesbtn.setVisibility(View.GONE);
             nobtn.setVisibility(View.GONE);
+            hmbtn.setVisibility(View.VISIBLE);
         }
-
     }
 
     private void updateNoquestion() {
@@ -70,9 +85,9 @@ public class Dep_followup extends AppCompatActivity {
         else if(mquestion.getText().toString().equals(Nofollowquestions[0]))
             mquestion.setText(Yesfollowquestions[2]);
         else if(mquestion.getText().toString().equals(Yesfollowquestions[2]))
+        {
             mquestion.setText(Nofollowquestions[1]);
-
-
-
+            hmbtn.setVisibility(View.VISIBLE);
+        }
     }
 }

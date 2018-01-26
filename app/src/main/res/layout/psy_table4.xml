@@ -1,0 +1,163 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TableLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_marginLeft="5dp"
+    android:layout_marginRight="5dp"
+
+    >
+
+
+    <TextView
+        android:id="@+id/textView70"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="TABLE 4: Review adherence, side effects and dosing based on clinical situation/ presentation"
+        android:textAlignment="center"
+        android:textColor="#223C97"
+        android:layout_marginTop="8dp"
+        android:textSize="17sp"/>
+
+
+
+
+
+
+
+    <TableRow
+        android:layout_height="match_parent"
+        android:layout_width="match_parent"
+        android:background="@drawable/border2"
+        android:layout_marginTop="5dp"
+
+        >
+
+
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:ems="10"
+            android:background="#223C97"
+            android:textAlignment="center"
+            android:id="@+id/textVie50"
+            android:textColor="#ffffff"
+            android:textSize="11dp"
+            android:text="CLINICAL SITUATION"
+            tools:ignore="HardcodedText,SpUsage" />
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:ems="15"
+            android:textColor="#ffffff"
+            android:background="#223C97"
+            android:textAlignment="center"
+            android:textSize="12dp"
+            android:layout_weight="10"
+            android:id="@+id/textVie51"
+            android:text=" ACTION"
+            tools:ignore="HardcodedText,SpUsage" />
+
+
+    </TableRow>
+
+    <TableRow
+        android:layout_height="match_parent"
+        android:layout_width="match_parent"
+        android:background="@drawable/border2"
+
+        >
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:ems="10"
+            android:textColor="#223C97"
+            android:textSize="10dp"
+            android:layout_marginTop="5dp"
+            android:layout_marginLeft="2dp"
+            android:id="@+id/textVi9"
+            android:text="@string/phy_clinical1.1"
+            tools:ignore="HardcodedText,SpUsage" />
+        <TextView
+            android:textColor="#361818"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:ems="15"
+            android:id="@+id/textVi10"
+            android:text="@string/psy_action1.1"
+            android:textSize="10dp"
+            tools:ignore="SpUsage" />
+
+
+
+    </TableRow>
+
+
+    <TableRow
+        android:layout_height="match_parent"
+        android:layout_width="match_parent"
+        android:background="@drawable/border2"
+
+        >
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:ems="6"
+            android:textColor="#223C97"
+            android:textSize="10dp"
+            android:layout_marginTop="5dp"
+            android:layout_marginLeft="2dp"
+            android:id="@+id/textV9"
+            android:text="@string/psy_clinical2.1"
+            tools:ignore="HardcodedText,SpUsage" />
+        <TextView
+            android:textColor="#361818"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:ems="4"
+            android:id="@+id/textV10"
+            android:text="@string/psy_action2.1"
+            android:textSize="10dp"
+            tools:ignore="SpUsage" />
+
+
+
+    </TableRow>
+
+    <TableRow
+        android:layout_height="match_parent"
+        android:layout_width="match_parent"
+        android:background="@drawable/border2"
+
+        >
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:ems="6"
+            android:textColor="#223C97"
+            android:textSize="10dp"
+            android:layout_marginTop="5dp"
+            android:layout_marginLeft="2dp"
+            android:id="@+id/texV9"
+            android:text="@string/psy_clinical3.1"
+            tools:ignore="HardcodedText,SpUsage" />
+        <TextView
+            android:textColor="#361818"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:ems="4"
+            android:id="@+id/text10"
+            android:text="@string/psy_action3.1"
+            android:textSize="10dp"
+            tools:ignore="SpUsage" />
+
+
+
+    </TableRow>
+
+
+</TableLayout>

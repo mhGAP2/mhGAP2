@@ -1,0 +1,133 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#ffffff">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_marginLeft="5dp"
+        tools:ignore="RtlHardcoded">
+        <TextView
+            android:id="@+id/textView1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Protocol 2(Substance use)"
+            android:textColor="#F68B1F"
+            android:textSize="30sp"
+            android:textAlignment="center"
+            tools:ignore="HardcodedText" />
+        <TextView
+            android:id="@+id/textView2"
+            android:textColor="#F68B1F"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:text="@string/dependence"
+            android:textSize="15sp"
+            android:textAlignment="center"
+            />
+
+        <TextView
+            android:id="@+id/textView2"
+            android:textColor="#F68B1F"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:text="IF THE PERSON IS DEPENDENT ON OPIOIDS:"
+            android:textSize="15sp"
+            android:textAlignment="center"
+            tools:ignore="DuplicateIds,HardcodedText" />
+        <TextView
+            android:id="@+id/textView4"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textColor="#361818"
+            android:layout_marginTop="10dp"
+            android:text="@string/substance8" />
+
+
+        <TextView
+            android:id="@+id/textView3"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textColor="#F68B1F"
+            android:layout_marginTop="10dp"
+            android:text="@string/if_the_person_is_dependent_on_benzodiazepines"
+            android:textSize="15sp"
+            />
+        <TextView
+            android:id="@+id/textView17"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textColor="#361818"
+            android:layout_marginTop="10dp"
+            android:text="@string/substance11" />
+
+
+        <TextView
+            android:id="@+id/textView5"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textColor="#F68B1F"
+            android:layout_marginTop="20dp"
+            android:text="IF THE PERSON IS DEPENDENT ON ALCOHOL:"
+            android:textSize="15sp"
+            tools:ignore="HardcodedText" />
+
+        <TextView
+            android:id="@+id/textView6"
+            android:textColor="#361818"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:text="@string/substance9"
+            />
+
+        <TextView
+            android:id="@+id/textView7"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textColor="#F68B1F"
+            android:layout_marginTop="20dp"
+            android:text="FOR ALL OTHER SUBSTANCES: "
+            android:textSize="15sp"
+            tools:ignore="HardcodedText" />
+
+
+        <TextView
+            android:id="@+id/textView8"
+            android:layout_width="match_parent"
+            android:textColor="#361818"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:text="@string/substance10"
+            />
+
+
+        <TextView
+            android:id="@+id/textView10"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textColor="#F68B1F"
+            android:layout_marginTop="10dp"
+            android:text= "@string/in_all_cases"
+
+            />
+
+        <TextView
+            android:id="@+id/textView11"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:textColor="#361818"
+            android:text="@string/subs7"
+            android:textSize="15sp"
+            />
+
+    </LinearLayout>
+</ScrollView>
+

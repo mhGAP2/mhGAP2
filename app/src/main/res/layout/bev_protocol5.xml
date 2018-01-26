@@ -1,0 +1,150 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#ffffff">
+
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_marginLeft="5dp"
+        tools:ignore="RtlHardcoded">
+
+
+        <TextView
+            android:id="@+id/textView1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Protocol 1(Problems with Emotions)"
+            android:textColor="#18B04B"
+            android:textSize="20sp"
+            android:textAlignment="center"
+            tools:ignore="HardcodedText" />
+        <TextView
+            android:id="@+id/textView2"
+            android:textColor="#361818"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:text="PSYCHOSOCIAL INTERVENTIONS"
+            android:textSize="15sp"
+            android:textAlignment="center"
+            tools:ignore="HardcodedText" />
+
+        <TextView
+            android:id="@+id/textView3"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textColor="#18B04B"
+            android:layout_marginTop="10dp"
+            android:text="  Guidance to promote child/adolescent well-being and functioning"
+            android:textSize="15sp"
+            />
+
+
+        <TextView
+            android:id="@+id/textViewT"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:text="ENCOURAGE THE CARER TO:"
+            android:textColor="#361818"
+            android:textStyle="bold"
+
+            />
+
+        <TextView
+            android:id="@+id/textView"
+            android:layout_width="match_parent"
+            android:layout_height="250dp"
+            android:layout_marginTop="10dp"
+            android:text="@string/bev_2_1_cmh"
+            android:textColor="#361818"
+
+            />
+        <TextView
+            android:id="@+id/textViewT1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:text="ENCOURAGE AND HELP THE CHILD / ADOLESCENT TO:"
+            android:textColor="#361818"
+            android:textStyle="bold"
+
+            />
+        <TextView
+            android:id="@+id/textViewc"
+            android:layout_width="match_parent"
+            android:layout_height="250dp"
+            android:layout_marginTop="10dp"
+            android:text="@string/bev_2_1_cmh_p1"
+            android:textColor="#361818"
+
+            />
+
+        <TextView
+            android:id="@+id/textView5"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textColor="#18B04B"
+            android:layout_marginTop="20dp"
+            android:text="Psychoeducation to person and carers and parenting advice"
+            android:textSize="15sp"
+            tools:ignore="HardcodedText" />
+
+
+        <TextView
+            android:id="@+id/textView6"
+            android:textColor="#361818"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:text="@string/bev_2_2_cmh"
+
+            />
+
+
+        <TextView
+            android:id="@+id/textView7"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textColor="#18B04B"
+            android:layout_marginTop="10dp"
+            android:text=" Assess for and manage stressors, reduce stress and strengthen social supports "
+            />
+
+        <TextView
+            android:id="@+id/textViewT4"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textColor="#18B04B"
+            android:layout_marginTop="10dp"
+            android:text="  Liaise with teachers and other  school staff"
+            android:textSize="15sp"
+            />
+        <TextView
+            android:id="@+id/textViewc3"
+            android:layout_width="match_parent"
+            android:layout_height="250dp"
+            android:layout_marginTop="10dp"
+            android:text="@string/bev_2_7_cmh"
+            android:textColor="#361818"
+
+            />
+        <TextView
+            android:id="@+id/textViewT5"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textColor="#18B04B"
+            android:layout_marginTop="10dp"
+            android:text="    Link with other available resources in the community."
+            android:textSize="15sp"
+            />
+
+    </LinearLayout>
+</ScrollView>
+
