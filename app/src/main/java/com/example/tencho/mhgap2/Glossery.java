@@ -1,9 +1,12 @@
 package com.example.tencho.mhgap2;
 
+import android.content.Context;
+import android.content.DialogInterface;
 import android.content.Intent;
 import android.os.Bundle;
 import android.support.design.widget.FloatingActionButton;
 import android.support.design.widget.Snackbar;
+import android.support.v7.app.AlertDialog;
 import android.support.v7.widget.SearchView;
 import android.view.MenuInflater;
 import android.view.View;
@@ -19,6 +22,7 @@ import android.widget.AdapterView;
 import android.widget.ArrayAdapter;
 import android.widget.ListView;
 import android.widget.TextView;
+import android.widget.Toast;
 
 import java.util.ArrayList;
 import java.util.Arrays;
@@ -31,7 +35,9 @@ public class Glossery extends AppCompatActivity
     ArrayList<String> arrayTerm;
     String []meaning;
     TextView tv;
-
+    Context context;
+    //AlertDialog alertdialog;
+    //AlertDialog.Builder builder;
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
@@ -56,9 +62,22 @@ public class Glossery extends AppCompatActivity
         lv.setOnItemClickListener(new AdapterView.OnItemClickListener() {
             @Override
             public void onItemClick(AdapterView<?> adapterView, View view, int i, long l) {
-                tv.setText(meaning[i]);
+               /* builder=new AlertDialog.Builder(context);
+                builder.setTitle("Hi");
+                builder.setMessage("I am here...");
+                builder.setPositiveButton("OK", new DialogInterface.OnClickListener() {
+                    @Override
+                    public void onClick(DialogInterface dialogInterface, int i) {
+                        Toast.makeText(Glossery.this, "Success", Toast.LENGTH_SHORT).show();
+                    }
+                });
+                alertdialog=builder.create();
+                alertdialog.show();*/
+                Toast.makeText(Glossery.this, ""+meaning[i], Toast.LENGTH_LONG).show();
             }
         });
+
+
 
         DrawerLayout drawer = (DrawerLayout) findViewById(R.id.drawer_layout);
         ActionBarDrawerToggle toggle = new ActionBarDrawerToggle(

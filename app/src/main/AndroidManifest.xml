@@ -2,6 +2,43 @@
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
     package="com.example.tencho.mhgap2">
 
+    <compatible-screens>
+
+        <!-- all small size screens -->
+        <screen
+            android:screenDensity="ldpi"
+            android:screenSize="small" />
+        <screen
+            android:screenDensity="mdpi"
+            android:screenSize="small" />
+        <screen
+            android:screenDensity="hdpi"
+            android:screenSize="small" />
+        <screen
+            android:screenDensity="xhdpi"
+            android:screenSize="small" />
+        <!-- all normal size screens -->
+        <screen
+            android:screenDensity="ldpi"
+            android:screenSize="normal" />
+        <screen
+            android:screenDensity="mdpi"
+            android:screenSize="normal" />
+        <screen
+            android:screenDensity="hdpi"
+            android:screenSize="normal" />
+        <screen
+            android:screenDensity="xhdpi"
+            android:screenSize="normal" />
+    </compatible-screens>
+
+    <supports-screens
+        android:largeScreens="true"
+        android:normalScreens="false"
+        android:requiresSmallestWidthDp="600"
+        android:smallScreens="false"
+        android:xlargeScreens="true" />
+
     <application
         android:allowBackup="true"
         android:icon="@mipmap/ic_launcher"
@@ -36,7 +73,6 @@
             android:name=".master"
             android:label="Master Chart"
             android:theme="@style/AppTheme.NoActionBar" />
-
         <activity
             android:name=".Aboutus"
             android:label="@string/title_activity_aboutus"
@@ -64,7 +100,7 @@
             android:theme="@style/AppTheme" />
         <activity android:name=".help" />
         <activity android:name=".Dep_assesment" />
-        <activity android:name=".Dep_followup"></activity>
+        <activity android:name=".Dep_followup" />
     </application>
 
 </manifest>
