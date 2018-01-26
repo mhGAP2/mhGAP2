@@ -4,374 +4,585 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context="com.example.tencho.mhgap2.Substance_Management">
+    >
+
 
     <ScrollView
-        android:layout_width="368dp"
-        android:layout_height="551dp"
-        tools:layout_editor_absoluteY="8dp"
-        android:layout_marginLeft="8dp"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        tools:layout_constraintTop_creator="1"
+        tools:layout_constraintRight_creator="1"
+        tools:layout_constraintBottom_creator="1"
+        android:layout_marginStart="8dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        android:layout_marginEnd="8dp"
+        app:layout_constraintRight_toRightOf="parent"
+        android:layout_marginTop="8dp"
+        tools:layout_constraintLeft_creator="1"
+        android:layout_marginBottom="8dp"
         app:layout_constraintLeft_toLeftOf="parent"
-        tools:ignore="RtlHardcoded">
-
-        <LinearLayout
-            android:layout_width="368dp"
-            android:layout_height="0dp"
-            android:layout_marginBottom="8dp"
-            android:layout_marginStart="8dp"
-            android:layout_marginTop="8dp"
-            android:orientation="vertical"
-            app:layout_constraintBottom_toBottomOf="parent"
-            app:layout_constraintLeft_toLeftOf="parent"
-            app:layout_constraintTop_toTopOf="parent"
-            tools:layout_constraintBottom_creator="1"
-            tools:layout_constraintLeft_creator="1"
-            tools:layout_constraintTop_creator="1">
-
-
+        app:layout_constraintTop_toTopOf="parent">
+        <TableLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/border2">
             <TextView
-                android:text="Table 1. Medication Chart"
-                android:layout_width="wrap_content"
+                android:text="TABLE 1: Medication Chart "
                 android:layout_height="wrap_content"
-                tools:ignore="HardcodedText" />
-            <TableLayout
                 android:layout_width="match_parent"
-                android:layout_height="match_parent">
+                android:textSize="15sp"
+                tools:ignore="HardcodedText" />
 
-                <TableRow
-                    android:background="#F68B1F">
+            <TableRow
+                android:layout_width="40dp"
+                android:layout_height="match_parent"
+                android:background="#F68B1F"
+                >
+
+                <TextView
+                    android:id="@+id/textView5"
+                    android:layout_width="60dp"
+                    android:layout_height="wrap_content"
+                    android:text="@string/cla"
+                    android:textAlignment="center"
+                    android:textSize="12sp"
+                    />
+
+                <TextView
+                    android:id="@+id/textView4"
+                    android:layout_width="40sp"
+                    android:layout_height="wrap_content"
+                    android:textAlignment="center"
+                    android:text="@string/medi"
+                    android:textSize="12sp" />
+
+                <TextView
+                    android:id="@+id/textView7"
+                    android:layout_width="80sp"
+                    android:layout_height="wrap_content"
+                    android:text="@string/dosin"
+                    android:textAlignment="center"
+                    android:textSize="12sp" />
+
+                <TextView
+                    android:id="@+id/textView8"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/side"
+                    android:textAlignment="center"
+                    android:textSize="12sp"
+                    />
+
+                <TextView
+                    android:id="@+id/textView6"
+                    android:layout_width="115sp"
+                    android:layout_height="wrap_content"
+                    android:textAlignment="center"
+                    android:text="@string/con"
+                    android:textSize="12sp" />
+                </TableRow>
+            <TableRow
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:background="@drawable/border2"
+                >
+                <TextView
+                    android:id="@+id/textView654"
+                    android:layout_width="60dp"
+                    android:layout_height="match_parent"
+                    android:text="@string/substancetable6"
+                    android:textSize="10sp"
+                    tools:ignore="SmallSp"
+                    android:background="@drawable/border2" />
+
+                <TextView
+                    android:id="@+id/textVew30"
+                    android:layout_width="40sp"
+                    android:layout_height="match_parent"
+                    android:textColor="#F68B1F"
+                    android:text="@string/dlapezam"
+                    android:textSize="10sp"
+                    tools:ignore="SmallSp"
+                    android:background="@drawable/border2"
+                    />
+
+                <TextView
+                    android:id="@+id/textView81"
+                    android:layout_width="80sp"
+                    android:layout_height="match_parent"
+                    android:text="@string/substancetable1"
+                    android:textSize="12sp"
+                    android:background="@drawable/border2"/>
+
+                <TextView
+                    android:id="@+id/textVie65"
+                    android:layout_width="70sp"
+                    android:layout_height="match_parent"
+                    android:text="@string/substancetab20"
+                    android:textSize="12sp"
+                    android:background="@drawable/border2"/>
+
+                <TextView
+                    android:id="@+id/textVie34"
+                    android:layout_width="115sp"
+                    android:text="@string/substancetable7"
+                    android:layout_height="match_parent"
+                    android:textSize="12sp"
+                    android:background="@drawable/border2"/>
+            </TableRow>
+
+            <TableRow
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:background="@drawable/border2"
+                >
+                <TextView
+                    android:id="@+id/textView"
+                    android:layout_width="60dp"
+                    android:layout_height="match_parent"
+                    android:text="@string/substancetab18"
+                    android:textSize="10sp"
+                    tools:ignore="SmallSp"
+                    android:background="@drawable/border2"/>
+
+                <TextView
+                    android:id="@+id/textView0"
+                    android:layout_width="40sp"
+                    android:layout_height="match_parent"
+                    android:textColor="#F68B1F"
+                    android:text="@string/naloxone"
+                    android:textSize="10sp"
+                    tools:ignore="SmallSp"
+                    android:background="@drawable/border2"/>
+
+                <TextView
+                    android:id="@+id/textView21"
+                    android:layout_width="80sp"
+                    android:layout_height="match_parent"
+                    android:text="@string/substancetab2"
+                    android:textSize="12sp"
+                    android:background="@drawable/border2"/>
+
+                <TextView
+                    android:id="@+id/textView20"
+                    android:layout_width="70sp"
+                    android:layout_height="match_parent"
+                    android:text="@string/substancetab11"
+                    android:textSize="12sp"
+                    android:background="@drawable/border2"/>
+
+                <TextView
+                    android:id="@+id/textView19"
+                    android:layout_width="115sp"
+                    android:background="@drawable/border2"
+                    android:layout_height="match_parent"
+                    android:textSize="12sp"
+                    />
+            </TableRow>
+
+
+            <TableRow
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    >
+
+                    <TextView
+                        android:id="@+id/textView22"
+                        android:layout_width="60dp"
+                        android:layout_height="wrap_content"
+                        android:text="@string/substancetab34"
+                        android:textSize="10sp"
+                        tools:ignore="SmallSp"
+                        android:background="@drawable/border2"/>
+
+                    <TextView
+                        android:id="@+id/textView23"
+                        android:layout_width="40sp"
+                        android:layout_height="match_parent"
+                        android:text="@string/thiamine_vitamin_b1"
+                        android:textColor="#F68B1F"
+                        android:textSize="10sp"
+                        tools:ignore="SmallSp"
+                        android:background="@drawable/border2"/>
 
                     <TextView
                         android:id="@+id/textView24"
-                        android:layout_height="80dp"
-                        android:layout_width="70dp"
-                        android:text="@string/class_indication"
-                        android:textColor="#ffffff"
-                        android:textAlignment="center"
-                        android:textSize="10sp"
-                        tools:ignore="SmallSp" />
+                        android:layout_width="80sp"
+                        android:layout_height="match_parent"
+                        android:text="@string/substancetab8"
+                        android:textSize="12sp"
+                        android:background="@drawable/border2"/>
 
                     <TextView
-                        android:layout_width="39dp"
-                        android:layout_height="80dp"
-                        android:text="@string/medication"
-                        android:textAlignment="center"
-                        android:textColor="#ffffff"
-                        android:textSize="10sp"
-                        tools:ignore="SmallSp" />
-                    <TextView
-                        android:text="@string/dosing"
-                        android:layout_height="80dp"
-                        android:textColor="#ffffff"
-                        android:textAlignment="center"
-                        android:layout_width="90dp"
-                        android:textSize="10sp"
-                        tools:ignore="SmallSp" />
-
-                    <TextView
-                        android:layout_width="80dp"
-                        android:layout_height="80dp"
-                        android:text="@string/side_effects"
-                        android:textAlignment="center"
-                        android:textColor="#ffffff"
-                        android:textSize="10sp"
-                        tools:ignore="SmallSp" />
-
-                    <TextView
-                        android:layout_width="90dp"
-                        android:layout_height="80dp"
-                        android:text="@string/substancetable3"
-                        android:textAlignment="center"
-                        android:textColor="#ffffff"
-                        android:textSize="10sp"
-                        tools:ignore="SmallSp" />
-                </TableRow>
-                <TableRow>
-
-                    <TextView
-                        android:text="@string/substancetable6"
-                        android:layout_height="wrap_content"
-                        android:layout_width="70dp"
-                        android:textAlignment="center"
-                        android:textSize="10sp"
-                        tools:ignore="SmallSp" />
-
-                    <TextView
-                        android:layout_width="39dp"
-                        android:layout_height="wrap_content"
-                        android:text="@string/dlapezam"
-                        android:textAlignment="center"
-                        android:textSize="10sp"
-                        tools:ignore="SmallSp" />
-                    <TextView
-                        android:text="@string/substancetable1"
-                        android:layout_height="wrap_content"
-                        android:textAlignment="center"
-                        android:layout_width="90dp"
-                        android:textSize="10sp"
-                        tools:ignore="SmallSp" />
-
-                    <TextView
-                        android:layout_width="45dp"
-                        android:layout_height="wrap_content"
-                        android:text="@string/sedation_and_respiratory_depression_which_can_be_life_threatening_prolonged_use_can_lead_to_dependence"
-                        android:textAlignment="center"
-                        android:textSize="10sp"
-                        tools:ignore="SmallSp" />
-
-                    <TextView
-                        android:layout_width="60dp"
-                        android:layout_height="wrap_content"
-                        android:text="@string/substancetable7"
-                        android:textAlignment="center"
-                        android:textSize="10sp"
-                        tools:ignore="SmallSp" />
-
-                </TableRow>
-                <TableRow tools:ignore="ExtraText">
-                    <TextView
-                        android:text="@string/opioid_antagonists_to_treat_opioid_overdose"
-                        android:layout_height="wrap_content"
-                        android:layout_width="70dp"
-                        android:textAlignment="center"
-                        android:textSize="10sp"
-                        tools:ignore="SmallSp" />
-
-                    <TextView
-                        android:layout_width="39dp"
-                        android:layout_height="wrap_content"
-                        android:text=""
-                        android:textSize="10sp"
-                        tools:ignore="SmallSp" />
-                    <TextView
-                        android:text="@string/substancetable2"
-                        android:layout_height="wrap_content"
-                        android:textAlignment="center"
-                        android:layout_width="90dp"
-                        android:textSize="10sp"
-                        tools:ignore="SmallSp" />
+                        android:id="@+id/textView25"
+                        android:layout_width="70sp"
+                        android:layout_height="match_parent"
+                        android:textSize="12sp"
+                        android:background="@drawable/border2" />
 
                     <TextView
                         android:id="@+id/textView26"
-                        android:layout_width="45dp"
-                        android:layout_height="wrap_content"
-                        android:text="@string/discomfort_or_withdrawal_symptoms_may_result"
-                        android:textAlignment="center"
-                        android:textSize="10sp"
-                        tools:ignore="SmallSp" />
-
-                    <TextView
-                        android:layout_width="60dp"
-                        android:layout_height="wrap_content"
-                        android:textAlignment="center"
-                        android:textSize="10sp"
-                        tools:ignore="SmallSp" />
-
+                        android:layout_width="115sp"
+                        android:layout_height="match_parent"
+                        android:textSize="12sp"
+                        android:background="@drawable/border2"/>
 
                 </TableRow>
-                <TableRow>
-                    <TextView
-                        android:text="VITAMINS
-To preven or treat Wernicke’s encephalopathy "
-                        android:layout_height="wrap_content"
-                        android:layout_width="70dp"
-                        android:textAlignment="center"
-                        android:textSize="10sp"
-                        tools:ignore="HardcodedText,SmallSp" />
 
-                    <TextView
-                        android:layout_width="39dp"
-                        android:layout_height="wrap_content"
-                        android:text="Thiamine (Vitamin B1)"
-                        android:textAlignment="center"
-                        android:textSize="10sp"
-                        tools:ignore="HardcodedText,SmallSp" />
-                    <TextView
-                        android:text="@string/substancetable5"
-                        android:layout_height="wrap_content"
-                        android:textAlignment="center"
-                        android:layout_width="90dp"
-                        android:textSize="10sp"
-                        tools:ignore="SmallSp" />
+            <TableRow
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                >
 
-                    <TextView
-                        android:layout_width="45dp"
-                        android:layout_height="wrap_content"
-                        android:textAlignment="center"
-                        android:textSize="10sp"
-                        tools:ignore="SmallSp" />
+                <TextView
+                    android:id="@+id/textView27"
+                    android:layout_width="60dp"
+                    android:layout_height="wrap_content"
+                    android:text="@string/substancetab16"
+                    android:textSize="10sp"
+                    tools:ignore="SmallSp"
+                    android:background="@drawable/border2"/>
+                <TextView
+                    android:id="@+id/textVi"
+                    android:layout_width="40sp"
+                    android:layout_height="match_parent"
+                    android:textColor="#F68B1F"
+                    android:text="@string/nr"
+                    android:textSize="10sp"
+                    tools:ignore="SmallSp"
+                    android:background="@drawable/border2"/>
 
-                    <TextView
-                        android:layout_width="60dp"
-                        android:layout_height="wrap_content"
-                        android:textAlignment="center"
-                        android:textSize="10sp"
-                        tools:ignore="SmallSp" />
-                </TableRow>
-                <TableRow>
-                    <TextView
-                        android:text="@string/opioid_agonists_to_treat_opioid_withdrawal_and_dependence"
-                        android:layout_height="wrap_content"
-                        android:layout_width="70dp"
-                        android:textAlignment="center"
-                        android:textSize="10sp"
-                        tools:ignore="SmallSp" />
+                <TextView
+                    android:id="@+id/textView29"
+                    android:layout_width="80sp"
+                    android:layout_height="match_parent"
+                    android:text="@string/to_treat_opioid_withdrawal_and_dependence_methadone_opioid_withdrawal_methadone_initial_dose_20_mg_with_a_supplemental_dose_of_5_10_mg_4_hours_later_if_necessary_opioid_maintenance_initial_dose_10_20_mg_with_supplementary_dose_of_10_mg_if_needed_increasing_the_daily_dose_by_5_10_mg_every_few_days_if_needed_until_the_person_is_no_longer_experiencing_opioid_withdrawal_and_not_using_illicit_opioids_maintain_until_ready_to_cease_opioid_agonist_treatment"
+                    android:textSize="12sp"
+                    android:background="@drawable/border2"/>
 
-                    <TextView
-                        android:layout_width="39dp"
-                        android:layout_height="wrap_content"
-                        android:text="@string/methadone"
-                        android:textAlignment="center"
-                        android:textSize="10sp"
-                        tools:ignore="SmallSp" />
-                    <TextView
-                        android:text="@string/opioid_withdrawal_methadone_initial_dose_20_mg_with_a_supplemental_dose_of_5_10_mg_4_hours_later_if_necessary_opioid_maintenance_initial_dose_10_20_mg_with_supplementary_dose_of_10_mg_if_needed_increasing_the_daily_dose_by_5_10_mg_every_few_days_if_needed_until_the_person_is_no_longer_experiencing_opioid_withdrawal_and_not_using_illicit_opioids_maintain_until_ready_to_cease_opioid_agonist_treatment"
-                        android:layout_height="wrap_content"
-                        android:textAlignment="center"
-                        android:layout_width="90dp"
-                        android:textSize="10sp"
-                        tools:ignore="SmallSp" />
+                <TextView
+                    android:id="@+id/textView30"
+                    android:layout_width="70sp"
+                    android:layout_height="match_parent"
+                    android:text="@string/substancetab1"
+                    android:textSize="12sp"
+                    android:background="@drawable/border2"/>
 
-                    <TextView
-                        android:layout_width="45dp"
-                        android:layout_height="wrap_content"
-                        android:text="Sedation, confusion, nausea, vomiting, constipation, possible hormonal changes, decreased sex drive, ECG changes such as prolonged QT interval or bradycardia, hypotension, respiratory depression."
-                        android:textAlignment="center"
-                        android:textSize="10sp"
-                        tools:ignore="HardcodedText,SmallSp" />
+                <TextView
+                    android:id="@+id/textView31"
+                    android:layout_width="115sp"
+                    android:text="@string/Substancetab3"
+                    android:layout_height="match_parent"
+                    android:textSize="12sp"
+                    android:background="@drawable/border2"/>
+            </TableRow>
+            <TableRow
+                >
+                <TextView
+                    android:id="@+id/textVie"
+                    android:layout_width="60dp"
+                    android:layout_height="match_parent"
+                    android:text="@string/substancetab16"
+                    android:textSize="10sp"
+                    tools:ignore="SmallSp"
+                    android:background="@drawable/border2"/>
+                <TextView
+                    android:id="@+id/textV"
+                    android:layout_width="40sp"
+                    android:layout_height="match_parent"
+                    android:textColor="#F68B1F"
+                    android:text="@string/bup"
+                    android:textSize="10sp"
+                    tools:ignore="SmallSp"
+                    android:background="@drawable/border2"/>
 
-                    <TextView
-                        android:layout_width="60dp"
-                        android:layout_height="wrap_content"
-                        android:text="Use with caution in patients with cardiac or respiratory disease."
-                        android:textAlignment="center"
-                        android:textSize="10sp"
-                        tools:ignore="HardcodedText,SmallSp" />
-                </TableRow>
-                <TableRow>
-                    <TextView
-                        android:layout_height="wrap_content"
-                        android:layout_width="70dp"
-                        android:textAlignment="center"
-                        android:textSize="10sp"
-                        tools:ignore="SmallSp" />
+                <TextView
+                    android:id="@+id/text"
+                    android:layout_width="80sp"
+                    android:layout_height="match_parent"
+                    android:text="@string/substancetab4"
+                    android:textSize="12sp"
+                    android:background="@drawable/border2"/>
 
-                    <TextView
-                        android:layout_width="39dp"
-                        android:layout_height="wrap_content"
-                        android:text="@string/buprenorphine"
-                        android:textAlignment="center"
-                        android:textSize="10sp"
-                        tools:ignore="SmallSp" />
-                    <TextView
-                        android:text="@string/substancetable4"
-                        android:layout_height="wrap_content"
-                        android:textAlignment="center"
-                        android:layout_width="90dp"
-                        android:textSize="10sp"
-                        tools:ignore="SmallSp" />
+                <TextView
+                    android:id="@+id/tex"
+                    android:layout_width="70sp"
+                    android:layout_height="match_parent"
+                    android:text="@string/sedation_dizziness_ataxia_nausea_vomiting_constipation_respiratory_depression"
+                    android:textSize="12sp"
+                    android:background="@drawable/border2"/>
 
-                    <TextView
-                        android:layout_width="45dp"
-                        android:layout_height="wrap_content"
-                        android:text="Sedation, dizziness, ataxia, nausea, vomiting, constipation, respiratory depression."
-                        android:textAlignment="center"
-                        android:textSize="10sp"
-                        tools:ignore="HardcodedText,SmallSp" />
+                <TextView
+                    android:id="@+id/te"
+                    android:layout_width="115sp"
+                    android:text="@string/substancetab32"
+                    android:layout_height="match_parent"
+                    android:textSize="12sp"
+                    android:background="@drawable/border2"/>
+            </TableRow>
+            <TableRow>
+                <TextView
+                    android:id="@+id/ti"
+                    android:layout_width="60dp"
+                    android:layout_height="match_parent"
+                    android:text="@string/substancetab16"
+                    android:textSize="10sp"
+                    tools:ignore="SmallSp"
+                    android:background="@drawable/border2"
+                    />
+                <TextView
+                    android:id="@+id/tn"
+                    android:layout_width="40sp"
+                    android:layout_height="match_parent"
+                    android:textColor="#F68B1F"
+                    android:text="@string/morphine_sulphate"
+                    android:textSize="10sp"
+                    tools:ignore="SmallSp"
+                    android:background="@drawable/border2"/>
 
-                    <TextView
-                        android:layout_width="60dp"
-                        android:layout_height="wrap_content"
-                        android:text="Use with caution in congestive heart failure, respiratory disease, or liver disease. –   Potential for abuse. –    Abrupt cessation can cause withdrawal symptoms"
-                        android:textAlignment="center"
-                        android:textSize="10sp"
-                        tools:ignore="HardcodedText,SmallSp" />
+                <TextView
+                    android:id="@+id/textf"
+                    android:layout_width="80sp"
+                    android:layout_height="match_parent"
+                    android:text="@string/substancetab6"
+                    android:textSize="12sp"
+                    android:background="@drawable/border2"/>
 
-                </TableRow>
-                <TableRow>
-                    <TextView
-                        android:layout_height="wrap_content"
-                        android:layout_width="70dp"
-                        android:text="ALPHA ADRENERGIC AGONISTS
-                        To treat opioid withdrawal"
-                        android:textSize="10sp"
-                        tools:ignore="HardcodedText,SmallSp" />
+                <TextView
+                    android:id="@+id/texn"
+                    android:layout_width="70sp"
+                    android:layout_height="match_parent"
+                    android:text="@string/substancetab20"
+                    android:textSize="12sp"
+                    android:background="@drawable/border2"/>
 
-                    <TextView
-                        android:layout_width="39dp"
-                        android:layout_height="wrap_content"
-                        android:text="Clonidine"
-                        android:textAlignment="center"
-                        android:textSize="10sp"
-                        tools:ignore="HardcodedText,SmallSp" />
-                    <TextView
-                        android:text=" Start 0.1 mg 2-3 times daily. Increase as tolerated  in divided doses to manage withdrawal symptoms, to a maximum of 1 mg daily."
-                        android:layout_height="wrap_content"
-                        android:textAlignment="center"
-                        android:layout_width="90dp"
-                        android:textSize="10sp"
-                        tools:ignore="HardcodedText,SmallSp" />
+                <TextView
+                    android:id="@+id/tem"
+                    android:layout_width="115sp"
+                    android:text="@string/substancetab12"
+                    android:layout_height="match_parent"
+                    android:textSize="12sp"
+                    android:background="@drawable/border2"/>
 
-                    <TextView
-                        android:layout_width="45dp"
-                        android:layout_height="wrap_content"
-                        android:text="Sedation, light-headedness, dizziness, headache, nausea/vomiting, dry mouth, constipation, sexual dysfunction, depression, agitation, low blood pressure, tachycardia, sinus bradycardia, and AV block."
-                        android:textAlignment="center"
-                        android:textSize="10sp"
-                        tools:ignore="HardcodedText,SmallSp" />
+            </TableRow>
+            <TableRow
+                >
+                <TextView
+                    android:id="@+id/tk"
+                    android:layout_width="60dp"
+                    android:text="@string/substancetab9"
+                    android:layout_height="match_parent"
+                    android:textSize="10sp"
+                    tools:ignore="SmallSp"
+                    android:background="@drawable/border2"/>
+                <TextView
+                    android:id="@+id/tb"
+                    android:layout_width="40sp"
+                    android:layout_height="match_parent"
+                    android:textColor="#F68B1F"
+                    android:text="@string/clonidine"
+                    android:textSize="10sp"
+                    tools:ignore="SmallSp"
+                    android:background="@drawable/border2"/>
 
-                    <TextView
-                        android:layout_width="60dp"
-                        android:layout_height="wrap_content"
-                        android:text="Use caution in cardiac, cerebrovascular, and liver disease. Use lower doses in kidney disease.  Be aware of the potential for abuse. Monitor vital signs closely.
-      DO NOT stop abruptly, as withdrawal can cause rebound hypertension. Avoid in women who are pregnant or breastfeeding."
-                        android:textAlignment="center"
-                        android:textSize="10sp"
-                        tools:ignore="HardcodedText,SmallSp" />
+                <TextView
+                    android:id="@+id/tc"
+                    android:layout_width="80sp"
+                    android:layout_height="match_parent"
+                    android:text="@string/substancetab25"
+                    android:textSize="12sp"
+                    android:background="@drawable/border2"/>
 
-                </TableRow>
-                <TableRow>
-                    <TextView
-                        android:layout_height="wrap_content"
-                        android:layout_width="70dp"
-                        android:textSize="10sp"
-                        tools:ignore="HardcodedText,SmallSp" />
+                <TextView
+                    android:id="@+id/tz"
+                    android:layout_width="70sp"
+                    android:layout_height="match_parent"
+                    android:text="@string/substancetab23"
+                    android:textSize="12sp"
+                    android:background="@drawable/border2"/>
 
-                    <TextView
-                        android:layout_width="39dp"
-                        android:layout_height="wrap_content"
-                        android:text="Lofexidine"
-                        android:textAlignment="center"
-                        android:textSize="10sp"
-                        tools:ignore="HardcodedText,SmallSp" />
-                    <TextView
-                        android:text=" Start 0.4 - 0.6 mg twice daily. Increase  as needed by 0.4-0.8 mg daily. Maximum single dose: 0.8 mg. Maximum daily dose: 2.4 mg  (in 2-4 divided doses)."
-                        android:layout_height="wrap_content"
-                        android:textAlignment="center"
-                        android:layout_width="90dp"
-                        android:textSize="10sp"
-                        tools:ignore="HardcodedText,SmallSp" />
+                <TextView
+                    android:id="@+id/temp"
+                    android:layout_width="115sp"
+                    android:text="@string/substancetab31"
+                    android:layout_height="match_parent"
+                    android:textSize="12sp"
+                    android:background="@drawable/border2"/>
+            </TableRow>
+            <TableRow>
+                <TextView
+                    android:id="@+id/to"
+                    android:layout_width="60dp"
+                    android:layout_height="match_parent"
+                    android:textSize="10sp"
+                    android:text="@string/substancetab9"
+                    tools:ignore="SmallSp"
+                    android:background="@drawable/border2"/>
+                <TextView
+                    android:id="@+id/t7"
+                    android:layout_width="40sp"
+                    android:layout_height="match_parent"
+                    android:textColor="#F68B1F"
+                    android:text="@string/lofexidine"
+                    android:textSize="10sp"
+                    tools:ignore="SmallSp"
+                    android:background="@drawable/border2"/>
 
-                    <TextView
-                        android:layout_width="45dp"
-                        android:layout_height="wrap_content"
-                        android:text="Sedation, light-headedness, low blood pressure, ECG changes such as prolonged  QT interval and sinus bradycardia."
-                        android:textAlignment="center"
-                        android:textSize="10sp"
-                        tools:ignore="HardcodedText,SmallSp" />
+                <TextView
+                    android:id="@+id/tj"
+                    android:layout_width="80sp"
+                    android:layout_height="match_parent"
+                    android:text="@string/substancetab26"
+                    android:textSize="12sp"
+                    android:background="@drawable/border2"/>
 
-                    <TextView
-                        android:layout_width="60dp"
-                        android:layout_height="wrap_content"
-                        android:text="Use caution in cardiac, cerebrovascular, and renal disease. Avoid in patients with prolonged QT syndrome, metabolic disarray, or if they are taking  any other QT-prolonging medications.
-Monitor vital signs closely.DO NOT stop medication abruptly, as withdrawal may cause rebound hypertension."
-                        android:textAlignment="center"
-                        android:textSize="10sp"
-                        tools:ignore="HardcodedText,SmallSp" />
+                <TextView
+                    android:id="@+id/z"
+                    android:layout_width="70sp"
+                    android:layout_height="match_parent"
+                    android:text="@string/substancetab24"
+                    android:textSize="12sp"
+                    android:background="@drawable/border2"/>
 
-                </TableRow>
-            </TableLayout>
-        </LinearLayout>
+                <TextView
+                    android:id="@+id/temp9"
+                    android:layout_width="115sp"
+                    android:text="@string/substancetab30"
+                    android:layout_height="match_parent"
+                    android:textSize="12sp"
+                    android:background="@drawable/border2"/>
+            </TableRow>
+            <TableRow
+                >
+                <TextView
+                    android:id="@+id/too"
+                    android:layout_width="60dp"
+                    android:text="@string/substancetab15"
+                    android:layout_height="match_parent"
+                    android:textSize="10sp"
+                    tools:ignore="SmallSp"
+                    android:background="@drawable/border2" />
+                <TextView
+                    android:id="@+id/t72"
+                    android:layout_width="40sp"
+                    android:layout_height="match_parent"
+                    android:textColor="#F68B1F"
+                    android:text="@string/acamprosate"
+                    android:textSize="10sp"
+                    tools:ignore="SmallSp"
+                    android:background="@drawable/border2"/>
+
+                <TextView
+                    android:id="@+id/th"
+                    android:layout_width="80sp"
+                    android:layout_height="match_parent"
+                    android:text="@string/substancetab27"
+                    android:textSize="12sp"
+                    android:background="@drawable/border2"/>
+
+                <TextView
+                    android:id="@+id/b"
+                    android:layout_width="70sp"
+                    android:layout_height="match_parent"
+                    android:text="@string/substancetab10"
+                    android:textSize="12sp"
+                    android:background="@drawable/border2"/>
+
+                <TextView
+                    android:id="@+id/temn"
+                    android:layout_width="115sp"
+                    android:text="@string/substancetab14"
+                    android:layout_height="match_parent"
+                    android:textSize="12sp"
+                    android:background="@drawable/border2"/>
+            </TableRow>
+            <TableRow>
+                <TextView
+                    android:id="@+id/tom"
+                    android:layout_width="60dp"
+                    android:layout_height="match_parent"
+                    android:textSize="10sp"
+                    tools:ignore="SmallSp"
+                    android:text="@string/substancetab15"
+                    android:background="@drawable/border2"
+                    />
+                <TextView
+                    android:id="@+id/tee"
+                    android:layout_width="40sp"
+                    android:layout_height="match_parent"
+                    android:textColor="#F68B1F"
+                    android:text="@string/naltrexone"
+                    android:textSize="10sp"
+                    tools:ignore="SmallSp"
+                    android:background="@drawable/border2"/>
+
+                <TextView
+                    android:id="@+id/the"
+                    android:layout_width="80sp"
+                    android:layout_height="match_parent"
+                    android:text="@string/substancetab5"
+                    android:textSize="12sp"
+                    android:background="@drawable/border2"/>
+
+                <TextView
+                    android:id="@+id/bin"
+                    android:layout_width="70sp"
+                    android:layout_height="match_parent"
+                    android:text="@string/substancetab21"
+                    android:textSize="12sp"
+                    android:background="@drawable/border2"/>
+
+                <TextView
+                    android:id="@+id/temno"
+                    android:layout_width="115sp"
+                    android:text="@string/substancetab19"
+                    android:layout_height="match_parent"
+                    android:textSize="12sp"
+                    android:background="@drawable/border2"/>
+            </TableRow>
+            <TableRow>
+                <TextView
+                    android:id="@+id/tome"
+                    android:layout_width="60dp"
+                    android:layout_height="match_parent"
+                    android:textSize="10sp"
+                    android:text="@string/substancetab15"
+                    tools:ignore="SmallSp"
+                    android:background="@drawable/border2"/>
+                <TextView
+                    android:id="@+id/teep"
+                    android:layout_width="40sp"
+                    android:layout_height="match_parent"
+                    android:textColor="#F68B1F"
+                    android:text="@string/disul_ram"
+                    android:textSize="10sp"
+                    tools:ignore="SmallSp"
+                    android:background="@drawable/border2"/>
+
+                <TextView
+                    android:id="@+id/then"
+                    android:layout_width="80sp"
+                    android:layout_height="match_parent"
+                    android:text="@string/substancetab28"
+                    android:textSize="12sp"
+                    android:background="@drawable/border2"/>
+
+                <TextView
+                    android:id="@+id/binw"
+                    android:layout_width="70sp"
+                    android:layout_height="match_parent"
+                    android:text="@string/substancetab13"
+                    android:textSize="12sp"
+                    android:background="@drawable/border2"/>
+
+                <TextView
+                    android:id="@+id/temnon"
+                    android:layout_width="115sp"
+                    android:text="@string/substancetab29"
+                    android:layout_height="match_parent"
+                    android:textSize="12sp"
+                    android:background="@drawable/border2"/>
+            </TableRow>
+        </TableLayout>
     </ScrollView>
-
 </android.support.constraint.ConstraintLayout>

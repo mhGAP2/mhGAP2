@@ -1651,7 +1651,7 @@ Steps to reducing or stopping the use of all substances: \n\n
     <string name="substancetable3">CONTRAINDICATIONS / CAUTIONS</string>
     <string name="substancetable4">Initial dose of 4-8 mg, increasing by 4-8 mg each day as needed until the person is no longer experiencing opioid withdrawal and not using illicit opioids. Maintain until ready to cease opioid agonist treatment.</string>
     <string name="substancetable5">100 mg p.o. daily for 5 days to prevent Wernicke’s encephalopathy. 100 mg – 500 mg i.v. or i.m. two to three times daily for 3-5 days to treat Wernicke’s encephalopathy.</string>
-    <string name="substancetable6">BENZODIAZEPINES To treat alcohol withdrawal, stimulant intoxication, and psychosis</string>
+    <string name="substancetable6">BENZODIAZEPINES\n\n To treat alcohol withdrawal, stimulant intoxication, and psychosis</string>
     <string name="buprenorphine">Buprenorphine</string>
     <string name="class_indication">CLASS / INDICATION</string>
     <string name="dosing">DOSING</string>
@@ -1660,8 +1660,8 @@ Steps to reducing or stopping the use of all substances: \n\n
     <string name="substancetable7">Do not use in people who are sedated. Beware of combining with other sedatives. Patients should not drive. Duration of effect may be prolonged in persons with severe liver disease. Supervise dosing to minimise the risk of: diversion (i.e. selling the medication to somebody else)</string>
     <string name="medication">MEDICATION</string>
     <string name="methadone">Methadone</string>
-    <string name="opioid_agonists_to_treat_opioid_withdrawal_and_dependence">OPIOID AGONISTS To treat opioid withdrawal and dependence</string>
-    <string name="opioid_antagonists_to_treat_opioid_overdose">OPIOID ANTAGONISTS To treat opioid overdose</string>
+    <string name="opioid_agonists_to_treat_opioid_withdrawal_and_dependence">OPIOID AGONISTS \n\nTo treat opioid withdrawal and dependence</string>
+    <string name="opioid_antagonists_to_treat_opioid_overdose">OPIOID ANTAGONISTS \n\nTo treat opioid overdose</string>
     <string name="opioid_withdrawal_methadone_initial_dose_20_mg_with_a_supplemental_dose_of_5_10_mg_4_hours_later_if_necessary_opioid_maintenance_initial_dose_10_20_mg_with_supplementary_dose_of_10_mg_if_needed_increasing_the_daily_dose_by_5_10_mg_every_few_days_if_needed_until_the_person_is_no_longer_experiencing_opioid_withdrawal_and_not_using_illicit_opioids_maintain_until_ready_to_cease_opioid_agonist_treatment">Opioid withdrawal: Methadone initial dose 20 mg, with a supplemental dose of 5-10 mg 4 hours later if necessary. Opioid maintenance: initial dose 10-20 mg with supplementary dose of 10 mg if needed, increasing the daily dose by 5-10 mg every few days if needed until the person is no longer experiencing opioid withdrawal and not using illicit opioids. Maintain until ready to cease opioid agonist treatment.</string>
     <string name="side_effects">SIDE EFFECTS</string>
     <string name="sedation_and_respiratory_depression_which_can_be_life_threatening_prolonged_use_can_lead_to_dependence">Sedation and respiratory depression which can be life threatening. Prolonged use can lead to dependence</string>
@@ -1703,4 +1703,51 @@ Steps to reducing or stopping the use of all substances: \n\n
 \n –  After a potentially traumatic event, the person may have PTSD if the symptoms involve considerable difﬁculty with daily functioning for at least 1 month and include recurring frightening dreams, ﬂashbacks or intrusive memories of the events accompanied by intense fear or horror; deliberate avoidance of reminders  of the event; excessive concern and alertness to danger or reacting strongly to  loud noises or unexpected movements.
 
 </string>
+    <string name="substancetab1">Sedation, confusion, nausea, vomiting, constipation, possible hormonal changes, decreased sex drive, ECG changes such as prolonged QT interval or bradycardia, hypotension, respiratory depression.</string>
+    <string name="substancetab2">0.4-2 mg i.v., i.m., subcutaneous or intranasal. Repeat doses as needed.</string>
+    <string name="Substancetab3">Initial dose of 4-8 mg, increasing by 4-8 mg each day as needed until the person is no longer experiencing opioid withdrawal and not using illicit opioids. Maintain until ready to cease opioid agonist treatment.</string>
+    <string name="substancetab4">Initial dose of 4-8 mg, increasing by 4-8 mg each day as needed until the person is no longer experiencing opioid withdrawal and not using illicit opioids. Maintain until ready to cease opioid agonist treatment.</string>
+    <string name="substancetab5">Start 50 mg daily for 6-12 months. In opioid dependence, ensure that there has been no opioid use in the last 7 days (for example by administration of dose of naloxone).</string>
+    <string name="substancetab6">10-20 mg as an initial dose with 10 mg extra dose if needed.</string>
+    <string name="substancetab8">100 mg p.o. daily for 5 days to prevent Wernicke’s encephalopathy. 100 mg – 500 mg i.v. or i.m. two to three times daily for 3-5 days to treat Wernicke’s encephalopathy.</string>
+    <string name="substancetab9">ALPHA ADRENERGIC AGONISTS To treat opioid withdrawal</string>
+    <string name="acamprosate">Acamprosate</string>
+    <string name="bup">Buprenorphine</string>
+    <string name="cla">CLASS / INDICATION</string>
+    <string name="con">CONTRAINDICATIONS / CAUTIONS</string>
+    <string name="clonidine">Clonidine</string>
+    <string name="dosin">DOSING</string>
+    <string name="substancetab10">Diarrhoea, ﬂatulence, nausea/vomiting, abdominal pain, depression, anxiety, suicidality, itching. Occasionally, a maculopapular rash can occur, and rarely, bullous skin reactions.</string>
+    <string name="substancetab11">Discomfort or withdrawal symptoms may result.</string>
+    <string name="disul_ram">Disulﬁram</string>
+    <string name="substancetab12">Do not use in people who are sedated. Beware of combining with other sedatives. The person should not drive. Supervise dosing to minimise the risk of diversion. Give longer acting opioids, such as methadone or bupre- norphine, once per day to outpatients, when available.</string>
+    <string name="substancetab13">Drowsiness, dizziness, headache, ﬂushing, sweating, dry mouth, nausea/vomiting, tremor, foul body odour, sexual dysfunction. Rarely, psychotic reactions, allergic dermatitis, peripheral neuritis, or hepatic cell damage can occur. Severe reactions can lead to confusion, cardiovascular collapse, and death.</string>
+    <string name="substancetab14">In moderate kidney disease, give a lower dose, 333 mg p.o. 3 times per day.CONTRAINDICATED in severe kidney disease and liver disease.</string>
+    <string name="lofexidine">Lofexidine</string>
+    <string name="medi">MEDICATION</string>
+    <string name="substancetab15">MEDICATIONS \n\nTO PREVENT RELAPSE IN ALCOHOL DEPENDENCE To suppress the urge to drink</string>
+    <string name="nr">Methadone</string>
+    <string name="morphine_sulphate">Morphine sulphate</string>
+    <string name="naloxone">Naloxone</string>
+    <string name="naltrexone">Naltrexone</string>
+    <string name="substancetab16">OPIOID AGONISTS \n\nTo treat opioid withdrawal and dependence</string>
+    <string name="substancetab18">OPIOID ANTAGONISTS \n\nTo treat opioid overdose</string>
+    <string name="substancetab19">Risk of FATAL OVERDOSE in patients who use opioids more than 24 hours after their last dose of naltrexone, due to the rapid loss of antagonistic effect. DO NOT use in patients with liver failure or acute hepatitis.</string>
+    <string name="side">SIDE EFFECTS</string>
+    <string name="substancetab20">Sedation and respiratory depression which can be life threatening. Prolonged use can lead to dependence.</string>
+    <string name="sedation_dizziness_ataxia_nausea_vomiting_constipation_respiratory_depression">Sedation, dizziness, ataxia, nausea, vomiting, constipation, respiratory depression.</string>
+    <string name="substancetab21">Sedation, dizziness, nausea/vomiting, abdominal pain, insomnia, anxiety, reduced energy, joint and muscle pain. Monitor liver function due to risk of liver toxicity.</string>
+    <string name="substancetab23">Sedation, light-headedness, dizziness, headache, nausea/vomiting, dry mouth, constipation, sexual dysfunction, depression, agitation, low blood pressure, tachycardia, sinus bradycardia, and AV block</string>
+    <string name="substancetab24">Sedation, light-headedness, low blood pressure, ECG changes such as prolonged QT interval and sinus bradycardia.</string>
+    <string name="substancetab25">Start 0.1 mg 2-3 times daily. Increase as tolerated in divided doses to manage withdrawal symptoms, to a maximum of 1 mg daily.</string>
+    <string name="substancetab26">Start 0.4 - 0.6 mg twice daily. Increase as needed by 0.4-0.8 mg daily. Maximum single dose: 0.8 mg. Maximum daily dose: 2.4 mg (in 2-4 divided doses).</string>
+    <string name="substancetab27">Start 2 tablets of 333 mg p.o. each 3 times per day for 12 months. If the person weighs less than 60 kg, give 2 tablets 2 times per day p.o. for 12 months.</string>
+    <string name="substancetab28">Start 200-400 mg daily.</string>
+    <string name="thiamine_vitamin_b1">Thiamine (Vitamin B1)</string>
+    <string name="to_treat_opioid_withdrawal_and_dependence_methadone_opioid_withdrawal_methadone_initial_dose_20_mg_with_a_supplemental_dose_of_5_10_mg_4_hours_later_if_necessary_opioid_maintenance_initial_dose_10_20_mg_with_supplementary_dose_of_10_mg_if_needed_increasing_the_daily_dose_by_5_10_mg_every_few_days_if_needed_until_the_person_is_no_longer_experiencing_opioid_withdrawal_and_not_using_illicit_opioids_maintain_until_ready_to_cease_opioid_agonist_treatment">To treat opioid withdrawal and dependence Methadone Opioid withdrawal: Methadone initial dose 20 mg, with a supplemental dose of 5-10 mg 4 hours later if necessary. Opioid maintenance: initial dose 10-20 mg with supplementary dose of 10 mg if needed, increasing the daily dose by 5-10 mg every few days if needed until the person is no longer experiencing opioid withdrawal and not using illicit opioids. Maintain until ready to cease opioid agonist treatment.</string>
+    <string name="substancetab29">Tricyclic antidepressants (TCAs), monamine oxidase inhibitors (MAOIs), antipsychotics, vasodilators, and alpha or beta adrenergic antagonists make the disulﬁram-alcohol reaction more serious. Sensitisation to alcohol continues 6-14 days after taking disulﬁram, even if in small amounts. DO NOT use with alcohol, as reactions can be life-threatening or fatal. DO NOT use in women who are pregnant or breastfeeding. CONTRAINDICATED in people with hypertension, heart, liver, or kidney disease, a history of cerebrovascular accidents, psychosis, impulsivity, or if at risk of suicide.</string>
+    <string name="substancetab30">Use caution in cardiac, cerebrovascular, and renal disease. Avoid in patients with prolonged QT syndrome, metabolic disarray, or if they are taking any other QT-prolonging medications. Monitor vital signs closely. DO NOT stop medication abruptly, as withdrawal may cause rebound hypertension.</string>
+    <string name="substancetab31">Use in caution in cardiac, cerebrovascular, and liver disease. Use lower doses in kidney disease. Be aware of the potential for abuse. Monitor vital signs closely. DO NOT stop abruptly, as withdrawal can cause rebound hypertension. Avoid in women who are pregnant or breastfeeding</string>
+    <string name="substancetab32">Use with caution in congestive heart failure, respiratory disease, or liver disease. – Potential for abuse. – Abrupt cessation can cause withdrawal symptoms</string>
+    <string name="substancetab34">VITAMINS \n\nTo prevent or treat Wernicke’s encephalopathy</string>
 </resources>
