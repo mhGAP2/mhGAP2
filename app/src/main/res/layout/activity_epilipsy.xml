@@ -14,7 +14,7 @@
         android:text="EPILEPSY"
         android:textColor="#FFFFFF"
         android:textSize="30dp"
-        android:id="@+id/t1"
+        android:id="@+id/textView"
         tools:layout_constraintTop_creator="1"
         tools:layout_constraintRight_creator="1"
         android:layout_marginEnd="65dp"
@@ -41,7 +41,7 @@
         app:layout_constraintLeft_toLeftOf="parent" />
 
     <Button
-        android:id="@+id/button"
+        android:id="@+id/epibutton"
         android:layout_width="142dp"
         android:layout_height="52dp"
         android:text="Start"

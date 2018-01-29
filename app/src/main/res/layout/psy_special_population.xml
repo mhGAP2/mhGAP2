@@ -1,0 +1,160 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent" android:layout_height="match_parent"
+    android:background="#ffffff"
+    >
+
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_marginLeft="5dp"
+        tools:ignore="RtlHardcoded">
+
+        <TextView
+            android:id="@+id/textView17"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textAlignment="center"
+            android:textColor="#cc0808"
+            android:textSize="25dp"
+            android:text="Special populations"
+            tools:ignore="HardcodedText,SpUsage" />
+
+
+        <TextView
+            android:id="@+id/textView18"
+            android:layout_width="match_parent"
+            android:textColor="#361818"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="7dp"
+            android:textStyle="italic"
+            android:text="Note that interventions may differ for PSYCHOSES in these populations"/>
+
+
+        <TextView
+            android:id="@+id/textView19"
+            android:textColor="#223C97"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:textSize="15dp"
+            android:text="1.WOMEN WHO ARE PREGNANT OR BREASTFEEDING"
+            tools:ignore="SpUsage" />
+
+        <TextView
+            android:id="@+id/textView20"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="5dp"
+            android:text="@string/psy_special1"
+            android:textColor="#361818" />
+
+        <TextView
+            android:id="@+id/textView21"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textColor="#000000"
+            android:textStyle="bold"
+            android:layout_marginTop="13dp"
+            android:text="Pharmacological Interventions"/>
+
+        <TextView
+            android:id="@+id/textView22"
+            android:textColor="#223C97"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:textSize="13dp"
+            android:text="PSYCHOSIS"
+            tools:ignore="SpUsage" />
+
+        <TextView
+            android:id="@+id/textView24"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="3dp"
+            android:text="@string/psy_special2"
+            android:textColor="#361818" />
+
+        <TextView
+            android:id="@+id/textView23"
+            android:textColor="#223C97"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:textSize="13dp"
+            android:text="MANIC EPISODE IN BIPOLAR DISORDER"
+            tools:ignore="SpUsage" />
+
+        <TextView
+            android:id="@+id/textView25"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="3dp"
+            android:text="@string/psy_special3"
+            android:textColor="#361818" />
+
+        <TextView
+            android:id="@+id/textView16"
+            android:textColor="#223C97"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:textSize="15dp"
+            android:text="2.ADOLESCENTS"
+            tools:ignore="SpUsage" />
+
+
+        <TextView
+            android:id="@+id/textView26"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="3dp"
+            android:text="@string/psy_special4"
+            android:textColor="#361818" />
+
+        <TextView
+            android:id="@+id/textView27"
+            android:textColor="#223C97"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:textSize="15dp"
+            android:text="3.OLDER ADULTS"
+            tools:ignore="SpUsage" />
+
+
+        <TextView
+            android:id="@+id/textView28"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="3dp"
+            android:text="@string/psy_special5"
+            android:textColor="#361818" />
+
+        <TextView
+            android:id="@+id/textVie29"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:textColor="#cc0808"
+            android:textSize="12dp"
+            android:text="Caution"
+            tools:ignore="HardcodedText,SpUsage" />
+
+        <TextView
+            android:id="@+id/textView30"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="3dp"
+            android:text="@string/psy_caution3"
+            android:textColor="#361818" />
+
+
+
+    </LinearLayout>
+</ScrollView>

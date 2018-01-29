@@ -35,7 +35,7 @@
         android:layout_width="0dp"
         android:layout_height="427dp"
         android:textColor="#ffffff"
-        android:textSize="15dp"
+        android:textSize="15sp"
         android:text="@string/sui"
         tools:layout_constraintRight_creator="1"
         tools:layout_constraintBottom_creator="1"
@@ -48,7 +48,7 @@
         android:layout_marginBottom="81dp" />
 
     <Button
-        android:id="@+id/button"
+        android:id="@+id/suibutton"
         android:layout_width="142dp"
         android:layout_height="52dp"
         android:text="Start"

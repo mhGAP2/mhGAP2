@@ -46,15 +46,13 @@
             />
 
 
-
         <TextView
-            android:id="@+id/t1"
+            android:id="@+id/textView"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:textColor="#361818"
             android:layout_marginTop="10dp"
             android:text="@string/dep_protocol2.1"
-
+            android:textColor="#361818"
             />
 
         <TextView
