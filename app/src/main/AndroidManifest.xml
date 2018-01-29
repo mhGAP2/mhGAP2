@@ -65,11 +65,10 @@
         <activity android:name=".Dep_assesment" />
         <activity android:name=".Dep_followup" />
         <activity android:name=".depression3" />
-
         <activity android:name=".psychoses2" />
         <activity android:name=".psy_assesment" />
         <activity android:name=".psy_management" />
-        <activity android:name=".psy_followup"></activity>
+        <activity android:name=".psy_followup" />
         <activity android:name=".behavioural1" />
         <activity android:name=".Bev_assesment" />
         <activity android:name=".behavioural2" />
@@ -78,8 +77,7 @@
         <activity android:name=".suicide2" />
         <activity android:name=".epilipsy1" />
         <activity android:name=".epi_assesment" />
-        <activity android:name=".epilipsy2"></activity>
-
+        <activity android:name=".epilipsy2" />
         <activity android:name=".Dementia_Management" />
         <activity android:name=".Dementia_healthsec" />
         <activity android:name=".Substance_healthsec" />
@@ -92,5 +90,11 @@
         <activity android:name=".Substanceprotocol4" />
         <activity android:name=".Substanceprotocol5" />
         <activity android:name=".Oth1" />
+        <activity android:name=".Cmh" />
+        <activity android:name=".Suicideprot1" />
+        <activity android:name=".Suicideproto1_2" />
+        <activity android:name=".Suicideprot2" />
+        <activity android:name=".Suicideprot3"></activity>
     </application>
+
 </manifest>

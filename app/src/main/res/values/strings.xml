@@ -825,7 +825,7 @@ as required for the first 4-6 weeks of therapy. If there is no
 improvement, see Follow-up and Table 4.\n\n
 Monitor weight, blood pressure, fasting sugar, cholesterol and
 ECG for persons on antipsychotics if possible (see below).</string>
-<string name="psy_caution2">Side effects to look for:\n\n
+    <string name="psy_caution2">Side effects to look for:\n\n
 – Extrapyramidal side effects (EPS): akathisia, acute
 dystonic reactions, tremor, cog- wheeling, muscular rigidity,
 and tardive dyskinesia. Treat with anticholinergic medications
@@ -1267,9 +1267,6 @@ Consult a specialist for treatment.</string>
     </string>
 
 
-
-
-
     <string name="bev_2_1_cmh">  Spend time with their child in enjoyable activities.  Play and communicate with their child/adolescent.  http://www.who.int/maternal_child_adolescent/documents/ care_child_development/en/ \n\n
 
      Listen to the child/adolescent and show understanding  and respect. \n\n
@@ -1441,11 +1438,14 @@ Consult a specialist for treatment.</string>
 
     <string name="sui_2_2"> Place the person in a secure and supportive environment  at a health facility ( do not leave them alone). If the person must wait for treatment, offer an environment that minimizes distress; if possible, in a separate,
         quiet room  with constant supervision and contact with a designated staff or family member to ensure safety at all times. \n\n
-   Remove access to means of self-harm. \n\n
-   Consult a mental health specialist, if available. \n\n
+   Remove access to means of self-harm. </string>
+    <string name="sui28">
+    Consult a mental health specialist, if available. \n\n
    Mobilize family, friends and other concerned individuals or available community resources to monitor and
-        support the person during the imminent risk period (see “Offer and activate psychosocial support”. (2.3) \n\n
-   Treat people who have self-harmed with the same care, respect and privacy given to other people, and be sensitive to the emotional distress associated with self-harm. \n\n
+        support the person during the imminent risk period <a href="">(see “Offer and activate psychosocial support”. (2.3)</a>
+        </string>
+    <string name="sui24">
+    Treat people who have self-harmed with the same care, respect and privacy given to other people, and be sensitive to the emotional distress associated with self-harm. \n\n
    Include the carers if the person wants their support during assessment and treatment; if possible, the psychosocial assessment should include a one-to-one interview between the person and the health worker, to explore private issues. \n\n
    Provide emotional support to carers/family members if they need it. (2.4) \n\n
    Ensure continuity of care. \n\n
@@ -1457,15 +1457,8 @@ Consult a specialist for treatment.</string>
 
     </string>
 
-    <string name="sui_2_3">Offer support to the person \n\n
- – Explore reasons and ways to stay alive. \n
- –  Focus on the person’s strengths by encouraging them to talk of how earlier problems have been resolved. \n
- –  Consider problem-solving therapy to help people with acts of self-harm within the last year, if sufﬁcient human resources are available. Go to Essential care and practice  ECP
-     Activate psychosocial support \n
- –  Mobilize family, friends, concerned  individuals and other available resources to ensure close monitoring of the person as long as the risk of self-harm/suicide persists. \n
- –  Advise the person and carers to restrict access to means  of self-harm/suicide (e.g. pesticides/toxic substances, prescription medications, ﬁrearms, etc.) when the person has thoughts or plans of self-harm/suicide. \n
- –  Optimize social support from available community resources. These include informal resources, such as relatives, friends, acquaintances, colleagues and religious leaders or formal community resources, if available, such  as crisis centres, and local mental health centres. \n
-</string>
+    <string name="sui_2_3"><a href="">Offer and activate psychosocial support.</a>
+ </string>
 
     <string name="sui_2_4">
     Inform carers and family members that asking about suicide will often help the person feel relieved, less anxious, and better understood. \n\n
@@ -1540,7 +1533,7 @@ Consult a specialist for treatment.</string>
         -Keep things simple, avoid changes to routine, and, as far as possible, avoid exposing the person to unfamiliar and bewildering places.</string>
     <string name="Dementia9">Identify and treat underlying physical health problems that may affect behaviour. Look for pain, infections, etc. on physical exam </string>
     <string name="hi">(Go to » ECP). Refer to specialist if needed.</string>
-                   <string name="com">Identify events (e.g. shopping at busy market) or factors  (e.g. going out alone) that may precede, trigger, or enhance problem behaviours. Modify these triggers if possible.\n\n
+    <string name="com">Identify events (e.g. shopping at busy market) or factors  (e.g. going out alone) that may precede, trigger, or enhance problem behaviours. Modify these triggers if possible.\n\n
                    \n\nConsider environmental adaptations such as appropriate seating, safe wandering areas, signs (e.g. ‘no exit’ sign on the street door or signpost to toilet).\n\n
                   \n\n Encourage soothing, calming, or distracting strategies. Suggest an activity the person enjoys (e.g. going for a walk, listening to music, engaging in conversation), especially when feeling agitated.\n\n
             </string>
@@ -1793,4 +1786,42 @@ Consult a specialist for treatment.</string>
     <string name="substancetab32">Use with caution in congestive heart failure, respiratory disease, or liver disease. – Potential for abuse. – Abrupt cessation can cause withdrawal symptoms</string>
     <string name="substancetab34">VITAMINS \n\nTo prevent or treat Wernicke’s encephalopathy</string>
     <string name="table_1_antidepressants">TABLE 1: Antidepressants</string>
+    <string name="cmh1">Consider behavioural interventions when available.</string>
+    <string name="cmh2" />
+    <string name="cmh3">DO NOT offer pharmacological treatment.</string>
+    <string name="brief_psychological_treatments">Brief psychological treatments</string>
+    <string name="ensure_appropriate_follow_up_every_three_months_or_more_if_needed">Ensure appropriate follow-up every three months or more, if needed.</string>
+    <string name="cmh4">Guidance to promote child/adolescent well-being and functioning</string>
+    <string name="cmh7">Liaise with teachers and other school staff</string>
+    <string name="link_with_other_available_resources_in_the_community">Link with other available resources in the community.</string>
+    <string name="provide_carer_support">Provide carer support.</string>
+    <string name="cmh9">Guidance for improving behaviour</string>
+    <string name="cmh10">ENCOURAGE AND HELP THE CHILD / ADOLESCENT TO:</string>
+    <string name="cmh11">ENCOURAGE THE CARER TO:</string>
+    <string name="cmh12">ENCOURAGE THE CARER TO:</string>
+    <string name="cmh14">DO NOT offer pharmacological treatment.</string>
+    <string name="cmh15">Ensure appropriate follow-up once a month or more, if needed.</string>
+    <string name="cmh17">DO NOT prescribe pharmacological treatment for children younger than 12 years.</string>
+    <string name="cmh18">Consider Parent Skills Training when available.</string>
+    <string name="cmh19">Consider referral for behavioural intervention or interpersonal therapy.</string>
+    <string name="cmh20">DO NOT consider pharmacological treatment as ﬁrst line treatment.</string>
+    <string name="cmh21">Guidance to promote child/adolescent well-being and functioning</string>
+    <string name="cmh22">Liaise with teachers and other school staff</string>
+    <string name="cmh23">Provide carer support.</string>
+    <string name="cmh24">» Assess for and manage stressors, reduce stress and strengthen social supports.</string>
+    <string name="cmh25">» Link with other available resources in the community.</string>
+    <string name="cmh26">ENCOURAGE AND HELP THE CHILD / ADOLESCENT TO:</string>
+    <string name="cmh27">ENCOURAGE THE CARER TO:</string>
+    <string name="cmh29">When psychological interventions prove ineffective, consult a specialist for Fluoxetine (no other SSRIs or TCAs). <a href="">Go to » DEP </a>for medication details.</string>
+    <string name="sui25">Offer support to the person \n\n
+        – Explore reasons and ways to stay alive.\n\n
+        – Focus on the person’s strengths by encouraging them to talk of how earlier problems have been resolved.</string>
+    <string name="sui26">
+        – Consider problem-solving therapy to help people with acts of self-harm within the last year, if sufﬁcient human resources are available.
+        <a href="">Go to Essential care and practice ECP</a></string>
+    <string name="sui27"> Activate psychosocial support \n\n
+        – Mobilize family, friends, concerned individuals and other available resources to ensure close monitoring of the person as long as the risk of self-harm/suicide persists.\n\n
+        – Advise the person and carers to restrict access to means of self-harm/suicide (e.g. pesticides/toxic substances, prescription medications, ﬁrearms, etc.) when the person has thoughts or plans of self-harm/suicide. \n\n
+        – Optimize social support from available community resources. These include informal resources, such as relatives, friends, acquaintances, colleagues and religious leaders or formal community resources, if available, such as crisis centres, and local mental health centres.</string>
+    <string name="offer_carers_support">Offer carers support.</string>
 </resources>
