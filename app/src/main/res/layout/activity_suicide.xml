@@ -14,7 +14,7 @@
         android:text="SUICIDE"
         android:textColor="#FFFFFF"
         android:textSize="30dp"
-        android:id="@+id/textView4"
+        android:id="@+id/t1"
         tools:layout_constraintTop_creator="1"
         tools:layout_constraintRight_creator="1"
         android:layout_marginEnd="16dp"

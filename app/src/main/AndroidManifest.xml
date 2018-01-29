@@ -71,7 +71,14 @@
         <activity android:name=".Substance_healthsec" />
         <activity android:name=".Substance_management" />
         <activity android:name=".oth_healthsec" />
-        <activity android:name=".oth_management"></activity>
+        <activity android:name=".oth_management" />
+        <activity android:name=".Substanceprotocol1" />
+        <activity android:name=".Substanceprot2" />
+        <activity android:name=".Substanceprotcol3" />
+        <activity android:name=".Substanceprotocol4" />
+        <activity android:name=".Substanceprotocol5" />
+        <activity android:name=".Substanceprotocol6" />
+        <activity android:name=".Oth1" />
     </application>
 
 </manifest>

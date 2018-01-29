@@ -1,5 +1,6 @@
 package com.example.tencho.mhgap2;
 
+import android.content.Intent;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 import android.view.View;
@@ -13,32 +14,37 @@ public class Substance_management extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_substance_management);
         btn1=(Button)findViewById(R.id.bt1);
-        btn1.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View view) {
-                setContentView(R.layout.substancepro1);
-            }
-        });
+       btn1.setOnClickListener(new View.OnClickListener() {
+           @Override
+           public void onClick(View view) {
+               Intent intent=new Intent(Substance_management.this,Substanceprotocol1.class);
+               startActivity(intent);
+           }
+       });
         btn2=(Button)findViewById(R.id.bt2);
         btn2.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                setContentView(R.layout.substancepro2);
+                Intent intent=new Intent(Substance_management.this,Substanceprot2.class);
+                startActivity(intent);
             }
         });
-
         btn3=(Button)findViewById(R.id.bt3);
         btn3.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                setContentView(R.layout.substancepro3);
+                Intent intent=new Intent(Substance_management.this,Substanceprotcol3.class);
+                startActivity(intent);
             }
         });
+
+
         btn4=(Button)findViewById(R.id.bt4);
         btn4.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                setContentView(R.layout.substancepro4);
+                Intent intent=new Intent(Substance_management.this,Substanceprotocol4.class);
+                startActivity(intent);
             }
         });
 
@@ -46,7 +52,8 @@ public class Substance_management extends AppCompatActivity {
         btn5.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                setContentView(R.layout.substancepro5);
+                Intent intent=new Intent(Substance_management.this,Substanceprotocol5.class);
+                startActivity(intent);
             }
         });
         btn6=(Button)findViewById(R.id.bt6);
