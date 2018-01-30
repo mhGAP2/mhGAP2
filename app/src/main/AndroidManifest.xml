@@ -94,7 +94,10 @@
         <activity android:name=".Suicideprot1" />
         <activity android:name=".Suicideproto1_2" />
         <activity android:name=".Suicideprot2" />
-        <activity android:name=".Suicideprot3"></activity>
+        <activity android:name=".Suicideprot3" />
+        <activity android:name=".Epi" />
+        <activity android:name=".Epi_spec" />
+        <activity android:name=".Substance_spe"></activity>
     </application>
 
 </manifest>

@@ -8,7 +8,7 @@ import android.widget.Button;
 import android.widget.TextView;
 
 public class Substanceprotocol1 extends AppCompatActivity {
-    TextView bt1,bt2,bt3,bt4;
+    TextView bt1,bt2,bt4;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -28,19 +28,12 @@ public class Substanceprotocol1 extends AppCompatActivity {
                 setContentView(R.layout.substanceprot1);
             }
         });
-
-        bt3=(TextView) findViewById(R.id.t3);
-        bt3.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View view) {
-                setContentView(R.layout.dep_caution);
-            }
-        });
         bt4=(TextView)findViewById(R.id.t4);
         bt4.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                setContentView(R.layout.substancespecial);
+                Intent intent=new Intent(Substanceprotocol1.this,Substance_spe.class);
+                startActivity(intent);
             }
         });
 
