@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#ffffff">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_marginLeft="5dp"
+        tools:ignore="RtlHardcoded">
+
+        <TextView
+            android:id="@+id/sub1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textColor="#F68B1F"
+            android:layout_marginTop="10dp"
+            android:text="2.3  Strategies for Reducing and Stopping Use"
+            android:textSize="15sp"
+            />
+
+
+
+
+        <TextView
+            android:id="@+id/sub2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textColor="#361818"
+            android:layout_marginTop="10dp"
+            android:text="@string/subs9" />
+        <TextView
+            android:id="@+id/sub3"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textColor="#F68B1F"
+            android:layout_marginTop="10dp"
+            android:text="2.5 Strategies for Preventing Harm from Drug Use and Treating Related Conditions"
+            android:textSize="15sp"
+            />
+
+
+
+
+        <TextView
+            android:id="@+id/sub5"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textColor="#361818"
+            android:layout_marginTop="10dp"
+            android:text="@string/substancepro4" />
+
+
+
+    </LinearLayout>
+</ScrollView>
+

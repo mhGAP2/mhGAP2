@@ -1,11 +1,15 @@
 package com.example.tencho.mhgap2;
 
-import android.support.v7.app.AppCompatActivity;
+import android.content.Intent;
 import android.os.Bundle;
+import android.support.v7.app.AppCompatActivity;
+import android.view.View;
 import android.view.Window;
 import android.view.WindowManager;
+import android.widget.Button;
 
 public class dementia extends AppCompatActivity {
+    Button btn;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -13,5 +17,15 @@ public class dementia extends AppCompatActivity {
         requestWindowFeature(Window.FEATURE_NO_TITLE);
         getWindow().setFlags(WindowManager.LayoutParams.FLAG_FULLSCREEN,WindowManager.LayoutParams.FLAG_FULLSCREEN);
         setContentView(R.layout.activity_dementia);
+        btn=(Button)findViewById(R.id.bt);
+        btn.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                Intent intent=new Intent(dementia.this,Dementia_healthsec.class);
+                startActivity(intent);
+
+            }
+        });
+
     }
 }

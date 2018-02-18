@@ -1,0 +1,117 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TableLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_marginLeft="11dp"
+    android:layout_marginRight="11dp"
+
+    >
+
+
+    <TextView
+        android:id="@+id/textView70"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="TABLE 5: Management of Persons with Agitated and/or Aggressive Behaviour"
+        android:textColor="#223C97"
+        android:layout_marginTop="8dp"
+        android:textSize="16sp"/>
+
+
+
+
+
+
+
+    <TableRow
+        android:layout_height="match_parent"
+        android:layout_width="match_parent"
+        android:layout_marginTop="5dp"
+        android:background="@drawable/border2"
+
+        >
+
+
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:ems="8"
+            android:background="#223C97"
+            android:id="@+id/textVie50"
+            android:textColor="#ffffff"
+            android:textSize="11dp"
+            android:textAlignment="center"
+            android:text="ASSESSMENT"
+            tools:ignore="HardcodedText,SpUsage" />
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:ems="8"
+            android:textColor="#ffffff"
+            android:background="#223C97"
+            android:textAlignment="center"
+            android:textSize="12dp"
+            android:id="@+id/textVie5"
+            android:text="COMMUNICATION"
+            tools:ignore="HardcodedText,SpUsage" />
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:ems="9"
+            android:textAlignment="center"
+            android:textColor="#ffffff"
+            android:background="#223C97"
+            android:layout_weight="10"
+            android:textSize="12dp"
+            android:id="@+id/textVie51"
+            android:text="SEDATION AND USE OF MEDICATION"
+            tools:ignore="HardcodedText,SpUsage" />
+
+
+    </TableRow>
+
+    <TableRow
+        android:layout_height="match_parent"
+        android:layout_width="match_parent"
+        android:background="@drawable/border2"
+
+        >
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:ems="8"
+            android:textColor="#361818"
+            android:textSize="10dp"
+            android:layout_marginTop="5dp"
+            android:layout_marginLeft="2dp"
+            android:id="@+id/textVi9"
+            android:text="@string/psy_ass"
+            tools:ignore="HardcodedText,SpUsage" />
+        <TextView
+            android:textColor="#361818"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:ems="9"
+            android:id="@+id/textV10"
+            android:text="@string/psy_com"
+            android:textSize="10dp"
+            tools:ignore="SpUsage" />
+
+        <TextView
+            android:textColor="#361818"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:ems="9"
+            android:id="@+id/textVi10"
+            android:text="@string/psy_sed"
+            android:textSize="10dp"
+            tools:ignore="SpUsage" />
+
+
+
+    </TableRow>
+
+</TableLayout>

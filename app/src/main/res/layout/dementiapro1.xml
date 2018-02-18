@@ -1,0 +1,143 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#ffffff">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_marginLeft="5dp"
+        tools:ignore="RtlHardcoded">
+        <TextView
+            android:id="@+id/textView1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Protocol 1(Dementia)"
+            android:textColor="#92C139"
+            android:textSize="30sp"
+            android:textAlignment="center"
+            tools:ignore="HardcodedText" />
+        <TextView
+            android:id="@+id/textView2"
+            android:textColor="#92C139"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:text="DEMENTIA – without behavioural  and/or psychological symptoms"
+            android:textSize="15sp"
+            android:textAlignment="center"
+            />
+
+        <TextView
+            android:id="@+id/textView2"
+            android:textColor="#361818"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:text="PSYCHOSOCIAL INTERVENTIONS"
+            android:textSize="15sp"
+            android:textAlignment="center"
+            tools:ignore="DuplicateIds,HardcodedText" />
+
+        <TextView
+            android:id="@+id/textView3"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textColor="#92C139"
+            android:layout_marginTop="10dp"
+            android:text="@string/Dementia4"
+            android:textSize="15sp"
+            />
+
+
+
+        <TextView
+            android:id="@+id/t1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textColor="#361818"
+            android:layout_marginTop="10dp"
+            android:text="@string/Dementia7" />
+
+        <TextView
+            android:id="@+id/textView5"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textColor="#92C139"
+            android:layout_marginTop="20dp"
+            android:text="2.4 Encourage carers to conduct interventions to improve cognitive functioning. "
+            android:textSize="15sp"
+            tools:ignore="HardcodedText" />
+
+        <TextView
+            android:id="@+id/textView6"
+            android:textColor="#361818"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:text="@string/Dementia8"
+
+            />
+
+        <TextView
+            android:id="@+id/textView7"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textColor="#92C139"
+            android:layout_marginTop="20dp"
+            android:text="2.3   Promote independence, functioning, and mobility"
+            android:textSize="15sp"
+            tools:ignore="HardcodedText" />
+
+
+        <TextView
+            android:id="@+id/textView8"
+            android:layout_width="match_parent"
+            android:textColor="#361818"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:text="@string/dementia1" />
+
+
+        <TextView
+            android:id="@+id/textView10"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textColor="#92C139"
+            android:layout_marginTop="10dp"
+            android:text="@string/Dementia5"
+
+            />
+
+        <TextView
+            android:id="@+id/textView11"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:textColor="#361818"
+            android:text="@string/Dementia2"
+            android:textSize="15sp"
+            />
+
+        <TextView
+            android:id="@+id/textView123"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textColor="#92C139"
+            android:layout_marginTop="10dp"
+            android:text="@string/Dementia6"
+            />
+        <TextView
+            android:id="@+id/textView12"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textColor="#361818"
+            android:layout_marginTop="10dp"
+            android:text="@string/Dementia3"
+            />
+    </LinearLayout>
+</ScrollView>
+

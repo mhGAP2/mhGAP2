@@ -709,9 +709,404 @@ the effect of these drugs).</string>
     <string name="populations">Note that interventions may differ for these populations</string>
     <string name="_2_1_psychocarers">2.1 Psychoeducation: key messages to the person and the carers</string>
 
+    <string name="psy_protocol2.1">Key messages for the person and their carers:\n\n
+Explain that the symptoms are due to a mental health
+condition, that psychosis and bipolar disorders can be
+treated, and that the person can recover. Clarify common
+misconceptions about psychosis and bipolar disorder.\n\n
+Do not blame the person or their family or accuse them
+of being the cause of the symptoms.\n\n
+Educate the person and the family that the person needs
+to take the prescribed medications and return for follow-up
+regularly.\n\n
+Explain that return and/or worsening of symptoms are
+common and that it is important to recognize these early
+and visit to the health facility as soon as possible.\n\n
+Plan a regular work or school schedule that avoids sleep
+deprivation and stress for both the person and the carers.
+Encourage the person to solicit advice about major decisions
+    especially ones involving money or major commitments.\n\n
+    Recommend avoiding alcohol, cannabis or other nonprescription
+drugs, as they can worsen the psychotic or
+bipolar symptoms.\n\n
+Advise them about maintaining a healthy lifestyle, e.g. a
+balanced diet, physical activity, regular sleep, good personal
+hygiene, and no stressors. Stress can worsen psychotic
+symptoms. Note: Lifestyle changes should be continued as long
+as needed, potentially indefinitely. These changes should be
+planned and developed for sustainability.</string>
+    <string name="psytip1">Mutual trust between the person and the
+health-care provider is critical to ensure
+treatment adherence and long-term outcomes.</string>
+    <string name="psy_protocol2.6">If patient is on antidepressants – DISCONTINUE
+to prevent further risk of mania.
+– Begin treatment with lithium, valproate, carbamazepine,
+or with antipsychotics. Consider a short term (2-4 weeks
+maximum) benzodiazepine for behavioural disturbance or
+agitation.(see Table 3).</string>
+    <string name="Lithium">consider using lithium as first line treatment of
+bipolar disorder only if clinical and laboratory monitoring are
+available, and prescribe only under specialist supervision. If
+laboratory examinations are not available or feasible, lithium
+should be avoided and valproate or carbamazepine should
+be considered. Erratic compliance or stopping lithium
+treatment suddenly may increase the risk of relapse. Do not
+prescribe lithium where the lithium supply may be frequently
+interrupted. Obtain kidney and thyroid function, complete
+blood count, ECG, and pregnancy tests before beginning
+treatment if possible.</string>
+    <string name="Valproate">Consider these
+medications if clinical or laboratory monitoring for lithium is
+not available or if specialist is not available to supervise
+lithium prescription.</string>
+    <string name="Haloperidol">consider haloperidol and
+risperidone only if no clinical or laboratory monitoring is
+available to start lithium or valproate. Risperidone can be
+used as an alternative to haloperidol in individuals with
+bipolar mania if availability can be assured, and cost is not a
+constraint.</string>
+    <string name="psy_caution1">For women who are pregnant or breastfeeding, avoid
+valproate, lithium and carbamazepine. Use of low-dose
+haloperidol is recommended with caution and under the
+care of a specialist, if available.</string>
+    <string name="psy_2.6">Persons with mania who are experiencing agitation may
+benefit from short-term ( 2-4 weeks maximum) use of a
+benzodiazepine such as diazepam.\n
+– Benzodiazepines should be discontinued gradually as soon
+as symptoms improve, as tolerance can develop.\n\n
+Continue maintenance treatment for at least 2 years
+after the last bipolar episode.\n
+– Lithium or valproate can be offered for the maintenance
+treatment of bipolar disorder. If treatment with one of
+these agents is not feasible, haloperidol, chloropromazine
+or carbamazepine may be used. Offer maintenance
+treatment in primary care settings under specialist
+supervision.</string>
+    <string name="psy_protocol2.3">Continue regular social, educational and occupational
+activities as much as possible. It is best for the person to have
+a job or to be otherwise meaningfully occupied.\n\n
+Facilitate inclusion in economic activities, including culturally
+appropriate supported employment.\n\n
+Offer life skills training and/or social skills training to enhance
+independent living skills for people with psychosis and bipolar
+disorders and for their families and/or carers.\n\n
+Facilitate, if available and needed, independent living and
+supported housing that is culturally and contextually appropriate
+in the community.</string>
+    <string name="psy_protocol">Ensure safety of the person and safety of others.\nProvide regular follow-up.\n
+ Support rehabilitation in the community.</string>
+
+    <string name="psy_protocol2.2">Coordinate with available health and social resources to meet
+the family’s physical, social, and mental health needs.\n\n
+Identify the person’s prior social activities that, if reinitiated,
+would have the potential to provide direct or indirect psychological
+and social support, e.g. family gatherings, outings with
+friends, visiting neighbors, social activities at work sites, sports,
+and community activities. Encourage the person to resume
+these social activities and advise family members about this.\n\n
+Encourage the person and carers to improve social
+support systems.</string>
+    <string name="psy_tip2">Ensure persons with psychosis are
+treated with respect and dignity. For
+further details go to » ECP.</string>
+    <string name="psy_protocol2.5">Start with a low dose within the therapeutic range and
+increase slowly to the lowest effective dose, in order to reduce
+the risk of side-effects.</string>
+    <string name="psy_protocol2.51">Antipsychotics should routinely be offered to a person
+with psychosis.\n\n
+Start antipsychotic medication immediately. See Table 1.\n\n
+Prescribe one antipsychotic at a time.\n\n
+Start at lowest dose and titrate up slowly to reduce risk of
+side effects.\n\n
+Try the medication at a typically effective dose for at
+least 4-6 weeks before considering it ineffective.\n\n
+Continue to monitor at that dose as frequently as possible and
+as required for the first 4-6 weeks of therapy. If there is no
+improvement, see Follow-up and Table 4.\n\n
+Monitor weight, blood pressure, fasting sugar, cholesterol and
+ECG for persons on antipsychotics if possible (see below).</string>
+<string name="psy_caution2">Side effects to look for:\n\n
+– Extrapyramidal side effects (EPS): akathisia, acute
+dystonic reactions, tremor, cog- wheeling, muscular rigidity,
+and tardive dyskinesia. Treat with anticholinergic medications
+when indicated and available (see Table 2).\n\n
+– Metabolic changes: weight gain, high blood pressure,
+increased blood sugar and cholesterol.\n\n
+– ECG changes (prolonged QT interval): monitor ECG
+if possible.\n\n
+– Neuroleptic malignant syndrome (NMS): a rare,
+potentially life-threatening disorder characterized by muscular
+rigidity, elevated temperature, and high blood pressure.</string>
+    <string name="psy_special1">Liaise with maternal health specialists to organize care.\n\n
+Consider consultation with mental health specialist if available.\n\n
+Explain the risk of adverse consequences for the mother and her baby, including obstetric
+complications and psychotic relapses, particularly if medication stopped.\n\n
+Consider pharmacological intervention when appropriate and available. See below.</string>
+    <string name="psy_special2">In women with psychosis who are planning
+a pregnancy or pregnant or breastfeeding,
+low-dose oral haloperidol, or chlorpromazine
+may be considered.\n\n
+Anticholinergics should NOT prescribed
+to women who are pregnant due to extrapyramidal
+side-effects of antipsychotic medications,
+except in cases of acute, short-term use.\n\n
+ Depot antipsychotics should not be routinely
+prescribed to women with psychotic disorders
+who are planning a pregnancy, pregnant, or
+breastfeeding because there is relatively little
+information on their safety in this population.</string>
+    <string name="psy_special3">AVOID VALPROATE, LITHIUM and
+CARBAMAZEPINE during pregnancy and
+breastfeeding due to the risk of birth defects.\n\n
+ Consider low-dose haloperidol with caution
+and in consultation with a specialist, if available.\n\n
+        Weigh the risks and benefits of medications in
+women of childbearing age.\n\n
+ If a pregnant woman develops acute mania
+while taking mood stabilizers, consider switching
+to low dose haloperidol.</string>
+    <string name="psy_special4">Consider consultation with mental health
+specialist.\n\n
+In adolescents with psychotic or bipolar
+disorder, risperidone can be offered as a
+treatment option only under supervision of
+a specialist.\n\n
+If treatment with risperidone is not feasible,
+haloperidol or chlorpromazine may be
+used only under supervision of a specialist.</string>
+    <string name="psy_special5">Use lower doses of medication.\n\n
+Anticipate an increased risk of drug-drug
+interactions.</string>
+    <string name="psy_caution3">Antipsychotics carry an increased risk of
+cerebrovascular events and death in older
+adults with dementia-related psychosis.</string>
+
+    <string name="psy_dosing1.1">Start 1.5-3 mg daily.\n
+Increase as needed (maximum 20 mg daily).\n
+Route: oral (p.o.) or intramuscular (i.m.).</string>
+    <string name="psy_side1.1">Common: sedation, dizziness, blurred vision,
+dry mouth, urinary retention, constipation.\n\n
+Serious: orthostatic hypotension, extrapyramidal side
+effects (EPS), ECG changes (prolonged QT interval),
+weight gain, galactorrhea, amenorrhea, Neuroleptic
+malignant syndrome (NMS).</string>
+    <string name="psy_cau1.1">Caution in patients with: kidney disease, liver disease,
+cardiac disease, long QT syndrome or taking QT-prolonging medications.
+Monitor ECG if possible.</string>
+    <string name="psy_dosing1.2">Start 1 mg daily.\n
+Increase to 2-6 mg daily (maximum 10 mg).\n
+Route: p.o.</string>
+    <string name="psy_side1.2">Common: sedation, dizziness, tachycardia.\n\n
+Serious: orthostatic hypotension, metabolic effects (elevated
+lipids, insulin resistance, weight gain), EPS, elevated prolactin,
+sexual dysfunction, NMS.</string>
+    <string name="psy_cau1.2"> Caution in patients with: cardiac disease.\n\n
+Drug-drug interactions: carbamazepine can reduce levels of
+risperidone, whereas fluoxetine can increase levels.</string>
+
+    <string name="psy_dosing1.3">Start 25-50 mg daily.\n
+Increase to 75-300 mg daily (up to 1000 mg
+may be necessary for severe cases).\n
+Route: p.o.</string>
+    <string name="psy_side1.3">Common: sedation, dizziness, blurred vision, dry mouth,
+urinary retention, constipation, tachycardia.\n\n
+Serious: orthostatic hypotension, syncope, EPS,
+photosensitivity, weight gain, galactorrhea, amenorrhea,
+sexual dysfunction, priapism, NMS, agranulocytosis,
+jaundice.</string>
+    <string name="psy_cau1.3">Contraindications: impaired consciousness, bone marrow depression,
+pheochromocytoma.\n\n
+Caution in patients with: respiratory disease, kidney disease, liver
+disease, glaucoma, urinary retention, cardiac disease, long QT syndrome
+or taking QT-prolonging medications. Monitor ECG if possible.\n\n
+Drug-drug interactions:\n
+– Increases effects of blood pressure lowering medications.\n
+– Lowers blood pressure if combined with epinephrine.\n
+– Levels may be increased by antimalarials including quinine.</string>
+    <string name="psy_dosing1.4">Start 12.5 mg.\n
+Use 12.5-50 mg every 2-4 weeks.\n
+Route: i.m. in gluteal region.\n\n
+    Avoid in women who are pregnant/
+breastfeeding.\n\n
+Do not use in children/adolescents.</string>
+    <string name="psy_side1.4">Common: sedation, dizziness, blurred vision, dry mouth,
+urinary retention, constipation, tachycardia.\n\n
+Serious: orthostatic hypotension, syncope, EPS,
+photosensitivity, weight gain,galactorrhea, amenorrhea,
+sexual dysfunction, priapism, NMS, agranulocytosis,
+jaundice.</string>
+    <string name="psy_cau1.4">Contraindications: impaired consciousness, parkinsonism.\n\n
+Caution in patients with: cardiac disease, kidney disease, liver disease.
+Use with caution in older adults.\n\n
+Drug-drug interactions:\n
+– Increases effects of blood pressure lowering medications.\n
+– Can lower blood pressure if used with epinephrine.</string>
+    <string name="psy_dosing2.1">Start 1 mg twice daily.\n
+Increase to 3-12 mg daily.\n
+Route: p.o or intravenous (i.v.).</string>
+    <string name="psy_side2.1">Common: sedation, confusion and memory
+disturbance (especially in older adults), tachycardia, dry
+mouth, urinary retention and constipation.\n
+Rarely, angle-closure glaucoma, myasthenia gravis and
+gastrointestinal obstruction.</string>
+    <string name="psy_cau2.1">Caution in patients with: cardiac, liver, or kidney disease.\n\n
+Drug-drug interactions: Caution when combining with other
+anticholinergic medications.</string>
+    <string name="psy_dosing2.2">Start 1 mg daily.\n
+Increase to 4-12 mg per day in 3-4 divided doses
+(maximum 20 mg daily).\n
+Route: p.o </string>
+
+    <string name="psy_dosing3.1"> Start 300 mg daily. Increase gradually every
+7 days until target blood level reached (maximum
+600-1200 mg daily). Monitor every 2-3 months.\n
+Route: p.o\n\n
+Target blood levels: 0.6-1.0 mEq/liter
+– In acute manic episode: 0.8-1.0 mEq/liter
+– For maintenance treatment: 0.6-0.8 mEq/liter.\n\n
+6 months on medication is needed to determine full
+effectiveness of maintenance treatment.</string>
+    <string name="psy_side3.1">Common: sedation, cognitive problems, tremor, :
+impaired coordination, hypotension, leukocytosis,
+polyuria, polydipsia, nausea, diarrhea, weight gain, hair
+loss, rash.\n\n
+Serious: diabetes insipidus, hypothyroidism,
+ECG changes (arrhythmia, sick sinus syndrome, T-wave
+changes). </string>
+    <string name="psy_cau3.1">Contraindicated in patients with: severe cardiac or kidney disease.\n\n
+Dehydration can increase lithium levels.\n\n
+Drug-drug interactions: nonsteroidal anti-inflammatory drugs (NSAIDs),
+angiotensin-converting-enzyme inhibitor (ACE inhibitor), thiazide diuretics,
+metronidazole, and tetracycline can increase lithium levels.\n\n
+Lithium toxicity can cause seizures, delirium, coma, and death. </string>
+    <string name="psy_dosing3.2">Start 500 mg daily.\n
+Increase slowly to 1000-2000 mg daily
+(maximum 60 mg/kg/day).\n
+Route: p.o\n\n
+Preferred choice in persons living with
+HIV/AIDS due to drug-drug interactions.</string>
+    <string name="psy_side3.2">Common: sedation, headache, tremor, ataxia, nausea,
+vomiting, diarrhea, weight gain, transient hair loss.\n\n
+Serious: impaired hepatic function, thrombocytopenia,
+leucopenia, drowsiness/confusion, liver failure,
+hemorrhagic pancreatitis.</string>
+    <string name="psy_cau3.2">Caution in patients with: underlying or suspected hepatic disease.
+Monitor liver function tests and platelets if possible.\n\n
+Drug-drug interactions:\n
+Valproate levels decreased by carbamazepine, increased by aspirin.</string>
+    <string name="psy_dosing3.3">Start 200 mg daily.\n
+Increase by 200 mg weekly to 400-600 mg daily in
+two divided doses (maximum 1200 mg daily).\n
+Route: p.o\n\n
+Note: Dose may need to be adjusted after
+2 weeks due to induction of its own metabolism.</string>
+    <string name="psy_side3.3">Common: sedation, confusion, dizziness, ataxia,
+double vision, nausea, diarrhea, benign leucopenia.\n\n
+Serious: hepatotoxicity, cardiac conduction delay, low
+sodium levels, severe rash.</string>
+    <string name="psy_cau3.3">Contraindicated in patients with: history of blood disorders,
+kidney, liver, or cardiac disease.\n\n
+Drug-drug interactions.\n
+– May reduce the effects of hormonal birth control, immunosuppressants,
+antiepileptics, antipsychotics, methadone and some antiretrovirals.\n
+– Levels can be increased by certain antifungals and antibiotics.</string>
+
+    <string name="phy_clinical1.1">
+The person is not tolerating antipsychotic
+medication, i.e. the person has
+extrapyramidal symptoms (EPS) or other
+serious side effects
+</string>
 
 
+    <string name="psy_action1.1">
+Reduce the dose of antipsychotic medication.\n
+If side-effects persist, consider switching to another antipsychotic medication.\n
+Consider adding anticholinergic medication for short-term use to treat EPS if these strategies fail or if symptoms are severe (see Table 2).
 
+</string>
+
+    <string name="psy_clinical2.1">Adherence to treatment is
+unsatisfactory</string>
+
+
+    <string name="psy_action2.1">
+Discuss reasons for non-adherence with the person and carers.\n
+And provide information regarding importance of medication.\n
+Consider depot/long-acting injectable antipsychotic medication as an option after discussing possible side effects of oral versus
+depot preparations.
+
+</string>
+
+    <string name="psy_clinical3.1">
+Treatment response is inadequate
+(i.e. symptoms persist or worsen) despite
+adherence to medication
+</string>
+    <string name="psy_action3.1">
+Verify that the person is receiving an effective dose of medication. If the dose is low, increase gradually to lowest effective dose to reduce
+the risk of side effects.\n
+Enquire about alcohol or substance use and take measures to reduce this. Go to » SUB.\n
+Enquire about recent stressful event that may have led to worsening of clinical condition and take measures to reduce stress.
+Review symptoms to rule out physical and/or other priority MNS conditions. Go to » PSY 1, see STEP 1\n
+Consider risperidone as an alternative to haloperidol or chlorpromazine, if cost and availability are not constraints.\n
+If the person does not respond to adequate dose and duration of more than one antipsychotic medication, using one medicine at a time,
+then antipsychotic combination treatment may be considered; preferably under the supervision of a specialist, with close clinical monitoring.\n
+Consider consultation with a specialist for the use of clozapine in those who have not responded to other antipsychotic medications
+at adequate doses and durations. Only use clozapine under the supervision of a specialist and only if routine laboratory monitoring is available,
+due to the risk of life-threatening agranulocytosis.
+
+
+</string>
+
+    <string name="psy_ass">Attempt to communicate with the person.\n
+Evaluate for underlying cause:\n\n
+– Check Blood Glucose. If low, give glucose.\n
+– Check vital signs, including temperature and oxygen
+saturation. Give oxygen if needed.\n
+– Rule out delirium and medical causes
+including poisoning.\n
+– Rule out drug and alcohol use.\n
+Specifically consider stimulant intoxication and/or
+alcohol/sedative withdrawal. Go to SUB.\n
+– Rule out agitation due to psychosis or manic
+episode in bipolar disorder. Go to Assessment,
+» PSY 1.</string>
+    <string name="psy_com">Safety is first!\n\n
+Remain calm and encourage the patient to talk
+about his or her concerns.\n\n
+Use a calm voice and try to address the concerns
+if possible.\n\n
+Listen attentively. Devote time to the person.\n\n
+Never laugh at the person.\n\n
+Do not be aggressive back.\n\n
+Try to find the source of the problem and solutions
+for the person.\n\n
+Involve carers and other staff members.\n\n
+Remove from the situation anyone who may be a
+trigger for the aggression.\n\n
+If all possibilities have been exhausted and the person
+is still aggressive, it may be necessary to use medication
+(if available) to prevent injury.</string>
+    <string name="psy_sed">Sedate as appropriate to prevent injury.\n\n
+For agitation due to psychosis or mania, consider use of haloperidol
+2mg p.o./i.m. hourly up to 5 doses (maximum 10 mg).
+Caution: high doses of haloperidol can cause dystonic reactions.
+Use biperiden to treat acute reactions.\n\n
+For agitation due to ingestion of substances, such as
+alcohol/sedative withdrawal or stimulant intoxication,
+use diazepam 10-20 mg p.o. and repeat as needed. Go to SUB.\n\n
+In cases of extreme violence\n
+– Seek help from police or staff\n
+– Use haloperidol 5mg i.m., repeat in 15-30mins if needed
+(maximum 15 mg)\n\n
+– Consult a specialist.
+if the person remains agitated, recheck oxygen saturation,
+vital signs and glucose. Consider pain. Refer to hospital.\n\n
+Once agitation subsides, refer to the master chart (MC) and
+select relevant modules for assessment.\n\n
+Special Populations:\n
+Consult a specialist for treatment.</string>
     <string name="epi_topic1">Provide information on: "What is a convulsion/epilepsy" and the importance of medication. \n\n
 
     </string>
@@ -748,9 +1143,7 @@ the effect of these drugs).</string>
 
       </string>
 
-    <string name="epi_topic3">Provide information on: When to get medical help. \n\n
-
-    </string>
+    <string name="epi_topic3">Provide information on: When to get medical help. \n\n</string>
 
     <string name="epi_protocol__2_1">
         When a person with epilepsy appears to have trouble breathing during a convulsion, they need immediate  medical help. \n\n
@@ -1030,7 +1423,6 @@ the effect of these drugs).</string>
      Make the  person aware that if they notice thoughts of self-harm or suicide, they should tell a trusted person and come back for help immediately. \n\n
 </string>
 
-
     <string name="sui_proto1"> For all cases: Place the person in a  secure and supportive environment at a health facility</string>
 
     <string name="sui_2_1proto1"> Medically treat injury or poisoning.  If there is acute pesticide intoxication, follow “Management of pesticide intoxication”.</string>
@@ -1119,6 +1511,286 @@ the effect of these drugs).</string>
  –  Advise the person and carers to restrict access to means  of self-harm/suicide (e.g. pesticides/toxic substances, prescription medications, ﬁrearms, etc.) when the person has thoughts or plans of self-harm/suicide. \n
  –  Optimize social support from available community resources. These include informal resources, such as relatives, friends, acquaintances, colleagues and religious leaders or formal community resources, if available, such  as crisis centres, and local mental health centres. \n
 </string>
+    <string name="dementia1">For interventions that promote functioning in ADLs and community life, go to » ECP. \n\n
+        Plan for ADL in a way that maximises independent activity, enhances function, helps to adapt and develop skills, and minimises the need for support. Facilitate functioning and participation in the community involving people and their carers in planning and implementation of these interventions. Assist in liaison with available social resources. \n\n
+        – Give advice to maintain independent toileting skills, including prompting and regulation of ﬂuid intake. (If incontinence occurs, all possible causes should be evaluated and treatments trialed before concluding it is permanent). \n\n
+        – Keep the environment at home safe to reduce the risk of falling and injury. \n\n
+        – Inform family members that it is important to keep the ﬂoor of the person’s home without clutter to reduce the risk of falling. \n\n
+        – Recommend making adaptations in the person’s home. It can be helpful to add hand-rails or ramps. Signs for key locations (e.g. toilet, bathroom, bedroom) can help ensure that the person does not get lost or lose orientation while home. \n\n
+        – Recommend physical activity and exercise to maintain mobility and reduce risk of falls. \n\n
+        – Advise recreational activities (tailored to stage and severity of dementia).\n\n
+        – Manage sensory deﬁcits (such as low vision or poor hearing) with appropriate devices (e.g. magnifying glass, hearing aids). \n\n
+        – Refer for occupational therapy, if available.</string>
+    <string name="Dementia2">Assess the impact on the carer and the carer’s needs to ensure necessary support and resources for their family life, employment, social activities, and health (see » DEM 1). \n\n-Acknowledge that it can be extremely frustrating and stressful to take care of people with dementia. Carers need to be encouraged to respect the dignity of the person with dementia and avoid hostility towards, or neglect of, the person. \n\n-Encourage the carers to seek help if they are experiencing difﬁculty or strain in caring for their loved one. \n\n-Provide information to the carer regarding dementia, keeping in mind the wishes of the person with dementia. \n\n- Provide training and support in speciﬁc skills, e.g. managing difﬁcult behaviour, if necessary. To be most effective, elicit active participation, e.g. role play. \n\n-Consider providing practical support when feasible, e.g. home-based respite care. Another family or suitable person can supervise and care for the person with dementia to provide the main carer with a period of relief to rest or carry out other activities. \n\n-Explore whether the person qualiﬁes for any disability beneﬁts or other social/ﬁnancial support (government or non-governmental).</string>
+    <string name="Dementia3">Do not consider cholinesterase inhibitors (like donepezil, galantamine and rivastigmine) or memantine routinely for all cases of dementia. \n\n-Consider medications only in settings where speciﬁc diagnosis of Alzheimer’s Disease can be made AND where adequate support and supervision by specialists and monitoring (for side-effects and response) from carers is available. \n\nIf appropriate:\n\n -For dementia with suspected Alzhemer’s Disease, and with CLOSE MONITORING, consider cholinesterase inhibitors (e.g. donepezil, galantamine, rivastigmine) OR memantine.\n\n For dementia with associated vascular disease, consider memantine.</string>
+    <string name="Dementia4">2.1 Provide Psychoeducation to person and carers.</string>
+    <string name="Dementia5">2.5 Provide carers with support.</string>
+    <string name="Dementia6">2.6 Consider medications only in settings where speciﬁc diagnosis of Alzheimer’s Disease can be made AND where adequate support and supervision by specialists and monitoring (for side-effects) from carers is available</string>
+    <string name="Dementia7">Ask people assessed with dementia whether they wish to know the diagnosis and with whom it should be shared.\n\n
+        – Tailor the explanation of the illness so that they can understand and retain the information.\n\n
+        – Give basic information. (Do not overload them with too much!)\n\n
+        Key Messages: \n\n
+        – Dementia is an illness of the brain and tends to get worse over time.\n\n
+        – Although there is no cure, there is much that can be done to help and support the person and the family.\n\n
+        – Many specific concerns and behaviors can be managed as they arise. A lot can be done to make the person more comfortable and to make providing support less stressful for the carer.</string>
+    <string name="Dementia8">Encourage carers to:\n\n
+        -Provide regular orientation information (e.g. day, date, time, names of people) so that the person can remain oriented.\n\n
+        -Use materials such as newspapers, radio, or TV programmes, family albums and household items to promote communication, to orient them to current events, to stimulate memories, and to enable people to share and value their experiences. \n\n
+        -Use simple short sentences to make verbal communication clear. Try to minimize competing noises, such as radio, TV, or other conversation. Listen carefully to what the person has to say. \n\n
+        -Keep things simple, avoid changes to routine, and, as far as possible, avoid exposing the person to unfamiliar and bewildering places.</string>
+    <string name="Dementia9">Identify and treat underlying physical health problems that may affect behaviour. Look for pain, infections, etc. on physical exam </string>
+    <string name="hi">(Go to » ECP). Refer to specialist if needed.</string>
+                   <string name="com">Identify events (e.g. shopping at busy market) or factors  (e.g. going out alone) that may precede, trigger, or enhance problem behaviours. Modify these triggers if possible.\n\n
+                   \n\nConsider environmental adaptations such as appropriate seating, safe wandering areas, signs (e.g. ‘no exit’ sign on the street door or signpost to toilet).\n\n
+                  \n\n Encourage soothing, calming, or distracting strategies. Suggest an activity the person enjoys (e.g. going for a walk, listening to music, engaging in conversation), especially when feeling agitated.\n\n
+            </string>
+    <string name="Dementia10">Provide psychosocial interventions ﬁrst.\n\n
+  -If there is imminent risk to person or carers, consider antipsychotic medication. Go to » PSY 2, Management  for details about antipsychotic medication.\n\n
+ Follow the principles of:\n\n
+ –  “Start low, go slow” (titrate) and review the need regularly (at least monthly).\n   – Use the lowest effective dose. \n – Monitor the person for extrapyramidal symptoms (EPS).\n
+ - Avoid i.v. haloperidol.\n
+ -Avoid diazepam.\n</string>
+    <string name="substancepro1">- Address food, housing, and employment needs.</string>
+    <string name="substancepro2">- Explore STRATEGIES FOR REDUCING OR STOPPING USE (2.3) and STRATEGIES FOR REDUCING HARM (2.5).</string>
+    <string name="follow_up">- Follow up</string>
+    <string name="substancepro3">- Explore the person’s motivations for substance use. Conduct motivational interviewing.</string>
+    <string name="substanceprot1">(See BRIEF PSYCHOSOCIAL INTERVENTION – MOTIVATIONAL INTERVIEWING.(2.2)</string>
+    <string name="substanceprot2">- Provide psychoeducation and emphasize that the level/pattern of substance use is causing harm to health.</string>
+    <string name="Substanceprot3">- Advise stopping the substance completely or consuming it at a non-harmful level, if one exists.  Verbalise your intention to support the person to do this. Ask them if they are ready to make this change.</string>
+    <string name="substancepro4">Encourages the person to engage in less risky behaviour.\n\n
+        – Advise not to drive if intoxicated.\n\n
+        – If the person uses opioids, provide intramuscular or intranasal naloxone for family members, which family members can keep and use if the person has overdosed while waiting for help to arrive or en route to hospital.\n\n
+        If the person injects drugs:\n\n
+        Inform the person about the risks of intravenous drug use, which include: being at higher risk of infections such as HIV/AIDS, Hepatitis B and C, skin infections that can cause septicaemia, endocarditis, spinal abscesses, meningitis, and even death. \n\n
+        Considering that the person may not stop injecting drugs right away, provide information on less risky injection techniques. Emphasize the importance of using sterile needles and syringes each time they inject and to never share injecting equipment with others. \n\n
+        Provide information on how to access needle and syringe exchange programs where they exist or other sources of sterile injection equipment. \n\n
+        Encourage and offer, at minimum, annual testing for blood-borne viral illnesses, including HIV/AIDS and Hepatitis B and C.\n\n
+        – Encourage Hepatitis B vaccination \n\n
+        – Ensure condom availability\n\n
+        – Ensure availability of treatment for people with HIV/AIDS and hepatitis \n\n
+        Treatment of co-morbidities: \n\n
+        Have a low threshold for screening for TB in people who have disorders due to substance use. \n\n
+        Consider investigations for and treatment of sexually transmitted diseases.</string>
+    <string name="substancepro5">Brief interventions using motivational interviewing is an approach to discussing substance use in a non-judgemental way. It encourages a person to reﬂect on their own substance use choices. It can be used as part of a very brief encounter for addressing risks or harmful substance use. It can also be used as part of a longer discussion that takes place over several sessions that address dependent patterns of substance use; this is referred to as Motivational Enhancement Therapy. Throughout the discussion it is important to include all parts of the process: expressing empathy and building an atmosphere of trust, while also pointing out contradictions in their narrative, and challenging false beliefs. Avoid arguing with  the person. They should feel that the practitioner is there to support them and not to criticize them. If the person is unable to commit to ending their harmful pattern of substance use at this time, discuss why this is the case, rather than forcing the person to say what they think is expected.
+     \n\nTechniques for more in depth discussions:
+\n 1.Provide personalised feedback to the person about the risks associated with their pattern of substance use, whether or not they have a pattern of HARMFUL USE or DEPENDENCE, and the speciﬁc harms they may be experiencing or causing to others.
+\n 2.Encourage the person to take responsibility for their substance use choices, and the choice of whether or not to seek assistance for their substance use. Do this by asking them how concerned THEY are about their substance use.
+ \n3.Ask the person the reasons for their substance use, including as a response to other issues such as mental health problems or speciﬁc stressors,  and the perceived beneﬁts they have from substance use, even if only in the short term.
+ \n4.Ask about their perception of both the positive and negative consequences of their substance use and, if necessary, challenge any overstatement of the beneﬁts and understatement of the risks/harms.
+ \n5.Ask about the person’s personal goals, and whether or not their substance use is helping them or preventing them from reaching these goals.
+ \n6.Have a discussion with the person based on the statements about their substance use, its causes, consequences and their personal goals, allowing exploration of apparent inconsistencies between the consequences of substance use and the person’s stated goals.
+  \n7.Discuss options for change based on the choice of realistic goals and try to ﬁnd a mutually agreed course of action.
+ \n8.Support the person to enact these changes by commu- nicating your conﬁdence in them to make positive changes in their life, by provide information on the next steps as needed (further review, detoxiﬁcation, psycho-social support), and by providing the person with take-home materials if available.
+     \n\n-Examples of questions to ask. Non-judgmentally elicit from the person their own thoughts about their substance use by asking the following questions:
+ \n1.Reasons for their substance use. (Ask: “Have you ever thought about why you use [substance]?”)
+ \n2.What they perceive as the beneﬁts from their use.  (Ask: “What does [substance] do for you? Does it cause you any problems?”)
+ \n3.What they perceive as the actual and potential harms from the substance use. (Ask: “Has [substance] use caused you any harm? Can you see it causing harm in the future?”)
+ \n4.What is most important to the person.  (Ask: “What is most important to you in your life?”)</string>
+    <string name="harmful_use">Harmful Use</string>
+    <string name="subs9">Steps to reducing or stopping the use of all substances: \n\n
+        If the person is interested in reducing their substance use, discuss the following steps with them.\n\n
+     Identify triggers for use and ways to avoid them. For example: pubs where people are drinking or areas where the person used to obtain drugs, etc.
+     Identify emotional cues for use and ways to cope with them (i.e. relationship problems, difﬁculties at work, etc.).
+     \n\nEncourage the person not to keep substances at home. </string>
+    <string name="if_the_person_is_an_adolescent_or_a_woman_of_child_bearing_age_pregnant_or_breastfeeding_see_special_populations">- If the person is an adolescent or a woman of child-bearing age, pregnant, or breastfeeding.</string>
+    <string name="see">See SPECIAL POPULATIONS</string>
+    <string name="subs7">Provide psychoeducation.\n\n
+        » Arrange for detoxiﬁcation services if necessary or treatment in an inpatient facility where available. Treat withdrawal symptoms as needed. \n\n
+        » Provide a brief intervention using motivational interviewing to encourage the person to engage in treatment of their substance dependence. \n\n
+        » Consider longer-term psychosocial treatment for persons with ongoing problems related to their substance use, if they do not respond to the initial brief interventions. Evidence-based psychological therapies for disorders due to substance use include structured individual and group programmes that are run over 6-12 weeks or more, and that use techniques such as cognitive behavioural therapy, motivational enhancement therapy, contingency management therapy, community reinforcement approach, and family therapy. Evidence-based social support approaches include employment and accommodation support.</string>
+    <string name="dependence">Dependence</string>
+    <string name="if_the_person_is_dependent_on_benzodiazepines">IF THE PERSON IS DEPENDENT ON BENZODIAZEPINES:</string>
+    <string name="in_all_cases">IN ALL CASES:</string>
+    <string name="substance8">» Maintenance treatment is generally more effective than detoxiﬁcation.\n\n
+        » Assess the severity of dependence and, if appropriate, provide or refer the person for opioid agonist maintenance treatment, also known as opioid substitution therapy (OST), after detoxiﬁcation.
+        </string>
+    <string name="sub1">Go to PROTOCOL 5 (Opioid Agonist Maintenance Treatment).</string>
+    <string name="sub2"> » In the remainder of cases arrange planned detoxiﬁcation, if necessary. Go to PROTOCOL 4 (Opioid Withdrawal).</string>
+    <string name="substance9">» Sudden alcohol cessation can lead to seizures and delirium; however, if the person is willing to stop using alcohol, facilitate this. Determine the appropriate setting to cease alcohol use, and arrange inpatient detoxiﬁcation, if necessary.
+        </string>
+    <string name="pro3">Go to PROTOCOL 3 (Alcohol Withdrawal).</string>
+    <string name="pro2">» Advise consumption of thiamine at a dose of 100 mg/day p.o.. \n\n
+        » Consider pharmacologic intervention to prevent relapse in alcohol dependence; medications include acamprosate, naltrexone and disulﬁram. Baclofen can also be used, however, its sedating effects and risk of abuse make it best reserved for specialist settings. With these medications, an effective response may include a reduction in the quantity and frequency of alcohol consumption, if not complete abstinence.</string>
+    <string name="pro4">Go to Table 1.</string>
+    <string name="substance10">» Advise stopping the substance completely and verbalise your intention to support the person in doing so. Ask them if they are ready to do this. \n\n
+       </string>
+    <string name="ex">» Explore STRATEGIES FOR REDUCING OR STOPPING USE and STRATEGIES FOR REDUCING HARM.</string>
+    <string name="x"> » Consider referral to peer help groups or rehabilitation/residential therapeutic communities, if available.\n\n
+        » Address food, housing, and employment needs. \n\n
+        » Assess and treat any physical or mental health co-morbidity, ideally after 2-3 weeks of abstinence, as some problems will resolve with abstinence.</string>
+    <string name="substance11">» Sudden cessation can lead to seizures and delirium. Consider gradually reducing the dose of benzodiazepine with supervised dispensing or a more rapid reduction in an inpatient setting.</string>
+    <string name="go">Go to PROTOCOL 6 (Benzodiazepine Withdrawal).</string>
+    <string name="Substancepr11">Chronic heavy users of alcohol are at risk for Wernicke’s encephalopathy, a thiamine deﬁciency syndrome characterized by confusion, nystagmus, ophthalmoplegia (trouble with eye movements), and ataxia (uncoordinated movements).\n\n
+        » To prevent this syndrome, all persons with a history of chronic alcohol use should be given thiamine 100 mg p.o. per day. Give thiamine prior to administering glucose to avoid precipitating Wernicke’s encephalopathy.</string>
+    <string name="substancepro12">ADDRESS DEHYDRATION: Maintain adequate hydration including i.v. hydration, if needed, and encourage oral ﬂuid intake. Be sure to give thiamine before glucose to avoid precipitating Wernicke’s encephalopathy.\n\n</string>
+    <string name="alcohol_withdrawal">Alcohol Withdrawal</string>
+    <string name="substance15">When appropriate, treat alcohol withdrawal symptoms. In the case of planned detoxiﬁcation, prevent withdrawal symptoms using diazepam. The dose and duration of diazepam treatment varies according to the severity of the withdrawal.\n\n
+ –  Administer diazepam at an initial dose of up to 40 mg daily (10 mg four times a day or 20 mg twice a day) for 3-7 days, p.o. Gradually decrease the dose and/or frequency as soon as symptoms improve. Monitor the person frequently, as each person may respond differently to this medication.
+ \n\n–In the hospital setting, diazepam can be given more frequently, (i.e. hourly), and at higher daily doses, up to 120 mg daily for the ﬁrst 3 days p.o., if necessary, and based on frequent assessment of the person’s withdrawal symptoms and mental status.
+\n\n –  In persons with impaired hepatic metabolism, (i.e. persons with signs of liver disease  or the elderly), use a single low dose initially of 5-10 mg p.o., as benzodiazepines may  have a longer duration of action in these populations. Alternatively, a shorter acting benzodiazepine such as oxazepam may be used instead of diazepam.</string>
+    <string name="se">See Table 1.</string>
+    <string name="sub111">   CAUTION \n\n
+        Use caution when initiating or increasing the dose of benzodiazepines, as  they can cause respiratory depression. Use caution in persons with respiratory disease </string>
+    <string name="substancepro13">-Ensure adequate ﬂuid intake and that electrolyte requirements are met, such as potassium and magnesium</string>
+    <string name="substancepro14">PREVENTING AND TREATING WERNICKE’S ENCEPHALOPATHY:</string>
+    <string name="pharmacological_intervention">Pharmacological Intervention</string>
+    <string name="substance16">CAUTION\n
+        is advised before embarking upon withdrawal from opioids, especially when there has been injection use. When a decision is made to initiate withdrawal, inform the person about what to expect, including symptoms and their duration. For example, withdrawal results in lower tolerance to opioids. This means that if the person resumes opioid use at their usual dose after withdrawal that they are at an increased risk of overdosing. Due to these risks, withdrawal is best undertaken when there is a plan for admission to a residential rehabilitation or other psychosocial support programme. Alternatively, the person may be considered for opioid substitution therapy with either methadone or buprenorphine; see the opioid agonist maintenance treatment section (see protocol 5), and select one of the following pharmacological options for management:\n\n
+        » Buprenorphine: Buprenorphine is given sublingually at a dose range of 4-16 mg per day for 3-14 days for withdrawal management. Before initiating buprenorphine treatment, it is important to wait until signs and symptoms of opioid withdrawal become evident - at least 8 hours after the last dose of heroin and 24-48 hours after the last dose of methadone; otherwise, there is a risk that buprenorphine itself will precipitate a withdrawal syndrome. Special care should be taken for individuals taking other sedating medications. \n\n
+        » Methadone: Methadone is given orally at an initial dose of 15-20 mg, increasing, if necessary, to 30 mg per day. Then gradually decrease the dose, until tapered off completely, over 3-10 days. As with buprenorphine, special care should be taken for individuals taking other sedating medications. \n\n
+        » Clonidine or Lofexidine: If opioid substitution medications are not available, clonidine or lofexidine can be used to manage some opioid withdrawal symptoms, namely hyperarousal. They are given at dose ranges of 0.1-0.15 mg 3 times daily p.o. and are dosed according to body weight. Light-headedness and sedation may result. Monitor blood pressure closely. Other symptoms of withdrawal should also be treated, i.e. nausea with anti-emetics, pain with simple analgesics, and insomnia with light sedatives. \n\n
+        » Morphine sulphate: 10-20 mg as an initial dose with 10 mg extra dose if needed. Sedation and respiratory depression which canbe life threatening. Prolonged use can lead to dependence. For more details </string>
+    <string name="wa">Go to Table 1.</string>
+    <string name="opioid_withdrawal">Opioid Withdrawal</string>
+    <string name="substance17"> Opioid agonist maintenance treatment requires the presence of an established and regulated national framework. It is characterized by the prescription of long-acting opioid agonists (or partial agonists), such as methadone or buprenorphine, generally on a daily, supervised basis.  There is strong evidence that agonist maintenance treatment with methadone or buprenorphine effectively reduces illicit drug use, the spread of HIV, mortality, and criminality, as well as improving physical health, mental health, and social functioning. \n\n
+        »  Monitoring: Medications used for opioid agonist maintenance treatment are open to misuse and diversion, hence, programmes should use various methods of limiting the risk of diversion, including supervised consumption. \n\n
+       </string>
+    <string name="ta">»   For more details please see Table 1.</string>
+    <string name="substance18">Benzodiazepine Withdrawal</string>
+    <string name="substance19">» Benzodiazepine withdrawal can be managed by switching to a longacting benzodiazepine and gradually decreasing the dose, tapered over 8-12 weeks, and in conjunction with psychosocial support. More rapid tapering is possible only if the person is in an inpatient setting in a hospital or detoxiﬁcation facility. \n\n
+        » If severe, uncontrolled benzodiazepine withdrawal develops or occurs due to a sudden or unplanned cessation, consult a specialist or other available resource person immediately to start a high-dose benzodiazepine sedation regime and to hospitalise the person. Be cautious with unsupervised dispensing of benzodiazepines to unknown patients.</string>
+    <string name="substance20"><![CDATA[Clarify the conﬁdential nature of the health care discussion, including in what circumstances the adolescent’s parents or carers will be given any information. \n\n
+    Ask what else is going on in the adolescent’s life? Identify the most important underlying issues for the adolescent. Keep in mind that adolescents may not be able to fully articulate what is bothering them. \n\n
+    Open-ended questions may be helpful in eliciting information in the following areas: Home, Education & Employment, Eating, Activities, Drugs and Alcohol, Sexuality, Safety, and Suicide/Depression. Allow sufﬁcient time for discussion. Also assess for other priority mental health conditions. If any priority conditions are identiﬁed, see CMH.]]></string>
+    <string name="adolescents">ADOLESCENTS</string>
+    <string name="substance21">Advise women who are pregnant or considering becoming pregnant to avoid alcohol completely. \n\n
+        Inform women that consuming even small amounts of alcohol early in pregnancy can harm the developing fetus, and that larger amounts of alcohol can result in a syndrome of severe developmental problems (Fetal Alcohol Syndrome). \n\n
+        Advise women who are breastfeeding to avoid alcohol completely. \n\n
+        Given the beneﬁts of exclusive breastfeeding (particularly in the ﬁrst 6 months), if mothers continue to drink alcohol they should be advised to limit their alcohol consumption, and to minimise the alcohol content of their breast milk, such as by breastfeeding before drinking alcohol and not again until after blood levels fall to zero (allowing approximately 2 hours for each drink consumed, i.e. 4 hours if two drinks are consumed), or by using expressed breast milk.</string>
+    <string name="alcohol_use">Alcohol Use</string>
+    <string name="all_mothers_with_harmful_substance_use_and_young_children_should_be_offered_any_social_support_services_that_are_available_including_additional_postnatal_visits_parenting_training_and_child_care_during_medical_visits">All mothers with harmful substance use and young children should be offered any social support services that are available, including additional postnatal visits, parenting training, and child care during medical visits.</string>
+    <string name="caution">CAUTION</string>
+    <string name="drug_use">Drug Use</string>
+    <string name="substance22">How to Assess the Adolescent:</string>
+    <string name="substance23">Inquire about the woman’s menstrual cycle and inform her that substance use can interfere with the menstrual cycle, sometimes creating the false impression that pregnancy is not possible. \n\n
+        Discuss the harmful effects of illicit drugs on fetal development and ensure that the woman has access to effective contraception.\n\n
+        Advise and support women who are pregnant to stop using all illicit drugs. Pregnant opioid dependent women should generally be advised to take an opioid agonist such as methadone. \n\n
+        Screen babies of mothers with drug use disorders for withdrawal symptoms (also known as Neonatal Abstinence Syndrome). Neonatal Abstinence Syndrome due to maternal opioid use should be treated with low doses of opioids (such as morphine) or barbiturates. For more details please refer to Guidelines for the identiﬁcation and management of substance use and substance use disorders in pregnancy Available on http://apps.who.int/iris/bitstream/10665/ 107130/1/9789241548731_eng.pdf. \n\n
+        Advise and support breastfeeding mothers not to use any illicit drugs. \n\n
+        Advise and support mothers with disorders due to substance use to breastfeed exclusively for at least the ﬁrst 6 months, unless there is specialist advice not to breastfeed.</string>
+    <string name="substance24">Provide the adolescent and their parents with information on the effects of alcohol and other substances on individual health and social functioning. \n\n
+        Encourage a change in the adolescent’s environment and activities, rather than focusing on the adolescent’s behaviour as being a “problem.” Encourage participation in school or work and activities that occupy the adolescent’s time. Encourage participation in group activities that are safe and facilitate the adolescent’s build- ing of skills and contribution to their communities. It is important that adolescents take part in activities which interest them.\n\n
+        Encourage parents and/or carers to know where the adolescent is, who they are with, what they are doing, when they will be home, and to expect the adolescent to be accountable for their activities.</string>
+    <string name="psychoeducation_for_the_adolescent">Psychoeducation for the Adolescent:</string>
+    <string name="women_who_are_of_child_bearing_age_pregnant_or_breastfeeding">WOMEN WHO ARE OF CHILD-BEARING AGE, PREGNANT, OR BREASTFEEDING</string>
+    <string name="substancetable1">10-20 mg for observable features of alcohol with- drawal or stimulant intoxication every 2 hours until features of alcohol withdrawal/stimulant intoxication are no longer observable or the person is lightly sedated. Lower doses (up to 10 mg four times a day) for alcohol withdrawal in an outpatient setting.</string>
+    <string name="substancetable2">0.4-2 mg i.v., i.m., subcutaneous or intranasal. Repeat doses as needed.</string>
+    <string name="substancetable3">CONTRAINDICATIONS / CAUTIONS</string>
+    <string name="substancetable4">Initial dose of 4-8 mg, increasing by 4-8 mg each day as needed until the person is no longer experiencing opioid withdrawal and not using illicit opioids. Maintain until ready to cease opioid agonist treatment.</string>
+    <string name="substancetable5">100 mg p.o. daily for 5 days to prevent Wernicke’s encephalopathy. 100 mg – 500 mg i.v. or i.m. two to three times daily for 3-5 days to treat Wernicke’s encephalopathy.</string>
+    <string name="substancetable6">BENZODIAZEPINES\n\n To treat alcohol withdrawal, stimulant intoxication, and psychosis</string>
+    <string name="buprenorphine">Buprenorphine</string>
+    <string name="class_indication">CLASS / INDICATION</string>
+    <string name="dosing">DOSING</string>
+    <string name="discomfort_or_withdrawal_symptoms_may_result">Discomfort or withdrawal symptoms may result.</string>
+    <string name="dlapezam">Dlapezam</string>
+    <string name="substancetable7">Do not use in people who are sedated. Beware of combining with other sedatives. Patients should not drive. Duration of effect may be prolonged in persons with severe liver disease. Supervise dosing to minimise the risk of: diversion (i.e. selling the medication to somebody else)</string>
+    <string name="medication">MEDICATION</string>
+    <string name="methadone">Methadone</string>
+    <string name="opioid_agonists_to_treat_opioid_withdrawal_and_dependence">OPIOID AGONISTS \n\nTo treat opioid withdrawal and dependence</string>
+    <string name="opioid_antagonists_to_treat_opioid_overdose">OPIOID ANTAGONISTS \n\nTo treat opioid overdose</string>
+    <string name="opioid_withdrawal_methadone_initial_dose_20_mg_with_a_supplemental_dose_of_5_10_mg_4_hours_later_if_necessary_opioid_maintenance_initial_dose_10_20_mg_with_supplementary_dose_of_10_mg_if_needed_increasing_the_daily_dose_by_5_10_mg_every_few_days_if_needed_until_the_person_is_no_longer_experiencing_opioid_withdrawal_and_not_using_illicit_opioids_maintain_until_ready_to_cease_opioid_agonist_treatment">Opioid withdrawal: Methadone initial dose 20 mg, with a supplemental dose of 5-10 mg 4 hours later if necessary. Opioid maintenance: initial dose 10-20 mg with supplementary dose of 10 mg if needed, increasing the daily dose by 5-10 mg every few days if needed until the person is no longer experiencing opioid withdrawal and not using illicit opioids. Maintain until ready to cease opioid agonist treatment.</string>
+    <string name="side_effects">SIDE EFFECTS</string>
+    <string name="sedation_and_respiratory_depression_which_can_be_life_threatening_prolonged_use_can_lead_to_dependence">Sedation and respiratory depression which can be life threatening. Prolonged use can lead to dependence</string>
+    <string name="oth1">OTHER SIGNIFICANT MENTAL HEALTH COMPLAINTS</string>
+    <string name="oth2">DO NOT prescribe anti-anxiety or antidepressant medicines  (unless advised by a specialist).\n\n
+        »  DO NOT give vitamin injections or other ineffective treatments.\n\n
+        »In all cases, reduce stress and strengthen social supports as  described in Essential care and practice (ECP).\n\n
+ – Address current psychosocial stressors.\n
+        – Strengthen supports. \n
+        –  Teach stress management such as relaxation techniques </string>
+    <string name="oth8">(see Box 1 at end of module).</string>
+    <string name="oth10">
+        » When no physical condition is identiﬁed that fully explains a presenting somatic symptom, acknowledge the reality of the symptoms and provide possible explanations.
+\n –  Avoid ordering more laboratory or other investigations unless there is a clear medical indication, e.g. abnormal vital signs.
+ \n–  In case a further investigation is ordered anyway, reduce unrealistic expectations by telling the person that the expected result is likely to be normal.
+ \n–  Inform the person that no serious disease has been identiﬁed.  Communicate the normal clinical and test ﬁndings.
+ \n–  If the person insists on further investigations, consider saying that performing unnecessary investigations can be harmful because they can cause unnecessary worry and side-effects.
+ \n–  Acknowledge that the symptoms are not imaginary and that it is still important to address symptoms that cause signiﬁcant distress.
+ \n–  Ask the person for their own explanation of the cause of their symptoms, and ask about their concerns. This may give clues about the source of distress, help build a trusting relationship with the person and increase the person’s adherence to treatment.
+ \n–  Explain that emotional suffering/stress often involves the experience of bodily sensations, such as stomach aches, muscle tension, etc. Ask for and discuss potential links between the person’s emotions/stress and symptoms.
+ \n–  Encourage continuation of (or gradual return to) daily activities.
+ \n–  Remember to apply the practice of reducing stress and strengthening social support.</string>
+    <string name="othe">Go to » ECP.</string>
+    <string name="oth4">In all cases, whether or not the person presents with emotional, physical or behavioural problems after exposure to an extreme stressor, provide support as described in PROTOCOL 1. Listen carefully.  »   DO NOT pressure the person to talk about the event. » Address the person’s social needs.
+ \n– Ask the person about his/her needs and concerns.
+ \n–  Help the person to address basic needs, access services and connect with family and other social supports.
+\n –  Protect the person from (further) harm, if needed.
+\n –  Encourage the person to return to previous, normal activities, e.g. at school  or work, at home, and socially, if it is feasible and culturally appropriate. » In case of any major loss explain that:
+ \n–  It is normal to grieve for any major loss. One can grieve for a person, a place, or property or the loss of one’s own health and wellbeing. Grief has both mental and physical effects.
+ \n–  People grieve in different ways. Some people show strong emotions while others do not. Crying does not mean one is weak. People who do not cry may feel the emotional pain just as deeply but have other ways of expressing it.
+ \n–  In most cases, grief will diminish over time. One may think that the sadness, yearning or pain one feels will never go away, but in most cases, these feelings lessen over time. Sometimes a person may feel ﬁne for a while, then something reminds them of the loss and they may feel as bad as they did at ﬁrst.  There is no right or wrong way to feel grief.  Sometimes one might feel very sad, other times numb, and at other times one might be able to enjoy oneself. These experiences usually become less intense  and less frequent over time. »
+ \n\nIn case of the loss of a loved one, discuss and support culturally appropriate adjustment and/or mourning processes.
+ \n–  Ask if appropriate mourning ceremonies/rituals have happened or been planned.  If this is not the case, discuss the obstacles and how to address them. »
+ \n\nIf prolonged grief disorder is suspected, consult a specialist for further assessment and management.
+ \n–  The person may have prolonged grief disorder if the symptoms involve considerable difﬁculty with daily functioning for at least 6 months and include severe preoccupation with or intense longing for the deceased person accompanied by intense emotional pain.\n\n
+          In the case of reactions to recent exposure to a potentially  traumatic event, explain that:
+ \n–  People often have reactions after such events. The reactions may be highly variable from person to person and change over time.
+ \n–  They can include somatic symptoms such as palpitations, aches and pains, gastric upset, and headaches and emotional and behavioural symptoms that include sleep disturbance, sadness, anxiety, irritation and aggression.
+ \n–  Such feelings can be exacerbated or can reappear when reminders of the stressful event or new stressors occur.
+ \n–  In most cases the symptoms are likely to diminish over time, particularly if the person gets rest, social support, and engages in stress reduction. Go to » ECP.  Go to Box 1.
+\n\n»  If post-traumatic stress disorder (PTSD) is suspected, consult a specialist  for further assessment and management.
+\n –  After a potentially traumatic event, the person may have PTSD if the symptoms involve considerable difﬁculty with daily functioning for at least 1 month and include recurring frightening dreams, ﬂashbacks or intrusive memories of the events accompanied by intense fear or horror; deliberate avoidance of reminders  of the event; excessive concern and alertness to danger or reacting strongly to  loud noises or unexpected movements.
 
+</string>
+    <string name="oth6">Explain what you will be doing.\n\n
+  “I am going to teach you how to breathe in a way that will help relax your  body and your mind. It will take some practice before you feel the full beneﬁts of this breathing technique. The reason this strategy focuses on breathing is because when we feel stressed our breathing becomes fast and shallow, making us feel more tense. To begin to relax, you need to start by changing your breathing. Before we start, we will relax the body.” »
+        \n\nSlowly start relaxation exercises and demonstrate breathing.
+  \n\n“Gently shake and loosen your arms and legs. Let them go ﬂoppy and loose.  Roll your shoulders back and gently move your head from side to side.  Now place one hand on your belly and the other hand on your upper chest. I want you to imagine you have a balloon in your stomach and when you breathe in you are going to blow that balloon up, so your stomach will expand. And when you breathe out, the air in the balloon will also go out,  so your stomach will ﬂatten. Watch me ﬁrst. I am going to exhale ﬁrst to get all the air out of my stomach.” Demonstrate breathing from the stomach –  try to exaggerate the pushing out, and pulling in, of your stomach.
+»
 
+ \n\nFocus on breathing techniques.
+  \n\n“Try to breathe from your stomach with me. Remember, we start by breathing out until all the air is out; then breathe in. If you can, breathe in through your nose and out through your mouth. The second step is to slow the rate of your breathing down. Take three seconds to breathe in, two seconds to hold your breath, and three seconds to breathe out. I will count with you. You may close your eyes or keep them open. Slowly breathe in, 1, 2, 3. Hold, 1, 2. Now breathe out, 1, 2, 3.” Repeat this breathing exercise for approximately one minute, rest for one minute then repeat the cycle two more times. »
+
+\n\n Encourage self-practice.
+  \n\n“Try on your own for one minute. This is something you can practice  on your own.”
+    </string>
+    <string name="substancetab1">Sedation, confusion, nausea, vomiting, constipation, possible hormonal changes, decreased sex drive, ECG changes such as prolonged QT interval or bradycardia, hypotension, respiratory depression.</string>
+    <string name="substancetab2">0.4-2 mg i.v., i.m., subcutaneous or intranasal. Repeat doses as needed.</string>
+    <string name="Substancetab3">Initial dose of 4-8 mg, increasing by 4-8 mg each day as needed until the person is no longer experiencing opioid withdrawal and not using illicit opioids. Maintain until ready to cease opioid agonist treatment.</string>
+    <string name="substancetab4">Initial dose of 4-8 mg, increasing by 4-8 mg each day as needed until the person is no longer experiencing opioid withdrawal and not using illicit opioids. Maintain until ready to cease opioid agonist treatment.</string>
+    <string name="substancetab5">Start 50 mg daily for 6-12 months. In opioid dependence, ensure that there has been no opioid use in the last 7 days (for example by administration of dose of naloxone).</string>
+    <string name="substancetab6">10-20 mg as an initial dose with 10 mg extra dose if needed.</string>
+    <string name="substancetab8">100 mg p.o. daily for 5 days to prevent Wernicke’s encephalopathy. 100 mg – 500 mg i.v. or i.m. two to three times daily for 3-5 days to treat Wernicke’s encephalopathy.</string>
+    <string name="substancetab9">ALPHA ADRENERGIC AGONISTS To treat opioid withdrawal</string>
+    <string name="acamprosate">Acamprosate</string>
+    <string name="bup">Buprenorphine</string>
+    <string name="cla">CLASS / INDICATION</string>
+    <string name="con">CONTRAINDICATIONS / CAUTIONS</string>
+    <string name="clonidine">Clonidine</string>
+    <string name="dosin">DOSING</string>
+    <string name="substancetab10">Diarrhoea, ﬂatulence, nausea/vomiting, abdominal pain, depression, anxiety, suicidality, itching. Occasionally, a maculopapular rash can occur, and rarely, bullous skin reactions.</string>
+    <string name="substancetab11">Discomfort or withdrawal symptoms may result.</string>
+    <string name="disul_ram">Disulﬁram</string>
+    <string name="substancetab12">Do not use in people who are sedated. Beware of combining with other sedatives. The person should not drive. Supervise dosing to minimise the risk of diversion. Give longer acting opioids, such as methadone or bupre- norphine, once per day to outpatients, when available.</string>
+    <string name="substancetab13">Drowsiness, dizziness, headache, ﬂushing, sweating, dry mouth, nausea/vomiting, tremor, foul body odour, sexual dysfunction. Rarely, psychotic reactions, allergic dermatitis, peripheral neuritis, or hepatic cell damage can occur. Severe reactions can lead to confusion, cardiovascular collapse, and death.</string>
+    <string name="substancetab14">In moderate kidney disease, give a lower dose, 333 mg p.o. 3 times per day.CONTRAINDICATED in severe kidney disease and liver disease.</string>
+    <string name="lofexidine">Lofexidine</string>
+    <string name="medi">MEDICATION</string>
+    <string name="substancetab15">MEDICATIONS \n\nTO PREVENT RELAPSE IN ALCOHOL DEPENDENCE To suppress the urge to drink</string>
+    <string name="nr">Methadone</string>
+    <string name="morphine_sulphate">Morphine sulphate</string>
+    <string name="naloxone">Naloxone</string>
+    <string name="naltrexone">Naltrexone</string>
+    <string name="substancetab16">OPIOID AGONISTS \n\nTo treat opioid withdrawal and dependence</string>
+    <string name="substancetab18">OPIOID ANTAGONISTS \n\nTo treat opioid overdose</string>
+    <string name="substancetab19">Risk of FATAL OVERDOSE in patients who use opioids more than 24 hours after their last dose of naltrexone, due to the rapid loss of antagonistic effect. DO NOT use in patients with liver failure or acute hepatitis.</string>
+    <string name="side">SIDE EFFECTS</string>
+    <string name="substancetab20">Sedation and respiratory depression which can be life threatening. Prolonged use can lead to dependence.</string>
+    <string name="sedation_dizziness_ataxia_nausea_vomiting_constipation_respiratory_depression">Sedation, dizziness, ataxia, nausea, vomiting, constipation, respiratory depression.</string>
+    <string name="substancetab21">Sedation, dizziness, nausea/vomiting, abdominal pain, insomnia, anxiety, reduced energy, joint and muscle pain. Monitor liver function due to risk of liver toxicity.</string>
+    <string name="substancetab23">Sedation, light-headedness, dizziness, headache, nausea/vomiting, dry mouth, constipation, sexual dysfunction, depression, agitation, low blood pressure, tachycardia, sinus bradycardia, and AV block</string>
+    <string name="substancetab24">Sedation, light-headedness, low blood pressure, ECG changes such as prolonged QT interval and sinus bradycardia.</string>
+    <string name="substancetab25">Start 0.1 mg 2-3 times daily. Increase as tolerated in divided doses to manage withdrawal symptoms, to a maximum of 1 mg daily.</string>
+    <string name="substancetab26">Start 0.4 - 0.6 mg twice daily. Increase as needed by 0.4-0.8 mg daily. Maximum single dose: 0.8 mg. Maximum daily dose: 2.4 mg (in 2-4 divided doses).</string>
+    <string name="substancetab27">Start 2 tablets of 333 mg p.o. each 3 times per day for 12 months. If the person weighs less than 60 kg, give 2 tablets 2 times per day p.o. for 12 months.</string>
+    <string name="substancetab28">Start 200-400 mg daily.</string>
+    <string name="thiamine_vitamin_b1">Thiamine (Vitamin B1)</string>
+    <string name="to_treat_opioid_withdrawal_and_dependence_methadone_opioid_withdrawal_methadone_initial_dose_20_mg_with_a_supplemental_dose_of_5_10_mg_4_hours_later_if_necessary_opioid_maintenance_initial_dose_10_20_mg_with_supplementary_dose_of_10_mg_if_needed_increasing_the_daily_dose_by_5_10_mg_every_few_days_if_needed_until_the_person_is_no_longer_experiencing_opioid_withdrawal_and_not_using_illicit_opioids_maintain_until_ready_to_cease_opioid_agonist_treatment">To treat opioid withdrawal and dependence Methadone Opioid withdrawal: Methadone initial dose 20 mg, with a supplemental dose of 5-10 mg 4 hours later if necessary. Opioid maintenance: initial dose 10-20 mg with supplementary dose of 10 mg if needed, increasing the daily dose by 5-10 mg every few days if needed until the person is no longer experiencing opioid withdrawal and not using illicit opioids. Maintain until ready to cease opioid agonist treatment.</string>
+    <string name="substancetab29">Tricyclic antidepressants (TCAs), monamine oxidase inhibitors (MAOIs), antipsychotics, vasodilators, and alpha or beta adrenergic antagonists make the disulﬁram-alcohol reaction more serious. Sensitisation to alcohol continues 6-14 days after taking disulﬁram, even if in small amounts. DO NOT use with alcohol, as reactions can be life-threatening or fatal. DO NOT use in women who are pregnant or breastfeeding. CONTRAINDICATED in people with hypertension, heart, liver, or kidney disease, a history of cerebrovascular accidents, psychosis, impulsivity, or if at risk of suicide.</string>
+    <string name="substancetab30">Use caution in cardiac, cerebrovascular, and renal disease. Avoid in patients with prolonged QT syndrome, metabolic disarray, or if they are taking any other QT-prolonging medications. Monitor vital signs closely. DO NOT stop medication abruptly, as withdrawal may cause rebound hypertension.</string>
+    <string name="substancetab31">Use in caution in cardiac, cerebrovascular, and liver disease. Use lower doses in kidney disease. Be aware of the potential for abuse. Monitor vital signs closely. DO NOT stop abruptly, as withdrawal can cause rebound hypertension. Avoid in women who are pregnant or breastfeeding</string>
+    <string name="substancetab32">Use with caution in congestive heart failure, respiratory disease, or liver disease. – Potential for abuse. – Abrupt cessation can cause withdrawal symptoms</string>
+    <string name="substancetab34">VITAMINS \n\nTo prevent or treat Wernicke’s encephalopathy</string>
+    <string name="table_1_antidepressants">TABLE 1: Antidepressants</string>
 </resources>

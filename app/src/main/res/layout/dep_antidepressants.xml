@@ -1,17 +1,36 @@
 <?xml version="1.0" encoding="utf-8"?>
-<TableLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent" android:layout_height="match_parent"
-    android:background="#ffffff">
+    android:background="#dfd5d5"
+  >
+
+    <TableLayout
+
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="5dp"
+        android:layout_marginRight="5dp"
+        >
 
 
-
+    <TextView
+        android:id="@+id/textView24"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/table_1_antidepressants"
+        android:textAlignment="center"
+        android:textColor="#881D6C"
+        android:textSize="20sp"/>
 
     <TableRow
         android:layout_height="match_parent"
         android:layout_width="match_parent"
         android:background="#881D6C"
+        android:layout_marginTop="5dp"
         >
+
+
 
         <TextView
             android:layout_width="match_parent"
@@ -35,7 +54,7 @@
         <TextView
             android:layout_width="match_parent"
             android:layout_height="match_parent"
-            android:ems="6"
+            android:ems="5"
             android:textColor="#ffffff"
             android:id="@+id/textView3"
             android:textSize="12dp"
@@ -45,20 +64,17 @@
             android:layout_width="match_parent"
             android:textColor="#ffffff"
             android:layout_height="match_parent"
-            android:ems="8"
+            android:ems="7"
             android:textSize="12dp"
             android:id="@+id/textView"
             android:text="CONTRAINDICATIONS / CAUTIONS"
             tools:ignore="HardcodedText,SpUsage" />
-
-
     </TableRow>
 
     <TableRow
         android:layout_width="match_parent"
         android:layout_height="match_parent"
-        android:layout_marginLeft="3dp"
-        android:layout_marginRight="3dp"
+        android:background="@drawable/border2"
         >
 
         <TextView
@@ -95,7 +111,7 @@
             android:id="@+id/textView8"
             android:layout_width="match_parent"
             android:layout_height="match_parent"
-            android:ems="9"
+            android:ems="11"
             android:textColor="#361818"
             android:text="@string/cautions1"
             android:textSize="10dp"
@@ -108,8 +124,7 @@
     <TableRow
         android:layout_height="match_parent"
         android:layout_width="match_parent"
-        android:layout_marginLeft="3dp"
-        android:layout_marginRight="3dp">
+        android:background="@drawable/border2">
 
         <TextView
             android:layout_width="match_parent"
@@ -143,7 +158,7 @@
             android:layout_width="match_parent"
             android:layout_height="match_parent"
             android:textColor="#361818"
-            android:ems="9"
+            android:ems="11"
             android:textSize="10dp"
             android:id="@+id/textView12"
             android:text="@string/cautions2"
@@ -151,5 +166,6 @@
 
 
     </TableRow>
+    </TableLayout>
 
-</TableLayout>
+</ScrollView>

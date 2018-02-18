@@ -53,7 +53,6 @@
             android:layout_marginTop="10dp"
             android:text="@string/dep_protocol2.1"
             android:textColor="#361818"
-
             />
 
         <TextView

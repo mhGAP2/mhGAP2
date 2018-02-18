@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.tencho.mhgap2.Substanceprotocol4">
+    <ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:tools="http://schemas.android.com/tools"
+        android:layout_width="368dp"
+        android:layout_height="551dp"
+        android:background="#ffffff"
+        tools:layout_editor_absoluteY="8dp"
+        tools:layout_editor_absoluteX="8dp">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:layout_marginLeft="5dp"
+            tools:ignore="RtlHardcoded">
+            <TextView
+                android:id="@+id/textView1"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Protocol 4(Substance use)"
+                android:textColor="#F68B1F"
+                android:textSize="30sp"
+                android:textAlignment="center"
+                tools:ignore="HardcodedText" />
+            <TextView
+                android:id="@+id/textView2"
+                android:textColor="#F68B1F"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:text="@string/opioid_withdrawal"
+                android:textSize="15sp"
+                android:textAlignment="center"
+                />
+
+            <TextView
+                android:id="@+id/textView5"
+                android:textColor="#361818"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:text="@string/substance16"
+                android:textSize="15sp"
+                android:textAlignment="center"
+                />
+            <TextView
+                android:id="@+id/tex"
+                android:textColor="#F68B1F"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:text="@string/wa"
+                android:textSize="15sp"
+                android:textAlignment="center"
+                />
+
+        </LinearLayout>
+    </ScrollView>
+
+
+
+</android.support.constraint.ConstraintLayout>
