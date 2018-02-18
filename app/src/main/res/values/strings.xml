@@ -825,7 +825,7 @@ as required for the first 4-6 weeks of therapy. If there is no
 improvement, see Follow-up and Table 4.\n\n
 Monitor weight, blood pressure, fasting sugar, cholesterol and
 ECG for persons on antipsychotics if possible (see below).</string>
-<string name="psy_caution2">Side effects to look for:\n\n
+    <string name="psy_caution2">Side effects to look for:\n\n
 – Extrapyramidal side effects (EPS): akathisia, acute
 dystonic reactions, tremor, cog- wheeling, muscular rigidity,
 and tardive dyskinesia. Treat with anticholinergic medications
@@ -1267,9 +1267,6 @@ Consult a specialist for treatment.</string>
     </string>
 
 
-
-
-
     <string name="bev_2_1_cmh">  Spend time with their child in enjoyable activities.  Play and communicate with their child/adolescent.  http://www.who.int/maternal_child_adolescent/documents/ care_child_development/en/ \n\n
 
      Listen to the child/adolescent and show understanding  and respect. \n\n
@@ -1540,7 +1537,7 @@ Consult a specialist for treatment.</string>
         -Keep things simple, avoid changes to routine, and, as far as possible, avoid exposing the person to unfamiliar and bewildering places.</string>
     <string name="Dementia9">Identify and treat underlying physical health problems that may affect behaviour. Look for pain, infections, etc. on physical exam </string>
     <string name="hi">(Go to » ECP). Refer to specialist if needed.</string>
-                   <string name="com">Identify events (e.g. shopping at busy market) or factors  (e.g. going out alone) that may precede, trigger, or enhance problem behaviours. Modify these triggers if possible.\n\n
+    <string name="com">Identify events (e.g. shopping at busy market) or factors  (e.g. going out alone) that may precede, trigger, or enhance problem behaviours. Modify these triggers if possible.\n\n
                    \n\nConsider environmental adaptations such as appropriate seating, safe wandering areas, signs (e.g. ‘no exit’ sign on the street door or signpost to toilet).\n\n
                   \n\n Encourage soothing, calming, or distracting strategies. Suggest an activity the person enjoys (e.g. going for a walk, listening to music, engaging in conversation), especially when feeling agitated.\n\n
             </string>

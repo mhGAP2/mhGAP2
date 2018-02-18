@@ -5,7 +5,7 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:orientation="vertical"
-    tools:context="com.example.tencho.mhgap2.psy_assesment">
+    tools:context="com.example.tencho.mhgap2.psy_followup1">
 
     <TextView
         android:id="@+id/title"
@@ -19,29 +19,31 @@
     <ScrollView
         android:id="@+id/scrollView2"
         android:layout_width="match_parent"
-        android:layout_height="405dp"
-        android:layout_weight="0.66"
-        tools:ignore="InefficientWeight">
+        android:layout_height="0dp"
+        android:scrollbarStyle="insideOverlay"
+        android:layout_weight="0.95">
 
         <LinearLayout
             android:layout_width="match_parent"
             android:layout_height="match_parent"
             android:layout_marginTop="20dp"
+            android:orientation="horizontal"
             tools:ignore="ScrollViewSize">
 
             <TextView
                 android:id="@+id/question"
                 android:layout_width="match_parent"
-                android:layout_height="352dp"
-                android:text="@string/phy1"
+                android:layout_height="match_parent"
+                android:text="@string/pf1"
                 android:textAlignment="textStart"
                 android:textSize="20sp"
                 tools:ignore="HardcodedText" />
         </LinearLayout>
     </ScrollView>
+
     <LinearLayout
         android:layout_width="match_parent"
-        android:layout_height="65dp"
+        android:layout_height="50dp"
         android:background="#15e553"
         android:orientation="horizontal"
         android:weightSum="3">
@@ -50,28 +52,29 @@
             android:id="@+id/yes"
             android:layout_width="wrap_content"
             android:layout_height="48dp"
+            android:layout_weight="1"
             android:text="Yes"
             android:textSize="10sp"
-            android:layout_weight="1"
             tools:ignore="ButtonStyle,HardcodedText,SmallSp" />
 
         <Button
             android:id="@+id/no"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
+            android:layout_weight="1"
             android:text="No"
             android:textColor="#123"
-            android:layout_weight="1"
             android:textSize="10sp"
             tools:ignore="ButtonStyle,HardcodedText,SmallSp" />
+
         <Button
             android:id="@+id/oth"
             android:layout_width="wrap_content"
             android:layout_height="48dp"
+            android:layout_weight="1"
             android:text="oth"
             android:textSize="10sp"
-            android:layout_weight="1"
-            tools:ignore="ButtonStyle,HardcodedText,SmallSp"/>
-
+            tools:ignore="ButtonStyle,HardcodedText,SmallSp" />
     </LinearLayout>
 </LinearLayout>
+
