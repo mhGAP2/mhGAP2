@@ -7,7 +7,7 @@ import android.view.View;
 import android.widget.Button;
 import android.widget.TextView;
 
-public class epi_assesment extends AppCompatActivity {
+public class epi_followup extends AppCompatActivity {
     private TextView mquestion;
     private Button mtruebtn, mfalsebtn, othbtn;
 
@@ -18,10 +18,10 @@ public class epi_assesment extends AppCompatActivity {
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_epi_assesment);
+        setContentView(R.layout.activity_epi_followup);
 
-        YesQuestions = getResources().getStringArray(R.array.Epilepsy_Assessment_Yes);
-        NoQuestions = getResources().getStringArray(R.array.Epilepsy_Assessment_No);
+        YesQuestions = getResources().getStringArray(R.array.Epi_FollowUp_Yes);
+        NoQuestions = getResources().getStringArray(R.array.Epi_FollowUp_No);
 
         mquestion = (TextView) findViewById(R.id.question);
         mtruebtn = (Button) findViewById(R.id.yes);
@@ -50,13 +50,13 @@ public class epi_assesment extends AppCompatActivity {
             public void onClick(View view) {
                 if(othbtn.getText().toString().equalsIgnoreCase("GO TO Protocol 1"))
                 {
-                    Intent intent =new Intent(epi_assesment.this,epilipsy2.class);
+                    Intent intent =new Intent(epi_followup.this,epilipsy2.class);
                     startActivity(intent);
 
                 }
                 else if(othbtn.getText().toString().equalsIgnoreCase("Home"))
                 {
-                    Intent intent =new Intent(epi_assesment.this,HomeActivity.class);
+                    Intent intent =new Intent(epi_followup.this,HomeActivity.class);
                     startActivity(intent);
                 }
 
@@ -68,27 +68,13 @@ public class epi_assesment extends AppCompatActivity {
         if(mquestion.getText().toString().equals(YesQuestions[0]))
             mquestion.setText(YesQuestions[1]);
         else if(mquestion.getText().toString().equals(YesQuestions[1]))
-            mquestion.setText(YesQuestions[2]);
-        else if(mquestion.getText().toString().equals(YesQuestions[2]))
         {
-            mquestion.setText(YesQuestions[3]);
+            mquestion.setText(YesQuestions[2]);
             othbtn.setText("Home");
             othbtn.setVisibility(View.VISIBLE);
             mtruebtn.setVisibility(View.GONE);
             mfalsebtn.setVisibility(View.GONE);
         }
-        else if(mquestion.getText().toString().equals(NoQuestions[2]))
-            mquestion.setText(YesQuestions[4]);
-        else if(mquestion.getText().toString().equals(YesQuestions[4]))
-        {
-            mquestion.setText(YesQuestions[5]);
-            othbtn.setText("Go to protocol 1");
-            othbtn.setVisibility(View.VISIBLE);
-            mtruebtn.setVisibility(View.GONE);
-            mfalsebtn.setVisibility(View.GONE);
-
-        }
-
 
     }
 
@@ -105,24 +91,6 @@ public class epi_assesment extends AppCompatActivity {
         {
             mquestion.setText(NoQuestions[1]);
             othbtn.setText("Home");
-            othbtn.setVisibility(View.VISIBLE);
-            mtruebtn.setVisibility(View.GONE);
-            mfalsebtn.setVisibility(View.GONE);
-        }
-        else if(mquestion.getText().toString().equals(YesQuestions[2]))
-            mquestion.setText(NoQuestions[2]);
-        else if(mquestion.getText().toString().equals(NoQuestions[2]))
-        {
-            mquestion.setText(NoQuestions[3]);
-            othbtn.setText("Home");
-            othbtn.setVisibility(View.VISIBLE);
-            mtruebtn.setVisibility(View.GONE);
-            mfalsebtn.setVisibility(View.GONE);
-        }
-        else if(mquestion.getText().toString().equals(YesQuestions[4]))
-        {
-            mquestion.setText(NoQuestions[4]);
-            othbtn.setText("Go to protocol 1");
             othbtn.setVisibility(View.VISIBLE);
             mtruebtn.setVisibility(View.GONE);
             mfalsebtn.setVisibility(View.GONE);

@@ -91,7 +91,8 @@
         <activity android:name=".Substanceprotocol5" />
         <activity android:name=".Oth1" />
         <activity android:name=".psy_followup1" />
-        <activity android:name=".psy_followup2"></activity>
+        <activity android:name=".psy_followup2" />
+        <activity android:name=".epi_followup"></activity>
     </application>
 
 </manifest>

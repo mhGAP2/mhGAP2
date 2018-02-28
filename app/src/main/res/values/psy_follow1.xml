@@ -5,6 +5,11 @@
             ASSESS FOR IMPROVEMENT \n
             Is the person improving?
     </string>
+    <string name="pf2">
+        1 \n
+            ASSESS FOR IMPROVEMENT \n
+            Is the person improving?
+    </string>
 
     <string-array name="PSY_Followup_Yes_PSYCHOSIS">
         <item>

@@ -5,7 +5,7 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:orientation="vertical"
-    tools:context="com.example.tencho.mhgap2.epi_assesment">
+    tools:context="com.example.tencho.mhgap2.epi_followup">
 
     <TextView
         android:id="@+id/title"
@@ -32,8 +32,8 @@
             <TextView
                 android:id="@+id/question"
                 android:layout_width="match_parent"
-                android:layout_height="352dp"
-                android:text="@string/Epl1"
+                android:layout_height="match_parent"
+                android:text="@string/Epifollow"
                 android:textAlignment="textStart"
                 android:textSize="20sp"
                 tools:ignore="HardcodedText" />
