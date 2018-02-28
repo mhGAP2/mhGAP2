@@ -67,7 +67,8 @@ public class Substance_management extends AppCompatActivity {
         btn7.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                setContentView(R.layout.substancespecial);
+                Intent intent=new Intent(Substance_management.this,Substance_spe.class);
+                startActivity(intent);
             }
         });
         btn8=(Button)findViewById(R.id.bt8);

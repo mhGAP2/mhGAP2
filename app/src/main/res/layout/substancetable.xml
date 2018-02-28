@@ -34,7 +34,7 @@
                 tools:ignore="HardcodedText" />
 
             <TableRow
-                android:layout_width="40dp"
+                android:layout_width="match_parent"
                 android:layout_height="match_parent"
                 android:background="#F68B1F"
                 >
@@ -75,16 +75,17 @@
 
                 <TextView
                     android:id="@+id/textView6"
-                    android:layout_width="115sp"
+                    android:layout_width="113sp"
                     android:layout_height="wrap_content"
                     android:textAlignment="center"
                     android:text="@string/con"
                     android:textSize="12sp" />
                 </TableRow>
             <TableRow
-                android:layout_width="match_parent"
-                android:layout_height="match_parent"
                 android:background="@drawable/border2"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                tools:ignore="ExtraText">
                 >
                 <TextView
                     android:id="@+id/textView654"
@@ -93,7 +94,7 @@
                     android:text="@string/substancetable6"
                     android:textSize="10sp"
                     tools:ignore="SmallSp"
-                    android:background="@drawable/border2" />
+                    />
 
                 <TextView
                     android:id="@+id/textVew30"
@@ -103,7 +104,6 @@
                     android:text="@string/dlapezam"
                     android:textSize="10sp"
                     tools:ignore="SmallSp"
-                    android:background="@drawable/border2"
                     />
 
                 <TextView
@@ -112,7 +112,7 @@
                     android:layout_height="match_parent"
                     android:text="@string/substancetable1"
                     android:textSize="12sp"
-                    android:background="@drawable/border2"/>
+                   />
 
                 <TextView
                     android:id="@+id/textVie65"
@@ -120,21 +120,20 @@
                     android:layout_height="match_parent"
                     android:text="@string/substancetab20"
                     android:textSize="12sp"
-                    android:background="@drawable/border2"/>
+               />
 
                 <TextView
                     android:id="@+id/textVie34"
-                    android:layout_width="115sp"
-                    android:text="@string/substancetable7"
+                    android:layout_width="113sp"
                     android:layout_height="match_parent"
-                    android:textSize="12sp"
-                    android:background="@drawable/border2"/>
+                    android:text="@string/substancetable7"
+                    android:textSize="12sp" />
             </TableRow>
 
             <TableRow
-                android:layout_width="match_parent"
-                android:layout_height="match_parent"
                 android:background="@drawable/border2"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
                 >
                 <TextView
                     android:id="@+id/textView"
@@ -143,7 +142,7 @@
                     android:text="@string/substancetab18"
                     android:textSize="10sp"
                     tools:ignore="SmallSp"
-                    android:background="@drawable/border2"/>
+                    />
 
                 <TextView
                     android:id="@+id/textView0"
@@ -153,7 +152,7 @@
                     android:text="@string/naloxone"
                     android:textSize="10sp"
                     tools:ignore="SmallSp"
-                    android:background="@drawable/border2"/>
+                    />
 
                 <TextView
                     android:id="@+id/textView21"
@@ -161,7 +160,7 @@
                     android:layout_height="match_parent"
                     android:text="@string/substancetab2"
                     android:textSize="12sp"
-                    android:background="@drawable/border2"/>
+                    />
 
                 <TextView
                     android:id="@+id/textView20"
@@ -169,12 +168,11 @@
                     android:layout_height="match_parent"
                     android:text="@string/substancetab11"
                     android:textSize="12sp"
-                    android:background="@drawable/border2"/>
+                    />
 
                 <TextView
                     android:id="@+id/textView19"
-                    android:layout_width="115sp"
-                    android:background="@drawable/border2"
+                    android:layout_width="113sp"
                     android:layout_height="match_parent"
                     android:textSize="12sp"
                     />
@@ -182,8 +180,9 @@
 
 
             <TableRow
-                    android:layout_width="match_parent"
-                    android:layout_height="match_parent"
+                android:background="@drawable/border2"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
                     >
 
                     <TextView
@@ -193,7 +192,7 @@
                         android:text="@string/substancetab34"
                         android:textSize="10sp"
                         tools:ignore="SmallSp"
-                        android:background="@drawable/border2"/>
+                        />
 
                     <TextView
                         android:id="@+id/textView23"
@@ -203,7 +202,7 @@
                         android:textColor="#F68B1F"
                         android:textSize="10sp"
                         tools:ignore="SmallSp"
-                        android:background="@drawable/border2"/>
+                       />
 
                     <TextView
                         android:id="@+id/textView24"
@@ -211,27 +210,28 @@
                         android:layout_height="match_parent"
                         android:text="@string/substancetab8"
                         android:textSize="12sp"
-                        android:background="@drawable/border2"/>
+                        />
 
                     <TextView
                         android:id="@+id/textView25"
                         android:layout_width="70sp"
                         android:layout_height="match_parent"
                         android:textSize="12sp"
-                        android:background="@drawable/border2" />
+                        />
 
                     <TextView
                         android:id="@+id/textView26"
-                        android:layout_width="115sp"
+                        android:layout_width="113sp"
                         android:layout_height="match_parent"
                         android:textSize="12sp"
-                        android:background="@drawable/border2"/>
+                        />
 
                 </TableRow>
 
             <TableRow
+                android:background="@drawable/border2"
                 android:layout_width="match_parent"
-                android:layout_height="match_parent"
+                android:layout_height="wrap_content">
                 >
 
                 <TextView
@@ -241,7 +241,7 @@
                     android:text="@string/substancetab16"
                     android:textSize="10sp"
                     tools:ignore="SmallSp"
-                    android:background="@drawable/border2"/>
+                    />
                 <TextView
                     android:id="@+id/textVi"
                     android:layout_width="40sp"
@@ -250,7 +250,7 @@
                     android:text="@string/nr"
                     android:textSize="10sp"
                     tools:ignore="SmallSp"
-                    android:background="@drawable/border2"/>
+                    />
 
                 <TextView
                     android:id="@+id/textView29"
@@ -258,7 +258,7 @@
                     android:layout_height="match_parent"
                     android:text="@string/to_treat_opioid_withdrawal_and_dependence_methadone_opioid_withdrawal_methadone_initial_dose_20_mg_with_a_supplemental_dose_of_5_10_mg_4_hours_later_if_necessary_opioid_maintenance_initial_dose_10_20_mg_with_supplementary_dose_of_10_mg_if_needed_increasing_the_daily_dose_by_5_10_mg_every_few_days_if_needed_until_the_person_is_no_longer_experiencing_opioid_withdrawal_and_not_using_illicit_opioids_maintain_until_ready_to_cease_opioid_agonist_treatment"
                     android:textSize="12sp"
-                    android:background="@drawable/border2"/>
+                  />
 
                 <TextView
                     android:id="@+id/textView30"
@@ -266,17 +266,20 @@
                     android:layout_height="match_parent"
                     android:text="@string/substancetab1"
                     android:textSize="12sp"
-                    android:background="@drawable/border2"/>
+                   />
 
                 <TextView
                     android:id="@+id/textView31"
-                    android:layout_width="115sp"
+                    android:layout_width="113sp"
                     android:text="@string/Substancetab3"
                     android:layout_height="match_parent"
                     android:textSize="12sp"
-                    android:background="@drawable/border2"/>
+                    />
             </TableRow>
             <TableRow
+                android:background="@drawable/border2"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
                 >
                 <TextView
                     android:id="@+id/textVie"
@@ -285,7 +288,7 @@
                     android:text="@string/substancetab16"
                     android:textSize="10sp"
                     tools:ignore="SmallSp"
-                    android:background="@drawable/border2"/>
+                    />
                 <TextView
                     android:id="@+id/textV"
                     android:layout_width="40sp"
@@ -294,7 +297,7 @@
                     android:text="@string/bup"
                     android:textSize="10sp"
                     tools:ignore="SmallSp"
-                    android:background="@drawable/border2"/>
+               />
 
                 <TextView
                     android:id="@+id/text"
@@ -302,7 +305,7 @@
                     android:layout_height="match_parent"
                     android:text="@string/substancetab4"
                     android:textSize="12sp"
-                    android:background="@drawable/border2"/>
+                    />
 
                 <TextView
                     android:id="@+id/tex"
@@ -310,17 +313,20 @@
                     android:layout_height="match_parent"
                     android:text="@string/sedation_dizziness_ataxia_nausea_vomiting_constipation_respiratory_depression"
                     android:textSize="12sp"
-                    android:background="@drawable/border2"/>
+                    />
 
                 <TextView
                     android:id="@+id/te"
-                    android:layout_width="115sp"
+                    android:layout_width="113sp"
                     android:text="@string/substancetab32"
                     android:layout_height="match_parent"
                     android:textSize="12sp"
-                    android:background="@drawable/border2"/>
+                    />
             </TableRow>
-            <TableRow>
+            <TableRow
+                android:background="@drawable/border2"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">>
                 <TextView
                     android:id="@+id/ti"
                     android:layout_width="60dp"
@@ -328,7 +334,6 @@
                     android:text="@string/substancetab16"
                     android:textSize="10sp"
                     tools:ignore="SmallSp"
-                    android:background="@drawable/border2"
                     />
                 <TextView
                     android:id="@+id/tn"
@@ -338,7 +343,7 @@
                     android:text="@string/morphine_sulphate"
                     android:textSize="10sp"
                     tools:ignore="SmallSp"
-                    android:background="@drawable/border2"/>
+                    />
 
                 <TextView
                     android:id="@+id/textf"
@@ -346,7 +351,7 @@
                     android:layout_height="match_parent"
                     android:text="@string/substancetab6"
                     android:textSize="12sp"
-                    android:background="@drawable/border2"/>
+                   />
 
                 <TextView
                     android:id="@+id/texn"
@@ -354,18 +359,21 @@
                     android:layout_height="match_parent"
                     android:text="@string/substancetab20"
                     android:textSize="12sp"
-                    android:background="@drawable/border2"/>
+                   />
 
                 <TextView
                     android:id="@+id/tem"
-                    android:layout_width="115sp"
+                    android:layout_width="113sp"
                     android:text="@string/substancetab12"
                     android:layout_height="match_parent"
                     android:textSize="12sp"
-                    android:background="@drawable/border2"/>
+                    />
 
             </TableRow>
             <TableRow
+                android:background="@drawable/border2"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
                 >
                 <TextView
                     android:id="@+id/tk"
@@ -374,7 +382,7 @@
                     android:layout_height="match_parent"
                     android:textSize="10sp"
                     tools:ignore="SmallSp"
-                    android:background="@drawable/border2"/>
+                    />
                 <TextView
                     android:id="@+id/tb"
                     android:layout_width="40sp"
@@ -383,7 +391,7 @@
                     android:text="@string/clonidine"
                     android:textSize="10sp"
                     tools:ignore="SmallSp"
-                    android:background="@drawable/border2"/>
+                    />
 
                 <TextView
                     android:id="@+id/tc"
@@ -391,7 +399,7 @@
                     android:layout_height="match_parent"
                     android:text="@string/substancetab25"
                     android:textSize="12sp"
-                    android:background="@drawable/border2"/>
+                    />
 
                 <TextView
                     android:id="@+id/tz"
@@ -399,17 +407,20 @@
                     android:layout_height="match_parent"
                     android:text="@string/substancetab23"
                     android:textSize="12sp"
-                    android:background="@drawable/border2"/>
+                    />
 
                 <TextView
                     android:id="@+id/temp"
-                    android:layout_width="115sp"
+                    android:layout_width="113sp"
                     android:text="@string/substancetab31"
                     android:layout_height="match_parent"
                     android:textSize="12sp"
-                    android:background="@drawable/border2"/>
+                    />
             </TableRow>
-            <TableRow>
+            <TableRow
+                android:background="@drawable/border2"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">>
                 <TextView
                     android:id="@+id/to"
                     android:layout_width="60dp"
@@ -417,7 +428,7 @@
                     android:textSize="10sp"
                     android:text="@string/substancetab9"
                     tools:ignore="SmallSp"
-                    android:background="@drawable/border2"/>
+                    />
                 <TextView
                     android:id="@+id/t7"
                     android:layout_width="40sp"
@@ -426,7 +437,7 @@
                     android:text="@string/lofexidine"
                     android:textSize="10sp"
                     tools:ignore="SmallSp"
-                    android:background="@drawable/border2"/>
+                    />
 
                 <TextView
                     android:id="@+id/tj"
@@ -434,7 +445,7 @@
                     android:layout_height="match_parent"
                     android:text="@string/substancetab26"
                     android:textSize="12sp"
-                    android:background="@drawable/border2"/>
+                   />
 
                 <TextView
                     android:id="@+id/z"
@@ -442,17 +453,20 @@
                     android:layout_height="match_parent"
                     android:text="@string/substancetab24"
                     android:textSize="12sp"
-                    android:background="@drawable/border2"/>
+                    />
 
                 <TextView
                     android:id="@+id/temp9"
-                    android:layout_width="115sp"
+                    android:layout_width="113sp"
                     android:text="@string/substancetab30"
                     android:layout_height="match_parent"
                     android:textSize="12sp"
-                    android:background="@drawable/border2"/>
+                    />
             </TableRow>
             <TableRow
+                android:background="@drawable/border2"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
                 >
                 <TextView
                     android:id="@+id/too"
@@ -461,7 +475,7 @@
                     android:layout_height="match_parent"
                     android:textSize="10sp"
                     tools:ignore="SmallSp"
-                    android:background="@drawable/border2" />
+                     />
                 <TextView
                     android:id="@+id/t72"
                     android:layout_width="40sp"
@@ -470,7 +484,7 @@
                     android:text="@string/acamprosate"
                     android:textSize="10sp"
                     tools:ignore="SmallSp"
-                    android:background="@drawable/border2"/>
+                    />
 
                 <TextView
                     android:id="@+id/th"
@@ -478,7 +492,7 @@
                     android:layout_height="match_parent"
                     android:text="@string/substancetab27"
                     android:textSize="12sp"
-                    android:background="@drawable/border2"/>
+                    />
 
                 <TextView
                     android:id="@+id/b"
@@ -486,17 +500,20 @@
                     android:layout_height="match_parent"
                     android:text="@string/substancetab10"
                     android:textSize="12sp"
-                    android:background="@drawable/border2"/>
+                   />
 
                 <TextView
                     android:id="@+id/temn"
-                    android:layout_width="115sp"
+                    android:layout_width="113sp"
                     android:text="@string/substancetab14"
                     android:layout_height="match_parent"
                     android:textSize="12sp"
-                    android:background="@drawable/border2"/>
+                    />
             </TableRow>
-            <TableRow>
+            <TableRow
+                android:background="@drawable/border2"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">>
                 <TextView
                     android:id="@+id/tom"
                     android:layout_width="60dp"
@@ -504,7 +521,7 @@
                     android:textSize="10sp"
                     tools:ignore="SmallSp"
                     android:text="@string/substancetab15"
-                    android:background="@drawable/border2"
+
                     />
                 <TextView
                     android:id="@+id/tee"
@@ -514,7 +531,7 @@
                     android:text="@string/naltrexone"
                     android:textSize="10sp"
                     tools:ignore="SmallSp"
-                    android:background="@drawable/border2"/>
+                    />
 
                 <TextView
                     android:id="@+id/the"
@@ -522,7 +539,7 @@
                     android:layout_height="match_parent"
                     android:text="@string/substancetab5"
                     android:textSize="12sp"
-                    android:background="@drawable/border2"/>
+                    />
 
                 <TextView
                     android:id="@+id/bin"
@@ -530,17 +547,20 @@
                     android:layout_height="match_parent"
                     android:text="@string/substancetab21"
                     android:textSize="12sp"
-                    android:background="@drawable/border2"/>
+                    />
 
                 <TextView
                     android:id="@+id/temno"
-                    android:layout_width="115sp"
+                    android:layout_width="113sp"
                     android:text="@string/substancetab19"
                     android:layout_height="match_parent"
                     android:textSize="12sp"
-                    android:background="@drawable/border2"/>
+                    />
             </TableRow>
-            <TableRow>
+            <TableRow
+                android:background="@drawable/border2"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
                 <TextView
                     android:id="@+id/tome"
                     android:layout_width="60dp"
@@ -548,7 +568,7 @@
                     android:textSize="10sp"
                     android:text="@string/substancetab15"
                     tools:ignore="SmallSp"
-                    android:background="@drawable/border2"/>
+                    />
                 <TextView
                     android:id="@+id/teep"
                     android:layout_width="40sp"
@@ -557,7 +577,7 @@
                     android:text="@string/disul_ram"
                     android:textSize="10sp"
                     tools:ignore="SmallSp"
-                    android:background="@drawable/border2"/>
+                    />
 
                 <TextView
                     android:id="@+id/then"
@@ -565,7 +585,7 @@
                     android:layout_height="match_parent"
                     android:text="@string/substancetab28"
                     android:textSize="12sp"
-                    android:background="@drawable/border2"/>
+                    />
 
                 <TextView
                     android:id="@+id/binw"
@@ -573,15 +593,15 @@
                     android:layout_height="match_parent"
                     android:text="@string/substancetab13"
                     android:textSize="12sp"
-                    android:background="@drawable/border2"/>
+                    />
 
                 <TextView
                     android:id="@+id/temnon"
-                    android:layout_width="115sp"
+                    android:layout_width="113sp"
                     android:text="@string/substancetab29"
                     android:layout_height="match_parent"
                     android:textSize="12sp"
-                    android:background="@drawable/border2"/>
+                    />
             </TableRow>
         </TableLayout>
     </ScrollView>

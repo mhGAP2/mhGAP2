@@ -1159,7 +1159,8 @@ Consult a specialist for treatment.</string>
               Consider monitoring blood count, blood chemistry and  liver function tests, if available. \n\n
     </string>
 
-    <string name="epi_protocol_2_2">Refer to Essential Care and Practice (ECP) for interventions that promote functioning in daily living and community life. \n\n
+    <string name="epi_protocol_2_2"><a href="">Refer to Essential Care and Practice (ECP)</a></string>
+    <string name="epi_prot"> for interventions that promote functioning in daily living and community life. \n\n
                                        In addition, inform carers and people  with epilepsy that:  \n\n
                                         –  People with epilepsy can lead normal lives.  They can marry and have children. \n
                                         –  Parents should not remove children with epilepsy from school.  \n
@@ -1187,8 +1188,8 @@ Consult a specialist for treatment.</string>
                                        If breastfeeding, carbamazepine preferred to other medication
     </string>
 
-    <string name="epi_child_adol1"> For those with a developmental disorder,  manage the condition. Go to >>CMH. \n\n
-                                    For children with behavioural disorder, avoid phenobarbital if possible. Manage the condition.  Go to>>CMH. \n\n
+    <string name="epi_child_adol1"> For those with a developmental disorder,  manage the condition. <a href="">Go to >>CMH.</a> \n\n
+                                    For children with behavioural disorder, avoid phenobarbital if possible. Manage the condition.  <a href="">Go to>>CMH.</a> \n\n
     </string>
 
     <string name="epi_hiv_perso1">   When available, refer to speciﬁc drug interactions  for person’s antiretroviral regimen and antiepileptic medication. \n \n
@@ -1438,11 +1439,14 @@ Consult a specialist for treatment.</string>
 
     <string name="sui_2_2"> Place the person in a secure and supportive environment  at a health facility ( do not leave them alone). If the person must wait for treatment, offer an environment that minimizes distress; if possible, in a separate,
         quiet room  with constant supervision and contact with a designated staff or family member to ensure safety at all times. \n\n
-   Remove access to means of self-harm. \n\n
-   Consult a mental health specialist, if available. \n\n
+   Remove access to means of self-harm. </string>
+    <string name="sui28">
+    Consult a mental health specialist, if available. \n\n
    Mobilize family, friends and other concerned individuals or available community resources to monitor and
-        support the person during the imminent risk period (see “Offer and activate psychosocial support”. (2.3) \n\n
-   Treat people who have self-harmed with the same care, respect and privacy given to other people, and be sensitive to the emotional distress associated with self-harm. \n\n
+        support the person during the imminent risk period <a href="">(see “Offer and activate psychosocial support”. (2.3)</a>
+        </string>
+    <string name="sui24">
+    Treat people who have self-harmed with the same care, respect and privacy given to other people, and be sensitive to the emotional distress associated with self-harm. \n\n
    Include the carers if the person wants their support during assessment and treatment; if possible, the psychosocial assessment should include a one-to-one interview between the person and the health worker, to explore private issues. \n\n
    Provide emotional support to carers/family members if they need it. (2.4) \n\n
    Ensure continuity of care. \n\n
@@ -1454,15 +1458,8 @@ Consult a specialist for treatment.</string>
 
     </string>
 
-    <string name="sui_2_3">Offer support to the person \n\n
- – Explore reasons and ways to stay alive. \n
- –  Focus on the person’s strengths by encouraging them to talk of how earlier problems have been resolved. \n
- –  Consider problem-solving therapy to help people with acts of self-harm within the last year, if sufﬁcient human resources are available. Go to Essential care and practice  ECP
-     Activate psychosocial support \n
- –  Mobilize family, friends, concerned  individuals and other available resources to ensure close monitoring of the person as long as the risk of self-harm/suicide persists. \n
- –  Advise the person and carers to restrict access to means  of self-harm/suicide (e.g. pesticides/toxic substances, prescription medications, ﬁrearms, etc.) when the person has thoughts or plans of self-harm/suicide. \n
- –  Optimize social support from available community resources. These include informal resources, such as relatives, friends, acquaintances, colleagues and religious leaders or formal community resources, if available, such  as crisis centres, and local mental health centres. \n
-</string>
+    <string name="sui_2_3"><a href="">Offer and activate psychosocial support.</a>
+ </string>
 
     <string name="sui_2_4">
     Inform carers and family members that asking about suicide will often help the person feel relieved, less anxious, and better understood. \n\n
@@ -1548,10 +1545,10 @@ Consult a specialist for treatment.</string>
  - Avoid i.v. haloperidol.\n
  -Avoid diazepam.\n</string>
     <string name="substancepro1">- Address food, housing, and employment needs.</string>
-    <string name="substancepro2">- Explore STRATEGIES FOR REDUCING OR STOPPING USE (2.3) and STRATEGIES FOR REDUCING HARM (2.5).</string>
+    <string name="substancepro2">- Explore <a href="">STRATEGIES FOR REDUCING OR STOPPING USE (2.3) and STRATEGIES FOR REDUCING HARM (2.5).</a></string>
     <string name="follow_up">- Follow up</string>
     <string name="substancepro3">- Explore the person’s motivations for substance use. Conduct motivational interviewing.</string>
-    <string name="substanceprot1">(See BRIEF PSYCHOSOCIAL INTERVENTION – MOTIVATIONAL INTERVIEWING.(2.2)</string>
+    <string name="substanceprot1"><a href="">(See BRIEF PSYCHOSOCIAL INTERVENTION – MOTIVATIONAL INTERVIEWING.(2.2)</a></string>
     <string name="substanceprot2">- Provide psychoeducation and emphasize that the level/pattern of substance use is causing harm to health.</string>
     <string name="Substanceprot3">- Advise stopping the substance completely or consuming it at a non-harmful level, if one exists.  Verbalise your intention to support the person to do this. Ask them if they are ready to make this change.</string>
     <string name="substancepro4">Encourages the person to engage in less risky behaviour.\n\n
@@ -1590,7 +1587,7 @@ Consult a specialist for treatment.</string>
      Identify emotional cues for use and ways to cope with them (i.e. relationship problems, difﬁculties at work, etc.).
      \n\nEncourage the person not to keep substances at home. </string>
     <string name="if_the_person_is_an_adolescent_or_a_woman_of_child_bearing_age_pregnant_or_breastfeeding_see_special_populations">- If the person is an adolescent or a woman of child-bearing age, pregnant, or breastfeeding.</string>
-    <string name="see">See SPECIAL POPULATIONS</string>
+    <string name="see"><a href="">See SPECIAL POPULATIONS</a></string>
     <string name="subs7">Provide psychoeducation.\n\n
         » Arrange for detoxiﬁcation services if necessary or treatment in an inpatient facility where available. Treat withdrawal symptoms as needed. \n\n
         » Provide a brief intervention using motivational interviewing to encourage the person to engage in treatment of their substance dependence. \n\n
@@ -1601,14 +1598,14 @@ Consult a specialist for treatment.</string>
     <string name="substance8">» Maintenance treatment is generally more effective than detoxiﬁcation.\n\n
         » Assess the severity of dependence and, if appropriate, provide or refer the person for opioid agonist maintenance treatment, also known as opioid substitution therapy (OST), after detoxiﬁcation.
         </string>
-    <string name="sub1">Go to PROTOCOL 5 (Opioid Agonist Maintenance Treatment).</string>
+    <string name="sub1"><a href="">Go to PROTOCOL 5 (Opioid Agonist Maintenance Treatment).</a></string>
     <string name="sub2"> » In the remainder of cases arrange planned detoxiﬁcation, if necessary. Go to PROTOCOL 4 (Opioid Withdrawal).</string>
     <string name="substance9">» Sudden alcohol cessation can lead to seizures and delirium; however, if the person is willing to stop using alcohol, facilitate this. Determine the appropriate setting to cease alcohol use, and arrange inpatient detoxiﬁcation, if necessary.
         </string>
-    <string name="pro3">Go to PROTOCOL 3 (Alcohol Withdrawal).</string>
+    <string name="pro3"><a href="">Go to PROTOCOL 3 (Alcohol Withdrawal).</a></string>
     <string name="pro2">» Advise consumption of thiamine at a dose of 100 mg/day p.o.. \n\n
         » Consider pharmacologic intervention to prevent relapse in alcohol dependence; medications include acamprosate, naltrexone and disulﬁram. Baclofen can also be used, however, its sedating effects and risk of abuse make it best reserved for specialist settings. With these medications, an effective response may include a reduction in the quantity and frequency of alcohol consumption, if not complete abstinence.</string>
-    <string name="pro4">Go to Table 1.</string>
+    <string name="pro4"><a href="">Go to Table 1.</a></string>
     <string name="substance10">» Advise stopping the substance completely and verbalise your intention to support the person in doing so. Ask them if they are ready to do this. \n\n
        </string>
     <string name="ex">» Explore STRATEGIES FOR REDUCING OR STOPPING USE and STRATEGIES FOR REDUCING HARM.</string>
@@ -1616,7 +1613,7 @@ Consult a specialist for treatment.</string>
         » Address food, housing, and employment needs. \n\n
         » Assess and treat any physical or mental health co-morbidity, ideally after 2-3 weeks of abstinence, as some problems will resolve with abstinence.</string>
     <string name="substance11">» Sudden cessation can lead to seizures and delirium. Consider gradually reducing the dose of benzodiazepine with supervised dispensing or a more rapid reduction in an inpatient setting.</string>
-    <string name="go">Go to PROTOCOL 6 (Benzodiazepine Withdrawal).</string>
+    <string name="go"><a href="">Go to PROTOCOL 6 (Benzodiazepine Withdrawal).</a></string>
     <string name="Substancepr11">Chronic heavy users of alcohol are at risk for Wernicke’s encephalopathy, a thiamine deﬁciency syndrome characterized by confusion, nystagmus, ophthalmoplegia (trouble with eye movements), and ataxia (uncoordinated movements).\n\n
         » To prevent this syndrome, all persons with a history of chronic alcohol use should be given thiamine 100 mg p.o. per day. Give thiamine prior to administering glucose to avoid precipitating Wernicke’s encephalopathy.</string>
     <string name="substancepro12">ADDRESS DEHYDRATION: Maintain adequate hydration including i.v. hydration, if needed, and encourage oral ﬂuid intake. Be sure to give thiamine before glucose to avoid precipitating Wernicke’s encephalopathy.\n\n</string>
@@ -1625,7 +1622,7 @@ Consult a specialist for treatment.</string>
  –  Administer diazepam at an initial dose of up to 40 mg daily (10 mg four times a day or 20 mg twice a day) for 3-7 days, p.o. Gradually decrease the dose and/or frequency as soon as symptoms improve. Monitor the person frequently, as each person may respond differently to this medication.
  \n\n–In the hospital setting, diazepam can be given more frequently, (i.e. hourly), and at higher daily doses, up to 120 mg daily for the ﬁrst 3 days p.o., if necessary, and based on frequent assessment of the person’s withdrawal symptoms and mental status.
 \n\n –  In persons with impaired hepatic metabolism, (i.e. persons with signs of liver disease  or the elderly), use a single low dose initially of 5-10 mg p.o., as benzodiazepines may  have a longer duration of action in these populations. Alternatively, a shorter acting benzodiazepine such as oxazepam may be used instead of diazepam.</string>
-    <string name="se">See Table 1.</string>
+    <string name="se"><a href="">See Table 1.</a></string>
     <string name="sub111">   CAUTION \n\n
         Use caution when initiating or increasing the dose of benzodiazepines, as  they can cause respiratory depression. Use caution in persons with respiratory disease </string>
     <string name="substancepro13">-Ensure adequate ﬂuid intake and that electrolyte requirements are met, such as potassium and magnesium</string>
@@ -1637,18 +1634,19 @@ Consult a specialist for treatment.</string>
         » Methadone: Methadone is given orally at an initial dose of 15-20 mg, increasing, if necessary, to 30 mg per day. Then gradually decrease the dose, until tapered off completely, over 3-10 days. As with buprenorphine, special care should be taken for individuals taking other sedating medications. \n\n
         » Clonidine or Lofexidine: If opioid substitution medications are not available, clonidine or lofexidine can be used to manage some opioid withdrawal symptoms, namely hyperarousal. They are given at dose ranges of 0.1-0.15 mg 3 times daily p.o. and are dosed according to body weight. Light-headedness and sedation may result. Monitor blood pressure closely. Other symptoms of withdrawal should also be treated, i.e. nausea with anti-emetics, pain with simple analgesics, and insomnia with light sedatives. \n\n
         » Morphine sulphate: 10-20 mg as an initial dose with 10 mg extra dose if needed. Sedation and respiratory depression which canbe life threatening. Prolonged use can lead to dependence. For more details </string>
-    <string name="wa">Go to Table 1.</string>
+    <string name="wa"><a href="">Go to Table 1.</a></string>
     <string name="opioid_withdrawal">Opioid Withdrawal</string>
     <string name="substance17"> Opioid agonist maintenance treatment requires the presence of an established and regulated national framework. It is characterized by the prescription of long-acting opioid agonists (or partial agonists), such as methadone or buprenorphine, generally on a daily, supervised basis.  There is strong evidence that agonist maintenance treatment with methadone or buprenorphine effectively reduces illicit drug use, the spread of HIV, mortality, and criminality, as well as improving physical health, mental health, and social functioning. \n\n
         »  Monitoring: Medications used for opioid agonist maintenance treatment are open to misuse and diversion, hence, programmes should use various methods of limiting the risk of diversion, including supervised consumption. \n\n
        </string>
-    <string name="ta">»   For more details please see Table 1.</string>
+    <string name="ta"><a href="">» For more details please see Table 1.</a></string>
     <string name="substance18">Benzodiazepine Withdrawal</string>
     <string name="substance19">» Benzodiazepine withdrawal can be managed by switching to a longacting benzodiazepine and gradually decreasing the dose, tapered over 8-12 weeks, and in conjunction with psychosocial support. More rapid tapering is possible only if the person is in an inpatient setting in a hospital or detoxiﬁcation facility. \n\n
         » If severe, uncontrolled benzodiazepine withdrawal develops or occurs due to a sudden or unplanned cessation, consult a specialist or other available resource person immediately to start a high-dose benzodiazepine sedation regime and to hospitalise the person. Be cautious with unsupervised dispensing of benzodiazepines to unknown patients.</string>
     <string name="substance20"><![CDATA[Clarify the conﬁdential nature of the health care discussion, including in what circumstances the adolescent’s parents or carers will be given any information. \n\n
     Ask what else is going on in the adolescent’s life? Identify the most important underlying issues for the adolescent. Keep in mind that adolescents may not be able to fully articulate what is bothering them. \n\n
-    Open-ended questions may be helpful in eliciting information in the following areas: Home, Education & Employment, Eating, Activities, Drugs and Alcohol, Sexuality, Safety, and Suicide/Depression. Allow sufﬁcient time for discussion. Also assess for other priority mental health conditions. If any priority conditions are identiﬁed, see CMH.]]></string>
+    Open-ended questions may be helpful in eliciting information in the following areas: Home, Education & Employment, Eating, Activities, Drugs and Alcohol, Sexuality, Safety, and Suicide/Depression. Allow sufﬁcient time for discussion. Also assess for other priority mental health conditions. If any priority conditions are identiﬁed]]></string>
+<string name="substance222"><a href="">see CMH.</a></string>
     <string name="adolescents">ADOLESCENTS</string>
     <string name="substance21">Advise women who are pregnant or considering becoming pregnant to avoid alcohol completely. \n\n
         Inform women that consuming even small amounts of alcohol early in pregnancy can harm the developing fetus, and that larger amounts of alcohol can result in a syndrome of severe developmental problems (Fetal Alcohol Syndrome). \n\n
@@ -1790,4 +1788,42 @@ Consult a specialist for treatment.</string>
     <string name="substancetab32">Use with caution in congestive heart failure, respiratory disease, or liver disease. – Potential for abuse. – Abrupt cessation can cause withdrawal symptoms</string>
     <string name="substancetab34">VITAMINS \n\nTo prevent or treat Wernicke’s encephalopathy</string>
     <string name="table_1_antidepressants">TABLE 1: Antidepressants</string>
+    <string name="cmh1">Consider behavioural interventions when available.</string>
+    <string name="cmh2" />
+    <string name="cmh3">DO NOT offer pharmacological treatment.</string>
+    <string name="brief_psychological_treatments">Brief psychological treatments</string>
+    <string name="ensure_appropriate_follow_up_every_three_months_or_more_if_needed">Ensure appropriate follow-up every three months or more, if needed.</string>
+    <string name="cmh4">Guidance to promote child/adolescent well-being and functioning</string>
+    <string name="cmh7">Liaise with teachers and other school staff</string>
+    <string name="link_with_other_available_resources_in_the_community">Link with other available resources in the community.</string>
+    <string name="provide_carer_support">Provide carer support.</string>
+    <string name="cmh9">Guidance for improving behaviour</string>
+    <string name="cmh10">ENCOURAGE AND HELP THE CHILD / ADOLESCENT TO:</string>
+    <string name="cmh11">ENCOURAGE THE CARER TO:</string>
+    <string name="cmh12">ENCOURAGE THE CARER TO:</string>
+    <string name="cmh14">DO NOT offer pharmacological treatment.</string>
+    <string name="cmh15">Ensure appropriate follow-up once a month or more, if needed.</string>
+    <string name="cmh17">DO NOT prescribe pharmacological treatment for children younger than 12 years.</string>
+    <string name="cmh18">Consider Parent Skills Training when available.</string>
+    <string name="cmh19">Consider referral for behavioural intervention or interpersonal therapy.</string>
+    <string name="cmh20">DO NOT consider pharmacological treatment as ﬁrst line treatment.</string>
+    <string name="cmh21">Guidance to promote child/adolescent well-being and functioning</string>
+    <string name="cmh22">Liaise with teachers and other school staff</string>
+    <string name="cmh23">Provide carer support.</string>
+    <string name="cmh24">» Assess for and manage stressors, reduce stress and strengthen social supports.</string>
+    <string name="cmh25">» Link with other available resources in the community.</string>
+    <string name="cmh26">ENCOURAGE AND HELP THE CHILD / ADOLESCENT TO:</string>
+    <string name="cmh27">ENCOURAGE THE CARER TO:</string>
+    <string name="cmh29">When psychological interventions prove ineffective, consult a specialist for Fluoxetine (no other SSRIs or TCAs). <a href="">Go to » DEP </a>for medication details.</string>
+    <string name="sui25">Offer support to the person \n\n
+        – Explore reasons and ways to stay alive.\n\n
+        – Focus on the person’s strengths by encouraging them to talk of how earlier problems have been resolved.</string>
+    <string name="sui26">
+        – Consider problem-solving therapy to help people with acts of self-harm within the last year, if sufﬁcient human resources are available.
+        <a href="">Go to Essential care and practice ECP</a></string>
+    <string name="sui27"> Activate psychosocial support \n\n
+        – Mobilize family, friends, concerned individuals and other available resources to ensure close monitoring of the person as long as the risk of self-harm/suicide persists.\n\n
+        – Advise the person and carers to restrict access to means of self-harm/suicide (e.g. pesticides/toxic substances, prescription medications, ﬁrearms, etc.) when the person has thoughts or plans of self-harm/suicide. \n\n
+        – Optimize social support from available community resources. These include informal resources, such as relatives, friends, acquaintances, colleagues and religious leaders or formal community resources, if available, such as crisis centres, and local mental health centres.</string>
+    <string name="offer_carers_support">Offer carers support.</string>
 </resources>
