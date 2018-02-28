@@ -5,6 +5,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_marginLeft="5dp"
     android:layout_marginRight="5dp"
+    tools:context="com.example.tencho.mhgap2.psy_medication"
 
     >
 
@@ -154,8 +155,6 @@
             android:text="@string/psy_action3.1"
             android:textSize="10dp"
             tools:ignore="SpUsage" />
-
-
 
     </TableRow>
 

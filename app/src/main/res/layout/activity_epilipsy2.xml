@@ -66,19 +66,6 @@
             tools:ignore="HardcodedText,RtlHardcoded,SpUsage" />
 
 
-
-        <Button
-            android:id="@+id/button4"
-            android:layout_width="270dp"
-            android:layout_height="52dp"
-            android:background="@drawable/depre"
-            android:layout_marginLeft="45dp"
-            android:layout_marginBottom="20dp"
-            android:text="Caution"
-            android:textColor="#51b0d6"
-            android:textSize="18dp"
-            tools:ignore="HardcodedText,RtlHardcoded,SpUsage" />
-
         <Button
             android:id="@+id/button5"
             android:layout_width="270dp"
@@ -86,7 +73,7 @@
             android:background="@drawable/depre"
             android:layout_marginLeft="45dp"
             android:layout_marginBottom="20dp"
-            android:text="Antiepileptic"
+            android:text="Medications"
             android:textColor="#51b0d6"
             android:textSize="18dp"
             tools:ignore="HardcodedText,RtlHardcoded,SpUsage" />

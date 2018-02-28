@@ -3,7 +3,9 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="#ffffff">
+    android:background="#ffffff"
+    tools:context="com.example.tencho.mhgap2.psy_protocol2">
+    >
 
 
 
@@ -19,12 +21,22 @@
             android:id="@+id/textView1"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:text="Protocol 1(Manic Episode in Bipolar Disorder)"
+            android:text="Protocol 2(Psychosis)"
             android:textColor="#223C97"
             android:textSize="25sp"
             android:textAlignment="center"
             tools:ignore="HardcodedText" />
 
+
+        <TextView
+            android:id="@+id/textView4"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:text="@string/psy_protocol2.1"
+            android:textColor="#361818"
+
+            />
 
         <TextView
             android:id="@+id/textView3"
@@ -36,17 +48,6 @@
             android:textSize="16sp"
             />
 
-
-
-        <TextView
-            android:id="@+id/textView4"
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:textColor="#361818"
-            android:layout_marginTop="10dp"
-            android:text="@string/psy_protocol2.1"
-
-            />
 
         <TextView
             android:id="@+id/textView5"
@@ -85,7 +86,7 @@
             android:layout_height="wrap_content"
             android:textColor="#223C97"
             android:layout_marginTop="10dp"
-            android:text="2.6 Pharmacological Intervention."
+            android:text="2.5 Pharmacological Intervention.\nBegin antipsychotic medication."
             android:textSize="16sp"
             />
 
@@ -95,7 +96,38 @@
             android:layout_height="wrap_content"
             android:textColor="#361818"
             android:layout_marginTop="10dp"
-            android:text="@string/psy_protocol2.6"
+            android:text="@string/psy_protocol2.5"
+
+            />
+
+        <TextView
+            android:id="@+id/textView30"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textColor="#361818"
+            android:layout_marginTop="10dp"
+            android:text="@string/psy_protocol2.51"
+
+            />
+
+        <TextView
+            android:id="@+id/textView31"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textColor="#361818"
+            android:layout_marginTop="10dp"
+            android:text="@string/t4"
+
+            />
+
+
+        <TextView
+            android:id="@+id/textView0"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textColor="#361818"
+            android:layout_marginTop="10dp"
+            android:text="@string/psy_protocol2.51"
 
             />
         <TextView
@@ -256,6 +288,32 @@ agitation:"
 
             />
 
+
+        <TextView
+            android:id="@+id/textView26"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textColor="#cc0808"
+            android:textSize="17sp"
+            android:layout_marginTop="10dp"
+            android:text="CAUTION"
+
+            />
+
+        <TextView
+            android:id="@+id/textVie25"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textColor="#361818"
+            android:text="@string/psy_caution2"
+
+            />
+
+
+
     </LinearLayout>
 </ScrollView>
+
+
+
 

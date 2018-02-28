@@ -31,29 +31,35 @@ public class depression3 extends AppCompatActivity {
         btn1.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                setContentView(R.layout.protocol1);
+                Intent intent = new Intent(depression3.this,protocol1.class);
+                startActivity(intent);
             }
         });
         btn2=(Button)findViewById(R.id.button2);
         btn2.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                setContentView(R.layout.protocol2);
+                Intent intent = new Intent(depression3.this,dep_protocol2.class);
+                startActivity(intent);
             }
         });
+
 
         btn3=(Button)findViewById(R.id.button4);
         btn3.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                setContentView(R.layout.dep_caution);
+                Intent intent = new Intent(depression3.this,dep_caution.class);
+                startActivity(intent);
             }
         });
+
         btn4=(Button)findViewById(R.id.button3);
         btn4.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                setContentView(R.layout.dep_special_population);
+                Intent intent = new Intent(depression3.this,  dep_special_population.class);
+                startActivity(intent);
             }
         });
 
@@ -61,9 +67,11 @@ public class depression3 extends AppCompatActivity {
         btn5.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                setContentView(R.layout.dep_antidepressants);
+                Intent intent = new Intent(depression3.this, dep_antidepressants.class);
+                startActivity(intent);
             }
         });
+
 
 
     }

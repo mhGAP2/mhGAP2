@@ -6,64 +6,61 @@ import android.os.Bundle;
 import android.view.View;
 import android.view.Window;
 import android.view.WindowManager;
-import android.widget.Button;
+import android.widget.TextView;
 
-public class psy_management extends AppCompatActivity {
+public class psy_protocol2 extends AppCompatActivity {
 
-
-    Button btn1;
-    Button btn2;
-    Button btn4;
-    Button btn5;
-
-
+    TextView tv1;
+    TextView tv2;
+    TextView tv3;
+    TextView tv4;
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         requestWindowFeature(Window.FEATURE_NO_TITLE);
         getWindow().setFlags(WindowManager.LayoutParams.FLAG_FULLSCREEN, WindowManager.LayoutParams.FLAG_FULLSCREEN);
-        setContentView(R.layout.activity_psy_management);
+        setContentView(R.layout.activity_psy_protocol2);
 
 
-        btn1=(Button)findViewById(R.id.button1);
-        btn1.setOnClickListener(
-                new View.OnClickListener() {
-            @Override
-            public void onClick(View view) {
-                Intent intent = new Intent(psy_management.this,psy_protocol1.class);
-                startActivity(intent);
-            }
-        });
 
-
-        btn2=(Button)findViewById(R.id.button2);
-        btn2.setOnClickListener(
+        tv1=(TextView) findViewById(R.id.textView30);
+        tv1.setOnClickListener(
                 new View.OnClickListener() {
                     @Override
                     public void onClick(View view) {
-                        Intent intent = new Intent(psy_management.this,psy_protocol2.class);
+                        Intent intent = new Intent(psy_protocol2.this,psy_medication.class);
+                        startActivity(intent);
+                    }
+                });
+        tv2=(TextView) findViewById(R.id.textView31);
+        tv2.setOnClickListener(
+                new View.OnClickListener() {
+                    @Override
+                    public void onClick(View view) {
+                        Intent intent = new Intent(psy_protocol2.this,psy_medication.class);
                         startActivity(intent);
                     }
                 });
 
 
-        btn4=(Button)findViewById(R.id.button3);
-        btn4.setOnClickListener(
+        tv3=(TextView) findViewById(R.id.textView25);
+        tv3.setOnClickListener(
                 new View.OnClickListener() {
                     @Override
                     public void onClick(View view) {
-                        Intent intent = new Intent(psy_management.this,psy_special_population.class);
+                        Intent intent = new Intent(psy_protocol2.this,Essential.class);
                         startActivity(intent);
                     }
                 });
-        btn5=(Button)findViewById(R.id.button5);
-        btn5.setOnClickListener(
+        tv4=(TextView) findViewById(R.id.textVie25);
+        tv4.setOnClickListener(
                 new View.OnClickListener() {
                     @Override
                     public void onClick(View view) {
-                        Intent intent = new Intent(psy_management.this,psy_medication.class);
+                        Intent intent = new Intent(psy_protocol2.this,psy_medication.class);
                         startActivity(intent);
                     }
                 });
+
     }
 }

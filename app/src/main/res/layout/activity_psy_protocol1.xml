@@ -3,7 +3,9 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="#ffffff">
+    android:background="#ffffff"
+    tools:context="com.example.tencho.mhgap2.psy_protocol1">
+    >
 
 
 
@@ -19,7 +21,7 @@
             android:id="@+id/textView1"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:text="Protocol 2(Psychosis)"
+            android:text="Protocol 1(Manic Episode in Bipolar Disorder)"
             android:textColor="#223C97"
             android:textSize="25sp"
             android:textAlignment="center"
@@ -85,7 +87,7 @@
             android:layout_height="wrap_content"
             android:textColor="#223C97"
             android:layout_marginTop="10dp"
-            android:text="2.5 Pharmacological Intervention.\nBegin antipsychotic medication."
+            android:text="2.6 Pharmacological Intervention."
             android:textSize="16sp"
             />
 
@@ -95,17 +97,7 @@
             android:layout_height="wrap_content"
             android:textColor="#361818"
             android:layout_marginTop="10dp"
-            android:text="@string/psy_protocol2.5"
-
-            />
-
-        <TextView
-            android:id="@+id/textView0"
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:textColor="#361818"
-            android:layout_marginTop="10dp"
-            android:text="@string/psy_protocol2.51"
+            android:text="@string/psy_protocol2.6"
 
             />
         <TextView
@@ -266,29 +258,9 @@ agitation:"
 
             />
 
-
-        <TextView
-            android:id="@+id/textView26"
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:textColor="#cc0808"
-            android:textSize="17sp"
-            android:layout_marginTop="10dp"
-            android:text="CAUTION"
-
-            />
-
-        <TextView
-            android:id="@+id/textView25"
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:textColor="#361818"
-            android:text="@string/psy_caution2"
-
-            />
-
-
-
     </LinearLayout>
 </ScrollView>
+
+
+
 

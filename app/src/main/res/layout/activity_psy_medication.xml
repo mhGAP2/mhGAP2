@@ -1,0 +1,789 @@
+<?xml version="1.0" encoding="utf-8"?>
+    <ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:tools="http://schemas.android.com/tools"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="#dfd5d5"
+        android:layout_marginBottom="8dp"
+    tools:context="com.example.tencho.mhgap2.psy_medication">
+
+        >
+
+
+        <TableLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginLeft="5dp"
+            android:layout_marginRight="5dp">
+
+
+
+
+            <TextView
+                android:id="@+id/textView24"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="TABLE 1: Antipsychotic medications"
+                android:textAlignment="center"
+                android:textColor="#223C97"
+                android:textSize="20sp"/>
+
+            <TableRow
+                android:layout_height="match_parent"
+                android:layout_width="match_parent"
+                android:background="#223C97"
+                android:layout_marginTop="5dp"
+                >
+
+
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:ems="3"
+                    android:textAlignment="center"
+                    android:id="@+id/textView1"
+                    android:textColor="#ffffff"
+                    android:textSize="11dp"
+                    android:text="MEDICATION"
+                    tools:ignore="HardcodedText,SpUsage" />
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:ems="6"
+                    android:textColor="#ffffff"
+                    android:textSize="12dp"
+                    android:id="@+id/textView2"
+                    android:textAlignment="center"
+                    android:text="DOSING"
+                    tools:ignore="HardcodedText,SpUsage" />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:ems="6"
+                    android:textColor="#ffffff"
+                    android:id="@+id/textView3"
+                    android:textAlignment="center"
+                    android:textSize="12dp"
+                    android:text="SIDE EFFECTS"
+                    tools:ignore="HardcodedText,SpUsage" />
+                <TextView
+                    android:layout_width="match_parent"
+                    android:textColor="#ffffff"
+                    android:layout_height="match_parent"
+                    android:ems="7"
+                    android:textSize="12dp"
+                    android:textAlignment="center"
+                    android:id="@+id/textView4"
+                    android:text="CONTRAINDICATIONS / CAUTIONS"
+                    tools:ignore="HardcodedText,SpUsage" />
+
+
+            </TableRow>
+
+            <TableRow
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:background="@drawable/border2"
+                >
+
+                <TextView
+                    android:id="@+id/textView5"
+                    android:layout_width="match_parent"
+                    android:layout_marginTop="5dp"
+                    android:layout_height="match_parent"
+                    android:layout_marginLeft="2dp"
+                    android:ems="6"
+                    android:textColor="#223C97"
+                    android:text="HALOPERIDOL"
+                    android:textSize="10dp"
+                    tools:ignore="HardcodedText,SpUsage" />
+
+                <TextView
+                    android:id="@+id/textView6"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:ems="4"
+                    android:textColor="#361818"
+                    android:text="@string/psy_dosing1.1"
+                    android:textSize="10dp"
+                    tools:ignore="SpUsage" />
+
+                <TextView
+                    android:id="@+id/textView7"
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:ems="4"
+                    android:textColor="#361818"
+                    android:text="@string/psy_side1.1"
+                    android:textSize="10dp"
+                    tools:ignore="SpUsage" />
+
+                <TextView
+                    android:id="@+id/textView8"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_marginRight="2dp"
+                    android:ems="8"
+                    android:text="@string/psy_cau1.1"
+                    android:textColor="#361818"
+                    android:textSize="10dp"
+                    tools:ignore="SpUsage" />
+
+
+            </TableRow>
+
+
+            <TableRow
+                android:layout_height="match_parent"
+                android:layout_width="match_parent"
+                android:background="@drawable/border2"
+                >
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:ems="6"
+                    android:textColor="#223C97"
+                    android:textSize="10dp"
+                    android:layout_marginTop="5dp"
+                    android:layout_marginLeft="2dp"
+                    android:id="@+id/textView9"
+                    android:text="RISPERIDONE"
+                    tools:ignore="HardcodedText,SpUsage" />
+                <TextView
+                    android:textColor="#361818"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:ems="4"
+                    android:id="@+id/textView60"
+                    android:text="@string/psy_dosing1.2"
+                    android:textSize="10dp"
+                    tools:ignore="SpUsage" />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:textColor="#361818"
+                    android:ems="4"
+                    android:id="@+id/textView61"
+                    android:textSize="10dp"
+                    android:text="@string/psy_side1.2"
+                    tools:ignore="SpUsage" />
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:textColor="#361818"
+                    android:ems="8"
+                    android:textSize="10dp"
+                    android:id="@+id/textView62"
+                    android:text="@string/psy_cau1.2"
+                    tools:ignore="SpUsage" />
+
+
+            </TableRow>
+
+            <TableRow
+                android:layout_height="match_parent"
+                android:layout_width="match_parent"
+                android:background="@drawable/border2"
+                >
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:ems="6"
+                    android:textColor="#223C97"
+                    android:textSize="10dp"
+                    android:layout_marginTop="5dp"
+                    android:layout_marginLeft="2dp"
+                    android:id="@+id/textView30"
+                    android:text="CHLORPROMAZINE"
+                    tools:ignore="HardcodedText,SpUsage" />
+                <TextView
+                    android:textColor="#361818"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:ems="4"
+                    android:id="@+id/textView31"
+                    android:text="@string/psy_dosing1.3"
+                    android:textSize="10dp"
+                    tools:ignore="SpUsage" />
+
+                <TextView
+                    android:id="@+id/textView32"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:ems="4"
+                    android:text="@string/psy_side1.3"
+                    android:textColor="#361818"
+                    android:textSize="10dp"
+                    tools:ignore="SpUsage" />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:textColor="#361818"
+                    android:ems="8"
+                    android:textSize="10dp"
+                    android:id="@+id/textView33"
+                    android:text="@string/psy_cau1.3"
+                    tools:ignore="SpUsage" />
+
+
+            </TableRow>
+
+            <TableRow
+                android:layout_height="match_parent"
+                android:layout_width="match_parent"
+                android:background="@drawable/border2"
+
+                >
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:ems="6"
+                    android:textColor="#223C97"
+                    android:textSize="10dp"
+                    android:layout_marginTop="5dp"
+                    android:layout_marginLeft="2dp"
+                    android:id="@+id/textView40"
+                    android:text="FLUPHENAZINE\n
+depot/long-acting"
+                    tools:ignore="HardcodedText,SpUsage" />
+                <TextView
+                    android:textColor="#361818"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:ems="4"
+                    android:id="@+id/textView42"
+                    android:text="@string/psy_dosing1.4"
+                    android:textSize="10dp"
+                    tools:ignore="SpUsage" />
+
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:textColor="#361818"
+                    android:ems="4"
+                    android:id="@+id/textView43"
+                    android:textSize="10dp"
+                    android:text="@string/psy_side1.4"
+                    tools:ignore="SpUsage" />
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:textColor="#361818"
+                    android:ems="8"
+                    android:textSize="10dp"
+                    android:id="@+id/textView44"
+                    android:text="@string/psy_cau1.4"
+                    tools:ignore="SpUsage" />
+
+
+            </TableRow>
+
+
+            <TextView
+                android:id="@+id/textView25"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="TABLE 2: Anticholinergic medications"
+                android:textAlignment="center"
+                android:textColor="#223C97"
+                android:layout_marginTop="8dp"
+                android:textSize="20sp"/>
+
+
+
+            <TextView
+                android:id="@+id/textVie25"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="(for treatment of extrapyramidal side effects (EPS)"
+                android:textColor="#361818"
+
+                />
+
+            <TextView
+                android:id="@+id/textVie71"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Avoid in women who are pregnant or breastfeeding if possible."
+                android:textColor="#cc0808"
+
+                />
+            <TableRow
+                android:layout_height="match_parent"
+                android:layout_width="match_parent"
+                android:background="#223C97"
+
+                >
+
+
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:ems="3"
+                    android:id="@+id/textView72"
+                    android:textColor="#ffffff"
+                    android:textSize="11dp"
+                    android:textAlignment="center"
+                    android:text="MEDICATION"
+                    tools:ignore="HardcodedText,SpUsage" />
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:ems="6"
+                    android:textColor="#ffffff"
+                    android:textSize="12dp"
+                    android:id="@+id/textView73"
+                    android:textAlignment="center"
+                    android:text="DOSING"
+                    tools:ignore="HardcodedText,SpUsage" />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:ems="6"
+                    android:textAlignment="center"
+                    android:textColor="#ffffff"
+                    android:id="@+id/textView74"
+                    android:textSize="12dp"
+                    android:text="SIDE EFFECTS"
+                    tools:ignore="HardcodedText,SpUsage" />
+                <TextView
+                    android:layout_width="match_parent"
+                    android:textColor="#ffffff"
+                    android:layout_height="match_parent"
+                    android:ems="7"
+                    android:textAlignment="center"
+                    android:textSize="12dp"
+                    android:id="@+id/textView75"
+                    android:text="CONTRAINDICATIONS / CAUTIONS"
+                    tools:ignore="HardcodedText,SpUsage" />
+
+
+            </TableRow>
+
+            <TableRow
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:background="@drawable/border2"
+
+                >
+
+                <TextView
+                    android:id="@+id/textVie5"
+                    android:layout_width="match_parent"
+                    android:layout_marginTop="5dp"
+                    android:layout_height="match_parent"
+                    android:layout_marginLeft="2dp"
+                    android:ems="6"
+                    android:textColor="#223C97"
+                    android:text="BIPERIDEN"
+                    android:textSize="10dp"
+                    tools:ignore="HardcodedText,SpUsage" />
+
+                <TextView
+                    android:id="@+id/textVie6"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:ems="4"
+                    android:textColor="#361818"
+                    android:text="@string/psy_dosing2.1"
+                    android:textSize="10dp"
+                    tools:ignore="SpUsage" />
+
+                <TextView
+                    android:id="@+id/textVi7"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:ems="4"
+                    android:textColor="#361818"
+                    android:text="@string/psy_side2.1"
+                    android:textSize="10dp"
+                    tools:ignore="SpUsage" />
+
+                <TextView
+                    android:id="@+id/textVi8"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:ems="8"
+                    android:textColor="#361818"
+                    android:text="@string/psy_cau2.1"
+                    android:textSize="10dp"
+                    tools:ignore="SpUsage" />
+
+
+            </TableRow>
+
+
+
+
+            <TableRow
+                android:layout_height="match_parent"
+                android:layout_width="match_parent"
+                android:background="@drawable/border2"
+                >
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:ems="6"
+                    android:textColor="#223C97"
+                    android:textSize="10dp"
+                    android:layout_marginTop="5dp"
+                    android:layout_marginLeft="2dp"
+                    android:id="@+id/textVie9"
+                    android:text="TRIHEXYPHENIDYL
+(Benzhexol)"
+                    tools:ignore="HardcodedText,SpUsage" />
+                <TextView
+                    android:textColor="#361818"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:ems="4"
+                    android:id="@+id/textVie10"
+                    android:text="@string/psy_dosing2.2"
+                    android:textSize="10dp"
+                    tools:ignore="SpUsage" />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:textColor="#361818"
+                    android:ems="4"
+                    android:id="@+id/textVie11"
+                    android:textSize="10dp"
+                    android:text="@string/psy_side2.1"
+                    tools:ignore="SpUsage" />
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:textColor="#361818"
+                    android:ems="8"
+                    android:textSize="10dp"
+                    android:id="@+id/textVie12"
+                    android:text="@string/psy_cau2.1"
+                    tools:ignore="SpUsage" />
+
+
+
+            </TableRow>
+
+
+
+
+
+            <TextView
+                android:id="@+id/textView70"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="TABLE 3: Mood stabilizers"
+                android:textAlignment="center"
+                android:textColor="#223C97"
+                android:layout_marginTop="8dp"
+                android:textSize="20sp"/>
+
+
+            <TextView
+                android:id="@+id/textVie26"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Avoid in women who are pregnant or breastfeeding if possible."
+                android:textColor="#cc0808"
+
+                />
+            <TableRow
+                android:layout_height="match_parent"
+                android:layout_width="match_parent"
+                android:background="#223C97"
+                android:layout_marginTop="5dp"
+                >
+
+
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:ems="3"
+                    android:id="@+id/textView50"
+                    android:textColor="#ffffff"
+                    android:textSize="11dp"
+                    android:textAlignment="center"
+                    android:text="MEDICATION"
+                    tools:ignore="HardcodedText,SpUsage" />
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:ems="6"
+                    android:textAlignment="center"
+                    android:textColor="#ffffff"
+                    android:textSize="12dp"
+                    android:id="@+id/textView51"
+                    android:text="DOSING"
+                    tools:ignore="HardcodedText,SpUsage" />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:ems="6"
+                    android:textAlignment="center"
+                    android:textColor="#ffffff"
+                    android:id="@+id/textView52"
+                    android:textSize="12dp"
+                    android:text="SIDE EFFECTS"
+                    tools:ignore="HardcodedText,SpUsage" />
+                <TextView
+                    android:layout_width="match_parent"
+                    android:textColor="#ffffff"
+                    android:layout_height="match_parent"
+                    android:ems="7"
+                    android:textAlignment="center"
+                    android:textSize="12dp"
+                    android:id="@+id/textView53"
+                    android:text="CONTRAINDICATIONS / CAUTIONS"
+                    tools:ignore="HardcodedText,SpUsage" />
+
+
+            </TableRow>
+
+
+
+
+
+
+            <TableRow
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:background="@drawable/border2"
+
+                >
+
+                <TextView
+                    android:id="@+id/textVie76"
+                    android:layout_width="match_parent"
+                    android:layout_marginTop="5dp"
+                    android:layout_height="match_parent"
+                    android:layout_marginLeft="2dp"
+                    android:ems="6"
+                    android:textColor="#223C97"
+                    android:text="LITHIUM\n\n
+Use only if clinical
+and laboratory monitoring
+are available."
+                    android:textSize="10dp"
+                    tools:ignore="HardcodedText,SpUsage" />
+
+                <TextView
+                    android:id="@+id/textVie77"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:ems="4"
+                    android:textColor="#361818"
+                    android:text="@string/psy_dosing3.1"
+                    android:textSize="10dp"
+                    tools:ignore="SpUsage" />
+
+                <TextView
+                    android:id="@+id/textVie7"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:ems="4"
+                    android:textColor="#361818"
+                    android:text="@string/psy_side3.1"
+                    android:textSize="10dp"
+                    tools:ignore="SpUsage" />
+
+                <TextView
+                    android:id="@+id/textVie8"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:ems="8"
+                    android:textColor="#361818"
+                    android:text="@string/psy_cau3.1"
+                    android:textSize="10dp"
+                    tools:ignore="SpUsage" />
+
+
+            </TableRow>
+
+
+
+
+            <TableRow
+                android:layout_height="match_parent"
+                android:layout_width="match_parent"
+                android:background="@drawable/border2">
+
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:ems="6"
+                    android:textColor="#223C97"
+                    android:textSize="10dp"
+                    android:layout_marginTop="5dp"
+                    android:layout_marginLeft="2dp"
+                    android:id="@+id/textVie78"
+                    android:text="SODIUM VALPROATE"
+                    tools:ignore="HardcodedText,SpUsage" />
+                <TextView
+                    android:textColor="#361818"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:ems="4"
+                    android:id="@+id/textVie79"
+                    android:text="@string/psy_dosing3.2"
+                    android:textSize="10dp"
+                    tools:ignore="SpUsage" />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:textColor="#361818"
+                    android:ems="4"
+                    android:id="@+id/textVie80"
+                    android:textSize="10dp"
+                    android:text="@string/psy_side3.2"
+                    tools:ignore="SpUsage" />
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:textColor="#361818"
+                    android:ems="8"
+                    android:textSize="10dp"
+                    android:id="@+id/textVie81"
+                    android:text="@string/psy_cau3.2"
+                    tools:ignore="SpUsage" />
+
+
+            </TableRow>
+
+
+
+
+            <TableRow
+                android:layout_height="match_parent"
+                android:layout_width="match_parent"
+                android:background="@drawable/border2"
+
+                >
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:ems="6"
+                    android:textColor="#223C97"
+                    android:textSize="10dp"
+                    android:layout_marginTop="5dp"
+                    android:layout_marginLeft="2dp"
+                    android:id="@+id/textVi9"
+                    android:text="CARBAMAZEPINE"
+                    tools:ignore="HardcodedText,SpUsage" />
+                <TextView
+                    android:textColor="#361818"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:ems="4"
+                    android:id="@+id/textVi10"
+                    android:text="@string/psy_dosing3.3"
+                    android:textSize="10dp"
+                    tools:ignore="SpUsage" />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:textColor="#361818"
+                    android:ems="4"
+                    android:id="@+id/textVi11"
+                    android:textSize="10dp"
+                    android:text="@string/psy_side3.3"
+                    tools:ignore="SpUsage" />
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:textColor="#361818"
+                    android:ems="8"
+                    android:textSize="10dp"
+                    android:id="@+id/textVi12"
+                    android:text="@string/psy_cau3.3"
+                    tools:ignore="SpUsage" />
+
+
+            </TableRow>
+
+            <include
+                android:layout_height="wrap_content"
+                android:layout_width="fill_parent"
+                layout="@layout/psy_table4"
+
+                />
+
+            <include
+                android:layout_height="wrap_content"
+                android:layout_width="fill_parent"
+                layout="@layout/psy_table5"
+
+                />
+
+
+        </TableLayout>
+
+    </ScrollView>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

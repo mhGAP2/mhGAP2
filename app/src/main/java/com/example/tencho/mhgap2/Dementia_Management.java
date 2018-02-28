@@ -15,14 +15,14 @@ Button btn1,btn2;
         btn1.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                setContentView(R.layout.protocol1);
+                setContentView(R.layout.activity_protocol1);
             }
         });
         btn2=(Button)findViewById(R.id.button2);
         btn2.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                setContentView(R.layout.protocol2);
+                setContentView(R.layout.activity_dep_protocol2);
             }
         });
 

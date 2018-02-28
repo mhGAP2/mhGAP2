@@ -101,7 +101,7 @@
             android:background="@drawable/depre"
             android:layout_marginLeft="45dp"
             android:layout_marginBottom="20dp"
-            android:text="Antidepressants"
+            android:text="Medications"
             android:textColor="#881D6C"
             android:textSize="18dp"
             tools:ignore="HardcodedText,RtlHardcoded,SpUsage" />

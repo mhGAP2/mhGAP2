@@ -580,7 +580,7 @@ Thoughts of self-harm or suicide are common. If they
 notice these thoughts, they should not act on them, but
 should tell a trusted person and come back for help
 immediately.</string>
-    <string name="dep_protocol2.2">Assess for and try to reduce stressors. (Go to » ECP)\n\n
+    <string name="dep_protocol2.2">
 Reactivate the person’s previous social network. Identify prior
 social activities that, if started again, may potentially provide
 direct or indirect psychosocial support, e.g. family gatherings,
@@ -646,12 +646,12 @@ Consult a specialist if available.</string>
 amitriptyline may be fatal and therefore should be avoided in
 this group.\n\n
 If there is an imminent risk of self-harm or suicide
-(Go to » SUI), give a limited supply of antidepressants
+<a href="">(Go to » SUI)</a>, give a limited supply of antidepressants
 (e.g. one week supply at a time).\n\n
 Ask the person’s carers to keep and monitor medications
 and to follow-up frequently to prevent medication overdose.</string>
     <string name="population">Follow treatment for depression
-(PROTOCOL 1) but AVOID antidepressants
+<a href="">(PROTOCOL 1)</a> but AVOID antidepressants
 if possible, especially during
 the first trimester.\n\n
  If no response to psychological treatment,
@@ -690,7 +690,7 @@ Start 10 mg daily, then increase to 20 mg
 (maximum 40 mg).\n\n
 Adolescents\n
 Start 10 mg daily. Increase to 20 mg daily if no
-response in 6 weeks (maximum 40 mg).</string>
+response in 6 weeks (maximum 40 mg).\n\n</string>
 
     <string name="side2">Common: Sedation, insomnia, headache, dizziness,
 gastrointestinal disturbances, changes in appetite, and
@@ -705,7 +705,7 @@ and beta-blockers.\n\n
 Caution in combination with tamoxifen, codeine, and tramadol (reduces
 the effect of these drugs).</string>
     <string name="child_adolescent">CHILD / ADOLESCENT</string>
-    <string name="adolescent">For management of depression in children/adolescents, go to CMH.</string>
+    <string name="adolescent">For management of depression in children/adolescents, <a href="">go to CMH.</a></string>
     <string name="populations">Note that interventions may differ for these populations</string>
     <string name="_2_1_psychocarers">2.1 Psychoeducation: key messages to the person and the carers</string>
 
@@ -743,7 +743,7 @@ to prevent further risk of mania.
 – Begin treatment with lithium, valproate, carbamazepine,
 or with antipsychotics. Consider a short term (2-4 weeks
 maximum) benzodiazepine for behavioural disturbance or
-agitation.(see Table 3).</string>
+agitation.<a href="">(see Table 3).</a></string>
     <string name="Lithium">consider using lithium as first line treatment of
 bipolar disorder only if clinical and laboratory monitoring are
 available, and prescribe only under specialist supervision. If
@@ -808,28 +808,29 @@ Encourage the person and carers to improve social
 support systems.</string>
     <string name="psy_tip2">Ensure persons with psychosis are
 treated with respect and dignity. For
-further details go to » ECP.</string>
+further details<a href=""> go to » ECP.</a></string>
     <string name="psy_protocol2.5">Start with a low dose within the therapeutic range and
 increase slowly to the lowest effective dose, in order to reduce
 the risk of side-effects.</string>
     <string name="psy_protocol2.51">Antipsychotics should routinely be offered to a person
 with psychosis.\n\n
-Start antipsychotic medication immediately. See Table 1.\n\n
+Start antipsychotic medication immediately.<a href="">See Table 1.</a>\n\n
 Prescribe one antipsychotic at a time.\n\n
 Start at lowest dose and titrate up slowly to reduce risk of
 side effects.\n\n
 Try the medication at a typically effective dose for at
-least 4-6 weeks before considering it ineffective.\n\n
-Continue to monitor at that dose as frequently as possible and
+least 4-6 weeks before considering it ineffective.</string>
+
+    <string name="t4">Continue to monitor at that dose as frequently as possible and
 as required for the first 4-6 weeks of therapy. If there is no
-improvement, see Follow-up and Table 4.\n\n
+improvement, <a href="">see Follow-up and Table 4.</a>\n\n
 Monitor weight, blood pressure, fasting sugar, cholesterol and
 ECG for persons on antipsychotics if possible (see below).</string>
-<string name="psy_caution2">Side effects to look for:\n\n
+    <string name="psy_caution2">Side effects to look for:\n\n
 – Extrapyramidal side effects (EPS): akathisia, acute
 dystonic reactions, tremor, cog- wheeling, muscular rigidity,
 and tardive dyskinesia. Treat with anticholinergic medications
-when indicated and available (see Table 2).\n\n
+when indicated and available <a href="">(see Table 2).</a>\n\n
 – Metabolic changes: weight gain, high blood pressure,
 increased blood sugar and cholesterol.\n\n
 – ECG changes (prolonged QT interval): monitor ECG
@@ -1022,7 +1023,7 @@ serious side effects
     <string name="psy_action1.1">
 Reduce the dose of antipsychotic medication.\n
 If side-effects persist, consider switching to another antipsychotic medication.\n
-Consider adding anticholinergic medication for short-term use to treat EPS if these strategies fail or if symptoms are severe (see Table 2).
+Consider adding anticholinergic medication for short-term use to treat EPS if these strategies fail or if symptoms are severe <a href="">(see Table 2).</a>
 
 </string>
 
@@ -1046,8 +1047,8 @@ adherence to medication
     <string name="psy_action3.1">
 Verify that the person is receiving an effective dose of medication. If the dose is low, increase gradually to lowest effective dose to reduce
 the risk of side effects.\n
-Enquire about alcohol or substance use and take measures to reduce this. Go to » SUB.\n
-Enquire about recent stressful event that may have led to worsening of clinical condition and take measures to reduce stress.
+Enquire about alcohol or substance use and take measures to reduce this. <a href="">Go to » SUB.</a>\n
+Enquire about recent stressful event that may have led to worsening of clinical condition and take measures to reduce stress.\n
 Review symptoms to rule out physical and/or other priority MNS conditions. Go to » PSY 1, see STEP 1\n
 Consider risperidone as an alternative to haloperidol or chlorpromazine, if cost and availability are not constraints.\n
 If the person does not respond to adequate dose and duration of more than one antipsychotic medication, using one medicine at a time,
@@ -1070,8 +1071,8 @@ including poisoning.\n
 Specifically consider stimulant intoxication and/or
 alcohol/sedative withdrawal. Go to SUB.\n
 – Rule out agitation due to psychosis or manic
-episode in bipolar disorder. Go to Assessment,
-» PSY 1.</string>
+episode in bipolar disorder.<a href=""> Go to Assessment,
+» PSY 1.</a></string>
     <string name="psy_com">Safety is first!\n\n
 Remain calm and encourage the patient to talk
 about his or her concerns.\n\n
@@ -1095,7 +1096,7 @@ Caution: high doses of haloperidol can cause dystonic reactions.
 Use biperiden to treat acute reactions.\n\n
 For agitation due to ingestion of substances, such as
 alcohol/sedative withdrawal or stimulant intoxication,
-use diazepam 10-20 mg p.o. and repeat as needed. Go to SUB.\n\n
+use diazepam 10-20 mg p.o. and repeat as needed. <a href="'">Go to SUB.</a>\n\n
 In cases of extreme violence\n
 – Seek help from police or staff\n
 – Use haloperidol 5mg i.m., repeat in 15-30mins if needed
@@ -1159,8 +1160,12 @@ Consult a specialist for treatment.</string>
               Consider monitoring blood count, blood chemistry and  liver function tests, if available. \n\n
     </string>
 
-    <string name="epi_protocol_2_2">Refer to Essential Care and Practice (ECP) for interventions that promote functioning in daily living and community life. \n\n
+
+    <string name="epi_protocol2.2">Refer to <a href="">Essential Care and Practice (ECP)</a> for interventions that promote functioning in daily living and community life. \n\n
                                        In addition, inform carers and people  with epilepsy that:  \n\n
+    </string>
+
+    <string name="epi_protocol_2_2">
                                         –  People with epilepsy can lead normal lives.  They can marry and have children. \n
                                         –  Parents should not remove children with epilepsy from school.  \n
                                         –  People with epilepsy can work in most jobs. However they should avoid jobs with high risk of injury to self or others (e.g. working with heavy machinery).  \n
@@ -1187,8 +1192,8 @@ Consult a specialist for treatment.</string>
                                        If breastfeeding, carbamazepine preferred to other medication
     </string>
 
-    <string name="epi_child_adol1"> For those with a developmental disorder,  manage the condition. Go to >>CMH. \n\n
-                                    For children with behavioural disorder, avoid phenobarbital if possible. Manage the condition.  Go to>>CMH. \n\n
+    <string name="epi_child_adol1"> For those with a developmental disorder,  manage the condition. <a href="">Go to >>CMH.</a> \n\n
+                                    For children with behavioural disorder, avoid phenobarbital if possible. Manage the condition. <a href=""> Go to>>CMH.</a> \n\n
     </string>
 
     <string name="epi_hiv_perso1">   When available, refer to speciﬁc drug interactions  for person’s antiretroviral regimen and antiepileptic medication. \n \n
@@ -1265,9 +1270,6 @@ Consult a specialist for treatment.</string>
     <string name="epi_caution4">Use with caution if underlying or suspected hepatic disease. \n\n
         Drug-drug interactions: Valproate levels decreased by carbamazepine, increased by aspirin.
     </string>
-
-
-
 
 
     <string name="bev_2_1_cmh">  Spend time with their child in enjoyable activities.  Play and communicate with their child/adolescent.  http://www.who.int/maternal_child_adolescent/documents/ care_child_development/en/ \n\n
@@ -1703,4 +1705,5 @@ Steps to reducing or stopping the use of all substances: \n\n
 \n –  After a potentially traumatic event, the person may have PTSD if the symptoms involve considerable difﬁculty with daily functioning for at least 1 month and include recurring frightening dreams, ﬂashbacks or intrusive memories of the events accompanied by intense fear or horror; deliberate avoidance of reminders  of the event; excessive concern and alertness to danger or reacting strongly to  loud noises or unexpected movements.
 
 </string>
+    <string name="ecp">Assess for and try to reduce stressors. <a href="">(Go to » ECP)</a></string>
 </resources>

@@ -3,6 +3,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent" android:layout_height="match_parent"
     android:background="#ffffff"
+    tools:context="com.example.tencho.mhgap2.epi_special_population">
     >
 
 
@@ -19,7 +20,7 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:textAlignment="center"
-            android:textColor="#51b0d6"
+            android:textColor="#cc0808"
             android:textSize="25dp"
             android:text="Special populations"
             tools:ignore="HardcodedText,SpUsage" />
@@ -88,7 +89,7 @@
             />
 
         <TextView
-            android:id="@+id/textView22"
+            android:id="@+id/cmh"
             android:textColor="#361818"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
@@ -101,7 +102,7 @@
             android:layout_width="match_parent"
             android:textColor="#51b0d6"
             android:layout_height="wrap_content"
-            android:layout_marginTop="10dp"
+            android:layout_marginTop="3dp"
             android:textSize="15sp"
             android:text="PERSON LIVING WITH HIV"
             tools:ignore="HardcodedText"
@@ -127,3 +128,5 @@
             />
     </LinearLayout>
 </ScrollView>
+
+

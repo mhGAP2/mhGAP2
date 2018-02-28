@@ -51,7 +51,7 @@
                 android:layout_height="352dp"
                 android:textColor="#ffffff"
                 android:text="@string/fst"
-                android:textAlignment="textStart"
+                android:textAlignment="center"
                 android:textSize="18sp"
                 tools:ignore="HardcodedText" />
         </LinearLayout>

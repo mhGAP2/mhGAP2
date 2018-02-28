@@ -26,33 +26,33 @@ public class epilipsy2 extends AppCompatActivity {
         setContentView(R.layout.activity_epilipsy2);
 
 
+
         btn1=(Button)findViewById(R.id.button1);
         btn1.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                setContentView(R.layout.epi_protocol1);
+                Intent intent=new Intent(epilipsy2.this,epi_protocol1.class);
+                startActivity(intent);
             }
         });
+
+
         btn2=(Button)findViewById(R.id.button2);
         btn2.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                setContentView(R.layout.epi_special_popul);
+                Intent intent=new Intent(epilipsy2.this,epi_special_population.class);
+                startActivity(intent);
             }
         });
 
-        btn3=(Button)findViewById(R.id.button4);
-        btn3.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View view) {
-                setContentView(R.layout.epi_caution);
-            }
-        });
+
         btn4=(Button)findViewById(R.id.button5);
         btn4.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                setContentView(R.layout.epi_medication);
+                Intent intent=new Intent(epilipsy2.this,epi_medication.class);
+                startActivity(intent);
             }
         });
 

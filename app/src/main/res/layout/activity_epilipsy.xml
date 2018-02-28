@@ -44,7 +44,7 @@
         android:id="@+id/epibutton"
         android:layout_width="142dp"
         android:layout_height="52dp"
-        android:text="Start"
+        android:text="begin test"
         android:background="@drawable/depre"
         android:textColor="#51b0d6"
         android:textSize="20dp"

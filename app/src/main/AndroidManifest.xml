@@ -65,11 +65,10 @@
         <activity android:name=".Dep_assesment" />
         <activity android:name=".Dep_followup" />
         <activity android:name=".depression3" />
-
         <activity android:name=".psychoses2" />
         <activity android:name=".psy_assesment" />
         <activity android:name=".psy_management" />
-        <activity android:name=".psy_followup"></activity>
+        <activity android:name=".psy_followup" />
         <activity android:name=".behavioural1" />
         <activity android:name=".Bev_assesment" />
         <activity android:name=".behavioural2" />
@@ -78,14 +77,25 @@
         <activity android:name=".suicide2" />
         <activity android:name=".epilipsy1" />
         <activity android:name=".epi_assesment" />
-        <activity android:name=".epilipsy2"></activity>
-
+        <activity android:name=".epilipsy2" />
         <activity android:name=".Dementia_Management" />
         <activity android:name=".Dementia_healthsec" />
         <activity android:name=".Substance_healthsec" />
         <activity android:name=".Substance_management" />
         <activity android:name=".oth_healthsec" />
-        <activity android:name=".oth_management"></activity>
-
+        <activity android:name=".oth_management" />
+        <activity android:name=".protocol1" />
+        <activity android:name=".dep_special_population" />
+        <activity android:name=".dep_caution" />
+        <activity android:name=".dep_antidepressants" />
+        <activity android:name=".dep_protocol2" />
+        <activity android:name=".psy_protocol1" />
+        <activity android:name=".psy_protocol2" />
+        <activity android:name=".psy_special_population" />
+        <activity android:name=".psy_medication" />
+        <activity android:name=".epi_protocol1" />
+        <activity android:name=".epi_special_population" />
+        <activity android:name=".epi_medication"></activity>
     </application>
+
 </manifest>
