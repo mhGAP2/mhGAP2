@@ -31,7 +31,7 @@ public class epilipsy2 extends AppCompatActivity {
         btn1.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                Intent intent=new Intent(epilipsy2.this,epi_protocol1.class);
+                Intent intent=new Intent(epilipsy2.this,Epi.class);
                 startActivity(intent);
             }
         });
@@ -41,7 +41,7 @@ public class epilipsy2 extends AppCompatActivity {
         btn2.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                Intent intent=new Intent(epilipsy2.this,epi_special_population.class);
+                Intent intent=new Intent(epilipsy2.this,Epi_spec.class);
                 startActivity(intent);
             }
         });

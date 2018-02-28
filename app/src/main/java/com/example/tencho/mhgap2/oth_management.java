@@ -1,5 +1,6 @@
 package com.example.tencho.mhgap2;
 
+import android.content.Intent;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 import android.view.View;
@@ -13,11 +14,12 @@ public class oth_management extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_oth_management);
 
-        btn1=(Button)findViewById(R.id.Bt1);
+       btn1=(Button)findViewById(R.id.Bt1);
         btn1.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                setContentView(R.layout.othpro1);
+                Intent intent=new Intent(oth_management.this,Oth1.class);
+                startActivity(intent);
             }
         });
         btn2=(Button)findViewById(R.id.Bt2);
@@ -25,6 +27,7 @@ public class oth_management extends AppCompatActivity {
             @Override
             public void onClick(View view) {
                 setContentView(R.layout.othpro2);
+
             }
         });
 

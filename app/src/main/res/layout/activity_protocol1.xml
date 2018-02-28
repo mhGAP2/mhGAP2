@@ -4,7 +4,8 @@
         android:layout_width="match_parent"
         android:layout_height="match_parent"
         android:background="#ffffff"
-    tools:context="com.example.tencho.mhgap2.protocol1">>
+    tools:context="com.example.tencho.mhgap2.protocol1"
+        tools:ignore="ExtraText">>
 
 
 

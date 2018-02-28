@@ -30,14 +30,16 @@ public class suicide2 extends AppCompatActivity {
         btn1.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                setContentView(R.layout.sui_protocol1);
+               Intent intent=new Intent(suicide2.this,Suicideprot1.class);
+                startActivity(intent);
             }
         });
         btn2=(Button)findViewById(R.id.button2);
         btn2.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                setContentView(R.layout.sui_protocol2);
+                Intent intent=new Intent(suicide2.this,Suicideprot2.class);
+                startActivity(intent);
             }
         });
 
@@ -45,7 +47,8 @@ public class suicide2 extends AppCompatActivity {
         btn3.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                setContentView(R.layout.sui_protocol3);
+                Intent intent=new Intent(suicide2.this,Suicideprot3.class);
+                startActivity(intent);
             }
         });
 

@@ -1,0 +1,161 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="Epl1">
+        1 \n
+        Has the person had convulsive movements  lasting longer than 1-2 minutes? \n
+        Does the person have convulsive seizures? \n
+    </string>
+
+    <string-array name="Epilepsy_Assessment_Yes">
+       <item>
+        1 \n
+        Has the person had convulsive movements  lasting longer than 1-2 minutes? \n
+        Does the person have convulsive seizures? \n
+        </item>
+
+        <item>
+        Has the person had at least 2 of the following symptoms during the episode(s)? \n
+        –  Loss of consciousness or impaired consciousness \n
+        – Stiffness, rigidity \n
+        – Bitten or bruised tongue, bodily injury \n
+        – Incontinence of faeces/urine \n
+        –  After the convulsion: fatigue, drowsiness, sleepiness, confusion, abnormal behaviour, headache, muscle aches, or weakness on one  side of the body \n
+        </item>
+
+        <item>
+     Suspect CONVULSIVE SEIZURES \n
+        2 \n
+        Is there an acute cause? \n
+        Is there neuroinfection or other possible causes of convulsions? \n
+        » Check for signs and symptoms: \n
+        – Fever \n
+        – Headache \n
+        – Confusion \n
+        – Meningeal irritation (e.g. stiff neck) \n
+        – Head injury \n
+        – Metabolic abnormality  (e.g. hypogylcemia/ hyponatremia) \n
+        –  Alcohol or drug intoxication or  withdrawal \n
+        </item>
+
+        <item>
+        » EVALUATE and TREAT MEDICAL CONDITION \n
+        »  REFER TO HOSPITAL
+        IF POSSIBLE FOR HEAD INJURY, MENINGITIS, AND METABOLIC ABNORMALITIES \n
+        ANTIEPILEPTIC MEDICATION  NOT REQUIRED \n
+        »  Follow-up in 3 months to  assess for possible epilepsy \n
+        </item>
+
+        <item>
+        EPILEPSY is likely \n
+           Asses for underlying cause. Do a physical examination. \n
+           »Are any of the following present? \n
+           – Birth asphyxia or trauma history \n
+           – Head injury \n
+           – Infection of the brain \n
+           – Family history of seizures \n
+        </item>
+
+        <item>
+            »REFER TO SPECIALIST FOR FURTHER EVALUATION OF CAUSE \n
+            4 \n
+            Are there concurrent MNS conditions? \n
+            »Assess for other concurrent MNS conditions according to the  mhGAP-IG Master Chart (MC) \n
+        Please note persons with EPILEPSY are at higher risk for DEPRESSION, DISORDERS  DUE TO SUBSTANCE USE. CHILDREN AND ADOLSCENTS MAY HAVE ASSOCIATED MENTAL AND BEHAVIOURAL DISORDERS. SUBSTANCE USE DISORDERS
+             Go to PROTOCOL 1 \n
+        </item>
+
+    </string-array>
+
+    <string-array name="Epilepsy_Assessment_No">
+        <item>
+            Convulsive seizures unlikely \n
+            » Consult a specialist for recurrent episodes \n
+            » Follow-up in 3 months \n
+        </item>
+
+        <item>
+            Convulsive seizures unlikely \n
+            » Consult a specialist for recurrent episodes \n
+            » Follow-up in 3 months \n
+        </item>
+
+        <item>
+            Suspect EPILEPSY \n
+            SKIP to STEP 3 \n \n
+
+            3 \n
+            Does the person have epilepsy? \n
+            Has the person had at least two seizures on two different days in the past year? \n
+        </item>
+
+        <item>
+         Does not meet criteria for epilepsy \n
+             »Maintenance antiepileptic medication not necessary \n
+             »Follow-up in 3 months  and assess for possible epilepsy \n
+        </item>
+
+
+        <item>
+        4 \n
+            Are there concurrent MNS conditions? \n
+            » Assess for other concurrent MNS conditions according to the  mhGAP-IG Master Chart (MC) \n
+              Please note persons with EPILEPSY are at higher risk for DEPRESSION, DISORDERS  DUE TO SUBSTANCE USE. CHILDREN
+                AND ADOLSCENTS MAY HAVE ASSOCIATED MENTAL AND BEHAVIOURAL DISORDERS. SUBSTANCE USE DISORDERS \n
+        </item>
+    </string-array>
+    <string name="Epifollow">
+        1 \n
+            REVIEW THE CURRENT CONDITION \n
+            Does the person have more than 50% seizure reduction in convulsion frequency? \n
+    </string>
+
+    <string-array name="Epi_FollowUp_Yes">
+        <item>
+            1 \n
+            REVIEW THE CURRENT CONDITION \n
+            Does the person have more than 50% seizure reduction in convulsion frequency? \n
+        </item>
+
+        <item>
+          2 \n
+            MONITOR TREATMENT \n
+            At every contact: \n
+            » Evaluate side-effects of medication including adverse effects  and idiosyncratic reactions (clinically and with appropriate laboratory tests when available). \n
+            » Provide psychoeducation and review psychosocial interventions. \n
+            » Is the person a woman of childbearing age and considering  pregnancy? If so, consult specialist. \n
+            » Does the patient have any new symptoms of concern?  Review for any new symptoms of depression and anxiety given
+            high risk of co-morbidity with epilepsy. \n
+            » Is the patient on any new medications that may have interactions?  (Many anticonvulsants have interactions
+            with other medications). If so, consult a specialist. \n \n
+            3 \n
+            CONSIDER MEDICATION DISCONTINUATION WHEN APPROPRIATE \n
+            Has the person been convulsion free for several years? \n
+        </item>
+
+        <item>
+            » Discuss risk of seizure occurrence with person/carer  (if epilepsy is due to head injury, stroke or neuroinfection, there is a higher risk of seizure recurrence off medication), and risks and beneﬁts of discontinuing medications. \n
+            » If in agreement, gradually take the person off  medication by reducing the doses over 2 months and monitoring closely for seizure recurrence. \n
+        </item>
+    </string-array>
+
+    <string-array name="Epi_FollowUp_No">
+        <item>
+            IF THE PERSON IS NOT IMPROVING ON CURRENT DOSE: \n
+            » Review adherence to medications. \n
+            » Consider increase in medication dose as needed to  maximal dose if no adverse effects. \n
+            » If response is still poor, \n
+            – C onsider switching medication. The new medication should be at an optimum dose before slowly discontinuing the ﬁrst. \n
+            » If response is still poor, \n
+            – Review diagnosis. \n
+            – REFER TO SPECIALIST. \n
+            » Follow-up more frequently. \n
+        </item>
+
+        <item>
+            IF THERE ARE NO PROBLEMS WITH MEDICATIONS \n
+            »  Continue at current dose. Correct dosing is lowest therapeutic dose for seizure control, while minimizing adverse side-effects. \n
+            »  Continue close follow-up and review for possible discontinuation of medications once seizure free for at least two years. \n
+        </item>
+    </string-array>
+
+</resources>

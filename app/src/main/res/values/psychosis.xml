@@ -1,5 +1,14 @@
 
 <resources>
+    <string name="phy1">
+         1 \n
+        Are there any other explanations for the symptoms? \n
+        EVALUATE FOR MEDICAL CONDITIONS \n
+        By history, clinical examination, or laboratory findings, are there signs and symptoms
+        suggesting delirium due to an acute physical condition, e.g. infection, cerebral malaria,
+        dehydration, metabolic abnormalities (such as hypoglycaemia or hyponatraemia);
+        or medication side effects, e.g. due to some antimalarial medication or steroids?
+    </string>
     <string-array name="PSY_Asse_Yes">
         <item>
         1 \n
@@ -18,7 +27,18 @@
         <item>
             Consider consultation with a mental health specialist for management of concurrent conditions.
             Manage concurrent conditions.
-            Go to relevant modules.
+            Go to relevant modules. \n\n
+            2\n
+           Is the person having an acute manic episode? \n
+            Have several of the following symptoms occurred simultaneously, lasting for at least 1 week, and severely enough
+            to interfere significantly with work and social activities or requiring confinement or hospitalization: \n
+            – Elevated or irritable mood \n
+            – Decreased need for sleep \n
+            – Increased activity, feeling of increased energy, increased talkativeness or rapid speech \n
+            – Loss of normal social inhibitions such as sexual indiscretion \n
+            – Impulsive or reckless behaviours such as excessive spending, making important decisions without planning \n
+            – Being easily distracted \n
+            – Unrealistically inflated self-esteem \n
         </item>
         <item>
            2\n
@@ -55,7 +75,6 @@
         <item>
             2\n
            Is the person having an acute manic episode? \n
-
             Have several of the following symptoms occurred simultaneously, lasting for at least 1 week, and severely enough
             to interfere significantly with work and social activities or requiring confinement or hospitalization: \n
             – Elevated or irritable mood \n

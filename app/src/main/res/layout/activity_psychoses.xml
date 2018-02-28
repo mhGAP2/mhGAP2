@@ -25,7 +25,7 @@
         app:layout_constraintRight_toRightOf="parent"
         tools:layout_constraintLeft_creator="1"
         app:layout_constraintLeft_toLeftOf="parent"
-        app:layout_constraintHorizontal_bias="0.502"
+        app:layout_constraintHorizontal_bias="0.503"
         tools:ignore="HardcodedText,SpUsage" />
     <TextView
         android:id="@+id/t6"
@@ -44,21 +44,18 @@
         app:layout_constraintLeft_toLeftOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/textView"
         app:layout_constraintHorizontal_bias="0.166" />
-
     <Button
         android:id="@+id/btnpsy"
         android:layout_width="142dp"
-        android:layout_height="52dp"
+        android:layout_height="0dp"
         android:background="@drawable/depre"
         android:text="Begin Test"
         android:textColor="#223C97"
         android:textSize="20sp"
-        tools:layout_constraintRight_creator="1"
-        tools:layout_constraintBottom_creator="1"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintRight_toRightOf="parent"
+        tools:layout_constraintTop_creator="1"
         tools:layout_constraintLeft_creator="1"
         android:layout_marginBottom="7dp"
         app:layout_constraintLeft_toLeftOf="parent" />
+
 
 </android.support.constraint.ConstraintLayout>

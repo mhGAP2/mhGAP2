@@ -8,19 +8,17 @@ android:background="#dfd5d5"
 
 <TableLayout
 
-    android:layout_width="match_parent"
-    android:layout_height="match_parent"
-    android:layout_marginLeft="5dp"
-    android:layout_marginBottom="5dp"
-    android:layout_marginRight="5dp"
-    >
-
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="5dp"
+        android:layout_marginRight="5dp"
+        >
 
     <TextView
         android:id="@+id/textView24"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="TABLE 1: Antidepressants"
+        android:text="@string/table_1_antidepressants"
         android:textAlignment="center"
         android:textColor="#881D6C"
         android:textSize="20sp"/>
@@ -71,8 +69,6 @@ android:background="#dfd5d5"
             android:id="@+id/textView"
             android:text="CONTRAINDICATIONS / CAUTIONS"
             tools:ignore="HardcodedText,SpUsage" />
-
-
     </TableRow>
 
     <TableRow

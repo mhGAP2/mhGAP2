@@ -11,36 +11,29 @@
         android:orientation="vertical"
         android:layout_marginLeft="5dp"
         tools:ignore="RtlHardcoded">
-        <TextView
-            android:id="@+id/textView1"
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:text="Protocol 1(OTH)"
-            android:textColor="#b33123"
-            android:textSize="30sp"
-            android:textAlignment="center"
-            tools:ignore="HardcodedText" />
-        <TextView
-            android:id="@+id/textView2"
-            android:textColor="#b33123"
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:layout_marginTop="10dp"
-            android:text="@string/oth1"
-            android:textSize="15sp"
-            android:textAlignment="center"
-            />
 
         <TextView
-            android:id="@+id/textView2"
-            android:textColor="#b33123"
+            android:id="@+id/sub1"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
+            android:textColor="#b33123"
             android:layout_marginTop="10dp"
-           android:text="@string/oth2"
+            android:text="BOX 1: RELAXATION TRAINING INSTRUCTIONS"
             android:textSize="15sp"
-            android:textAlignment="center"
-            tools:ignore="DuplicateIds,HardcodedText" />
+            />
+
+
+
+
+        <TextView
+            android:id="@+id/sub2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textColor="#361818"
+            android:layout_marginTop="10dp"
+            android:text="@string/oth6" />
+
+
     </LinearLayout>
 </ScrollView>
 

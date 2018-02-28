@@ -9,7 +9,7 @@ import android.widget.TextView;
 public class Bev_assesment extends AppCompatActivity {
 
     private TextView mquestion;
-    private Button mtruebtn, mfalsebtn, homebtn, othbtn,othbtn2;
+    private Button mtruebtn, mfalsebtn, homebtn, othbtn;
 
     String[] YesQuestions;
     String[] NoQuestions;
@@ -30,7 +30,6 @@ public class Bev_assesment extends AppCompatActivity {
         othbtn = (Button) findViewById(R.id.oth);
         homebtn.setVisibility(View.GONE);
         othbtn.setVisibility(View.GONE);
-        othbtn2.setVisibility(View.GONE);
 
 
         mtruebtn.setOnClickListener(new View.OnClickListener() {
@@ -47,7 +46,6 @@ public class Bev_assesment extends AppCompatActivity {
             }
         });
     }
-
     private void updateYesquestion()
     {
 
@@ -55,7 +53,9 @@ public class Bev_assesment extends AppCompatActivity {
     }
 
     private void updateNoquestion() {
-
-
+        if(mquestion.getText().toString().equals(YesQuestions[0]) ||mquestion.getText().toString().equals(YesQuestions[1])||mquestion.getText().toString().equals(YesQuestions[2]))
+        {
+            mquestion.setText(NoQuestions[0]);
+        }
     }
 }

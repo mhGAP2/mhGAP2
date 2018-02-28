@@ -1,0 +1,131 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.tencho.mhgap2.Substanceprotocol1">
+    <ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:tools="http://schemas.android.com/tools"
+        android:layout_width="368dp"
+        android:layout_height="551dp"
+        android:background="#ffffff"
+        tools:layout_editor_absoluteY="8dp"
+        tools:layout_editor_absoluteX="8dp">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:layout_marginLeft="5dp"
+            tools:ignore="RtlHardcoded">
+            <TextView
+                android:id="@+id/textView1"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Protocol 1(Substance use)"
+                android:textColor="#F68B1F"
+                android:textSize="30sp"
+                android:textAlignment="center"
+                tools:ignore="HardcodedText" />
+            <TextView
+                android:id="@+id/textView2"
+                android:textColor="#F68B1F"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:text="@string/harmful_use"
+                android:textSize="15sp"
+                android:textAlignment="center"
+                />
+
+            <TextView
+                android:id="@+id/textVie"
+                android:textColor="#361818"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:text="@string/substanceprot2"
+                android:textSize="15sp"
+                android:textAlignment="center"
+                 />
+
+            <TextView
+                android:id="@+id/textView3"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textColor="#361818"
+                android:layout_marginTop="10dp"
+                android:text="@string/substancepro3"
+                android:textSize="15sp"
+                />
+
+
+
+
+            <TextView
+                android:id="@+id/t1"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textColor="#F68B1F"
+                android:layout_marginTop="10dp"
+                android:text="@string/substanceprot1" />
+
+            <TextView
+                android:id="@+id/textView5"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textColor="#361818"
+                android:layout_marginTop="20dp"
+                android:text="@string/Substanceprot3"
+                android:textSize="15sp"
+                tools:ignore="HardcodedText" />
+
+            <TextView
+                android:id="@+id/t2"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:text="@string/substancepro2"
+                android:textColor="#F68B1F" />
+
+            <TextView
+                android:id="@+id/textView10"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textColor="#361818"
+                android:layout_marginTop="10dp"
+                android:text= "@string/substancepro1"
+
+                />
+
+            <TextView
+                android:id="@+id/t3"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="20dp"
+                android:text="@string/follow_up"
+                android:textColor="#361818"
+                android:textSize="15sp" />
+
+            <TextView
+                android:id="@+id/textView123"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textColor="#361818"
+                android:layout_marginTop="10dp"
+                android:text="@string/if_the_person_is_an_adolescent_or_a_woman_of_child_bearing_age_pregnant_or_breastfeeding_see_special_populations" />
+            <TextView
+                android:id="@+id/t4"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="20dp"
+                android:text="@string/see"
+                android:textColor="#F68B1F"
+                android:textSize="15sp" />
+        </LinearLayout>
+    </ScrollView>
+
+
+
+</android.support.constraint.ConstraintLayout>

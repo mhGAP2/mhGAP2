@@ -67,13 +67,13 @@ public class behavioural2 extends AppCompatActivity {
         });
 
         btn6=(Button)findViewById(R.id.button6);
-        btn6.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View view) {
-                setContentView(R.layout.bev_protocol6);
-            }
-        });
-
+       btn6.setOnClickListener(new View.OnClickListener() {
+           @Override
+           public void onClick(View view) {
+               Intent intent=new Intent(behavioural2.this,Cmh.class);
+               startActivity(intent);
+           }
+       });
 
     }
 

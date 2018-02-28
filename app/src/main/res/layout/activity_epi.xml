@@ -1,0 +1,193 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.tencho.mhgap2.Epi">
+    <ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:tools="http://schemas.android.com/tools"
+        android:layout_width="368dp"
+        android:layout_height="551dp"
+        android:background="#ffffff"
+        tools:layout_editor_absoluteY="8dp"
+        tools:layout_editor_absoluteX="8dp">
+
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:layout_marginLeft="5dp"
+            tools:ignore="RtlHardcoded"
+            android:weightSum="1">
+
+
+            <TextView
+                android:id="@+id/textView1"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Protocol 1(Developmental Delay/Disorder)"
+                android:textColor="#51b0d6"
+                android:textSize="25sp"
+                android:textAlignment="center"
+                tools:ignore="HardcodedText" />
+            <TextView
+                android:id="@+id/textView2"
+                android:textColor="#361818"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:text="PSYCHOSOCIAL INTERVENTIONS"
+                android:textSize="15sp"
+                android:textAlignment="center"
+                tools:ignore="HardcodedText" />
+
+            <TextView
+                android:id="@+id/textView3"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textColor="#51b0d6"
+                android:layout_marginTop="10dp"
+                android:text="Provide psychoeducation to the person and carers."
+                android:textSize="15sp"
+                />
+
+
+            <TextView
+                android:id="@+id/textViewT"
+                android:layout_width="match_parent"
+                android:layout_height="47dp"
+                android:layout_marginTop="10dp"
+                android:text="@string/epi_topic1"
+                android:textColor="#51b0d6"
+                android:textStyle="italic"
+
+                />
+
+            <TextView
+                android:id="@+id/textView"
+                android:layout_width="match_parent"
+                android:layout_height="250dp"
+                android:layout_marginTop="10dp"
+                android:text="@string/epi_protocol_2_1"
+                android:textColor="#361818"
+
+                />
+            <TextView
+                android:id="@+id/textViewT1"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:text="CLINICAL TIP:"
+                android:textColor="#ed060e"
+                android:textStyle="bold"
+
+                />
+            <TextView
+                android:id="@+id/textViewc"
+                android:layout_width="match_parent"
+                android:layout_height="113dp"
+                android:layout_marginTop="10dp"
+                android:text="@string/epi_clinical_tip"
+                android:textColor="#361818"
+
+                />
+            <TextView
+                android:id="@+id/textViewST"
+                android:layout_width="match_parent"
+                android:layout_height="47dp"
+                android:layout_marginTop="10dp"
+                android:text="@string/epi_topic2"
+                android:textColor="#51b0d6"
+                android:textStyle="italic"
+
+                />
+
+            <TextView
+                android:id="@+id/textView6"
+                android:textColor="#361818"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:text="@string/epi_protocol2_1"
+                android:layout_weight="0.41"
+
+                />
+            <TextView
+                android:id="@+id/textViewST1"
+                android:layout_width="match_parent"
+                android:layout_height="36dp"
+                android:layout_marginTop="10dp"
+                android:text="@string/epi_topic3"
+                android:textColor="#51b0d6"
+                android:textStyle="italic"
+
+                />
+
+            <TextView
+                android:id="@+id/textViewc1"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:text="@string/epi_protocol__2_1"
+                android:textColor="#361818"
+
+                />
+
+            <TextView
+                android:id="@+id/textViewT3"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textColor="#51b0d6"
+                android:layout_marginTop="10dp"
+                android:text="Initiate antiepileptic medications."
+                android:textSize="15sp"
+                />
+
+            <TextView
+                android:id="@+id/textViewc2"
+                android:layout_width="match_parent"
+                android:layout_height="250dp"
+                android:layout_marginTop="10dp"
+                android:text="@string/epi_protocol_2_3"
+                android:textColor="#361818"
+
+                />
+
+            <TextView
+                android:id="@+id/textViewT4"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textColor="#51b0d6"
+                android:layout_marginTop="10dp"
+                android:text="Promote functioning in daily activities. "
+                android:textSize="15sp"
+                />
+
+            <TextView
+                android:id="@+id/textViewc3"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:text="@string/epi_protocol_2_2"
+                android:textColor="#361818"
+
+                />
+            <TextView
+                android:id="@+id/textVie"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:text="@string/epi_prot"
+                android:textColor="#361818"
+
+                />
+
+        </LinearLayout>
+    </ScrollView>
+
+
+
+</android.support.constraint.ConstraintLayout>
