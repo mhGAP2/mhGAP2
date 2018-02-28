@@ -180,22 +180,14 @@
                 android:text="2.2 Promote functioning in daily activities. "
                 android:textSize="17sp"
                 />
-
-
-
             <TextView
                 android:id="@+id/ecp"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:layout_marginTop="10dp"
-                android:text="@string/epi_protocol2.2"
+                android:text="epi_protocol2.2"
                 android:textColor="#361818"
-
                 />
-
-
-
-
 
             <TextView
                 android:id="@+id/textViewc3"
