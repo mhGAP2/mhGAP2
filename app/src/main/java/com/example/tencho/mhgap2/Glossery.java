@@ -1,9 +1,12 @@
 package com.example.tencho.mhgap2;
 
+import android.content.Context;
+import android.content.DialogInterface;
 import android.content.Intent;
 import android.os.Bundle;
 import android.support.design.widget.FloatingActionButton;
 import android.support.design.widget.Snackbar;
+import android.support.v7.app.AlertDialog;
 import android.support.v7.widget.SearchView;
 import android.view.MenuInflater;
 import android.view.View;
@@ -19,6 +22,7 @@ import android.widget.AdapterView;
 import android.widget.ArrayAdapter;
 import android.widget.ListView;
 import android.widget.TextView;
+import android.widget.Toast;
 
 import java.util.ArrayList;
 import java.util.Arrays;
@@ -40,7 +44,6 @@ public class Glossery extends AppCompatActivity
         setSupportActionBar(toolbar);
 
         meaning=getResources().getStringArray(R.array.glossary_meaning);
-        tv=(TextView)findViewById(R.id.def);
 
         lv=(ListView)findViewById(R.id.listviewterm);
         arrayTerm=new ArrayList<>();
@@ -56,9 +59,15 @@ public class Glossery extends AppCompatActivity
         lv.setOnItemClickListener(new AdapterView.OnItemClickListener() {
             @Override
             public void onItemClick(AdapterView<?> adapterView, View view, int i, long l) {
-                tv.setText(meaning[i]);
+                AlertDialog.Builder adb = new AlertDialog.Builder(
+                        Glossery.this);
+                adb.setTitle("Defination: ");
+                adb.setMessage(meaning[i]);
+                adb.setPositiveButton("Ok", null);
+                adb.show();
+
             }
-        });
+            });
 
         DrawerLayout drawer = (DrawerLayout) findViewById(R.id.drawer_layout);
         ActionBarDrawerToggle toggle = new ActionBarDrawerToggle(
