@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="utf-8"?>
 <LinearLayout
     xmlns:android="http://schemas.android.com/apk/res/android"
-   android:orientation="vertical"
+    android:orientation="vertical"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context="com.example.tencho.mhgap2.Bev_assesment">
+    tools:context="com.example.tencho.mhgap2.behavioural_followup">
 
     <TextView
         android:id="@+id/title"
@@ -33,7 +33,7 @@
                 android:id="@+id/question"
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
-                android:text="@string/CMH1"
+                android:text="@string/cmhfollow1"
                 android:textAlignment="textStart"
                 android:textSize="20sp"
                 tools:ignore="HardcodedText" />
@@ -66,14 +66,6 @@
             tools:ignore="ButtonStyle,HardcodedText,SmallSp" />
         <Button
             android:id="@+id/oth"
-            android:layout_width="wrap_content"
-            android:layout_height="48dp"
-            android:text="oth"
-            android:textSize="10sp"
-            android:layout_weight="1"
-            tools:ignore="ButtonStyle,HardcodedText,SmallSp"/>
-        <Button
-            android:id="@+id/oth2"
             android:layout_width="wrap_content"
             android:layout_height="48dp"
             android:text="oth"

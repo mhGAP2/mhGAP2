@@ -95,7 +95,7 @@
         <activity android:name=".psy_medication" />
         <activity android:name=".epi_protocol1" />
         <activity android:name=".epi_special_population" />
-        <activity android:name=".epi_medication"/>
+        <activity android:name=".epi_medication" />
         <activity android:name=".Substanceprotocol1" />
         <activity android:name=".Substanceprot2" />
         <activity android:name=".Substanceprotcol3" />
@@ -104,7 +104,7 @@
         <activity android:name=".Oth1" />
         <activity android:name=".psy_followup1" />
         <activity android:name=".psy_followup2" />
-        <activity android:name=".epi_followup"/>
+        <activity android:name=".epi_followup" />
         <activity android:name=".Cmh" />
         <activity android:name=".Suicideprot1" />
         <activity android:name=".Suicideproto1_2" />
@@ -112,7 +112,10 @@
         <activity android:name=".Suicideprot3" />
         <activity android:name=".Epi" />
         <activity android:name=".Epi_spec" />
-        <activity android:name=".Substance_spe"/>
+        <activity android:name=".Substance_spe" />
+        <activity android:name=".behavioural_followup" />
+        <activity android:name=".Dementia_Assessment" />
+        <activity android:name=".Dementia_followup"></activity>
     </application>
 
 </manifest>

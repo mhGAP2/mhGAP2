@@ -79,7 +79,6 @@ public class Dep_assesment extends AppCompatActivity {
                     startActivity(intent);
                     othbtn.setVisibility(View.GONE);
                 }
-
             }
         });
     }

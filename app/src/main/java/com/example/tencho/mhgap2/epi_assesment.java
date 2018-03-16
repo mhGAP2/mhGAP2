@@ -59,7 +59,6 @@ public class epi_assesment extends AppCompatActivity {
                     Intent intent =new Intent(epi_assesment.this,HomeActivity.class);
                     startActivity(intent);
                 }
-
             }
         });
     }

@@ -7,17 +7,33 @@ import android.view.View;
 import android.widget.Button;
 
 public class Dementia_healthsec extends AppCompatActivity {
-    Button btn;
+    Button btn1,btn2,btn3;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_dementia_healthsec);
-        btn=(Button)findViewById(R.id.butto1);
-        btn.setOnClickListener(new View.OnClickListener() {
+        btn1=(Button)findViewById(R.id.b1);
+        btn1.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                Intent intent=new Intent(Dementia_healthsec.this,Dementia_Assessment.class);
+                startActivity(intent);
+            }
+        });
+        btn2=(Button)findViewById(R.id.b2);
+        btn2.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
                 Intent intent=new Intent(Dementia_healthsec.this,Dementia_Management.class);
+                startActivity(intent);
+            }
+        });
+        btn3=(Button)findViewById(R.id.b3);
+        btn3.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                Intent intent=new Intent(Dementia_healthsec.this,Dementia_followup.class);
                 startActivity(intent);
             }
         });

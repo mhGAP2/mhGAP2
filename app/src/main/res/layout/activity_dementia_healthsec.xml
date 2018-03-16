@@ -82,7 +82,7 @@
             tools:ignore="HardcodedText,InefficientWeight,SpUsage" />
 
         <Button
-            android:id="@+id/button3"
+            android:id="@+id/b1"
             android:layout_width="270dp"
             android:layout_height="52dp"
             android:layout_marginBottom="20dp"
@@ -93,7 +93,7 @@
             tools:ignore="HardcodedText,SpUsage" />
 
         <Button
-            android:id="@+id/butto1"
+            android:id="@+id/b2"
             android:layout_width="270dp"
             android:layout_height="52dp"
             android:layout_marginBottom="20dp"
@@ -104,7 +104,7 @@
             tools:ignore="HardcodedText,SpUsage" />
 
         <Button
-            android:id="@+id/button4"
+            android:id="@+id/b3"
             android:layout_width="270dp"
             android:layout_height="52dp"
             android:background="@drawable/depre"
