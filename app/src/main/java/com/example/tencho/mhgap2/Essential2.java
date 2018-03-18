@@ -73,9 +73,7 @@ public class Essential2 extends AppCompatActivity
     public boolean onNavigationItemSelected(MenuItem item) {
         // Handle navigation view item clicks here.
         int id = item.getItemId();
-        if (id == R.id.symbols) {
-
-        } else if (id == R.id.essentials) {
+        if (id == R.id.essentials) {
             Intent intent=new Intent(Essential2.this,Essential.class);
             startActivity(intent);
 

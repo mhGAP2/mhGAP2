@@ -1,0 +1,173 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+     <string name="sucide_1">
+        1 \n
+            Has the person attempted a medically serious act of self-harm? \n
+            Assess if there is evidence of self-injury and/or  signs/symptoms requiring urgent medical treatment: \n
+            – Signs of poisoning or intoxication \n
+            – Bleeding from self-inﬂicted wound \n
+            – Loss of consciousness \n
+            – Extreme lethargy \n
+    </string>
+    <string name="sucide_protocol1">
+        Medically Serious Act of Self-Harm \n
+        »  For all cases: Place the person in a  secure and supportive environment at a health facility. \n
+        »    DO NOT leave the person alone. \n
+        »  Medically treat injury or poisoning.  If there is acute pesticide intoxication, follow “Management of pesticide intoxication”. (2.1) \n
+        »  If hospitalization is needed, continue to monitor the person closely to prevent suicide. \n
+        »  Care for the person with self-harm. (2.2) \n
+        »  Offer and activate psychosocial support. (2.3) \n
+        »  Offer carers support. (2.4) \n
+        »  Consult a mental health specialist,  if available. \n
+        »  Maintain regular contact and Follow-Up. \n
+
+
+    </string>
+    <string name="sucide_protocol2">
+        <b>Imminent Risk of Self-Harm/Suicide </b> \n\n
+        »  Remove means of self-harm/suicide. \n
+        »  Create a secure and supportive environment;  if possible, offer a separate, quiet room while waiting for treatment.  \n
+        »   DO NOT leave the person alone.  \n
+        »  Supervise and assign a named staff or family member to ensure person’s safety at all times.  \n
+        »   Attend to mental state and emotional distress.  \n
+        »  Provide psychoeducation to the person and their carers. (2.5)  \n
+        »  Offer and activate psychosocial support. (2.3) \n
+        »  Offer carers support. (2.4)  \n
+        »  Consult a mental health specialist, if available.  \n
+        »  Maintain regular contact and Follow-Up.  \n
+    </string>
+    <string name="sucide_protocol3">
+        Risk of Self-HArm/Sucide \n
+        Offer and activate psychosocial support. \n
+        Consult a mental health specialist, if availabe. \n
+        Maintain regular contact and Fellow-Up.
+    </string>
+    <string-array name="Suicide_Assessment_Yes">
+        <item>
+            1 \n
+            Has the person attempted a medically serious act of self-harm? \n
+            Assess if there is evidence of self-injury and/or  signs/symptoms requiring urgent medical treatment: \n
+            – Signs of poisoning or intoxication \n
+            – Bleeding from self-inﬂicted wound \n
+            – Loss of consciousness \n
+            – Extreme lethargy \n
+        </item>
+
+        <item>
+            Management for the medically serious act of  self-harm is required. \n
+            » Go to PROTOCOL 1 \n
+            » Return to STEP  2 \n
+            once person is medically stable.
+        </item>
+
+        <item>
+          2 \n
+            Is there an imminent risk of self-harm/suicide? \n
+            Ask the person and carers if there are ANY of the following: \n
+            –  Current thoughts or plan of self-harm/suicide \n
+            –  History of thoughts or plan of self-harm in the past month or act of self-harm in the past year  in a person who is now extremely agitated, violent, distressed or lacks communication \n
+        </item>
+
+        <item>
+            IMMINENT RISK OF  SELF-HARM/SUICIDE is likely \n
+            » Go to PROTOCOL 2, manage, and then continue to STEP  3 \n
+        </item>
+
+        <item>
+            Imminent risk of self-harm/suicide is  unlikely, but a risk may still persist. \n
+            » Go to PROTOCOL 3, manage, and then continue to STEP  3
+        </item>
+
+        <item>
+            » Manage the concurrent conditions. \n
+            See relevant modules. \n
+
+            4 \n
+            Does the person have chronic pain?
+        </item>
+
+        <item>
+            » Manage the pain and treat any  relevant medical conditions \n
+            5 \n
+            Does the person have emotional symptoms severe enough to warrant clinical management? \n
+            – Difﬁculty carrying out usual work, school,  domestic or social activities \n
+            –  Repeated self-medication for emotional distress, or unexplained physical symptoms \n
+            –  Marked distress or repeated help-seeking
+        </item>
+        <item>
+            » Manage the emotional symptoms. \n
+            » Go to » OTH
+        </item>
+    </string-array>
+    <string-array name="Suicide_Assessment_No">
+        <item>
+           Is there a history of thoughts or plan of self-harm in the past month or act of  self-harm in the past year?
+        </item>
+        <item>
+            3 \n
+             Does the person have concurrent MNS conditions? \n
+            – Depression \n
+            – Disorders due to substance use \n
+            – Child and adolescent mental and behavioral disorders \n
+            – Psychoses \n
+            – Epilepsy \n
+        </item>
+        <item>
+            Risk of self-harm/suicide is unlikely. \n
+            3 \n
+             Does the person have concurrent MNS conditions? \n
+            – Depression \n
+            – Disorders due to substance use \n
+            – Child and adolescent mental and behavioral disorders \n
+            – Psychoses \n
+            – Epilepsy \n
+        </item>
+        <item>
+            4 \n
+            Does the person have chronic pain?
+        </item>
+
+        <item>
+            5 \n
+            Does the person have emotional symptoms severe enough to warrant clinical management? \n
+            –  Difﬁculty carrying out usual work, school,  domestic or social activities \n
+            –  Repeated self-medication for emotional distress, or unexplained physical symptoms \n
+            –  Marked distress or repeated help-seeking \n
+        </item>
+        <item>
+              Go to SUI 3 (Follow-up)
+        </item>
+    </string-array>
+    <string name="sucide_follow1">
+        1 \n
+        ASSESS FOR IMPROVEMENT \n
+        Is the person improving?
+    </string>
+    <string-array name="Suicide_FollowUp_Yes">
+        <item>
+            1 \n
+        ASSESS FOR IMPROVEMENT \n
+        Is the person improving?
+            </item>
+        <item>
+            »  Decrease contact as the person improves. \n
+            »  Continue following-up for 2 years, further decreasing contact according to improvement
+            (e.g. once every 2-4 weeks after the initial 2 months, and twice in the second year). \n \n
+            2 \n
+            ROUTINELY ASSESS FOR THOUGHTS AND PLANS OF SELF-HARM/SUICIDE \n
+            » At every contact, routinely assess for suicidal thoughts and plans.  Is the risk of self-harm/suicide imminent? See SUI 1 (Assessment).
+        </item>
+
+    </string-array>
+    <string-array name="Suicide_FollowUp_No">
+        <item>
+            »  Increase intensity or duration of contact as necessary. \n
+            »  Refer to specialist as needed. \n \n
+            2 \n
+            ROUTINELY ASSESS FOR THOUGHTS AND PLANS OF SELF-HARM/SUICIDE \n
+            »  At every contact, routinely assess for suicidal thoughts and plans. \n
+            »  Is the risk of self-harm/suicide imminent? \n
+            See SUI 1 (Assessment).
+        </item>
+    </string-array>
+</resources>

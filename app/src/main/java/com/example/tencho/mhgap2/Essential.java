@@ -93,9 +93,7 @@ public class Essential extends AppCompatActivity
         // Handle navigation view item clicks here.
         int id = item.getItemId();
 
-        if (id == R.id.symbols) {
-
-        } else if (id == R.id.essentials) {
+         if (id == R.id.essentials) {
 
         } else if (id == R.id.master) {
 

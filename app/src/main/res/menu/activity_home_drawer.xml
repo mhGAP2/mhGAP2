@@ -3,10 +3,6 @@
 
     <group android:checkableBehavior="single">
         <item
-            android:id="@+id/symbols"
-            android:icon="@drawable/iconvs"
-            android:title="Visual Symbols" />
-        <item
             android:id="@+id/essentials"
             android:icon="@drawable/iconess"
             android:title="Essential care" />
@@ -36,6 +32,10 @@
                 android:id="@+id/contact"
                 android:icon="@drawable/iconcontact"
                 android:title="Contact us" />
+            <item
+                android:id="@+id/shareApp"
+                android:icon="@drawable/iconcontact"
+                android:title="Share" />
         </menu>
     </item>
 

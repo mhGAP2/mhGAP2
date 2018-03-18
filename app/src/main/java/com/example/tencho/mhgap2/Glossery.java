@@ -133,9 +133,7 @@ public class Glossery extends AppCompatActivity
         // Handle navigation view item clicks here.
         int id = item.getItemId();
 
-        if (id == R.id.symbols) {
-
-        } else if (id == R.id.essentials) {
+         if (id == R.id.essentials) {
             Intent intent=new Intent(Glossery.this,Essential.class);
             startActivity(intent);
 

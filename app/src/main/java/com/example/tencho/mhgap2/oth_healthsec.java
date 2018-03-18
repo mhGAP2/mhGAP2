@@ -7,20 +7,35 @@ import android.view.View;
 import android.widget.Button;
 
 public class oth_healthsec extends AppCompatActivity {
-    Button btn;
+    Button btn1,btn2,btn3;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_oth_healthsec);
-        btn=(Button)findViewById(R.id.btt2);
-        btn.setOnClickListener(new View.OnClickListener() {
+        btn1=(Button)findViewById(R.id.btt1);
+        btn1.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                Intent intent=new Intent(oth_healthsec.this,oth_assessment.class);
+                startActivity(intent);
+            }
+        });
+        btn2=(Button)findViewById(R.id.btt2);
+        btn2.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
                 Intent intent=new Intent(oth_healthsec.this,oth_management.class);
                 startActivity(intent);
             }
         });
-
+        btn3=(Button)findViewById(R.id.btt3);
+        btn3.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                Intent intent=new Intent(oth_healthsec.this,oth_followup.class);
+                startActivity(intent);
+            }
+        });
     }
 }

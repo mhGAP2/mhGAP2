@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="OTH_ass1">
+         1 \n
+        Is there a physical cause that fully explains the presenting symptoms?
+    </string>
+    <string-array name="OTH_Ass_Yes">
+    <item>
+        1 \n
+        Is there a physical cause that fully explains the presenting symptoms?
+    </item>
+        <item>
+          >>Manage any physical cause identi?ed and recheck to see if the symptoms persist.
+    </item>
+        <item>
+          >>Go to relevant module.
+    </item>
+        <item>
+        OTHER SIGNIFICANT  MENTAL HEALTH COMPLAINTS are likely.
+    </item>
+        <item>
+            OTHER SIGNIFICANT  MENTAL HEALTH COMPLAINTS are likely \n
+        4 \n
+        Has the person been exposed to extreme stressors?
+            (e.g. physical or sexual violence, major accidents, bereavement  or other major losses)
+    </item>
+        <item>
+         >> Go to PROTOCOL 1 and 2
+    </item>
+    </string-array>
+
+    <string-array name="OTH_Ass_No">
+    <item>
+        2 \n
+        Is this depression or another MNS condition discussed  in another module of this guide?
+
+    </item>
+        <item>
+
+        3 \n
+        Is the person seeking help to relieve symptoms or having considerable difficulty with daily functioning because of their symptoms?
+    </item>
+        <item>
+          >>No treatment needed.
+    </item>
+        <item>
+         >>Go to PROTOCOL 1.
+    </item>
+    </string-array>
+    <string name="OTH_FollowUp1">
+        ASSESS FOR IMPROVEMENT \n
+        Is the person improving?
+    </string>
+    <string-array name="OTH_FollowUp_Yes">
+    <item>
+         ASSESS FOR IMPROVEMENT \n
+        Is the person improving?
+    </item>
+        <item>
+        »  Contine with treatment plan \n
+        »  Follow-up as needed
+    </item>
+    </string-array>
+
+    <string-array name="OTH_FollowUp_No">
+    <item>
+        If the person is not improving or the person or  the carer insists on further investigations and treatment: \n
+        »  Review Protocols 1 and 2 \n
+        »  Consider consulting a specialist \n
+    </item>
+
+    </string-array>
+</resources>

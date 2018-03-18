@@ -9,8 +9,7 @@ import android.view.WindowManager;
 import android.widget.Button;
 
 public class suicide1 extends AppCompatActivity {
-    Button btn1;
-    Button btn2;
+    Button btn1,btn2,btn3;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -20,7 +19,7 @@ public class suicide1 extends AppCompatActivity {
         setContentView(R.layout.activity_suicide1);
 
 
-        btn1 = (Button) findViewById(R.id.button3);
+        btn1 = (Button) findViewById(R.id.b1);
         btn1.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
@@ -28,8 +27,16 @@ public class suicide1 extends AppCompatActivity {
                 startActivity(intent);
             }
         });
-        btn2 = (Button) findViewById(R.id.button2);
+        btn2 = (Button) findViewById(R.id.b2);
         btn2.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                Intent intent = new Intent(suicide1.this, suicide2.class);
+                startActivity(intent);
+            }
+        });
+        btn3 = (Button) findViewById(R.id.b3);
+        btn3.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
                 Intent intent = new Intent(suicide1.this, suicide2.class);

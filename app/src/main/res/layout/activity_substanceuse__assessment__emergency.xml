@@ -5,8 +5,7 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:orientation="vertical"
-    tools:context="com.example.tencho.mhgap2.sui_assesment">
-
+    tools:context="com.example.tencho.mhgap2.Substanceuse_Assessment_Emergency">
 
     <TextView
         android:id="@+id/title"
@@ -20,7 +19,7 @@
     <ScrollView
         android:id="@+id/scrollView2"
         android:layout_width="match_parent"
-        android:layout_height="405dp"
+        android:layout_height="match_parent"
         android:layout_weight="0.66"
         tools:ignore="InefficientWeight">
 
@@ -33,8 +32,8 @@
             <TextView
                 android:id="@+id/question"
                 android:layout_width="match_parent"
-                android:layout_height="352dp"
-                android:text="@string/sucide_1"
+                android:layout_height="wrap_content"
+                android:text="@string/Disorder1"
                 android:textAlignment="textStart"
                 android:textSize="20sp"
                 tools:ignore="HardcodedText" />
@@ -73,6 +72,5 @@
             android:textSize="10sp"
             android:layout_weight="1"
             tools:ignore="ButtonStyle,HardcodedText,SmallSp"/>
-
     </LinearLayout>
 </LinearLayout>

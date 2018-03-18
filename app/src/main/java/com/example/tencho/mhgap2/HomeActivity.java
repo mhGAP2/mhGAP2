@@ -18,14 +18,7 @@ import android.view.WindowManager;
 import android.widget.Button;
 public class HomeActivity extends AppCompatActivity
         implements NavigationView.OnNavigationItemSelectedListener {
-    Button btn1;
-    Button btn2;
-    Button btn3;
-    Button btn4;
-    Button btn5;
-    Button btn6;
-    Button btn7;
-    Button btn8;
+    Button btn1,btn2,btn3,btn4,btn5,btn6,btn7,btn8;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -155,9 +148,7 @@ public class HomeActivity extends AppCompatActivity
         // Handle navigation view item clicks here.
         int id = item.getItemId();
 
-        if (id == R.id.symbols) {
-
-        } else if (id == R.id.essentials) {
+         if (id == R.id.essentials) {
             Intent intent=new Intent(HomeActivity.this,Essential.class);
             startActivity(intent);
 
@@ -181,10 +172,16 @@ public class HomeActivity extends AppCompatActivity
 
         }
         else if (id == R.id.Aboutus) {
-
             Intent intent=new Intent(HomeActivity.this,Aboutus.class);
             startActivity(intent);
                     }
+         else if (id == R.id.shareApp) {
+             Intent share=new Intent(Intent.ACTION_SEND);
+             share.setType("text/*");
+             share.putExtra(Intent.EXTRA_TEXT,"play.google.com");
+             startActivity(Intent.createChooser(share,"Share Using"));
+             return true;
+         }
         DrawerLayout drawer = (DrawerLayout) findViewById(R.id.drawer_layout);
         drawer.closeDrawer(GravityCompat.START);
         return true;

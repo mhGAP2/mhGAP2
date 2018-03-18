@@ -5,8 +5,7 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:orientation="vertical"
-    tools:context="com.example.tencho.mhgap2.sui_assesment">
-
+    tools:context="com.example.tencho.mhgap2.oth_assessment">
 
     <TextView
         android:id="@+id/title"
@@ -34,7 +33,7 @@
                 android:id="@+id/question"
                 android:layout_width="match_parent"
                 android:layout_height="352dp"
-                android:text="@string/sucide_1"
+                android:text="@string/OTH_ass1"
                 android:textAlignment="textStart"
                 android:textSize="20sp"
                 tools:ignore="HardcodedText" />
