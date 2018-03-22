@@ -81,7 +81,6 @@
         <activity android:name=".oth_management" />
         <activity android:name=".protocol1" />
         <activity android:name=".dep_special_population" />
-        <activity android:name=".dep_caution" />
         <activity android:name=".dep_antidepressants" />
         <activity android:name=".dep_protocol2" />
         <activity android:name=".psy_protocol1" />

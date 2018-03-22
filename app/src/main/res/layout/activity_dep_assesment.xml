@@ -1,14 +1,19 @@
 <?xml version="1.0" encoding="utf-8"?>
-<LinearLayout
+<ScrollView
     xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:orientation="vertical"
     android:background="#881D6C"
     tools:context="com.example.tencho.mhgap2.Dep_assesment">
 
+<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+
+    >
 
     <TextView
         android:id="@+id/title"
@@ -23,82 +28,75 @@
         android:id="@+id/imageView4"
         android:layout_width="124dp"
         android:layout_height="86dp"
-        android:layout_marginLeft="120dp"
+        android:layout_gravity="center"
         app:srcCompat="@drawable/assesment" />
 
 
-    <ScrollView
-        android:id="@+id/scrollView2"
+    <LinearLayout
         android:layout_width="match_parent"
-        android:textColor="#ffffff"
-        android:layout_height="405dp"
-        android:layout_weight="0.66"
-        tools:ignore="InefficientWeight">
-
-        <LinearLayout
-            android:layout_width="match_parent"
-            android:layout_height="match_parent"
-            android:layout_marginTop="20dp"
-            android:layout_marginLeft="5dp"
-            android:layout_marginRight="5dp"
-            android:textColor="#ffffff"
-            tools:ignore="ScrollViewSize">
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="20dp">
 
 
             <TextView
                 android:id="@+id/question"
                 android:layout_width="match_parent"
-                android:layout_height="352dp"
+                android:layout_height="wrap_content"
                 android:textColor="#ffffff"
                 android:text="@string/fst"
                 android:textAlignment="center"
                 android:textSize="18sp"
                 tools:ignore="HardcodedText" />
         </LinearLayout>
-    </ScrollView>
+
     <LinearLayout
         android:layout_width="match_parent"
-        android:layout_height="65dp"
+        android:layout_height="match_parent"
+        android:background="#881D6C"
+        android:layout_marginBottom="20dp"
         android:orientation="horizontal"
-        android:weightSum="3">
+        >
 
         <Button
             android:id="@+id/yes"
-            android:layout_width="wrap_content"
-            android:layout_height="48dp"
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
             android:text="Yes"
             android:background="@drawable/depre"
             android:textColor="#881D6C"
             android:textSize="15sp"
-            android:layout_marginLeft="8dp"
-            android:layout_marginRight="8dp"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"
             android:layout_weight="1"
-            tools:ignore="ButtonStyle,HardcodedText,SmallSp" />
+            tools:ignore="ButtonStyle,HardcodedText,SmallSp"
+
+            />
 
         <Button
             android:id="@+id/no"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
             android:text="No"
             android:layout_weight="1"
-            android:layout_marginLeft="8dp"
-            android:layout_marginRight="8dp"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"
             android:background="@drawable/depre"
             android:textColor="#881D6C"
             android:textSize="15sp"
             tools:ignore="ButtonStyle,HardcodedText,SmallSp" />
         <Button
             android:id="@+id/oth"
-            android:layout_width="wrap_content"
-            android:layout_height="48dp"
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
             android:background="@drawable/depre"
             android:textColor="#881D6C"
             android:text="oth"
-            android:layout_marginLeft="8dp"
-            android:layout_marginRight="8dp"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"
             android:textSize="15sp"
             android:layout_weight="1"
             tools:ignore="ButtonStyle,HardcodedText,SmallSp"/>
 
     </LinearLayout>
 </LinearLayout>
+</ScrollView>

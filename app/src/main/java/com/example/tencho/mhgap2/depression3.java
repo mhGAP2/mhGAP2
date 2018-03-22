@@ -14,7 +14,6 @@ public class depression3 extends AppCompatActivity {
 
     Button btn1;
     Button btn2;
-    Button btn3;
     Button btn4;
     Button btn5;
 
@@ -45,14 +44,6 @@ public class depression3 extends AppCompatActivity {
         });
 
 
-        btn3=(Button)findViewById(R.id.button4);
-        btn3.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View view) {
-                Intent intent = new Intent(depression3.this,dep_caution.class);
-                startActivity(intent);
-            }
-        });
 
         btn4=(Button)findViewById(R.id.button3);
         btn4.setOnClickListener(new View.OnClickListener() {
