@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="depression_content">
+        -> Multiple persistent physical symptoms with no clear cause \n
+        -> Low energy, fatigue, sleep problems \n
+        -> Persistent sadness or depressed mood, anxiety \n
+        -> Loss of interest or pleasure in activities that are normally pleasurable \n
+    </string>
+    <string name="psy_content">
+        -> Marked behavioural changes; neglecting usual responsibilities related to work,  school, domestic or social activities \n
+        -> Agitated, aggressive behavior, decreased or increased activity  \n
+        -> Fixed false beliefs not shared by others in the person’s culture  \n
+        -> Hearing voices or seeing things that are not there   \n
+        -> Lack of realization that one is having mental health problems \n
+    </string>
+    <string name="EPILEPSY_content">
+        ->  Convulsive movement or ?ts/seizures \n
+        ->  During the convulsion: loss of consciousness or impaired consciousness, stiffness,  rigidity, tongue bite, injury, incontinence of urine or faeces  \n
+        ->  After the convulsion: fatigue, drowsiness, sleepiness, confusion, abnormal behaviour,  headache, muscle aches, or weakness on one side of the body \n
+    </string>
+    <string name="Disorder_content">
+        ->  Child/adolescent being seen for physical complaints or a general health assessment who has: \n
+        -> Problem with development, emotions or behaviour (e.g. inattention, over-activity, or repeated de?ant, disobedient and
+           aggressive behaviour) \n
+        -> Risk factors such as malnutrition, abuse and/or neglect, frequent illness, chronic diseases (e.g. HIV/AIDS or history
+           of dif?cult birth) \n
+        -> Carer with concerns about the child/adolescent’s: \n
+        -> Diffculty keeping up with peers or carrying out daily activities considered normal for age \n
+        -> Behaviour (e.g. too active, aggressive, having frequent and/or severe tantrums, wanting to be alone too much,
+           refusing to do regular activities or go to school) \n
+        -> Teacher with concerns about a child/adolescent \n
+         -> e.g. easily distracted, disruptive in class, often getting into trouble, dif?culty completing school work
+             Community health or social services worker with concerns about a child/adolescent \n
+        -> e.g. rule- or law-breaking behaviour, physical aggression at home or in the community \n
+    </string>
+    <string name="DEMENTIA_content">
+        -> Decline or problems with memory (severe forgetfulness) and orientation (awareness of time, place and person) \n
+        -> Mood or behavioural problems such as apathy (appearing uninterested) or irritability \n
+        -> Loss of emotional control (easily upset, irritable or tearful) Dif?culties in carrying out usual work, domestic or
+        social activities \n
+    </string>
+    <string name="SUBSTANCEUSE_content">
+         -> Appearing affected by alcohol or other substance (e.g. smell of alcohol, slurred speech, sedated, erratic behaviour) \n
+        -> Signs and symptoms of acute behavioural effects, withdrawal features or effects of prolonged use \n
+        -> Deterioration of social functioning (i.e. dif?culties at work or home, unkempt appearance) \n
+        -> Signs of chronic liver disease (abnormal liver enzymes), jaundiced (yellow) skin and eyes, palpable and tender liver
+        edge (in early liver disease), ascites (distended abdomen is ?lled with ?uid), spider naevi (spider-like blood vessels
+        visible on the surface of the skin), and altered mental status (hepatic encephalopathy) \n
+        -> Problems with balance, walking, coordinated movements, and nystagmus \n
+        -> Incidental ?ndings: macrocytic anaemia, low platelet count, elevated mean corpuscular volume (MCV) \n
+        -> Emergency presentation due to substance withdrawal, overdose, or intoxication. Person may appear sedated,
+        overstimulated, agitated, anxious or confused"\n"> Persons with disorders due to substance use may not report any
+        problems with substance use. Look for:"\n"\t – Recurrent requests for psychoactive medications including analgesics \n
+        \t – Injuries \n \t – Infections associated with intravenous drug use (HIV/AIDS, Hepatitis C) \n
+    </string>
+    <string name="SUICIDE_content">
+        -> Extreme hopelessness and despair \n
+        -> Current thoughts, plan or act of self-harm/ suicide, or history thereof \n
+        -> Any of the other priority conditions, chronic pain, or extreme emotional distress \n
+    </string>
+    <string name="child_and_adolescent_mental_and_behavioural_disorders_cmh">CHILD and ADOLESCENT MENTAL and BEHAVIOURAL DISORDERS (CMH)</string>
+    <string name="dementia">DEMENTIA</string>
+    <string name="depression">DEPRESSION</string>
+    <string name="disorders_due_to_substance_use_sub">DISORDERS DUE TO SUBSTANCE USE (SUB)</string>
+    <string name="epilepsy">EPILEPSY</string>
+    <string name="psychoses">PSYCHOSES</string>
+    <string name="self_harm_suicide_sui">SELF-HARM/SUICIDE (SUI)</string>
+</resources>

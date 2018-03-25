@@ -1,18 +1,9 @@
 package com.example.tencho.mhgap2;
 
-import android.app.Activity;
 import android.os.Bundle;
 import android.view.View;
-import android.widget.AdapterView;
-import android.widget.ArrayAdapter;
-import android.widget.ListAdapter;
-import android.widget.ListView;
-import android.widget.Toast;
+import android.widget.TextView;
 import android.content.Intent;
-import android.os.Bundle;
-import android.support.design.widget.FloatingActionButton;
-import android.support.design.widget.Snackbar;
-import android.view.View;
 import android.support.design.widget.NavigationView;
 import android.support.v4.view.GravityCompat;
 import android.support.v4.widget.DrawerLayout;
@@ -21,35 +12,17 @@ import android.support.v7.app.AppCompatActivity;
 import android.support.v7.widget.Toolbar;
 import android.view.Menu;
 import android.view.MenuItem;
-import android.widget.Button;
 
 public class master extends AppCompatActivity
     implements NavigationView.OnNavigationItemSelectedListener {
+    TextView t1,t2,t3,t4,t5,t6,t7;
 
-    String[] diseases;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_master);
 
-        diseases = getResources().getStringArray(R.array.depcontent);
-        ListAdapter jamsAdapter = new ArrayAdapter<String>(this,android.R.layout.simple_list_item_1,diseases);
-        ListView jamlist = (ListView) findViewById(R.id.jamlist);
-        jamlist.setAdapter(jamsAdapter);
-
-        jamlist.setOnItemClickListener(
-                new AdapterView.OnItemClickListener(){
-
-                    @Override
-                    public void onItemClick(AdapterView<?> parent, View view, int position, long id) {
-                        String disease= String.valueOf(parent.getItemAtPosition(position));
-                        Toast.makeText(master.this,disease,Toast.LENGTH_LONG).show();
-                    }
-                }
-
-
-        );
 
         Toolbar toolbar = (Toolbar) findViewById(R.id.toolbar);
         setSupportActionBar(toolbar);
@@ -62,6 +35,63 @@ public class master extends AppCompatActivity
 
         NavigationView navigationView = (NavigationView) findViewById(R.id.nav_view);
         navigationView.setNavigationItemSelectedListener(this);
+
+        t1 =(TextView)findViewById(R.id.dep);
+        t1.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                Intent intent =new Intent(master.this,Depression1.class);
+                startActivity(intent);
+            }
+        });
+        t2 =(TextView)findViewById(R.id.Psyo);
+        t2.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                Intent intent =new Intent(master.this,psychoses.class);
+                startActivity(intent);
+            }
+        });
+        t3 =(TextView)findViewById(R.id.EPILEPSY);
+        t3.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                Intent intent =new Intent(master.this,epilipsy.class);
+                startActivity(intent);
+            }
+        });
+        t4 =(TextView)findViewById(R.id.DISORDER);
+        t4.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                Intent intent =new Intent(master.this,behavioural.class);
+                startActivity(intent);
+            }
+        });
+        t5 =(TextView)findViewById(R.id.DEMENTIA);
+        t5.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                Intent intent =new Intent(master.this,dementia.class);
+                startActivity(intent);
+            }
+        });
+        t6 =(TextView)findViewById(R.id.SUBSTANCEUSE);
+        t6.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                Intent intent =new Intent(master.this,substance.class);
+                startActivity(intent);
+            }
+        });
+        t7 =(TextView)findViewById(R.id.SUICIDE);
+        t7.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                Intent intent =new Intent(master.this,suicide.class);
+                startActivity(intent);
+            }
+        });
     }
 
     @Override

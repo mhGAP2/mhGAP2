@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
@@ -8,14 +8,95 @@
     tools:context="com.example.tencho.mhgap2.master"
     tools:showIn="@layout/app_bar_master">
 
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        tools:ignore="UselessParent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/dep"
+                style="@style/tview"
+                android:text="@string/depression"
+                android:textColor="#870f05" />
+
+            <TextView
+                android:id="@+id/depc"
+                style="@style/tview_content"
+                android:text="@string/depression_content"
+                android:textAppearance="@android:style/TextAppearance.Holo" />
+
+            <TextView
+                android:id="@+id/Psyo"
+                style="@style/tview"
+                android:text="@string/psychoses"
+                android:textColor="#6f0aa9" />
+
+            <TextView
+                android:id="@+id/Psyoc"
+                style="@style/tview_content"
+                android:text="@string/psy_content" />
+
+            <TextView
+                android:id="@+id/EPILEPSY"
+                style="@style/tview"
+                android:text="@string/epilepsy"
+                android:textColor="#0c6ac9" />
+
+            <TextView
+                android:id="@+id/EPILEPSY_content"
+                style="@style/tview_content"
+                android:text="@string/EPILEPSY_content" />
+
+            <TextView
+                android:id="@+id/DISORDER"
+                style="@style/tview"
+                android:text="@string/child_and_adolescent_mental_and_behavioural_disorders_cmh"
+                android:textColor="#08a406" />
+
+            <TextView
+                android:id="@+id/DISORDER_content"
+                style="@style/tview_content"
+                android:text="@string/Disorder_content" />
+
+            <TextView
+                android:id="@+id/DEMENTIA"
+                style="@style/tview"
+                android:text="@string/dementia"
+                android:textColor="#6ca413" />
+
+            <TextView
+                android:id="@+id/DEM_content"
+                style="@style/tview_content"
+                android:text="@string/DEMENTIA_content" />
+
+            <TextView
+                android:id="@+id/SUBSTANCEUSE"
+                style="@style/tview"
+                android:text="@string/disorders_due_to_substance_use_sub"
+                android:textColor="#f18d23" />
+
+            <TextView
+                android:id="@+id/SUBSTANCEUSE_content"
+                style="@style/tview_content"
+                android:text="@string/SUBSTANCEUSE_content" />
+
+            <TextView
+                android:id="@+id/SUICIDE"
+                style="@style/tview"
+                android:text="@string/self_harm_suicide_sui"
+                android:textColor="#cf4607" />
+
+            <TextView
+                android:id="@+id/SUICIDE_content"
+                style="@style/tview_content"
+                android:text="@string/SUICIDE_content" />
+        </LinearLayout>
+    </ScrollView>
 
 
-
-    <ListView
-        android:id="@+id/jamlist"
-        android:layout_width="368dp"
-        android:layout_height="551dp"
-        tools:layout_editor_absoluteX="8dp"
-        tools:layout_editor_absoluteY="8dp">
-    </ListView>
-</android.support.constraint.ConstraintLayout>
+</LinearLayout>
