@@ -1,90 +1,99 @@
 <?xml version="1.0" encoding="utf-8"?>
-<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
-    xmlns:app="http://schemas.android.com/apk/res-auto"
-    xmlns:tools="http://schemas.android.com/tools"
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+xmlns:app="http://schemas.android.com/apk/res-auto"
+xmlns:tools="http://schemas.android.com/tools"
+android:layout_width="match_parent"
+android:layout_height="match_parent"
+tools:context="com.example.tencho.mhgap2.Depression1"
+android:background="#223C97">
+
+
+<LinearLayout
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context="com.example.tencho.mhgap2.psy_management"
-    android:background="#223C97">
+    android:orientation="vertical"
+    android:weightSum="1">
 
 
-    <LinearLayout
-        android:layout_width="368dp"
-        android:layout_height="0dp"
-        android:orientation="vertical"
-        tools:layout_constraintTop_creator="1"
-        tools:layout_constraintBottom_creator="1"
-        android:layout_marginStart="8dp"
-        app:layout_constraintBottom_toBottomOf="parent"
-        android:layout_marginTop="8dp"
-        tools:layout_constraintLeft_creator="1"
-        android:layout_marginBottom="8dp"
-        app:layout_constraintLeft_toLeftOf="parent"
-        app:layout_constraintTop_toTopOf="parent">
+    <TextView
+        android:layout_marginTop="20dp"
+        android:id="@+id/textView16"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textColor="#FFFFFF"
+        android:text="Management"
+        android:textAlignment="center"
+        android:textSize="35dp"
+        tools:ignore="HardcodedText,SpUsage" />
 
 
-        <TextView
-            android:layout_marginTop="20dp"
-            android:id="@+id/textView16"
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:textColor="#FFFFFF"
-            android:text="Management"
-            android:textAlignment="center"
-            android:layout_marginBottom="50dp"
-            android:textSize="35dp"
-            tools:ignore="HardcodedText,SpUsage" />
 
-        <Button
-            android:id="@+id/button1"
-            android:layout_width="270dp"
-            android:layout_height="52dp"
-            android:layout_marginLeft="45dp"
-            android:layout_marginBottom="20dp"
-            android:background="@drawable/depre"
-            android:text="Protocol 1"
-            android:textColor="#223C97"
-            android:textSize="18dp"
-            tools:ignore="HardcodedText,RtlHardcoded,SpUsage" />
+    <ImageView
+        android:id="@+id/imageView3"
+        android:layout_width="104dp"
+        android:layout_height="97dp"
+        android:layout_gravity="center"
+        app:srcCompat="@drawable/management"
+        android:layout_weight="0.15" />
 
-        <Button
-            android:id="@+id/button2"
-            android:layout_width="270dp"
-            android:layout_height="52dp"
-            android:layout_marginBottom="20dp"
-            android:layout_marginLeft="45dp"
-            android:background="@drawable/depre"
-            android:text="protocol 2"
-            android:textColor="#223C97"
-            android:textSize="18dp"
-            tools:ignore="HardcodedText,RtlHardcoded,SpUsage" />
+    <Button
+        android:id="@+id/button1"
+        android:layout_width="match_parent"
+        android:layout_height="52dp"
+        android:layout_marginLeft="55dp"
+        android:layout_marginRight="55dp"
+        android:layout_marginTop="20dp"
+        android:layout_marginBottom="20dp"
 
-        <Button
-            android:id="@+id/button3"
-            android:layout_width="270dp"
-            android:layout_height="52dp"
-            android:background="@drawable/depre"
-            android:layout_marginLeft="45dp"
-            android:layout_marginBottom="20dp"
-            android:text="Special population"
-            android:textColor="#223C97"
-            android:textSize="18dp"
-            tools:ignore="HardcodedText,RtlHardcoded,SpUsage" />
+        android:background="@drawable/depre"
+        android:text="Protocol 1"
+        android:textColor="#223C97"
+        android:textSize="18dp"
+        tools:ignore="HardcodedText,RtlHardcoded,SpUsage" />
+
+    <Button
+        android:id="@+id/button2"
+        android:layout_width="match_parent"
+        android:layout_height="52dp"
+        android:layout_marginLeft="55dp"
+        android:layout_marginRight="55dp"
+        android:layout_marginBottom="20dp"
+
+        android:background="@drawable/depre"
+        android:text="protocol 2"
+        android:textColor="#223C97"
+        android:textSize="18dp"
+        tools:ignore="HardcodedText,RtlHardcoded,SpUsage" />
+
+    <Button
+        android:id="@+id/button3"
+        android:layout_width="match_parent"
+        android:layout_height="52dp"
+        android:layout_marginLeft="55dp"
+        android:layout_marginRight="55dp"
+        android:background="@drawable/depre"
+        android:layout_marginBottom="20dp"
+        android:text="Special population"
+        android:textColor="#223C97"
+        android:textSize="18dp"
+        tools:ignore="HardcodedText,RtlHardcoded,SpUsage" />
 
 
-        <Button
-            android:id="@+id/button5"
-            android:layout_width="270dp"
-            android:layout_height="52dp"
-            android:background="@drawable/depre"
-            android:layout_marginLeft="45dp"
-            android:layout_marginBottom="20dp"
-            android:text="Medications"
-            android:textColor="#223C97"
-            android:textSize="18dp"
-            tools:ignore="HardcodedText,RtlHardcoded,SpUsage" />
 
-    </LinearLayout>
-</android.support.constraint.ConstraintLayout>
+    <Button
+        android:id="@+id/button5"
+        android:layout_width="match_parent"
+        android:layout_height="52dp"
+        android:layout_marginLeft="55dp"
+        android:layout_marginRight="55dp"
+        android:background="@drawable/depre"
+        android:layout_marginBottom="20dp"
+        android:text="Medications"
+        android:textColor="#223C97"
+        android:textSize="18dp"
+        tools:ignore="HardcodedText,RtlHardcoded,SpUsage" />
+
+</LinearLayout>
+</ScrollView>
 
 

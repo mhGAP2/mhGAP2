@@ -39,7 +39,7 @@ public class epilipsy1 extends AppCompatActivity {
         btn3.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                Intent intent = new Intent(epilipsy1.this, epi_followup.class);
+                Intent intent = new Intent(epilipsy1.this, epi_followupp.class);
                 startActivity(intent);
             }
         });

@@ -39,7 +39,7 @@
             android:layout_marginTop="2dp"
             android:layout_weight="1"
             android:textColor="#ffffff"
-            android:textSize="15dp"
+            android:textSize="18sp"
             android:text="@string/dep" />
 
 

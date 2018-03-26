@@ -18,7 +18,7 @@ public class behavioural extends AppCompatActivity {
         getWindow().setFlags(WindowManager.LayoutParams.FLAG_FULLSCREEN,WindowManager.LayoutParams.FLAG_FULLSCREEN);
         setContentView(R.layout.activity_behavioural);
 
-        btn=(Button)findViewById(R.id.bevbutton);
+        btn=(Button)findViewById(R.id.suibutton);
         btn.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {

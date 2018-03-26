@@ -1,80 +1,97 @@
 <?xml version="1.0" encoding="utf-8"?>
-<LinearLayout
+<ScrollView
     xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:orientation="vertical"
+    android:background="#223C97"
     tools:context="com.example.tencho.mhgap2.psy_followup1">
+
+    <LinearLayout
+        android:layout_height="match_parent"
+        android:layout_width="match_parent"
+        android:orientation="vertical">
 
     <TextView
         android:id="@+id/title"
-        android:text="Test your Health"
-        android:textSize="20sp"
-        android:textAlignment="center"
+        android:text="Follow-up"
         android:layout_width="match_parent"
+        android:textColor="#ffffff"
+        android:textSize="35sp"
         android:layout_height="wrap_content"
+        android:textAlignment="center"
         tools:ignore="HardcodedText" />
 
-    <ScrollView
-        android:id="@+id/scrollView2"
-        android:layout_width="match_parent"
-        android:layout_height="0dp"
-        android:scrollbarStyle="insideOverlay"
-        android:layout_weight="0.95">
 
-        <LinearLayout
-            android:layout_width="match_parent"
-            android:layout_height="match_parent"
-            android:layout_marginTop="20dp"
-            android:orientation="horizontal"
-            tools:ignore="ScrollViewSize">
+        <ImageView
+            android:id="@+id/imageView10"
+            android:layout_width="124dp"
+            android:layout_gravity="center"
+            android:layout_height="86dp"
+            app:srcCompat="@drawable/followup" />
 
-            <TextView
+        <TextView
                 android:id="@+id/question"
+                android:textColor="#ffffff"
+                android:layout_marginTop="10dp"
                 android:layout_width="match_parent"
-                android:layout_height="match_parent"
+                android:layout_height="wrap_content"
                 android:text="@string/pf1"
-                android:textAlignment="textStart"
+                android:textAlignment="center"
                 android:textSize="20sp"
                 tools:ignore="HardcodedText" />
-        </LinearLayout>
-    </ScrollView>
+
+
 
     <LinearLayout
         android:layout_width="match_parent"
         android:layout_height="50dp"
-        android:background="#15e553"
+        android:background="#223C97"
+        android:layout_marginTop="20dp"
+        android:layout_marginBottom="20dp"
         android:orientation="horizontal"
         android:weightSum="3">
 
         <Button
             android:id="@+id/yes"
-            android:layout_width="wrap_content"
-            android:layout_height="48dp"
+            android:layout_width="match_parent"
             android:layout_weight="1"
             android:text="Yes"
-            android:textSize="10sp"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"
+            android:background="@drawable/depre"
+            android:layout_height="40dp"
+            android:textColor="#223C97"
+            android:textSize="15sp"
             tools:ignore="ButtonStyle,HardcodedText,SmallSp" />
 
         <Button
             android:id="@+id/no"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
+            android:layout_width="match_parent"
+            android:background="@drawable/depre"
             android:layout_weight="1"
             android:text="No"
-            android:textColor="#123"
-            android:textSize="10sp"
+            android:layout_marginRight="10dp"
+            android:layout_height="40dp"
+            android:layout_marginLeft="10dp"
+            android:textColor="#223C97"
+            android:textSize="15sp"
             tools:ignore="ButtonStyle,HardcodedText,SmallSp" />
 
         <Button
             android:id="@+id/oth"
-            android:layout_width="wrap_content"
-            android:layout_height="48dp"
+            android:layout_width="match_parent"
+            android:background="@drawable/depre"
             android:layout_weight="1"
+            android:layout_height="40dp"
+            android:layout_marginLeft="10dp"
+            android:textColor="#223C97"
+            android:layout_marginRight="10dp"
             android:text="oth"
-            android:textSize="10sp"
+            android:textSize="15sp"
             tools:ignore="ButtonStyle,HardcodedText,SmallSp" />
     </LinearLayout>
-</LinearLayout>
+    </LinearLayout>
+</ScrollView>
 

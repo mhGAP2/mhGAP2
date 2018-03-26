@@ -12,6 +12,7 @@
         <activity android:name=".splashActivity">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
+
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
@@ -98,13 +99,11 @@
         <activity android:name=".Oth1" />
         <activity android:name=".psy_followup1" />
         <activity android:name=".psy_followup2" />
-        <activity android:name=".epi_followup" />
         <activity android:name=".Cmh" />
         <activity android:name=".Suicideprot1" />
         <activity android:name=".Suicideproto1_2" />
         <activity android:name=".Suicideprot2" />
         <activity android:name=".Suicideprot3" />
-        <activity android:name=".Epi" />
         <activity android:name=".Epi_spec" />
         <activity android:name=".Substance_spe" />
         <activity android:name=".behavioural_followup" />
@@ -115,7 +114,8 @@
         <activity android:name=".Substanceuse_Assessment_Emergency" />
         <activity android:name=".suicide_followup" />
         <activity android:name=".oth_assessment" />
-        <activity android:name=".oth_followup"></activity>
+        <activity android:name=".oth_followup" />
+        <activity android:name=".epi_followupp"></activity>
     </application>
 
 </manifest>

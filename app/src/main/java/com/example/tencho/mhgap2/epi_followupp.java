@@ -4,10 +4,13 @@ import android.content.Intent;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 import android.view.View;
+import android.view.Window;
+import android.view.WindowManager;
 import android.widget.Button;
 import android.widget.TextView;
 
-public class epi_followup extends AppCompatActivity {
+public class epi_followupp extends AppCompatActivity {
+
     private TextView mquestion;
     private Button mtruebtn, mfalsebtn, othbtn;
 
@@ -18,7 +21,9 @@ public class epi_followup extends AppCompatActivity {
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_epi_followup);
+        requestWindowFeature(Window.FEATURE_NO_TITLE);
+        getWindow().setFlags(WindowManager.LayoutParams.FLAG_FULLSCREEN,WindowManager.LayoutParams.FLAG_FULLSCREEN);
+        setContentView(R.layout.activity_epi_followupp);
 
         YesQuestions = getResources().getStringArray(R.array.Epi_FollowUp_Yes);
         NoQuestions = getResources().getStringArray(R.array.Epi_FollowUp_No);
@@ -50,13 +55,12 @@ public class epi_followup extends AppCompatActivity {
             public void onClick(View view) {
                 if(othbtn.getText().toString().equalsIgnoreCase("GO TO Protocol 1"))
                 {
-                    Intent intent =new Intent(epi_followup.this,epilipsy2.class);
+                    Intent intent =new Intent(epi_followupp.this,epilipsy2.class);
                     startActivity(intent);
-
                 }
                 else if(othbtn.getText().toString().equalsIgnoreCase("Home"))
                 {
-                    Intent intent =new Intent(epi_followup.this,HomeActivity.class);
+                    Intent intent =new Intent(epi_followupp.this,HomeActivity.class);
                     startActivity(intent);
                 }
 

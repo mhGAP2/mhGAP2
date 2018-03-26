@@ -1,18 +1,41 @@
 <?xml version="1.0" encoding="utf-8"?>
-<LinearLayout
+<ScrollView
     xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:orientation="vertical"
+    android:background="#223C97"
     tools:context="com.example.tencho.mhgap2.psy_followup">
 
+<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <TextView
+        android:id="@+id/textView37"
+        android:layout_width="match_parent"
+        android:textColor="#ffffff"
+        android:textSize="35sp"
+        android:layout_height="wrap_content"
+        android:textAlignment="center"
+        android:text="Follow_up" />
+
+    <ImageView
+        android:id="@+id/imageView9"
+        android:layout_width="124dp"
+        android:layout_gravity="center"
+        android:layout_height="86dp"
+        app:srcCompat="@drawable/followup" />
 
     <Button
         android:id="@+id/follow1"
-        android:layout_margin="50dp"
+        android:background="@drawable/depre"
         android:layout_width="match_parent"
+        android:layout_marginRight="55dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginLeft="55dp"
         android:layout_height="wrap_content"
         android:text="PSYCHOSIS"
         tools:ignore="HardcodedText" />
@@ -21,6 +44,11 @@
         android:id="@+id/follow2"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
+        android:layout_marginRight="55dp"
+        android:layout_marginLeft="55dp"
+        android:layout_marginTop="15dp"
+        android:background="@drawable/depre"
         android:text="MANIC EPISODE IN BIPOLAR DISORDER"
         tools:ignore="HardcodedText" />
-</LinearLayout>
+    </LinearLayout>
+</ScrollView>
