@@ -37,16 +37,18 @@
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:textAlignment="center"
-                android:textSize="25dp"
+                android:textSize="25sp"
+                android:fontFamily="sans-serif-condensed"
+                android:textStyle="bold"
                 android:textColor="#035777"
                 android:text="How to use the mhGAP App" />
-
-
             <TextView
                 android:id="@+id/textView11"
                 android:layout_marginTop="13dp"
                 android:layout_width="match_parent"
                 android:textColor="#0b0b0b"
+                android:textSize="14sp"
+                android:fontFamily="sans-serif-condensed"
                 android:layout_height="wrap_content"
                 android:text="@string/help1" />
 
@@ -55,6 +57,8 @@
                 android:layout_width="match_parent"
                 android:layout_marginTop="13dp"
                 android:textColor="#0b0b0b"
+                android:fontFamily="sans-serif-condensed"
+                android:textSize="14sp"
                 android:layout_height="wrap_content"
                 android:text="@string/help2"/>
 

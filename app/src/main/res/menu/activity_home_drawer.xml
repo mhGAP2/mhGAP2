@@ -18,10 +18,7 @@
             android:id="@+id/help"
             android:icon="@drawable/iconglossery"
             android:title="Help" />
-
-
     </group>
-
     <item android:title="Communicate">
         <menu>
             <item

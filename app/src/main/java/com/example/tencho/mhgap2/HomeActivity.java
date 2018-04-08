@@ -16,9 +16,12 @@ import android.view.MenuItem;
 import android.view.Window;
 import android.view.WindowManager;
 import android.widget.Button;
+import android.widget.Toast;
+
 public class HomeActivity extends AppCompatActivity
         implements NavigationView.OnNavigationItemSelectedListener {
     Button btn1,btn2,btn3,btn4,btn5,btn6,btn7,btn8;
+    private long back_pressed =0;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -26,7 +29,6 @@ public class HomeActivity extends AppCompatActivity
         setContentView(R.layout.activity_home);
         Toolbar toolbar = (Toolbar) findViewById(R.id.toolbar);
         setSupportActionBar(toolbar);
-
 
         DrawerLayout drawer = (DrawerLayout) findViewById(R.id.drawer_layout);
         ActionBarDrawerToggle toggle = new ActionBarDrawerToggle(
@@ -123,7 +125,13 @@ public class HomeActivity extends AppCompatActivity
         if (drawer.isDrawerOpen(GravityCompat.START)) {
             drawer.closeDrawer(GravityCompat.START);
         } else {
-            super.onBackPressed();
+            if (back_pressed + 2000 > System.currentTimeMillis()) {
+                finishAffinity();
+            } else {
+                Toast.makeText(getBaseContext(), "Press once again to exit",
+                        Toast.LENGTH_SHORT).show();
+                back_pressed = System.currentTimeMillis();
+            }
         }
     }
 

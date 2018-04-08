@@ -10,18 +10,16 @@
     <LinearLayout
         android:layout_width="match_parent"
         android:layout_height="match_parent"
-        android:orientation="vertical"
-        >
-
+        android:orientation="vertical">
     <TextView
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:text="PSYCHOSES"
-
         android:layout_marginTop="10dp"
         android:textAlignment="center"
         android:textColor="#FFFFFF"
-        android:textSize="35sp"
+        android:textSize="30sp"
+        android:fontFamily="sans-serif-condensed"
         android:id="@+id/textView"
         tools:ignore="HardcodedText,SpUsage" />
     <TextView
@@ -31,9 +29,9 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:textColor="#ffffff"
-        android:textSize="15sp"
-        android:text="@string/psy"
-   />
+        android:textSize="16sp"
+        android:fontFamily="sans-serif-condensed"
+        android:text="@string/psy" />
     <Button
         android:id="@+id/btnpsy"
         android:layout_width="200dp"
