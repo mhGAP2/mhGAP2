@@ -1,6 +1,8 @@
 package com.example.tencho.mhgap2;
 
+import android.content.Intent;
 import android.os.Bundle;
+import android.provider.ContactsContract;
 import android.support.design.widget.FloatingActionButton;
 import android.support.design.widget.Snackbar;
 import android.view.View;
@@ -61,7 +63,6 @@ public class Contactus extends AppCompatActivity
         if (id == R.id.action_settings) {
             return true;
         }
-
         return super.onOptionsItemSelected(item);
     }
 
@@ -72,16 +73,31 @@ public class Contactus extends AppCompatActivity
         int id = item.getItemId();
 
         if (id == R.id.essentials) {
+            Intent intent=new Intent(Contactus.this,Essential.class);
+            startActivity(intent);
 
         } else if (id == R.id.master) {
+            Intent intent=new Intent(Contactus.this,master.class);
+            startActivity(intent);
 
         }else if (id == R.id.glossery) {
+            Intent intent=new Intent(Contactus.this,Glossery.class);
+            startActivity(intent);
+
+        }
+        else if (id == R.id.help) {
+            Intent intent=new Intent(Contactus.this,help.class);
+            startActivity(intent);
 
         }
         else if (id == R.id.contact) {
+            Intent intent=new Intent(Contactus.this,Contactus.class);
+            startActivity(intent);
 
         }
         else if (id == R.id.Aboutus) {
+            Intent intent=new Intent(Contactus.this,Aboutus.class);
+            startActivity(intent);
         }
         DrawerLayout drawer = (DrawerLayout) findViewById(R.id.drawer_layout);
         drawer.closeDrawer(GravityCompat.START);

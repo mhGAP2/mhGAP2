@@ -134,23 +134,32 @@ public class master extends AppCompatActivity
         // Handle navigation view item clicks here.
         int id = item.getItemId();
 
-         if (id == R.id.essentials) {
-            Intent intent = new Intent(master.this, Essential.class);
+        if (id == R.id.essentials) {
+            Intent intent=new Intent(master.this,Essential.class);
             startActivity(intent);
 
         } else if (id == R.id.master) {
-            Intent intent = new Intent(master.this, master.class);
+            Intent intent=new Intent(master.this,master.class);
             startActivity(intent);
 
-        } else if (id == R.id.glossery) {
-            Intent intent = new Intent(master.this, Glossery.class);
+        }else if (id == R.id.glossery) {
+            Intent intent=new Intent(master.this,Glossery.class);
             startActivity(intent);
 
-        } else if (id == R.id.contact) {
-            Intent intent = new Intent(master.this, Contactus.class);
+        }
+        else if (id == R.id.help) {
+            Intent intent=new Intent(master.this,help.class);
             startActivity(intent);
 
-        } else if (id == R.id.Aboutus) {
+        }
+        else if (id == R.id.contact) {
+            Intent intent=new Intent(master.this,Contactus.class);
+            startActivity(intent);
+
+        }
+        else if (id == R.id.Aboutus) {
+            Intent intent=new Intent(master.this,Aboutus.class);
+            startActivity(intent);
         }
         DrawerLayout drawer = (DrawerLayout) findViewById(R.id.drawer_layout);
         drawer.closeDrawer(GravityCompat.START);

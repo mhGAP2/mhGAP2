@@ -51,7 +51,7 @@ public class suicide_followup extends AppCompatActivity {
             public void onClick(View view) {
                 if(othbtn.getText().toString().equals("Goto Assessment"))
                 {
-                    Intent intent = new Intent(suicide_followup.this, suicide2.class);
+                    Intent intent = new Intent(suicide_followup.this, sui_assesment.class);
                     startActivity(intent);
                 }
             }

@@ -134,6 +134,12 @@ public class HomeActivity extends AppCompatActivity
             }
         }
     }
+    @Override
+    public boolean onCreateOptionsMenu(Menu menu) {
+        // Inflate the menu; this adds items to the action bar if it is present.
+        getMenuInflater().inflate(R.menu.share, menu);
+        return true;
+    }
 
     @Override
     public boolean onOptionsItemSelected(MenuItem item) {
@@ -144,9 +150,10 @@ public class HomeActivity extends AppCompatActivity
 
         //noinspection SimplifiableIfStatement
         if (id == R.id.action_settings) {
-            return true;
+            Intent intent = new Intent(HomeActivity.this, master.class);
+            startActivity(intent);
+           return true;
         }
-
         return super.onOptionsItemSelected(item);
     }
 
@@ -183,13 +190,6 @@ public class HomeActivity extends AppCompatActivity
             Intent intent=new Intent(HomeActivity.this,Aboutus.class);
             startActivity(intent);
                     }
-         else if (id == R.id.shareApp) {
-             Intent share=new Intent(Intent.ACTION_SEND);
-             share.setType("text/*");
-             share.putExtra(Intent.EXTRA_TEXT,"play.google.com");
-             startActivity(Intent.createChooser(share,"Share Using"));
-             return true;
-         }
         DrawerLayout drawer = (DrawerLayout) findViewById(R.id.drawer_layout);
         drawer.closeDrawer(GravityCompat.START);
         return true;

@@ -22,7 +22,8 @@
             –  Reduced concentration\n
             –  Indecisiveness \n
             –  Observable agitation or physical restlessness \n
-            –  Talking or moving more slowly than usual –  Hopelessness \n
+            –  Talking or moving more slowly than usual \n
+            –  Hopelessness \n
             –  Suicidal thoughts or acts
 
         </item>
@@ -30,12 +31,12 @@
             daily functioning in personal, family, social, educational, occupational or other areas?\n\n
         </item>
 
-        <item> 2) \n
-            <b>Consider DEPRESSION</b>\n
-            Are there other possible explanations  for the symptoms?
+        <item><b>Consider DEPRESSION</b> \n \n
+            2) \n
+            Are there other possible explanations  for the symptoms? \n
             IS THIS A PHYSICAL CONDITION THAT CAN RESEMBLE OR EXACERBATE DEPRESSION? \n\n
             Are there signs and symptoms suggesting anaemia, malnutrition,  hypothyroidism,
-            mood changes from substance use and medication side-effects  (e.g. mood changes from steroids)
+            mood changes from substance use and medication side-effects  (e.g. mood changes from steroids)?
         </item>
         <item>  - MANAGE THE PHYSICAL CONDITION \n\n
             Do depressive symptoms remain after treatment?
@@ -43,30 +44,30 @@
         <item> <b>IS THERE A HISTORY OF MANIA? </b>\n
             Have several of the following symptoms occurred simultaneously, lasting for at least 1 week, and
             severely enough to interfere signiﬁcantly with work and social activities or requiring hospitalization or
-            conﬁnement? \n
+            conﬁnement? \n \n
             – Elevation of mood and/or irritability \n
             – Decreased need for sleep \n
             –  Increased activity, feeling of increased energy, increased  talkativeness or rapid speech \n
             –  Impulsive or reckless behaviours such as excessive spending, making important decisions without
-            planning and sexual indiscretion
+            planning and sexual indiscretion \n
             – Loss of normal social inhibitions resulting in inappropriate behaviours \n
             – Being easily distracted \n
             – Unrelistically inflated self-esteem \n
         </item>
         <item>DEPRESSIVE EPISODE IN BIPOLAR DISORDER is likely \n\n
-               Go to STEP  3  then to PROTOCOL 2 \n
+              - Go to STEP  3  then to PROTOCOL 2 \n
         </item>
         <item>
             Are any of the following symptoms present? \n
             – Suicidal ideation  \n
             – Beliefs of worthlessness \n
             – Psychotic symptoms \n
-            – Talking or moving more slowly than nornal
+            – Talking or moving more slowly than normal
         </item>
         <item> 3) \n
             DEPRESSION is likely \n
-        Are there concurrent priority MNS conditions? \n\\n
-            Assess for concurrent MNS conditions according to the  mhGAP-IG master chart. Go to » MC.\n
+        Are there concurrent priority Mental, neurological and substance use(MNS) conditions? \n \n
+            - Assess for concurrent MNS conditions according to the  mhGAP-IG master chart.Go to » Master Chart .\n
             Go to PROTOCOL 1\n
         </item>
     </string-array>
@@ -74,11 +75,11 @@
     <string-array name="nq">
         <item>Depression is unlikely \n
             Go to OTH (Other Significant Disease) </item>
-        <item>No Treatment required</item>
+        <item>No Treatment needed</item>
         <item> <b>IS THERE A HISTORY OF MANIA? </b>\n
             Have several of the following symptoms occurred simultaneously, lasting for at least 1 week, and
             severely enough to interfere signiﬁcantly with work and social activities or requiring hospitalization or
-            conﬁnement? \n
+            conﬁnement? \n \n
             – Elevation of mood and/or irritability \n
             – Decreased need for sleep \n
             –  Increased activity, feeling of increased energy, increased  talkativeness or rapid speech \n
@@ -96,55 +97,65 @@
             Does the person have a previous history of depression?
         </item>
         <item>
-            Do not manage for depression. \n\n Go to  OTH
+            Do not manage for depression. \n\n
+            -Go to >> OTH
         </item>
     </string-array>
 
     <string name="depfollow1">
-         1 \n
+         1) \n
         ASSESS FOR IMPROVEMENT \n  Is the person improving?
     </string>
     <string-array name="depfollowyes">
         <item>
-            1 \n ASSESS FOR IMPROVEMENT \n  Is the person improving?
+           1) \n
+        ASSESS FOR IMPROVEMENT \n  Is the person improving?
         </item>
         <item>
-            »  Encourage the person to continue with their  current management plan until they are symptom free for 9-12 months. \n\n
-            »  Arrange a further follow up appointment  in 1-2 weeks. \n\n
-            »  Decrease contact as the person’s symptoms improve, e.g. once every 3 months after the initial 3 months.
-               Note: follow up should continue until the person no longer  has any symptoms of depression.
-        </item>
-        <item>
-            2 \n  MONITOR TREATMENT \n <b>At every contact: </b> \n
-            »  Provide psychoeducation, reduce stress and strengthen social supports, promote functioning in daily activities and
+            -  Encourage the person to continue with their  current management plan until they are <i> symptom free for 9-12 months. </i> \n\n
+            -  Arrange a further follow up appointment  in 1-2 weeks. \n\n
+            -  Decrease contact as the person’s symptoms improve, e.g. once every 3 months after the initial 3 months. \n \n
+            Note: follow up should continue until the person no longer  has any symptoms of depression. \n
+
+            2) \n  MONITOR TREATMENT \n <b>At every contact: </b> \n
+            -  Provide psychoeducation, reduce stress and strengthen social supports, promote functioning in daily activities and
                 community life, and review, if applicable, antidepressant medication use and psychological treatment.  \n
-            »  Does the person have any new symptoms of concern? Review for MNS and concurrent physical conditions. \n
-            »  Is the person a woman of childbearing age and considering pregnancy? If so, CONSULT A SPECIALIST.   \n
+            -  Does the person have any new symptoms of concern? Review for MNS and concurrent physical conditions. \n
+            -  Is the person a woman of childbearing age and considering pregnancy? If so, CONSULT A SPECIALIST.   \n
                Assess for any IMMINENT RISK OF SUICIDE (Go to  SUI).\n\n
-            3 \n  REVISE TREATMENT AS APPROPRIATE  \n\n
+            3) \n
+            REVISE TREATMENT AS APPROPRIATE  \n\n
                 Has the person been symptom free for 9-12 months? \n
         </item>
         <item>
-            »  Discuss with the person the risks and beneﬁts of stopping the medication.\n
-            »  Taper the dose of medication gradually, over a minimum of 4 weeks. Monitor the person for symptom recurrence.\n
+            - Discuss with the person the risks and beneﬁts of stopping the medication.\n
+            - Taper the dose of medication gradually, over a minimum of 4 weeks. Monitor the person for symptom recurrence.\n
 
         </item>
     </string-array>
     <string-array name="depfollowno">
         <item>
-            »  If not yet receiving psychological treatment,  consider psychological treatment. \n
-            »  If receiving a psychological treatment, evaluate engagement in  and experience of current psychological treatment. \n
-            »  If not yet on antidepressants, consider antidepressants. \n
-            »  If on antidepressants, assess: –  Does the person take the medication as prescribed? If not, explore reasons why and
-               encourage adherence.\n
-               <b>Are there side effects?</b>
-            »   If yes, evaluate and weigh beneﬁts of treatment.  If no to side effects to antidepressants, increase dose (TABLE 1).
+            -  If not yet receiving psychological treatment,  consider psychological treatment. \n
+            -  If receiving a psychological treatment, evaluate engagement in  and experience of current psychological treatment. \n
+            -  If not yet on antidepressants, consider antidepressants. \n
+            -  If on antidepressants, assess: \n
+                –  Does the person take the medication as prescribed? If not, explore reasons why and
+                   encourage adherence.\n
+               <b>Are there side effects?</b> \n
+                If yes, evaluate and weigh beneﬁts of treatment. \n
+                If no to side effects to antidepressants, increase dose (TABLE 1). \n
                Follow-up in 1-2 weeks. \n
                CAUTION WITH DOSE INCREASE. \n
-               CLOSE FOLLOW-UP NEEDED   DUE TO POSSIBLE INCREASE IN SIDE EFFECTS.
+               CLOSE FOLLOW-UP NEEDED DUE TO POSSIBLE INCREASE IN SIDE EFFECTS. \n \n
+            Are there symptoms of mania?
         </item>
         <item>
-            »  Continue medication until person is  symptom free for 9-12 months.
+            -  Continue medication until person is  symptom free for 9-12 months.
+        </item>
+        <item>
+            - Discontinue antidepressant medication. \n
+            -  Treat mania and consult a specialist.  \n
+            Go to  Psychosis.
         </item>
     </string-array>
 

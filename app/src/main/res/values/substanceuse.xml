@@ -1,55 +1,55 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
     <string name="Disorder1">
-        1 \n
+        1) \n
         Does the person appear sedated?
     </string>
     <string-array name="Disorder_emergency_yes">
-      <item>  1 \n
+      <item>  1) \n
         Does the person appear sedated?
         </item>
         <item>
             Suspect SEDATIVE INTOXICATION  (alcohol, opioids, other sedatives) \n
-            >> Check Airway, Breathing, Circulation (ABC). \n
-            >> Provide initial respiratory support. \n
-            >> Give oxygen. \n \n
+            - Check Airway, Breathing, Circulation (ABC). \n
+            - Provide initial respiratory support. \n
+            - Give oxygen. \n \n
             Is the person minimally responsive, unresponsive,  or in respiratory failure?
         </item>
         <item>
-            >> Supportive care. \n
-            >> Monitor vital signs. \n
-            >> Lay the person on their side to prevent aspiration. \n
-            >> Give oxygen if available. \n
-            >> Consider intravenous (i.v.), rehydration but do not give fluids orally while sedated. \n
-            >> Observe the person until fully recovered or  transported to hospital. \n \n
-             >> Check pupils. \n \n
+            - Supportive care. \n
+            - Monitor vital signs. \n
+            - Lay the person on their side to prevent aspiration. \n
+            - Give oxygen if available. \n
+            - Consider intravenous (i.v.), rehydration but do not give fluids orally while sedated. \n
+            - Observe the person until fully recovered or  transported to hospital. \n \n
+            Check pupils. \n \n
             Normal pupils-NO \n
               Opioid overdose less likely
             –  consider overdose of alcohol, other sedatives, or other medical causes
             (i.e. head injury, infection, or hypoglycemia). \n \n
 
-            Pinpoint pupils-YES \n Suspect  OPIOID OVERDOSE \n
+            Pinpoint pupils \n Suspect  OPIOID OVERDOSE \n\n
         </item>
         <item>
             Give i.v., intramuscular (i.m.), intranasal  or subcutaneous naloxone 0.4-2 mg. \n
             Continue respiratory support. \n \n
-            Did the person respond to naloxone within 2 minutes?
+            Did the person respond to naloxone within 2 minutes? \n\n
         </item>
         <item>
             Observe for 1-2 hours and repeat naloxone  as needed.    \n
-            Continue to resuscitate and observe the person until fully recovered or transported to hospital. \n
-            2 \n
+            Continue to resuscitate and observe the person until fully recovered or transported to hospital. \n \n
+            2) \n
             Does the person appear  overstimulated, anxious, or agitated?
         </item>
         <item>
             ASSESS AND MANAGE FROM A to D. \n
             Or Continue to next Step.
         </item>
-        <item>3 \n
+        <item>3) \n
             Does the person appear confused?
         </item>
         <item>
-            Are there any medical conditions which might  explain the confusion, including:
+            Are there any medical conditions which might  explain the confusion, including: \n
            – head trauma \n
             – hypoglycaemia \n
             – pneumonia or other infections \n
@@ -61,7 +61,7 @@
       <item>
        SKIP to STEP  2
       </item>
-        <item>2 \n
+        <item>2) \n
             Does the person appear  overstimulated, anxious, or agitated? \n
         </item>
         <item>
@@ -95,16 +95,16 @@
 
 
     <string-array name="AcessA_D">
-        <item> A\n
+        <item> A)\n
             Person has recently stopped drinking or using sedatives and is now showing any of the following signs:
-            Tremors, sweating, vomiting, increased blood pressure (BP) and heart rate, and agitation. \n
+            Tremors, sweating, vomiting, increased blood pressure (BP) and heart rate, and agitation. \n \n
 
-            Suspect  ALCOHOL, BENZODIAZEPINE OR OTHER SEDATIVE WITHDRAWAL \n
+            Suspect  ALCOHOL, BENZODIAZEPINE OR OTHER SEDATIVE WITHDRAWAL \n \n
                 MANAGE WITHDRAWAL  \n \n
             –  If the person has tremors, sweating, or vital sign changes then give diazepam 10-20 mg orally (p.o.)
-            and transfer to hospital or detoxiﬁcation  facility if possible.  \n
+                and transfer to hospital or detoxiﬁcation  facility if possible.  \n
             –  Observe and repeat doses as needed for continued signs of  withdrawal (tremors, sweating, increased BP and heart rate). \n
-            – For alcohol withdrawal only: Give thiamine 100 mg daily for ﬁve days. \n \n
+            –  For alcohol withdrawal only: Give thiamine 100 mg daily for ﬁve days. \n \n
 
             TRANSFER IMMEDIATELY TO A HOSPITAL  \n  if the following are present:  \n
             –  Other serious medical problems, e.g. hepatic encephalopathy, gastrointestinal bleeding, or head injury. \n
@@ -113,7 +113,7 @@
                anti-psychotic medication such as haloperidol 1-2.5 mg p.o. or i.m. Continue to treat other signs of withdrawal
                (tremors, sweating, vital signs changes) with diazepam p.o., i.v. or p.r. \n
         </item>
-        <item>B \n
+        <item>B) \n
             Person has recently used stimulants (cocaine, amphetamine type stimulants (ATS) or other stimulants) and is showing any of
             the following signs: dilated pupils, anxiety, agitation, hyper-excitable state, racing thoughts, raised pulse and
             blood pressure. \n \n
@@ -121,13 +121,12 @@
             Suspect  ACUTE STIMULANT INTOXICATION \n \n
             -  Give diazepam 5-10 mg p.o., i.v., or p.r.  in titrated doses until the person is calm and lightly sedated. \n
             -  If psychotic symptoms are not responsive to diazepam, consider antipsychotic medication such as haloperidol
-            1-2.5 mg p.o. or i.m.. Treat until symptoms resolve. \n
-            -  If symptoms persist, go to  PSY. \n
-            -  For management of persons with aggressive and/or agitated behaviour  go to  PSY, Table 5. \n
+            1-2.5 mg p.o. or i.m.. Treat until symptoms resolve. If symptoms persist, go to  PSYCHOSES. \n
+            -  For management of persons with aggressive and/or agitated behaviour  go to PSYCHOSES, Table 5. \n
             -  If the person has chest pain, tachyarrythmias, or other neurological signs TRANSFER TO HOSPITAL. \n
             -  During the post-intoxication phase, be alert for suicidal thoughts or actions. If suicidal thoughts are present, go to SUICIDE. \n
         </item>
-        <item>C \n
+        <item>C) \n
         Person has recently stopped using opioids and is showing any of the following signs: dilated pupils, muscle aches,
             abdominal cramps, headache, nausea, vomiting, diarrhea, runny eyes and nose, anxiety, restlessness. \n \n
             Suspect  ACUTE OPIOID WITHDRAWAL \n \n
@@ -138,10 +137,10 @@
             –  If methadone or buprenorphine are not available, any opioid can  be used in the acute setting, i.e. morphine \n
                sulphate 10-20 mg as an initial dose with a 10 mg extra dose if needed. Also consider an alpha adrenergic agonists,
                 i.e. clonidine or lofexidine. \n
-            -  Once stable, go to  SUB 2 \n
+            -  Once stable, go to  SUBSTANCE USE 2 \n
         </item>
         <item>
-            D \n
+            D) \n
             RULE OUT OTHER MEDICAL CAUSES AND PRIORITY MNS CONDITIONS.
         </item>
     </string-array>
@@ -175,21 +174,24 @@
     </string-array>
 
     <string name="Asessment_1">
-        1 \n  Does the person use substances? \n
+        1) \n
+        Does the person use substances? \n \n
         Ask about use of tobacco, alcohol, and psychoactive prescription medicines.
         Depending on the setting and the presentation, consider asking about cannabis and other substance use.
     </string>
 
     <string-array name="DISORDERS_Asessment_yes">
         <item>
-            1 \n  Does the person use substances? \n
+            1) \n
+            Does the person use substances? \n \n
         Ask about use of tobacco, alcohol, and psychoactive prescription medicines.
         Depending on the setting and the presentation, consider asking about cannabis and other substance use.
         </item>
-        <item>2 \n
+        <item>
+        2) \n
         Is the substance use harmful? \n For each substance used assess: \n\n
-            A/  Frequency and quantity of use.  (Hint: Ask “How many days per week do you use this substance? How much do you use per day?”) \n
-            B/  Harmful behaviours. (Hint: Ask “Does your substance use cause you any problems?”) \n
+            <b>A</b>  Frequency and quantity of use. <i> (Hint: Ask “How many days per week do you use this substance? How much do you use per day?”)</i>  \n \n
+            <b>B</b>  Harmful behaviours. <i>(Hint: Ask “Does your substance use cause you any problems?”)</i> \n \n
             –  Injuries and accidents \n
             – Driving while intoxicated \n
             – Drug injection, sharing needles, reusing needles \n
@@ -201,11 +203,11 @@
             – Poor performance in education, employment roles \n
             –  Poor performance in expected social roles   (e.g. parenting) \n
         </item>
-        <item>3/  \n
-        <b>Is DEPENDENCE likely? </b> \n
+        <item>3)  \n
+        <b>Is DEPENDENCE likely? </b> \n \n
 
        For each substance used ask about the following features of dependence: \n
-            –  High levels of frequent substance use \n
+            –  High levels of <i>frequent substance </i> use \n
             –  A strong craving or sense of compulsion to  use the substance \n
             –  Difﬁculty self regulating the use of that substance despite the risks and harmful consequences \n
             –  Increasing levels of use tolerance and withdrawal symptoms on cessation
@@ -213,44 +215,45 @@
     </string-array>
     <string-array name="DISORDERS_Asessment_No">
         <item>
-               Emphasise the health beneﬁts of not using psychoactive substances.  \n
-               EXIT MODULE
+               - Emphasise the health beneﬁts of not using psychoactive substances.  \n
+               - EXIT MODULE
         </item>
         <item>
             Is the substance use harmful?  \n
-            See answer in step 2, above.
+        <i> See answer in step 2, above.</i>
         </item>
         <item>
-            Provide psychoeducation about the risks of different levels of each substance used. \n
-            EXIT MODULE
+           - Provide psychoeducation about the risks of different levels of each substance used. \n
+           - EXIT MODULE
         </item>
     </string-array>
     <string name="DISORDERS_followup">
-        1 \n
+        1)\n
+        ASSESS FOR IMPROVEMENT \n \n
                 At every visit, assess: \n
-            »  Quantity and frequency of substance use, mental health, physical  health, risk and protective factors (e.g. relationships,
+            -  Quantity and frequency of substance use, mental health, physical  health, risk and protective factors (e.g. relationships,
             accommodation,  employment, etc.) \n
-            »  Ask about factors that lead to substance use and consequences  of substance use \n
+            -  Ask about factors that lead to substance use and consequences  of substance use \n \n
              <b>ONGOING SUBSTANCE USE</b> \n
-             »  Develop strategies to reduce harm \n
-            »   Treat health problems \n
-            »   Develop strategies to reduce use \n
-            »   Arrange detoxiﬁcation or maintenance treatment if client agrees \n
-            »   Conduct frequent review and outreach \n
+             -  Develop strategies to reduce harm \n
+             -  Treat health problems \n
+             -  Develop strategies to reduce use \n
+             -  Arrange detoxiﬁcation or maintenance treatment if client agrees \n
+             -  Conduct frequent review and outreach \n \n
             <b>RECENT CESSATION OF USE  OR SHIFT TO NON-HARMFUL USE</b> \n
-            »   Consider urine testing to conﬁrm abstinence \n
-            »   Give positive feedback to encourage the maintenance of abstinence/non-harmful use \n
-            »   Treat other medical problems \n
-            »   Consider relapse prevention medications for alcohol and opioid dependence \n
-            »   Consider psychosocial therapies to prevent relapse and mutual help groups \n
-            »   Support factors which reduce the risk of relapse such as housing and employment \n
-            <b> LONG TERM CESSATION OR  NON-HARMFUL USE</b> \n
-            »   Consider occasional urine testing to conﬁrm non-use \n
-            »   Positive feedback \n
-            »   Support factors which reduce the risk of  relapse (such as housing and employment) \n
-            »   Treat other medical problems \n
-            »   Encourage participation in mutual help groups \n
-            »   less frequient reviews
+            -  Consider urine testing to conﬁrm abstinence \n
+            -   Give positive feedback to encourage the maintenance of abstinence/non-harmful use \n
+            -   Treat other medical problems \n
+            -   Consider relapse prevention medications for alcohol and opioid dependence \n
+            -   Consider psychosocial therapies to prevent relapse and mutual help groups \n
+            -   Support factors which reduce the risk of relapse such as housing and employment \n
+            <b> LONG TERM CESSATION OR  NON-HARMFUL USE</b> \n \n
+            -   Consider occasional urine testing to conﬁrm non-use \n
+            -   Positive feedback \n
+            -   Support factors which reduce the risk of  relapse (such as housing and employment) \n
+            -   Treat other medical problems \n
+            -   Encourage participation in mutual help groups \n
+            -   less frequient reviews
 
     </string>
 </resources>

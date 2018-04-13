@@ -87,12 +87,19 @@ public class Essentail1 extends AppCompatActivity
             startActivity(intent);
 
         }
+        else if (id == R.id.help) {
+            Intent intent=new Intent(Essentail1.this,help.class);
+            startActivity(intent);
+
+        }
         else if (id == R.id.contact) {
             Intent intent=new Intent(Essentail1.this,Contactus.class);
             startActivity(intent);
 
         }
         else if (id == R.id.Aboutus) {
+            Intent intent=new Intent(Essentail1.this,Aboutus.class);
+            startActivity(intent);
         }
         DrawerLayout drawer = (DrawerLayout) findViewById(R.id.drawer_layout);
         drawer.closeDrawer(GravityCompat.START);

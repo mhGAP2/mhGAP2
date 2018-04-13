@@ -61,7 +61,7 @@ public class Glossery extends AppCompatActivity
             public void onItemClick(AdapterView<?> adapterView, View view, int i, long l) {
                 AlertDialog.Builder adb = new AlertDialog.Builder(
                         Glossery.this);
-                adb.setTitle("Defination: ");
+                adb.setTitle("Definition: ");
                 adb.setMessage(meaning[i]);
                 adb.setPositiveButton("Ok", null);
                 adb.show();

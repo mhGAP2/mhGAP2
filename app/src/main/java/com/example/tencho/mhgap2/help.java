@@ -74,7 +74,7 @@ public class help extends AppCompatActivity
         // Handle navigation view item clicks here.
         int id = item.getItemId();
 
-         if (id == R.id.essentials) {
+        if (id == R.id.essentials) {
             Intent intent=new Intent(help.this,Essential.class);
             startActivity(intent);
 
@@ -87,12 +87,18 @@ public class help extends AppCompatActivity
             startActivity(intent);
 
         }
+        else if (id == R.id.help) {
+            Intent intent=new Intent(help.this,help.class);
+            startActivity(intent);
+
+        }
         else if (id == R.id.contact) {
             Intent intent=new Intent(help.this,Contactus.class);
             startActivity(intent);
 
         }
         else if (id == R.id.Aboutus) {
+            Intent intent=new Intent(help.this,Aboutus.class);
         }
         DrawerLayout drawer = (DrawerLayout) findViewById(R.id.drawer_layout);
         drawer.closeDrawer(GravityCompat.START);

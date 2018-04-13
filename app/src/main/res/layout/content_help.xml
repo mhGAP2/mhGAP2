@@ -41,7 +41,7 @@
                 android:fontFamily="sans-serif-condensed"
                 android:textStyle="bold"
                 android:textColor="#035777"
-                android:text="How to use the mhGAP App" />
+                android:text="how to use the mhgap app" />
             <TextView
                 android:id="@+id/textView11"
                 android:layout_marginTop="13dp"
@@ -68,7 +68,7 @@
                 android:layout_width="match_parent"
                 android:textColor="#035777"
                 android:layout_height="wrap_content"
-                android:text="Each of the modules consists of three sections:"/>
+                android:text="three sections"/>
 
             <TextView
                 android:id="@+id/textView14"
@@ -76,7 +76,7 @@
                 android:layout_height="wrap_content"
                 android:layout_marginTop="3dp"
                 android:textColor="#0481b1"
-                android:text="1)Assessment\n2)Management\n3)Follow-up"/>
+                android:text="1/ assessment n2 management n3 follow up"/>
 
 
             <TextView

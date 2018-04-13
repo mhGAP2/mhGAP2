@@ -51,7 +51,7 @@ public class psy_followup2 extends AppCompatActivity {
             public void onClick(View view) {
                 if(othbtn.getText().toString().equalsIgnoreCase("SKIP to step 2"))
                 {
-                    mquestion.setText(YesQuestions[2]);
+                    mquestion.setText(YesQuestions[3]);
                     mtruebtn.setVisibility(View.VISIBLE);
                     mfalsebtn.setVisibility(View.VISIBLE);
                     othbtn.setVisibility(View.GONE);
@@ -66,6 +66,11 @@ public class psy_followup2 extends AppCompatActivity {
                 else if(othbtn.getText().toString().equalsIgnoreCase("Home"))
                 {
                     Intent intent=new Intent(psy_followup2.this,HomeActivity.class);
+                    startActivity(intent);
+                }
+                else if(othbtn.getText().toString().equalsIgnoreCase("View Tables"))
+                {
+                    Intent intent=new Intent(psy_followup2.this,psy_medication.class);
                     startActivity(intent);
                 }
             }
@@ -83,10 +88,30 @@ public class psy_followup2 extends AppCompatActivity {
             mfalsebtn.setVisibility(View.GONE);
         }
         else if(mquestion.getText().toString().equals(NoQuestions[0]))
+        {
             mquestion.setText(YesQuestions[2]);
+            othbtn.setText("View Tables");
+            othbtn.setVisibility(View.GONE);
+        }
         else if(mquestion.getText().toString().equals(YesQuestions[2]))
         {
-            mquestion.setText(YesQuestions[3]);
+            mquestion.setText(YesQuestions[4]);
+            othbtn.setText("Home");
+            othbtn.setVisibility(View.VISIBLE);
+            mtruebtn.setVisibility(View.GONE);
+            mfalsebtn.setVisibility(View.GONE);
+        }
+        else if(mquestion.getText().toString().equals(YesQuestions[3]))
+        {
+            mquestion.setText(YesQuestions[4]);
+            othbtn.setText("Home");
+            othbtn.setVisibility(View.VISIBLE);
+            mtruebtn.setVisibility(View.GONE);
+            mfalsebtn.setVisibility(View.GONE);
+        }
+        else if(mquestion.getText().toString().equals(NoQuestions[1]))
+        {
+            mquestion.setText(YesQuestions[4]);
             othbtn.setText("Home");
             othbtn.setVisibility(View.VISIBLE);
             mtruebtn.setVisibility(View.GONE);
@@ -98,10 +123,37 @@ public class psy_followup2 extends AppCompatActivity {
         if (mquestion.getText().toString().equals(YesQuestions[0]))
             mquestion.setText(NoQuestions[0]);
         else if (mquestion.getText().toString().equals(NoQuestions[0]))
+        {
             mquestion.setText(NoQuestions[1]);
+        }
+
         else if (mquestion.getText().toString().equals(NoQuestions[1]))
         {
             mquestion.setText(NoQuestions[2]);
+            othbtn.setText("Home");
+            othbtn.setVisibility(View.VISIBLE);
+            mtruebtn.setVisibility(View.GONE);
+            mfalsebtn.setVisibility(View.GONE);
+        }
+        else if(mquestion.getText().toString().equals(YesQuestions[3]))
+        {
+            mquestion.setText(NoQuestions[4]);
+            othbtn.setText("Home");
+            othbtn.setVisibility(View.VISIBLE);
+            mtruebtn.setVisibility(View.GONE);
+            mfalsebtn.setVisibility(View.GONE);
+        }
+        else if(mquestion.getText().toString().equals(YesQuestions[2]))
+        {
+            mquestion.setText(NoQuestions[4]);
+            othbtn.setText("Home");
+            othbtn.setVisibility(View.VISIBLE);
+            mtruebtn.setVisibility(View.GONE);
+            mfalsebtn.setVisibility(View.GONE);
+        }
+        else if(mquestion.getText().toString().equals(NoQuestions[1]))
+        {
+            mquestion.setText(NoQuestions[4]);
             othbtn.setText("Home");
             othbtn.setVisibility(View.VISIBLE);
             mtruebtn.setVisibility(View.GONE);

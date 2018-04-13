@@ -115,6 +115,8 @@ public class Dementia_Assessment extends AppCompatActivity {
             mquestion.setText(YesQuestions[8]);
         else if (mquestion.getText().toString().equals(YesQuestions[7]))
             mquestion.setText(YesQuestions[8]);
+        else if (mquestion.getText().toString().equals(YesQuestions[8]))
+            mquestion.setText(YesQuestions[9]);
         else if (mquestion.getText().toString().equals(NoQuestions[6]))
             mquestion.setText(YesQuestions[9]);
         else if (mquestion.getText().toString().equals(YesQuestions[9]))
@@ -122,6 +124,8 @@ public class Dementia_Assessment extends AppCompatActivity {
         else if (mquestion.getText().toString().equals(NoQuestions[7]))
             mquestion.setText(YesQuestions[10]);
         else if (mquestion.getText().toString().equals(NoQuestions[8]))
+            mquestion.setText(YesQuestions[11]);
+        else if (mquestion.getText().toString().equals(YesQuestions[10]))
             mquestion.setText(YesQuestions[11]);
         else if (mquestion.getText().toString().equals(YesQuestions[11]))
         {
@@ -175,11 +179,15 @@ public class Dementia_Assessment extends AppCompatActivity {
             mquestion.setText(NoQuestions[6]);
         else if (mquestion.getText().toString().equals(NoQuestions[6]))
             mquestion.setText(NoQuestions[7]);
+        else if (mquestion.getText().toString().equals(YesQuestions[8]))
+            mquestion.setText(NoQuestions[7]);
         else if (mquestion.getText().toString().equals(YesQuestions[9]))
             mquestion.setText(NoQuestions[8]);
         else if (mquestion.getText().toString().equals(NoQuestions[7]))
             mquestion.setText(NoQuestions[8]);
         else if (mquestion.getText().toString().equals(NoQuestions[8]))
+            mquestion.setText(NoQuestions[9]);
+        else if (mquestion.getText().toString().equals(YesQuestions[10]))
             mquestion.setText(NoQuestions[9]);
         else if (mquestion.getText().toString().equals(YesQuestions[11]))
         {

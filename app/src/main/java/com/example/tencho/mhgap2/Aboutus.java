@@ -98,7 +98,6 @@ public class Aboutus extends AppCompatActivity
 
         }
         else if (id == R.id.Aboutus) {
-
             Intent intent=new Intent(Aboutus.this,Aboutus.class);
             startActivity(intent);
         }
