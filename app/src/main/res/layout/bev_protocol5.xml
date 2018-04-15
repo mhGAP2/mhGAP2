@@ -4,17 +4,12 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:background="#ffffff">
-
-
-
     <LinearLayout
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:orientation="vertical"
         android:layout_marginLeft="5dp"
         tools:ignore="RtlHardcoded">
-
-
         <TextView
             android:id="@+id/textView1"
             android:layout_width="match_parent"
@@ -22,6 +17,7 @@
             android:text="Protocol 1(Problems with Emotions)"
             android:textColor="#18B04B"
             android:textSize="20sp"
+            android:fontFamily="sans-serif-condensed"
             android:textAlignment="center"
             tools:ignore="HardcodedText" />
         <TextView
@@ -31,7 +27,8 @@
             android:layout_height="wrap_content"
             android:layout_marginTop="10dp"
             android:text="PSYCHOSOCIAL INTERVENTIONS"
-            android:textSize="15sp"
+            android:fontFamily="sans-serif-condensed"
+            android:textSize="16sp"
             android:textAlignment="center"
             tools:ignore="HardcodedText" />
 
@@ -42,7 +39,8 @@
             android:textColor="#18B04B"
             android:layout_marginTop="10dp"
             android:text="  Guidance to promote child/adolescent well-being and functioning"
-            android:textSize="15sp"
+            android:fontFamily="sans-serif-condensed"
+            android:textSize="16sp"
             />
 
 
@@ -54,6 +52,8 @@
             android:text="ENCOURAGE THE CARER TO:"
             android:textColor="#361818"
             android:textStyle="bold"
+            android:fontFamily="sans-serif-condensed"
+            android:textSize="16sp"
 
             />
 
@@ -64,6 +64,8 @@
             android:layout_marginTop="10dp"
             android:text="@string/bev_2_1_cmh"
             android:textColor="#361818"
+            android:fontFamily="sans-serif-condensed"
+            android:textSize="16sp"
 
             />
         <TextView
@@ -74,6 +76,8 @@
             android:text="ENCOURAGE AND HELP THE CHILD / ADOLESCENT TO:"
             android:textColor="#361818"
             android:textStyle="bold"
+            android:fontFamily="sans-serif-condensed"
+            android:textSize="16sp"
 
             />
         <TextView
@@ -83,6 +87,8 @@
             android:layout_marginTop="10dp"
             android:text="@string/bev_2_1_cmh_p1"
             android:textColor="#361818"
+            android:fontFamily="sans-serif-condensed"
+            android:textSize="16sp"
 
             />
 
@@ -93,8 +99,9 @@
             android:textColor="#18B04B"
             android:layout_marginTop="20dp"
             android:text="Psychoeducation to person and carers and parenting advice"
-            android:textSize="15sp"
-            tools:ignore="HardcodedText" />
+            tools:ignore="HardcodedText"
+            android:fontFamily="sans-serif-condensed"
+            android:textSize="16sp"/>
 
 
         <TextView
@@ -103,8 +110,9 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_marginTop="10dp"
+            android:fontFamily="sans-serif-condensed"
+            android:textSize="16sp"
             android:text="@string/bev_2_2_cmh"
-
             />
 
 
@@ -114,6 +122,8 @@
             android:layout_height="wrap_content"
             android:textColor="#18B04B"
             android:layout_marginTop="10dp"
+            android:fontFamily="sans-serif-condensed"
+            android:textSize="16sp"
             android:text=" Assess for and manage stressors, reduce stress and strengthen social supports "
             />
 
@@ -124,7 +134,8 @@
             android:textColor="#18B04B"
             android:layout_marginTop="10dp"
             android:text="  Liaise with teachers and other  school staff"
-            android:textSize="15sp"
+            android:fontFamily="sans-serif-condensed"
+            android:textSize="16sp"
             />
         <TextView
             android:id="@+id/textViewc3"
@@ -133,6 +144,8 @@
             android:layout_marginTop="10dp"
             android:text="@string/bev_2_7_cmh"
             android:textColor="#361818"
+            android:fontFamily="sans-serif-condensed"
+            android:textSize="16sp"
 
             />
         <TextView
@@ -142,7 +155,8 @@
             android:textColor="#18B04B"
             android:layout_marginTop="10dp"
             android:text="    Link with other available resources in the community."
-            android:textSize="15sp"
+            android:fontFamily="sans-serif-condensed"
+            android:textSize="16sp"
             />
 
     </LinearLayout>

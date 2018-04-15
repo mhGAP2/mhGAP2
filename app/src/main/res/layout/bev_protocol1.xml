@@ -4,17 +4,12 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:background="#ffffff">
-
-
-
     <LinearLayout
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:orientation="vertical"
         android:layout_marginLeft="5dp"
         tools:ignore="RtlHardcoded">
-
-
         <TextView
             android:id="@+id/textView1"
             android:layout_width="match_parent"
@@ -22,6 +17,7 @@
             android:text="Protocol 1(Developmental Delay/Disorder)"
             android:textColor="#18B04B"
             android:textSize="25sp"
+            android:fontFamily="sans-serif-condensed"
             android:textAlignment="center"
             tools:ignore="HardcodedText" />
         <TextView
@@ -31,7 +27,8 @@
             android:layout_height="wrap_content"
             android:layout_marginTop="10dp"
             android:text="PSYCHOSOCIAL INTERVENTIONS"
-            android:textSize="15sp"
+            android:fontFamily="sans-serif-condensed"
+            android:textSize="16sp"
             android:textAlignment="center"
             tools:ignore="HardcodedText" />
 
@@ -42,10 +39,9 @@
             android:textColor="#18B04B"
             android:layout_marginTop="10dp"
             android:text="@string/cmh4"
-            android:textSize="15sp"
+            android:fontFamily="sans-serif-condensed"
+            android:textSize="16sp"
             />
-
-
         <TextView
             android:id="@+id/textViewT"
             android:layout_width="match_parent"
@@ -54,8 +50,8 @@
             android:text="@string/cmh11"
             android:textColor="#361818"
             android:textStyle="bold"
-
-            />
+            android:fontFamily="sans-serif-condensed"
+            android:textSize="16sp" />
 
         <TextView
             android:id="@+id/textView"
@@ -64,6 +60,8 @@
             android:layout_marginTop="10dp"
             android:text="@string/bev_2_1_cmh"
             android:textColor="#361818"
+            android:fontFamily="sans-serif-condensed"
+            android:textSize="16sp"
 
             />
         <TextView
@@ -74,8 +72,8 @@
             android:text="@string/cmh10"
             android:textColor="#361818"
             android:textStyle="bold"
-
-            />
+            android:fontFamily="sans-serif-condensed"
+            android:textSize="16sp" />
         <TextView
             android:id="@+id/textViewc"
             android:layout_width="match_parent"
@@ -83,7 +81,8 @@
             android:layout_marginTop="10dp"
             android:text="@string/bev_2_1_cmh_p1"
             android:textColor="#361818"
-
+            android:fontFamily="sans-serif-condensed"
+            android:textSize="16sp"
             />
 
         <TextView
@@ -93,7 +92,8 @@
             android:textColor="#18B04B"
             android:layout_marginTop="20dp"
             android:text="Psychoeducation to person and carers and parenting advice"
-            android:textSize="15sp"
+            android:fontFamily="sans-serif-condensed"
+            android:textSize="16sp"
             tools:ignore="HardcodedText" />
 
 
@@ -103,9 +103,9 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_marginTop="10dp"
-            android:text="@string/bev_2_2_cmh"
-
-            />
+            android:fontFamily="sans-serif-condensed"
+            android:textSize="16sp"
+            android:text="@string/bev_2_2_cmh" />
 
 
         <TextView
@@ -114,6 +114,8 @@
             android:layout_height="wrap_content"
             android:textColor="#18B04B"
             android:layout_marginTop="10dp"
+            android:fontFamily="sans-serif-condensed"
+            android:textSize="16sp"
             android:text="@string/cmh9"
             />
 
@@ -124,6 +126,8 @@
             android:layout_marginTop="10dp"
             android:text="@string/cmh12"
             android:textColor="#361818"
+            android:fontFamily="sans-serif-condensed"
+            android:textSize="16sp"
             android:textStyle="bold"
 
             />
@@ -132,10 +136,10 @@
             android:layout_width="match_parent"
             android:layout_height="250dp"
             android:layout_marginTop="10dp"
+            android:fontFamily="sans-serif-condensed"
+            android:textSize="16sp"
             android:text="@string/bev_2_3_cmh"
-            android:textColor="#361818"
-
-            />
+            android:textColor="#361818" />
 
         <TextView
             android:id="@+id/textViewT3"
@@ -144,7 +148,8 @@
             android:textColor="#18B04B"
             android:layout_marginTop="10dp"
             android:text="@string/provide_carer_support"
-            android:textSize="15sp"
+            android:fontFamily="sans-serif-condensed"
+            android:textSize="16sp"
             />
 
         <TextView
@@ -163,7 +168,8 @@
             android:textColor="#18B04B"
             android:layout_marginTop="10dp"
             android:text="@string/cmh7"
-            android:textSize="15sp"
+            android:fontFamily="sans-serif-condensed"
+            android:textSize="16sp"
             />
         <TextView
             android:id="@+id/textViewc3"
@@ -172,6 +178,8 @@
             android:layout_marginTop="10dp"
             android:text="@string/bev_2_7_cmh"
             android:textColor="#361818"
+            android:fontFamily="sans-serif-condensed"
+            android:textSize="16sp"
 
             />
         <TextView
@@ -181,7 +189,8 @@
             android:textColor="#18B04B"
             android:layout_marginTop="10dp"
             android:text="@string/brief_psychological_treatments"
-            android:textSize="15sp"
+            android:fontFamily="sans-serif-condensed"
+            android:textSize="16sp"
             />
 
         <TextView
@@ -191,6 +200,8 @@
             android:layout_marginTop="10dp"
             android:text="@string/bev_2_8_cmh"
             android:textColor="#361818"
+            android:fontFamily="sans-serif-condensed"
+            android:textSize="16sp"
 
             />
         <TextView
@@ -200,7 +211,8 @@
             android:textColor="#18B04B"
             android:layout_marginTop="10dp"
             android:text="@string/link_with_other_available_resources_in_the_community"
-            android:textSize="15sp"
+            android:fontFamily="sans-serif-condensed"
+            android:textSize="16sp"
             />
         <TextView
             android:id="@+id/textViewT7"
@@ -209,7 +221,8 @@
             android:textColor="#18B04B"
             android:layout_marginTop="10dp"
             android:text="@string/ensure_appropriate_follow_up_every_three_months_or_more_if_needed"
-            android:textSize="15sp"
+            android:fontFamily="sans-serif-condensed"
+            android:textSize="16sp"
             />
         <TextView
             android:id="@+id/textViewT8"
@@ -218,7 +231,8 @@
             android:textColor="#18B04B"
             android:layout_marginTop="10dp"
             android:text="@string/cmh2"
-            android:textSize="15sp"
+            android:fontFamily="sans-serif-condensed"
+            android:textSize="16sp"
             />
 
         <TextView
@@ -228,6 +242,8 @@
             android:layout_marginTop="10dp"
             android:text="@string/bev_2_8_cmhp1"
             android:textColor="#361818"
+            android:fontFamily="sans-serif-condensed"
+            android:textSize="16sp"
 
             />
         <TextView
@@ -237,7 +253,8 @@
             android:textColor="#18B04B"
             android:layout_marginTop="10dp"
             android:text="@string/cmh3"
-            android:textSize="15sp"
+            android:fontFamily="sans-serif-condensed"
+            android:textSize="16sp"
             />
 
 

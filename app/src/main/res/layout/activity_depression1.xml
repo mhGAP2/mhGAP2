@@ -38,9 +38,10 @@
             android:layout_marginTop="2dp"
             android:layout_weight="1"
             android:fontFamily="sans-serif-condensed"
+            android:textSize="16sp"
             android:text="@string/dep"
             android:textColor="#ffffff"
-            android:textSize="16sp" />
+            />
 
 
 

@@ -13,8 +13,6 @@
         android:orientation="vertical"
         android:layout_marginLeft="5dp"
         tools:ignore="RtlHardcoded">
-
-
         <TextView
             android:id="@+id/textView1"
             android:layout_width="match_parent"
@@ -22,6 +20,7 @@
             android:text="Protocol 3 Attention Deﬁcit Hyperactivity Disorder (ADHD)"
             android:textColor="#18B04B"
             android:textSize="20sp"
+            android:fontFamily="sans-serif-condensed"
             android:textAlignment="center"
             tools:ignore="HardcodedText" />
         <TextView
@@ -31,7 +30,8 @@
             android:layout_height="wrap_content"
             android:layout_marginTop="10dp"
             android:text="PSYCHOSOCIAL INTERVENTIONS"
-            android:textSize="15sp"
+            android:fontFamily="sans-serif-condensed"
+            android:textSize="16sp"
             android:textAlignment="center"
             tools:ignore="HardcodedText" />
 
@@ -42,7 +42,8 @@
             android:textColor="#18B04B"
             android:layout_marginTop="10dp"
             android:text="  Guidance to promote child/adolescent well-being and functioning"
-            android:textSize="15sp"
+            android:fontFamily="sans-serif-condensed"
+            android:textSize="16sp"
             />
 
 
@@ -54,7 +55,8 @@
             android:text="ENCOURAGE THE CARER TO:"
             android:textColor="#361818"
             android:textStyle="bold"
-
+            android:fontFamily="sans-serif-condensed"
+            android:textSize="16sp"
             />
 
         <TextView
@@ -64,7 +66,8 @@
             android:layout_marginTop="10dp"
             android:text="@string/bev_2_1_cmhproto3"
             android:textColor="#361818"
-
+            android:fontFamily="sans-serif-condensed"
+            android:textSize="16sp"
             />
         <TextView
             android:id="@+id/textViewT1"
@@ -74,7 +77,8 @@
             android:text="ENCOURAGE AND HELP THE CHILD / ADOLESCENT TO:"
             android:textColor="#361818"
             android:textStyle="bold"
-
+            android:fontFamily="sans-serif-condensed"
+            android:textSize="16sp"
             />
         <TextView
             android:id="@+id/textViewc"
@@ -83,6 +87,8 @@
             android:layout_marginTop="10dp"
             android:text="@string/bev_2_1_cmh_proto3"
             android:textColor="#361818"
+            android:fontFamily="sans-serif-condensed"
+            android:textSize="16sp"
 
             />
 
@@ -93,7 +99,8 @@
             android:textColor="#18B04B"
             android:layout_marginTop="20dp"
             android:text="Provide psychoeducation to person and carers and parenting advice. Provide guidance on improving behaviour."
-            android:textSize="15sp"
+            android:fontFamily="sans-serif-condensed"
+            android:textSize="16sp"
             tools:ignore="HardcodedText" />
 
 
@@ -103,8 +110,9 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_marginTop="10dp"
+            android:fontFamily="sans-serif-condensed"
+            android:textSize="16sp"
             android:text="@string/bev_2_2_cmhproto3"
-
             />
 
         <TextView
@@ -114,7 +122,8 @@
             android:layout_marginTop="10dp"
             android:text="@string/bev_2_3_cmhproto3"
             android:textColor="#361818"
-
+            android:fontFamily="sans-serif-condensed"
+            android:textSize="16sp"
             />
 
         <TextView
@@ -124,7 +133,8 @@
             android:textColor="#18B04B"
             android:layout_marginTop="10dp"
             android:text="  Assess for and manage stressors, reduce stress and strengthen social supports. "
-            android:textSize="15sp"
+            android:fontFamily="sans-serif-condensed"
+            android:textSize="16sp"
             />
 
         <TextView
@@ -134,7 +144,8 @@
             android:textColor="#18B04B"
             android:layout_marginTop="10dp"
             android:text="   Provide carer support. "
-            android:textSize="15sp"
+            android:fontFamily="sans-serif-condensed"
+            android:textSize="16sp"
             />
         <TextView
             android:id="@+id/textViewc2"
@@ -143,7 +154,8 @@
             android:layout_marginTop="10dp"
             android:text="@string/bev_2_6_cmh"
             android:textColor="#361818"
-
+            android:fontFamily="sans-serif-condensed"
+            android:textSize="16sp"
             />
         <TextView
             android:id="@+id/textViewT4"
@@ -152,7 +164,8 @@
             android:textColor="#18B04B"
             android:layout_marginTop="10dp"
             android:text="  Liaise with teachers and other  school staff"
-            android:textSize="15sp"
+            android:fontFamily="sans-serif-condensed"
+            android:textSize="16sp"
             />
         <TextView
             android:id="@+id/textViewc3"
@@ -161,7 +174,8 @@
             android:layout_marginTop="10dp"
             android:text="@string/bev_2_7_cmh"
             android:textColor="#361818"
-
+            android:fontFamily="sans-serif-condensed"
+            android:textSize="16sp"
             />
 
         <TextView
@@ -171,7 +185,8 @@
             android:textColor="#18B04B"
             android:layout_marginTop="10dp"
             android:text="    Link with other available resources in the community."
-            android:textSize="15sp"
+            android:fontFamily="sans-serif-condensed"
+            android:textSize="16sp"
             />
         <TextView
             android:id="@+id/textViewT5"
@@ -190,6 +205,8 @@
             android:layout_marginTop="10dp"
             android:text="@string/bev_2_8_cmh"
             android:textColor="#361818"
+            android:fontFamily="sans-serif-condensed"
+            android:textSize="16sp"
 
             />
         <TextView
@@ -199,7 +216,8 @@
             android:textColor="#18B04B"
             android:layout_marginTop="10dp"
             android:text="   Consider behavioural interventions when available. "
-            android:textSize="15sp"
+            android:fontFamily="sans-serif-condensed"
+            android:textSize="16sp"
             />
         <TextView
             android:id="@+id/textViewc6"
@@ -208,6 +226,8 @@
             android:layout_marginTop="10dp"
             android:text="@string/bev_2_8_cmh"
             android:textColor="#361818"
+            android:fontFamily="sans-serif-condensed"
+            android:textSize="16sp"
 
             />
         <TextView
@@ -217,7 +237,8 @@
             android:textColor="#18B04B"
             android:layout_marginTop="10dp"
             android:text="      If above treatments have failed AND the child/ adolescent has a diagnosis of ADHD AND is at least  6 years old, refer to a specialist for methylphenidate treatment."
-            android:textSize="15sp"
+            android:fontFamily="sans-serif-condensed"
+            android:textSize="16sp"
             />
         <TextView
             android:id="@+id/textViewT8"
@@ -226,7 +247,8 @@
             android:textColor="#18B04B"
             android:layout_marginTop="10dp"
             android:text="         Ensure appropriate follow-up every three months  or more, if needed. "
-            android:textSize="15sp"
+            android:fontFamily="sans-serif-condensed"
+            android:textSize="16sp"
             />
 
     </LinearLayout>

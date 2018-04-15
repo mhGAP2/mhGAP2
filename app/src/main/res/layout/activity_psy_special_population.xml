@@ -4,11 +4,7 @@
         android:layout_width="match_parent" android:layout_height="match_parent"
         android:background="#ffffff"
     tools:context="com.example.tencho.mhgap2.psy_special_population">
-        >
-
-
-
-        <LinearLayout
+    <LinearLayout
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:orientation="vertical"
@@ -22,6 +18,7 @@
                 android:textAlignment="center"
                 android:textColor="#cc0808"
                 android:textSize="25dp"
+                android:fontFamily="sans-serif-condensed"
                 android:text="Special populations"
                 tools:ignore="HardcodedText,SpUsage" />
 
@@ -33,16 +30,17 @@
                 android:layout_height="wrap_content"
                 android:layout_marginTop="7dp"
                 android:textStyle="italic"
+                android:fontFamily="sans-serif-condensed"
+                android:textSize="16sp"
                 android:text="Note that interventions may differ for PSYCHOSES in these populations"/>
-
-
-            <TextView
+        <TextView
                 android:id="@+id/textView19"
                 android:textColor="#223C97"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:layout_marginTop="10dp"
-                android:textSize="15dp"
+                android:fontFamily="sans-serif-condensed"
+                android:textSize="16sp"
                 android:text="1.WOMEN WHO ARE PREGNANT OR BREASTFEEDING"
                 tools:ignore="SpUsage" />
 
@@ -50,6 +48,8 @@
                 android:id="@+id/textView20"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
+                android:fontFamily="sans-serif-condensed"
+                android:textSize="16sp"
                 android:layout_marginTop="5dp"
                 android:text="@string/psy_special1"
                 android:textColor="#361818" />
@@ -59,6 +59,8 @@
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:textColor="#000000"
+                android:fontFamily="sans-serif-condensed"
+                android:textSize="16sp"
                 android:textStyle="bold"
                 android:layout_marginTop="13dp"
                 android:text="Pharmacological Interventions"/>
@@ -69,7 +71,8 @@
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:layout_marginTop="10dp"
-                android:textSize="13dp"
+                android:fontFamily="sans-serif-condensed"
+                android:textSize="16sp"
                 android:text="PSYCHOSIS"
                 tools:ignore="SpUsage" />
 
@@ -78,6 +81,8 @@
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:layout_marginTop="3dp"
+                android:fontFamily="sans-serif-condensed"
+                android:textSize="16sp"
                 android:text="@string/psy_special2"
                 android:textColor="#361818" />
 
@@ -87,7 +92,8 @@
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:layout_marginTop="10dp"
-                android:textSize="13dp"
+                android:fontFamily="sans-serif-condensed"
+                android:textSize="16sp"
                 android:text="MANIC EPISODE IN BIPOLAR DISORDER"
                 tools:ignore="SpUsage" />
 
@@ -96,6 +102,8 @@
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:layout_marginTop="3dp"
+                android:fontFamily="sans-serif-condensed"
+                android:textSize="16sp"
                 android:text="@string/psy_special3"
                 android:textColor="#361818" />
 
@@ -105,7 +113,8 @@
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:layout_marginTop="10dp"
-                android:textSize="15dp"
+                android:fontFamily="sans-serif-condensed"
+                android:textSize="16sp"
                 android:text="2.ADOLESCENTS"
                 tools:ignore="SpUsage" />
 
@@ -115,6 +124,8 @@
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:layout_marginTop="3dp"
+                android:fontFamily="sans-serif-condensed"
+                android:textSize="16sp"
                 android:text="@string/psy_special4"
                 android:textColor="#361818" />
 
@@ -124,7 +135,8 @@
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:layout_marginTop="10dp"
-                android:textSize="15dp"
+                android:fontFamily="sans-serif-condensed"
+                android:textSize="16sp"
                 android:text="3.OLDER ADULTS"
                 tools:ignore="SpUsage" />
 
@@ -134,6 +146,8 @@
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:layout_marginTop="3dp"
+                android:fontFamily="sans-serif-condensed"
+                android:textSize="16sp"
                 android:text="@string/psy_special5"
                 android:textColor="#361818" />
 
@@ -143,8 +157,9 @@
                 android:layout_height="wrap_content"
                 android:layout_marginTop="10dp"
                 android:textColor="#cc0808"
-                android:textSize="12dp"
                 android:text="Caution"
+                android:fontFamily="sans-serif-condensed"
+                android:textSize="16sp"
                 tools:ignore="HardcodedText,SpUsage" />
 
             <TextView
@@ -152,12 +167,12 @@
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:layout_marginTop="3dp"
+                android:fontFamily="sans-serif-condensed"
+                android:textSize="16sp"
                 android:text="@string/psy_caution3"
                 android:textColor="#361818" />
 
-
-
-        </LinearLayout>
+            </LinearLayout>
     </ScrollView>
 
 

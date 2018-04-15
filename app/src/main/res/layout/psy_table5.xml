@@ -6,39 +6,26 @@
     android:layout_marginLeft="11dp"
     android:layout_marginRight="11dp"
     tools:context="com.example.tencho.mhgap2.psy_medication"
-
     >
-
-
     <TextView
         android:id="@+id/textView70"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
+        android:fontFamily="sans-serif-condensed"
         android:text="TABLE 5: Management of Persons with Agitated and/or Aggressive Behaviour"
         android:textColor="#223C97"
         android:layout_marginTop="8dp"
         android:textSize="16sp"/>
-
-
-
-
-
-
-
     <TableRow
         android:layout_height="match_parent"
         android:layout_width="match_parent"
         android:layout_marginTop="5dp"
-        android:background="@drawable/border2"
-
-        >
-
-
-
+        android:background="@drawable/border2">
         <TextView
             android:layout_width="match_parent"
             android:layout_height="match_parent"
             android:ems="8"
+            android:fontFamily="sans-serif-condensed"
             android:background="#223C97"
             android:id="@+id/textVie50"
             android:textColor="#ffffff"
@@ -50,6 +37,7 @@
             android:layout_width="match_parent"
             android:layout_height="match_parent"
             android:ems="8"
+            android:fontFamily="sans-serif-condensed"
             android:textColor="#ffffff"
             android:background="#223C97"
             android:textAlignment="center"
@@ -61,6 +49,7 @@
             android:layout_width="match_parent"
             android:layout_height="match_parent"
             android:ems="9"
+            android:fontFamily="sans-serif-condensed"
             android:textAlignment="center"
             android:textColor="#ffffff"
             android:background="#223C97"
@@ -84,6 +73,7 @@
             android:layout_width="match_parent"
             android:layout_height="match_parent"
             android:ems="8"
+            android:fontFamily="sans-serif-condensed"
             android:textColor="#361818"
             android:textSize="10dp"
             android:layout_marginTop="5dp"
@@ -96,6 +86,7 @@
             android:layout_width="match_parent"
             android:layout_height="match_parent"
             android:ems="9"
+            android:fontFamily="sans-serif-condensed"
             android:id="@+id/textV10"
             android:text="@string/psy_com"
             android:textSize="10dp"
@@ -106,6 +97,7 @@
             android:layout_width="match_parent"
             android:layout_height="match_parent"
             android:ems="9"
+            android:fontFamily="sans-serif-condensed"
             android:id="@+id/textVi10"
             android:text="@string/psy_sed"
             android:textSize="10dp"

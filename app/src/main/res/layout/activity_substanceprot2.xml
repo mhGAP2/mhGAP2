@@ -26,6 +26,7 @@
                 android:text="Protocol 2(Substance use)"
                 android:textColor="#F68B1F"
                 android:textSize="30sp"
+                android:fontFamily="sans-serif-condensed"
                 android:textAlignment="center"
                 tools:ignore="HardcodedText" />
             <TextView
@@ -35,7 +36,8 @@
                 android:layout_height="wrap_content"
                 android:layout_marginTop="10dp"
                 android:text="@string/dependence"
-                android:textSize="15sp"
+                android:fontFamily="sans-serif-condensed"
+                android:textSize="16sp"
                 android:textAlignment="center"
                 />
 
@@ -46,7 +48,8 @@
                 android:layout_height="wrap_content"
                 android:layout_marginTop="10dp"
                 android:text="IF THE PERSON IS DEPENDENT ON OPIOIDS:"
-                android:textSize="15sp"
+                android:fontFamily="sans-serif-condensed"
+                android:textSize="16sp"
                 android:textAlignment="center"
                 tools:ignore="DuplicateIds,HardcodedText" />
             <TextView
@@ -54,6 +57,8 @@
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:textColor="#361818"
+                android:fontFamily="sans-serif-condensed"
+                android:textSize="16sp"
                 android:layout_marginTop="10dp"
                 android:text="@string/substance8" />
             <TextView
@@ -62,6 +67,8 @@
                 android:layout_height="wrap_content"
                 android:textColor="#F68B1F"
                 android:layout_marginTop="10dp"
+                android:fontFamily="sans-serif-condensed"
+                android:textSize="16sp"
                 android:text="@string/sub1" />
             <TextView
                 android:id="@+id/t3"
@@ -69,18 +76,18 @@
                 android:layout_height="wrap_content"
                 android:textColor="#F68B1F"
                 android:layout_marginTop="10dp"
+                android:fontFamily="sans-serif-condensed"
+                android:textSize="16sp"
                 android:text="@string/sub2" />
-
-
-
             <TextView
                 android:id="@+id/textView3"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:textColor="#F68B1F"
                 android:layout_marginTop="10dp"
+                android:fontFamily="sans-serif-condensed"
+                android:textSize="16sp"
                 android:text="@string/if_the_person_is_dependent_on_benzodiazepines"
-                android:textSize="15sp"
                 />
             <TextView
                 android:id="@+id/textView17"
@@ -88,6 +95,8 @@
                 android:layout_height="wrap_content"
                 android:textColor="#361818"
                 android:layout_marginTop="10dp"
+                android:fontFamily="sans-serif-condensed"
+                android:textSize="16sp"
                 android:text="@string/substance11" />
             <TextView
                 android:id="@+id/t4"
@@ -95,8 +104,9 @@
                 android:layout_height="wrap_content"
                 android:textColor="#F68B1F"
                 android:layout_marginTop="10dp"
+                android:fontFamily="sans-serif-condensed"
+                android:textSize="16sp"
                 android:text="@string/go"
-                android:textSize="15sp"
                 />
 
 
@@ -106,8 +116,9 @@
                 android:layout_height="wrap_content"
                 android:textColor="#361818"
                 android:layout_marginTop="20dp"
+                android:fontFamily="sans-serif-condensed"
+                android:textSize="16sp"
                 android:text="IF THE PERSON IS DEPENDENT ON ALCOHOL:"
-                android:textSize="15sp"
                 tools:ignore="HardcodedText" />
 
             <TextView
@@ -116,6 +127,8 @@
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:layout_marginTop="10dp"
+                android:fontFamily="sans-serif-condensed"
+                android:textSize="16sp"
                 android:text="@string/substance9"
                 />
             <TextView
@@ -125,25 +138,28 @@
                 android:textColor="#F68B1F"
                 android:layout_marginTop="20dp"
                 android:text="@string/pro3"
-                android:textSize="15sp"
+                android:fontFamily="sans-serif-condensed"
+                android:textSize="16sp"
                 tools:ignore="HardcodedText" />
             <TextView
                 android:id="@+id/t7"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:textColor="#361818"
+                android:fontFamily="sans-serif-condensed"
                 android:layout_marginTop="20dp"
                 android:text="@string/pro2"
-                android:textSize="15sp"
+                android:textSize="16sp"
                 tools:ignore="HardcodedText" />
             <TextView
                 android:id="@+id/t6"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:textColor="#F68B1F"
+                android:fontFamily="sans-serif-condensed"
+                android:textSize="16sp"
                 android:layout_marginTop="20dp"
                 android:text="@string/pro4"
-                android:textSize="15sp"
                 tools:ignore="HardcodedText" />
 
             <TextView
@@ -153,7 +169,8 @@
                 android:textColor="#361818"
                 android:layout_marginTop="20dp"
                 android:text="FOR ALL OTHER SUBSTANCES: "
-                android:textSize="15sp"
+                android:fontFamily="sans-serif-condensed"
+                android:textSize="16sp"
                 tools:ignore="HardcodedText" />
 
 
@@ -163,6 +180,8 @@
                 android:textColor="#361818"
                 android:layout_height="wrap_content"
                 android:layout_marginTop="10dp"
+                android:fontFamily="sans-serif-condensed"
+                android:textSize="16sp"
                 android:text="@string/substance10"
                 />
             <TextView
@@ -172,7 +191,8 @@
                 android:textColor="#F68B1F"
                 android:layout_marginTop="20dp"
                 android:text="@string/ex"
-                android:textSize="15sp"
+                android:fontFamily="sans-serif-condensed"
+                android:textSize="16sp"
                 tools:ignore="HardcodedText" />
             <TextView
                 android:id="@+id/t32"
@@ -181,7 +201,8 @@
                 android:textColor="#361818"
                 android:layout_marginTop="20dp"
                 android:text="@string/x"
-                android:textSize="15sp"
+                android:fontFamily="sans-serif-condensed"
+                android:textSize="16sp"
                 tools:ignore="HardcodedText" />
 
 
@@ -191,6 +212,8 @@
                 android:layout_height="wrap_content"
                 android:textColor="#F68B1F"
                 android:layout_marginTop="10dp"
+                android:fontFamily="sans-serif-condensed"
+                android:textSize="16sp"
                 android:text= "@string/in_all_cases"
 
                 />
@@ -201,13 +224,11 @@
                 android:layout_height="wrap_content"
                 android:layout_marginTop="20dp"
                 android:textColor="#361818"
+                android:fontFamily="sans-serif-condensed"
+                android:textSize="16sp"
                 android:text="@string/subs7"
-                android:textSize="15sp"
                 />
 
         </LinearLayout>
     </ScrollView>
-
-
-
 </android.support.constraint.ConstraintLayout>

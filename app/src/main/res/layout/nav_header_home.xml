@@ -27,6 +27,7 @@
         android:layout_height="wrap_content"
         android:paddingTop="@dimen/nav_header_vertical_spacing"
         android:textSize="23dp"
+        android:fontFamily="sans-serif-condensed"
         android:text="mhGAP"
         android:textAppearance="@style/TextAppearance.AppCompat.Body1" />
 
@@ -34,6 +35,7 @@
         android:id="@+id/textView"
         android:textSize="12dp"
         android:textColor="#FFFFFF"
+        android:fontFamily="sans-serif-condensed"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="Mental Health Gap Action Programme" />

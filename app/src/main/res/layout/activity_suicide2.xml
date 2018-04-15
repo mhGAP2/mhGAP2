@@ -22,11 +22,10 @@ android:background="#E65521">
         android:layout_height="wrap_content"
         android:textColor="#FFFFFF"
         android:text="Management"
+        android:fontFamily="sans-serif-condensed"
         android:textAlignment="center"
         android:textSize="35dp"
         tools:ignore="HardcodedText,SpUsage" />
-
-
 
     <ImageView
         android:id="@+id/imageView3"
@@ -44,7 +43,7 @@ android:background="#E65521">
         android:layout_marginRight="55dp"
         android:layout_marginTop="20dp"
         android:layout_marginBottom="20dp"
-
+        android:fontFamily="sans-serif-condensed"
         android:background="@drawable/depre"
         android:text="Protocol 1"
         android:textColor="#E65521"
@@ -58,7 +57,7 @@ android:background="#E65521">
         android:layout_marginLeft="55dp"
         android:layout_marginRight="55dp"
         android:layout_marginBottom="20dp"
-
+        android:fontFamily="sans-serif-condensed"
         android:background="@drawable/depre"
         android:text="protocol 2"
         android:textColor="#E65521"
@@ -74,14 +73,10 @@ android:background="#E65521">
         android:background="@drawable/depre"
         android:layout_marginBottom="20dp"
         android:text="Protocol 3"
+        android:fontFamily="sans-serif-condensed"
         android:textColor="#E65521"
         android:textSize="18dp"
         tools:ignore="HardcodedText,RtlHardcoded,SpUsage" />
-
-
-
-
-
 </LinearLayout>
 </ScrollView>
 

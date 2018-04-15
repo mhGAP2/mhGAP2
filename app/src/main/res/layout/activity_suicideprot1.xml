@@ -27,6 +27,7 @@
                 android:text="Protocol 1 Medically Serious Act of Self-Harm"
                 android:textColor="#E65521"
                 android:textSize="25sp"
+                android:fontFamily="sans-serif-condensed"
                 android:textAlignment="center"
                 tools:ignore="HardcodedText" />
 
@@ -35,6 +36,8 @@
                 android:id="@+id/textView2"
                 android:layout_width="match_parent"
                 android:layout_height="45dp"
+                android:fontFamily="sans-serif-condensed"
+                android:textSize="16sp"
                 android:layout_marginTop="10dp"
                 android:text="@string/sui_proto1"
                 android:textColor="#E65521"
@@ -45,6 +48,8 @@
                 android:id="@+id/textView4"
                 android:layout_width="match_parent"
                 android:layout_height="38dp"
+                android:fontFamily="sans-serif-condensed"
+                android:textSize="16sp"
                 android:layout_marginTop="10dp"
                 android:text="DO NOT leave the person alone."
                 android:textColor="#E65521"
@@ -56,9 +61,10 @@
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:textColor="#E65521"
+                android:fontFamily="sans-serif-condensed"
+                android:textSize="16sp"
                 android:layout_marginTop="10dp"
                 android:text="@string/sui_2_1proto1"
-                android:textSize="15sp"
                 />
 
 
@@ -71,6 +77,8 @@
                 android:layout_marginTop="10dp"
                 android:text="@string/sui_2_1"
                 android:textColor="#361818"
+                android:fontFamily="sans-serif-condensed"
+                android:textSize="16sp"
 
                 />
 
@@ -81,8 +89,8 @@
                 android:layout_marginTop="10dp"
                 android:text="If hospitalization is needed, continue to monitor the person closely to prevent suicide"
                 android:textColor="#E65521"
-
-                />
+                android:fontFamily="sans-serif-condensed"
+                android:textSize="16sp" />
 
             <TextView
                 android:id="@+id/textView9"
@@ -91,8 +99,9 @@
                 android:textColor="#E65521"
                 android:layout_marginTop="10dp"
                 android:text=" Care for the person with self-harm."
-                android:textSize="15sp"
-                tools:ignore="HardcodedText" />
+                tools:ignore="HardcodedText"
+                android:fontFamily="sans-serif-condensed"
+                android:textSize="16sp"/>
 
 
             <TextView
@@ -101,6 +110,8 @@
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:layout_marginTop="10dp"
+                android:fontFamily="sans-serif-condensed"
+                android:textSize="16sp"
                 android:text="@string/sui_2_2"
                 />
 
@@ -111,6 +122,8 @@
                 android:layout_marginTop="10dp"
                 android:text="@string/sui28"
                 android:textColor="#361818"
+                android:fontFamily="sans-serif-condensed"
+                android:textSize="16sp"
 
                 />
 
@@ -120,8 +133,9 @@
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:layout_marginTop="10dp"
+                android:fontFamily="sans-serif-condensed"
+                android:textSize="16sp"
                 android:text="@string/sui24"
-
                 />
 
 
@@ -131,6 +145,8 @@
                 android:layout_height="wrap_content"
                 android:textColor="#E65521"
                 android:layout_marginTop="10dp"
+                android:fontFamily="sans-serif-condensed"
+                android:textSize="16sp"
                 android:text="@string/sui_2_3"
                 />
 
@@ -139,9 +155,10 @@
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:textColor="#E65521"
+                android:fontFamily="sans-serif-condensed"
+                android:textSize="16sp"
                 android:layout_marginTop="10dp"
                 android:text="@string/offer_carers_support"
-                android:textSize="15sp"
                 />
 
             <TextView
@@ -151,6 +168,8 @@
                 android:layout_marginTop="10dp"
                 android:text="@string/sui_2_4"
                 android:textColor="#361818"
+                android:fontFamily="sans-serif-condensed"
+                android:textSize="16sp"
 
                 />
             <TextView
@@ -160,7 +179,8 @@
                 android:textColor="#E65521"
                 android:layout_marginTop="10dp"
                 android:text="Consult a mental health specialist,  if available."
-                android:textSize="15sp"
+                android:fontFamily="sans-serif-condensed"
+                android:textSize="16sp"
                 tools:ignore="HardcodedText" />
 
             <TextView
@@ -170,7 +190,8 @@
                 android:textColor="#E65521"
                 android:layout_marginTop="10dp"
                 android:text="Maintain regular contact and Follow-Up."
-                android:textSize="15sp"
+                android:fontFamily="sans-serif-condensed"
+                android:textSize="16sp"
                 />
 
 

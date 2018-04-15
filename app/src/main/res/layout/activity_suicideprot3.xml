@@ -30,6 +30,7 @@
                 android:text="Protocol 3 Risk of Self-Harm/Suicide"
                 android:textColor="#E65521"
                 android:textSize="25sp"
+                android:fontFamily="sans-serif-condensed"
                 android:textAlignment="center"
                 tools:ignore="HardcodedText" />
 
@@ -41,6 +42,8 @@
                 android:layout_marginTop="10dp"
                 android:text="@string/sui_2_3"
                 android:textColor="#E65521"
+                android:fontFamily="sans-serif-condensed"
+                android:textSize="16sp"
 
                 />
 
@@ -52,6 +55,8 @@
                 android:layout_marginTop="10dp"
                 android:text="Consult a mental health specialist, if available."
                 android:textColor="#E65521"
+                android:fontFamily="sans-serif-condensed"
+                android:textSize="16sp"
 
                 />
 
@@ -62,7 +67,8 @@
                 android:textColor="#E65521"
                 android:layout_marginTop="10dp"
                 android:text="Maintain regular contact and Follow-Up."
-                android:textSize="15sp"
+                android:fontFamily="sans-serif-condensed"
+                android:textSize="16sp"
                 />
 
         </LinearLayout>

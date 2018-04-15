@@ -17,6 +17,7 @@
             android:layout_height="wrap_content"
             android:text="Protocol 1(Dementia)"
             android:textColor="#92C139"
+            android:fontFamily="sans-serif-condensed"
             android:textSize="30sp"
             android:textAlignment="center"
             tools:ignore="HardcodedText" />
@@ -27,7 +28,8 @@
             android:layout_height="wrap_content"
             android:layout_marginTop="10dp"
             android:text="DEMENTIA – without behavioural  and/or psychological symptoms"
-            android:textSize="15sp"
+            android:fontFamily="sans-serif-condensed"
+            android:textSize="16sp"
             android:textAlignment="center"
             />
 
@@ -38,7 +40,8 @@
             android:layout_height="wrap_content"
             android:layout_marginTop="10dp"
             android:text="PSYCHOSOCIAL INTERVENTIONS"
-            android:textSize="15sp"
+            android:fontFamily="sans-serif-condensed"
+            android:textSize="16sp"
             android:textAlignment="center"
             tools:ignore="DuplicateIds,HardcodedText" />
 
@@ -49,17 +52,17 @@
             android:textColor="#92C139"
             android:layout_marginTop="10dp"
             android:text="@string/Dementia4"
-            android:textSize="15sp"
+            android:fontFamily="sans-serif-condensed"
+            android:textSize="16sp"
             />
-
-
-
         <TextView
             android:id="@+id/t1"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:textColor="#361818"
             android:layout_marginTop="10dp"
+            android:fontFamily="sans-serif-condensed"
+            android:textSize="16sp"
             android:text="@string/Dementia7" />
 
         <TextView
@@ -69,7 +72,8 @@
             android:textColor="#92C139"
             android:layout_marginTop="20dp"
             android:text="2.4 Encourage carers to conduct interventions to improve cognitive functioning. "
-            android:textSize="15sp"
+            android:fontFamily="sans-serif-condensed"
+            android:textSize="16sp"
             tools:ignore="HardcodedText" />
 
         <TextView
@@ -78,8 +82,9 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_marginTop="10dp"
+            android:fontFamily="sans-serif-condensed"
+            android:textSize="16sp"
             android:text="@string/Dementia8"
-
             />
 
         <TextView
@@ -89,7 +94,8 @@
             android:textColor="#92C139"
             android:layout_marginTop="20dp"
             android:text="2.3   Promote independence, functioning, and mobility"
-            android:textSize="15sp"
+            android:fontFamily="sans-serif-condensed"
+            android:textSize="16sp"
             tools:ignore="HardcodedText" />
 
 
@@ -99,6 +105,8 @@
             android:textColor="#361818"
             android:layout_height="wrap_content"
             android:layout_marginTop="10dp"
+            android:fontFamily="sans-serif-condensed"
+            android:textSize="16sp"
             android:text="@string/dementia1" />
 
 
@@ -107,9 +115,10 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:textColor="#92C139"
+            android:fontFamily="sans-serif-condensed"
+            android:textSize="16sp"
             android:layout_marginTop="10dp"
             android:text="@string/Dementia5"
-
             />
 
         <TextView
@@ -119,7 +128,8 @@
             android:layout_marginTop="20dp"
             android:textColor="#361818"
             android:text="@string/Dementia2"
-            android:textSize="15sp"
+            android:fontFamily="sans-serif-condensed"
+            android:textSize="16sp"
             />
 
         <TextView
@@ -128,6 +138,8 @@
             android:layout_height="wrap_content"
             android:textColor="#92C139"
             android:layout_marginTop="10dp"
+            android:fontFamily="sans-serif-condensed"
+            android:textSize="16sp"
             android:text="@string/Dementia6"
             />
         <TextView
@@ -136,6 +148,8 @@
             android:layout_height="wrap_content"
             android:textColor="#361818"
             android:layout_marginTop="10dp"
+            android:fontFamily="sans-serif-condensed"
+            android:textSize="16sp"
             android:text="@string/Dementia3"
             />
     </LinearLayout>

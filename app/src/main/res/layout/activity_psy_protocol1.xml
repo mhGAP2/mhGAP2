@@ -5,33 +5,27 @@
     android:layout_height="match_parent"
     android:background="#ffffff"
     tools:context="com.example.tencho.mhgap2.psy_protocol1">
-    >
-
-
-
     <LinearLayout
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:orientation="vertical"
         android:layout_marginLeft="5dp"
         tools:ignore="RtlHardcoded">
-
-
         <TextView
             android:id="@+id/textView1"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:text="Protocol 1(Manic Episode in Bipolar Disorder)"
             android:textColor="#223C97"
-            android:textSize="25sp"
+            android:fontFamily="sans-serif-condensed"
+            android:textSize="16sp"
             android:textAlignment="center"
             tools:ignore="HardcodedText" />
-
-
         <TextView
             android:id="@+id/textView3"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
+            android:fontFamily="sans-serif-condensed"
             android:textColor="#223C97"
             android:layout_marginTop="10dp"
             android:text="2.1 Provide psychoeducation to the person and carers."
@@ -41,6 +35,8 @@
 
 
         <TextView
+            android:fontFamily="sans-serif-condensed"
+            android:textSize="16sp"
             android:id="@+id/textView4"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
@@ -55,6 +51,7 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:textColor="#cc0808"
+            android:fontFamily="sans-serif-condensed"
             android:textSize="17sp"
             android:layout_marginTop="10dp"
             android:text="CLINICAL TIP"
@@ -65,20 +62,20 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:textColor="#361818"
+            android:fontFamily="sans-serif-condensed"
+            android:textSize="16sp"
             android:textStyle="bold"
-            android:text="Build rapport with the person."
-
-            />
+            android:text="Build rapport with the person." />
 
         <TextView
             android:id="@+id/textView7"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:textColor="#361818"
+            android:fontFamily="sans-serif-condensed"
+            android:textSize="16sp"
             android:layout_marginTop="10dp"
-            android:text="@string/psytip1"
-
-            />
+            android:text="@string/psytip1" />
 
 
         <TextView
@@ -86,6 +83,7 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:textColor="#223C97"
+            android:fontFamily="sans-serif-condensed"
             android:layout_marginTop="10dp"
             android:text="2.6 Pharmacological Intervention."
             android:textSize="16sp"
@@ -96,6 +94,8 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:textColor="#361818"
+            android:fontFamily="sans-serif-condensed"
+            android:textSize="16sp"
             android:layout_marginTop="10dp"
             android:text="@string/psy_protocol2.6"
 
@@ -105,6 +105,8 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:textColor="#223C97"
+            android:fontFamily="sans-serif-condensed"
+            android:textSize="16sp"
             android:layout_marginTop="10dp"
             android:text="Lithium"
             />
@@ -114,6 +116,8 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:textColor="#361818"
+            android:fontFamily="sans-serif-condensed"
+            android:textSize="16sp"
             android:text="@string/Lithium"
             />
 
@@ -122,6 +126,8 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:textColor="#223C97"
+            android:fontFamily="sans-serif-condensed"
+            android:textSize="16sp"
             android:layout_marginTop="10dp"
             android:text="Valproate and Carbamazepine"
             />
@@ -131,6 +137,8 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:textColor="#361818"
+            android:fontFamily="sans-serif-condensed"
+            android:textSize="16sp"
             android:text="@string/Valproate"
             />
 
@@ -139,6 +147,8 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:textColor="#223C97"
+            android:fontFamily="sans-serif-condensed"
+            android:textSize="16sp"
             android:layout_marginTop="10dp"
             android:text="Haloperidol and risperidone"
             />
@@ -147,6 +157,8 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:textColor="#361818"
+            android:fontFamily="sans-serif-condensed"
+            android:textSize="16sp"
             android:text="@string/Haloperidol"
             />
 
@@ -155,7 +167,8 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:textColor="#cc0808"
-            android:textSize="15sp"
+            android:fontFamily="sans-serif-condensed"
+            android:textSize="16sp"
             android:layout_marginTop="10dp"
             android:text="CAUTION"
 
@@ -165,6 +178,8 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:textColor="#361818"
+            android:fontFamily="sans-serif-condensed"
+            android:textSize="16sp"
             android:text="@string/psy_caution1"
             />
         <TextView
@@ -172,17 +187,19 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:textStyle="bold"
+            android:fontFamily="sans-serif-condensed"
+            android:textSize="16sp"
             android:layout_marginTop="7dp"
             android:textColor="#361818"
-            android:text="Consider a short term (2-4 weeks maximum) benzodiazepine for behavioural disturbances or
-agitation:"
-            />
+            android:text="Consider a short term (2-4 weeks maximum) benzodiazepine for behavioural disturbances or agitation:" />
 
         <TextView
             android:id="@+id/textView19"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:textColor="#361818"
+            android:fontFamily="sans-serif-condensed"
+            android:textSize="16sp"
             android:text="@string/psy_2.6"
             />
 
@@ -191,6 +208,7 @@ agitation:"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:textColor="#223C97"
+            android:fontFamily="sans-serif-condensed"
             android:layout_marginTop="10dp"
             android:text="2.3 Promote functioning in daily living activities"
             android:textSize="16sp"
@@ -201,9 +219,10 @@ agitation:"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:textColor="#361818"
+            android:fontFamily="sans-serif-condensed"
+            android:textSize="16sp"
             android:layout_marginTop="10dp"
             android:text="@string/psy_protocol2.3"
-
             />
 
 
@@ -212,24 +231,25 @@ agitation:"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:textColor="#223C97"
+            android:fontFamily="sans-serif-condensed"
             android:layout_marginTop="10dp"
             android:text="@string/psy_protocol"
             android:textSize="16sp"
             />
-
-
-
         <TextView
             android:id="@+id/textView822"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:textColor="#223C97"
+            android:fontFamily="sans-serif-condensed"
             android:layout_marginTop="10dp"
             android:text="2.2 Reduce stress and strengthen social supports"
             android:textSize="16sp"
             />
         <TextView
             android:id="@+id/textView23"
+            android:fontFamily="sans-serif-condensed"
+            android:textSize="16sp"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:textColor="#361818"
@@ -240,10 +260,11 @@ agitation:"
 
         <TextView
             android:id="@+id/textVie24"
+            android:fontFamily="sans-serif-condensed"
+            android:textSize="16sp"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:textColor="#cc0808"
-            android:textSize="15sp"
             android:layout_marginTop="10dp"
             android:text="CLINICAL TIP"
 
@@ -254,6 +275,8 @@ agitation:"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:textColor="#361818"
+            android:fontFamily="sans-serif-condensed"
+            android:textSize="16sp"
             android:text="@string/psy_tip2"
 
             />

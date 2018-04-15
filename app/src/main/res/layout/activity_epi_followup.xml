@@ -19,6 +19,7 @@ tools:context="com.example.tencho.mhgap2.epi_followup">
         android:text="Follow-Up"
         android:textColor="#ffffff"
         android:textSize="35sp"
+        android:fontFamily="sans-serif-condensed"
         android:textAlignment="center"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
@@ -45,7 +46,8 @@ tools:context="com.example.tencho.mhgap2.epi_followup">
             android:layout_weight="142.16"
             android:text="@string/Epifollow"
             android:textAlignment="center"
-            android:textSize="20sp"
+            android:fontFamily="sans-serif-condensed"
+            android:textSize="16sp"
             tools:ignore="HardcodedText" />
     </LinearLayout>
     <LinearLayout
@@ -63,7 +65,8 @@ tools:context="com.example.tencho.mhgap2.epi_followup">
             android:layout_marginLeft="10dp"
             android:layout_marginRight="10dp"
             android:background="@drawable/depre"
-            android:textSize="15sp"
+            android:fontFamily="sans-serif-condensed"
+            android:textSize="16sp"
             android:textColor="#51b0d6"
             android:layout_weight="1"
             tools:ignore="ButtonStyle,HardcodedText,SmallSp" />
@@ -78,7 +81,8 @@ tools:context="com.example.tencho.mhgap2.epi_followup">
             android:textColor="#51b0d6"
             android:background="@drawable/depre"
             android:layout_weight="1"
-            android:textSize="15sp"
+            android:fontFamily="sans-serif-condensed"
+            android:textSize="16sp"
             tools:ignore="ButtonStyle,HardcodedText,SmallSp" />
         <Button
             android:id="@+id/home"
@@ -89,7 +93,8 @@ tools:context="com.example.tencho.mhgap2.epi_followup">
             android:layout_marginLeft="10dp"
             android:layout_marginRight="10dp"
             android:background="@drawable/depre"
-            android:textSize="15sp"
+            android:fontFamily="sans-serif-condensed"
+            android:textSize="16sp"
             android:layout_weight="1"
             tools:ignore="ButtonStyle,HardcodedText,SmallSp"/>
 

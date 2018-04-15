@@ -14,8 +14,6 @@ android:weightSum="3">
     android:layout_height="match_parent"
     android:orientation="vertical"
     android:weightSum="4"
-
-
     >
 
     <TextView
@@ -25,6 +23,7 @@ android:weightSum="3">
         android:layout_marginBottom="10dp"
         android:layout_marginTop="10dp"
         android:layout_weight="1"
+        android:fontFamily="sans-serif-condensed"
         android:text="SUBSTANCE USE"
         android:textAlignment="center"
         android:textColor="#ffffff"
@@ -38,6 +37,7 @@ android:weightSum="3">
         android:layout_marginRight="5dp"
         android:layout_marginTop="2dp"
         android:layout_weight="1"
+        android:fontFamily="sans-serif-condensed"
         android:textColor="#ffffff"
         android:textSize="18sp"
         android:text="@string/cmh" />
@@ -48,11 +48,12 @@ android:weightSum="3">
         android:layout_marginBottom="10dp"
         android:layout_height="52dp"
         android:text="begin test"
+        android:fontFamily="sans-serif-condensed"
+        android:textSize="16sp"
         android:layout_marginTop="20dp"
         android:layout_gravity="center"
         android:background="@drawable/depre"
-        android:textColor="#F68B1F"
-        android:textSize="20dp"/>
+        android:textColor="#F68B1F" />
 
 </LinearLayout>
 

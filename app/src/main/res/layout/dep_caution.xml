@@ -20,6 +20,7 @@
             android:text="Caution"
             android:textColor="#cc0808"
             android:textSize="25dp"
+            android:fontFamily="sans-serif-condensed"
             android:textAlignment="center"/>
 
         <TextView
