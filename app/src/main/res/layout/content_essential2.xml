@@ -62,7 +62,7 @@
                 android:layout_height="wrap_content"
                 android:text="@string/ja"
                 android:textAlignment="center"
-                android:textSize="19dp"
+                android:textSize="18dp"
                 android:fontFamily="sans-serif-condensed"
                 tools:ignore="SpUsage" />
 
@@ -84,7 +84,7 @@
                 android:layout_marginBottom="15dp"
                 android:layout_height="wrap_content"
                 android:text="@string/pe"
-                android:textSize="19dp"
+                android:textSize="18dp"
                 android:fontFamily="sans-serif-condensed"
                 android:textAlignment="center"
                 tools:ignore="SpUsage" />
