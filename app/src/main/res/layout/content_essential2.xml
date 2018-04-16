@@ -38,6 +38,7 @@
                 android:layout_height="wrap_content"
                 android:textSize="23dp"
                 android:textColor="#035777"
+                android:fontFamily="sans-serif-condensed"
                 android:textAlignment="center"
                 android:text="@string/p"
                 tools:ignore="SpUsage"
@@ -48,6 +49,8 @@
                 android:textColor="#000000"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
+                android:fontFamily="sans-serif-condensed"
+                android:textSize="16sp"
                 android:text="@string/ge"/>
 
             <TextView
@@ -60,6 +63,7 @@
                 android:text="@string/ja"
                 android:textAlignment="center"
                 android:textSize="19dp"
+                android:fontFamily="sans-serif-condensed"
                 tools:ignore="SpUsage" />
 
             <TextView
@@ -67,6 +71,8 @@
                 android:textColor="#000000"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
+                android:fontFamily="sans-serif-condensed"
+                android:textSize="16sp"
                 android:text="@string/li"
                 />
 
@@ -79,6 +85,7 @@
                 android:layout_height="wrap_content"
                 android:text="@string/pe"
                 android:textSize="19dp"
+                android:fontFamily="sans-serif-condensed"
                 android:textAlignment="center"
                 tools:ignore="SpUsage" />
 
@@ -87,6 +94,8 @@
                 android:textColor="#000000"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
+                android:fontFamily="sans-serif-condensed"
+                android:textSize="16sp"
                 android:text="@string/he"/>
 
             <TextView
@@ -96,13 +105,17 @@
                 android:textColor="#000000"
                 android:text="@string/ml"
                 tools:ignore="InefficientWeight,SpUsage"
-                android:layout_weight="0.39" />
+                android:layout_weight="0.39"
+                android:fontFamily="sans-serif-condensed"
+                android:textSize="16sp"/>
 
             <TextView
                 android:id="@+id/t27"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:textColor="#000000"
+                android:fontFamily="sans-serif-condensed"
+                android:textSize="16sp"
                 android:text="@string/jaa"/>
 
             <TextView
@@ -116,12 +129,14 @@
                 android:textSize="19dp"
                 android:textAlignment="center"
                 tools:ignore="SpUsage"
-                />
+                android:fontFamily="sans-serif-condensed" />
             <TextView
                 android:id="@+id/t33"
                 android:layout_width="match_parent"
                 android:textColor="#000000"
                 android:layout_height="wrap_content"
+                android:fontFamily="sans-serif-condensed"
+                android:textSize="16sp"
                 android:text="@string/ri"/>
 
             <TextView
@@ -129,6 +144,8 @@
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:textColor="#000000"
+                android:fontFamily="sans-serif-condensed"
+                android:textSize="16sp"
                 android:text="@string/cs"
                 />
 
@@ -138,6 +155,8 @@
                 android:textColor="#000000"
                 android:layout_height="wrap_content"
                 android:text="@string/qa"
+                android:fontFamily="sans-serif-condensed"
+                android:textSize="16sp"
                 tools:ignore="SpUsage"
                 />
             <TextView
@@ -145,6 +164,8 @@
                 android:textColor="#000000"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
+                android:fontFamily="sans-serif-condensed"
+                android:textSize="16sp"
                 android:text="@string/_te"
                 />
             <TextView
@@ -152,6 +173,8 @@
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:textColor="#000000"
+                android:fontFamily="sans-serif-condensed"
+                android:textSize="16sp"
                 android:text="@string/ni"/>
             <TextView
                 android:id="@+id/t3"
@@ -159,13 +182,17 @@
                 android:layout_height="wrap_content"
                 android:textColor="#000000"
                 android:text="@string/po"
-                tools:ignore="SpUsage" />
+                tools:ignore="SpUsage"
+                android:fontFamily="sans-serif-condensed"
+                android:textSize="16sp"/>
 
             <TextView
                 android:id="@+id/t2"
                 android:layout_width="match_parent"
                 android:textColor="#000000"
                 android:layout_height="wrap_content"
+                android:fontFamily="sans-serif-condensed"
+                android:textSize="16sp"
                 android:text="@string/ju"
                 />
 
@@ -175,6 +202,8 @@
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:textColor="#000000"
+                android:fontFamily="sans-serif-condensed"
+                android:textSize="16sp"
                 android:text="@string/hu"
                 tools:ignore="SpUsage" />
 
@@ -185,12 +214,15 @@
                 android:textColor="#035777"
                 android:textAlignment="center"
                 android:textSize="23dp"
+                android:fontFamily="sans-serif-condensed"
                 android:text="@string/f"/>
             <TextView
                 android:id="@+id/t"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:textColor="#000000"
+                android:fontFamily="sans-serif-condensed"
+                android:textSize="16sp"
                 android:text="@string/hg"
                 tools:ignore="SpUsage" />
             <TextView
@@ -198,6 +230,8 @@
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:textColor="#000000"
+                android:fontFamily="sans-serif-condensed"
+                android:textSize="16sp"
                 android:text="@string/mj"
                 tools:ignore="SpUsage" />
             <TextView
@@ -205,6 +239,8 @@
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:textColor="#000000"
+                android:fontFamily="sans-serif-condensed"
+                android:textSize="16sp"
                 android:text="@string/ui"
                 tools:ignore="SpUsage" />
             <TextView
@@ -212,6 +248,8 @@
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:textColor="#000000"
+                android:fontFamily="sans-serif-condensed"
+                android:textSize="16sp"
                 android:text="@string/vd"
                 tools:ignore="SpUsage" />
 
@@ -219,6 +257,8 @@
                 android:id="@+id/t95"
                 android:layout_width="match_parent"
                 android:textColor="#000000"
+                android:fontFamily="sans-serif-condensed"
+                android:textSize="16sp"
                 android:layout_height="wrap_content"
                 android:text="@string/_2_always_offer_psychosocial_interventions_for_the_person_and_their_carers"
                 tools:ignore="SpUsage" />
@@ -226,6 +266,8 @@
                 android:id="@+id/t97"
                 android:layout_width="match_parent"
                 android:textColor="#000000"
+                android:fontFamily="sans-serif-condensed"
+                android:textSize="16sp"
                 android:layout_height="wrap_content"
                 android:text="@string/lo"
                 tools:ignore="SpUsage" />
@@ -234,18 +276,24 @@
                 android:textColor="#000000"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
+                android:fontFamily="sans-serif-condensed"
+                android:textSize="16sp"
                 android:text="@string/ki"
                 tools:ignore="SpUsage" />
             <TextView
                 android:id="@+id/t89"
                 android:layout_width="match_parent"
                 android:textColor="#000000"
+                android:fontFamily="sans-serif-condensed"
+                android:textSize="16sp"
                 android:layout_height="wrap_content"
                 android:text="@string/we"
                 tools:ignore="SpUsage" />
             <TextView
                 android:id="@+id/t67"
                 android:textColor="#000000"
+                android:fontFamily="sans-serif-condensed"
+                android:textSize="16sp"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:text="@string/are"
@@ -255,6 +303,8 @@
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:textColor="#000000"
+                android:fontFamily="sans-serif-condensed"
+                android:textSize="16sp"
                 android:text="@string/ln"
                 tools:ignore="SpUsage" />
             <TextView
@@ -262,6 +312,8 @@
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:textColor="#000000"
+                android:fontFamily="sans-serif-condensed"
+                android:textSize="16sp"
                 android:text="@string/jh"
                 tools:ignore="SpUsage" />
 

@@ -7,24 +7,20 @@ android:layout_width="match_parent"
 android:layout_height="match_parent"
 android:background="#F68B1F"
 tools:context="com.example.tencho.mhgap2.Substanceuse_Assessment">
-
-
-<LinearLayout
+    <LinearLayout
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:orientation="vertical"
-
-    >
-
-    <TextView
-        android:id="@+id/title"
-        android:text="Assessment"
-        android:textSize="35sp"
-        android:textColor="#ffffff"
-        android:textAlignment="center"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        tools:ignore="HardcodedText" />
+    android:orientation="vertical">
+        <TextView
+            android:id="@+id/title"
+            android:text="Assessment"
+            android:textSize="35sp"
+            android:textColor="#ffffff"
+            android:fontFamily="sans-serif-condensed"
+            android:textAlignment="center"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            tools:ignore="HardcodedText" />
     <ImageView
         android:id="@+id/imageView4"
         android:layout_width="124dp"
@@ -47,6 +43,7 @@ tools:context="com.example.tencho.mhgap2.Substanceuse_Assessment">
             android:text="@string/Disorder1"
             android:textAlignment="center"
             android:textSize="18sp"
+            android:fontFamily="sans-serif-condensed"
             tools:ignore="HardcodedText" />
     </LinearLayout>
 
@@ -65,7 +62,8 @@ tools:context="com.example.tencho.mhgap2.Substanceuse_Assessment">
             android:text="Yes"
             android:background="@drawable/depre"
             android:textColor="#F68B1F"
-            android:textSize="15sp"
+            android:fontFamily="sans-serif-condensed"
+            android:textSize="16sp"
             android:layout_marginLeft="10dp"
             android:layout_marginRight="10dp"
             android:layout_weight="1"
@@ -83,7 +81,8 @@ tools:context="com.example.tencho.mhgap2.Substanceuse_Assessment">
             android:layout_marginRight="10dp"
             android:background="@drawable/depre"
             android:textColor="#F68B1F"
-            android:textSize="15sp"
+            android:fontFamily="sans-serif-condensed"
+            android:textSize="16sp"
             tools:ignore="ButtonStyle,HardcodedText,SmallSp" />
         <Button
             android:id="@+id/oth"
@@ -94,7 +93,8 @@ tools:context="com.example.tencho.mhgap2.Substanceuse_Assessment">
             android:text="oth"
             android:layout_marginLeft="10dp"
             android:layout_marginRight="10dp"
-            android:textSize="15sp"
+            android:fontFamily="sans-serif-condensed"
+            android:textSize="16sp"
             android:layout_weight="1"
             tools:ignore="ButtonStyle,HardcodedText,SmallSp"/>
 

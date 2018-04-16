@@ -21,25 +21,31 @@
             <TextView
                 android:id="@+id/dep"
                 style="@style/tview"
-                android:background="@drawable/d1"
-                android:text="@string/depression"/>
+                android:fontFamily="sans-serif-condensed"
+                android:text="@string/depression"
+                android:textColor="#870f05" />
 
             <TextView
                 android:id="@+id/depc"
                 style="@style/tview_content"
                 android:text="@string/depression_content"
-                android:textAppearance="@android:style/TextAppearance.Holo" />
+                android:textAppearance="@android:style/TextAppearance.Holo"
+                android:fontFamily="sans-serif-condensed"
+                android:textSize="16sp"/>
 
             <TextView
                 android:id="@+id/Psyo"
                 style="@style/tview"
                 android:text="@string/psychoses"
                 android:background="@drawable/psy"
-                />
+                android:fontFamily="sans-serif-condensed"
+                android:textColor="#6f0aa9" />
 
             <TextView
                 android:id="@+id/Psyoc"
                 style="@style/tview_content"
+                android:fontFamily="sans-serif-condensed"
+                android:textSize="16sp"
                 android:text="@string/psy_content" />
 
             <TextView
@@ -47,54 +53,70 @@
                 style="@style/tview"
                 android:text="@string/epilepsy"
                 android:background="@drawable/epi"/>
+                android:fontFamily="sans-serif-condensed"
+                android:textColor="#0c6ac9" />
 
             <TextView
                 android:id="@+id/EPILEPSY_content"
                 style="@style/tview_content"
+                android:fontFamily="sans-serif-condensed"
+                android:textSize="16sp"
                 android:text="@string/EPILEPSY_content" />
 
             <TextView
                 android:id="@+id/DISORDER"
                 style="@style/tview"
+                android:fontFamily="sans-serif-condensed"
                 android:text="@string/child_and_adolescent_mental_and_behavioural_disorders_cmh"
                 android:background="@drawable/d4" />
 
             <TextView
                 android:id="@+id/DISORDER_content"
                 style="@style/tview_content"
+                android:fontFamily="sans-serif-condensed"
+                android:textSize="16sp"
                 android:text="@string/Disorder_content" />
 
             <TextView
                 android:id="@+id/DEMENTIA"
                 style="@style/tview"
+                android:fontFamily="sans-serif-condensed"
                 android:text="@string/dementia"
                 android:background="@drawable/d5" />
 
             <TextView
                 android:id="@+id/DEM_content"
                 style="@style/tview_content"
+                android:fontFamily="sans-serif-condensed"
+                android:textSize="16sp"
                 android:text="@string/DEMENTIA_content" />
 
             <TextView
                 android:id="@+id/SUBSTANCEUSE"
                 style="@style/tview"
+                android:fontFamily="sans-serif-condensed"
                 android:text="@string/disorders_due_to_substance_use_sub"
                 android:background="@drawable/d6"/>
 
             <TextView
                 android:id="@+id/SUBSTANCEUSE_content"
                 style="@style/tview_content"
+                android:fontFamily="sans-serif-condensed"
+                android:textSize="16sp"
                 android:text="@string/SUBSTANCEUSE_content" />
 
             <TextView
                 android:id="@+id/SUICIDE"
                 style="@style/tview"
+                android:fontFamily="sans-serif-condensed"
                 android:text="@string/self_harm_suicide_sui"
                 android:background="@drawable/d7" />
 
             <TextView
                 android:id="@+id/SUICIDE_content"
                 style="@style/tview_content"
+                android:fontFamily="sans-serif-condensed"
+                android:textSize="16sp"
                 android:text="@string/SUICIDE_content" />
         </LinearLayout>
     </ScrollView>

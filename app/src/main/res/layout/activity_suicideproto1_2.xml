@@ -28,7 +28,8 @@
                 android:textColor="#E65521"
                 android:textSize="25sp"
                 android:textAlignment="center"
-                tools:ignore="HardcodedText" />
+                tools:ignore="HardcodedText"
+                android:fontFamily="sans-serif-condensed" />
 
             <TextView
                 android:id="@+id/textViewc2"
@@ -37,6 +38,8 @@
                 android:layout_marginTop="10dp"
                 android:text="@string/sui25"
                 android:textColor="#361818"
+                android:fontFamily="sans-serif-condensed"
+                android:textSize="16sp"
                 />
             <TextView
                 android:id="@+id/textVie"
@@ -45,6 +48,8 @@
                 android:layout_marginTop="10dp"
                 android:text="@string/sui26"
                 android:textColor="#361818"
+                android:fontFamily="sans-serif-condensed"
+                android:textSize="16sp"
 
                 />
             <TextView
@@ -54,6 +59,8 @@
                 android:layout_marginTop="10dp"
                 android:text="@string/sui27"
                 android:textColor="#361818"
+                android:fontFamily="sans-serif-condensed"
+                android:textSize="16sp"
 
                 />
 

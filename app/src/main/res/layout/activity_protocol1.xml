@@ -15,8 +15,6 @@
             android:orientation="vertical"
             android:layout_marginLeft="5dp"
             tools:ignore="RtlHardcoded">
-
-
             <TextView
                 android:id="@+id/textView1"
                 android:layout_width="match_parent"
@@ -24,6 +22,7 @@
                 android:text="Protocol 1(Depression)"
                 android:textColor="#881D6C"
                 android:textSize="30sp"
+                android:fontFamily="sans-serif-condensed"
                 android:textAlignment="center"
                 tools:ignore="HardcodedText" />
             <TextView
@@ -32,8 +31,9 @@
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:layout_marginTop="10dp"
+                android:fontFamily="sans-serif-condensed"
+                android:textSize="16sp"
                 android:text="PSYCHOSOCIAL INTERVENTIONS"
-                android:textSize="15sp"
                 android:textAlignment="center"
                 tools:ignore="HardcodedText" />
 
@@ -42,13 +42,10 @@
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:textColor="#881D6C"
+                android:fontFamily="sans-serif-condensed"
+                android:textSize="16sp"
                 android:layout_marginTop="10dp"
-                android:text="@string/_2_1_psychocarers"
-                android:textSize="15sp"
-                />
-
-
-
+                android:text="@string/_2_1_psychocarers" />
 
 
             <TextView
@@ -56,6 +53,8 @@
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:textColor="#361818"
+                android:fontFamily="sans-serif-condensed"
+                android:textSize="16sp"
                 android:layout_marginTop="10dp"
                 android:text="@string/dep_protocol2.1"
 
@@ -66,26 +65,20 @@
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:textColor="#881D6C"
+                android:fontFamily="sans-serif-condensed"
+                android:textSize="16sp"
                 android:layout_marginTop="20dp"
                 android:text="2.2 Reduce stress and strengthen social support"
-                android:textSize="15sp"
                 tools:ignore="HardcodedText" />
-            Assess for and try to reduce stressors. (Go to » ECP)
-
-
-
-
             <TextView
                 android:id="@+id/textVie6"
                 android:textColor="#361818"
+                android:fontFamily="sans-serif-condensed"
+                android:textSize="16sp"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:layout_marginTop="10dp"
-                android:text="@string/ecp"
-
-                />
-
-
+                android:text="@string/ecp" />
 
             <TextView
                 android:id="@+id/textView6"
@@ -93,6 +86,8 @@
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:layout_marginTop="10dp"
+                android:fontFamily="sans-serif-condensed"
+                android:textSize="16sp"
                 android:text="@string/dep_protocol2.2"
 
                 />
@@ -102,9 +97,10 @@
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:textColor="#881D6C"
+                android:fontFamily="sans-serif-condensed"
+                android:textSize="16sp"
                 android:layout_marginTop="20dp"
                 android:text="2.3 Promote functioning in daily activities and community life"
-                android:textSize="15sp"
                 tools:ignore="HardcodedText" />
 
 
@@ -113,12 +109,10 @@
                 android:layout_width="match_parent"
                 android:textColor="#361818"
                 android:layout_height="wrap_content"
+                android:fontFamily="sans-serif-condensed"
+                android:textSize="16sp"
                 android:layout_marginTop="10dp"
-                android:text="@string/dep_protocol2.3"
-
-                />
-
-
+                android:text="@string/dep_protocol2.3" />
             <TextView
                 android:id="@+id/textView10"
                 android:layout_width="match_parent"
@@ -126,8 +120,8 @@
                 android:textColor="#881D6C"
                 android:layout_marginTop="10dp"
                 android:text="@string/dep_protocol2.4"
-
-                />
+                android:fontFamily="sans-serif-condensed"
+                android:textSize="16sp"/>
 
             <TextView
                 android:id="@+id/textView11"
@@ -136,7 +130,8 @@
                 android:layout_marginTop="20dp"
                 android:textColor="#881D6C"
                 android:text="@string/dep_protocol2.5"
-                android:textSize="15sp"
+                android:fontFamily="sans-serif-condensed"
+                android:textSize="16sp"
                 />
 
             <TextView
@@ -145,13 +140,9 @@
                 android:layout_height="wrap_content"
                 android:textColor="#361818"
                 android:layout_marginTop="10dp"
-                android:text="@string/dep_protocol2.6"
-
-                />
-
-
-
-
+                android:fontFamily="sans-serif-condensed"
+                android:textSize="16sp"
+                android:text="@string/dep_protocol2.6" />
         </LinearLayout>
     </ScrollView>
 

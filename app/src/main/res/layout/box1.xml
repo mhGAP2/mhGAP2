@@ -19,21 +19,18 @@
             android:textColor="#b33123"
             android:layout_marginTop="10dp"
             android:text="BOX 1: RELAXATION TRAINING INSTRUCTIONS"
-            android:textSize="15sp"
+            android:fontFamily="sans-serif-condensed"
+            android:textSize="16sp"
             />
-
-
-
-
         <TextView
             android:id="@+id/sub2"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:textColor="#361818"
             android:layout_marginTop="10dp"
-            android:text="@string/oth6" />
-
-
+            android:text="@string/oth6"
+            android:fontFamily="sans-serif-condensed"
+            android:textSize="16sp"/>
     </LinearLayout>
 </ScrollView>
 

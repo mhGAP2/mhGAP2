@@ -5,8 +5,6 @@
     android:layout_height="match_parent"
     android:background="#ffffff">
 
-
-
     <LinearLayout
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
@@ -23,7 +21,8 @@
             android:textColor="#881D6C"
             android:textSize="30sp"
             android:textAlignment="center"
-            tools:ignore="HardcodedText" />
+            tools:ignore="HardcodedText"
+            android:fontFamily="sans-serif-condensed" />
         <TextView
             android:id="@+id/textView2"
             android:textColor="#361818"
@@ -33,7 +32,8 @@
             android:text="PSYCHOSOCIAL INTERVENTIONS"
             android:textSize="15sp"
             android:textAlignment="center"
-            tools:ignore="HardcodedText" />
+            tools:ignore="HardcodedText"
+            android:fontFamily="sans-serif-condensed" />
 
         <TextView
             android:id="@+id/textView3"
@@ -42,7 +42,8 @@
             android:textColor="#881D6C"
             android:layout_marginTop="10dp"
             android:text="@string/_2_1_psychocarers"
-            android:textSize="15sp"
+            android:fontFamily="sans-serif-condensed"
+            android:textSize="16sp"
             />
 
 
@@ -53,6 +54,8 @@
             android:layout_marginTop="10dp"
             android:text="@string/dep_protocol2.1"
             android:textColor="#361818"
+            android:fontFamily="sans-serif-condensed"
+            android:textSize="16sp"
             />
 
         <TextView
@@ -62,7 +65,8 @@
             android:textColor="#881D6C"
             android:layout_marginTop="20dp"
             android:text="2.2 Reduce stress and strengthen social support"
-            android:textSize="15sp"
+            android:fontFamily="sans-serif-condensed"
+            android:textSize="16sp"
             tools:ignore="HardcodedText" />
 
         <TextView
@@ -71,8 +75,9 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_marginTop="10dp"
+            android:fontFamily="sans-serif-condensed"
+            android:textSize="16sp"
             android:text="@string/dep_protocol2.2"
-
             />
 
         <TextView
@@ -82,7 +87,8 @@
             android:textColor="#881D6C"
             android:layout_marginTop="20dp"
             android:text="2.3 Promote functioning in daily activities and community life"
-            android:textSize="15sp"
+            android:fontFamily="sans-serif-condensed"
+            android:textSize="16sp"
             tools:ignore="HardcodedText" />
 
 
@@ -93,7 +99,8 @@
             android:layout_height="wrap_content"
             android:layout_marginTop="10dp"
             android:text="@string/dep_protocol2.3"
-
+            android:fontFamily="sans-serif-condensed"
+            android:textSize="16sp"
             />
 
 
@@ -104,7 +111,8 @@
             android:textColor="#881D6C"
             android:layout_marginTop="10dp"
             android:text="@string/dep_protocol2.4"
-
+            android:fontFamily="sans-serif-condensed"
+            android:textSize="16sp"
             />
 
         <TextView
@@ -114,7 +122,8 @@
             android:layout_marginTop="20dp"
             android:textColor="#881D6C"
             android:text="@string/dep_protocol2.5"
-            android:textSize="15sp"
+            android:fontFamily="sans-serif-condensed"
+            android:textSize="16sp"
             />
 
         <TextView
@@ -123,6 +132,8 @@
             android:layout_height="wrap_content"
             android:textColor="#361818"
             android:layout_marginTop="10dp"
+            android:fontFamily="sans-serif-condensed"
+            android:textSize="16sp"
             android:text="@string/dep_protocol2.6"
 
             />

@@ -24,6 +24,7 @@ android:background="#92C139">
         android:text="Management"
         android:textAlignment="center"
         android:textSize="35dp"
+        android:fontFamily="sans-serif-condensed"
         tools:ignore="HardcodedText,SpUsage" />
 
 
@@ -44,7 +45,7 @@ android:background="#92C139">
         android:layout_marginRight="55dp"
         android:layout_marginTop="20dp"
         android:layout_marginBottom="20dp"
-
+        android:fontFamily="sans-serif-condensed"
         android:background="@drawable/depre"
         android:text="Protocol 1"
         android:textColor="#92C139"
@@ -58,7 +59,7 @@ android:background="#92C139">
         android:layout_marginLeft="55dp"
         android:layout_marginRight="55dp"
         android:layout_marginBottom="20dp"
-
+        android:fontFamily="sans-serif-condensed"
         android:background="@drawable/depre"
         android:text="protocol 2"
         android:textColor="#92C139"

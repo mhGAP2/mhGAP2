@@ -15,8 +15,6 @@ android:weightSum="3">
     android:layout_height="wrap_content"
     android:orientation="vertical"
     android:weightSum="4"
-
-
     >
 
     <TextView
@@ -27,6 +25,7 @@ android:weightSum="3">
         android:layout_marginTop="10dp"
         android:layout_weight="1"
         android:text="DEMENTIA"
+        android:fontFamily="sans-serif-condensed"
         android:textAlignment="center"
         android:textColor="#ffffff"
         android:textSize="35sp"
@@ -40,8 +39,9 @@ android:weightSum="3">
         android:layout_marginRight="5dp"
         android:layout_marginTop="2dp"
         android:layout_weight="1"
+        android:fontFamily="sans-serif-condensed"
+        android:textSize="16sp"
         android:textColor="#ffffff"
-        android:textSize="15sp"
         android:text="@string/dem" />
 
 
@@ -54,6 +54,7 @@ android:weightSum="3">
         android:layout_marginTop="20dp"
         android:background="@drawable/depre"
         android:text="@string/begin_test"
+        android:fontFamily="sans-serif-condensed"
         android:layout_marginBottom="10dp"
         android:textColor="#92C139"
         android:textSize="18sp"/>

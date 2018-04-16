@@ -5,26 +5,22 @@ android:layout_width="match_parent"
     tools:context="com.example.tencho.mhgap2.dep_protocol2"
 android:layout_height="match_parent"
 android:background="#ffffff">
-
-
-
-<LinearLayout
+    <LinearLayout
     android:layout_width="match_parent"
     android:layout_height="wrap_content"
     android:orientation="vertical"
     android:layout_marginLeft="5dp"
     tools:ignore="RtlHardcoded">
-
-
-    <TextView
-        android:id="@+id/textVie1"
-        android:textColor="#881D6C"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:text="Protocol 2(Depression in Bipolar Disorder)"
-        android:textSize="25sp"
-        android:textAlignment="center"
-        tools:ignore="HardcodedText" />
+        <TextView
+            android:id="@+id/textVie1"
+            android:textColor="#881D6C"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Protocol 2(Depression in Bipolar Disorder)"
+            android:textSize="25sp"
+            android:fontFamily="sans-serif-condensed"
+            android:textAlignment="center"
+            tools:ignore="HardcodedText" />
     <TextView
         android:id="@+id/textView2"
         android:layout_width="match_parent"
@@ -32,18 +28,19 @@ android:background="#ffffff">
         android:layout_height="wrap_content"
         android:layout_marginTop="10dp"
         android:text="PHARMACOLOGICAL INTERVENTIONS"
-        android:textSize="15sp"
+        android:fontFamily="sans-serif-condensed"
+        android:textSize="16sp"
         android:textAlignment="center"
         tools:ignore="HardcodedText" />
 
     <TextView
         android:id="@+id/textVie3"
         android:textColor="#361818"
+        android:fontFamily="sans-serif-condensed"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_marginTop="10dp"
         android:text="@string/dep_protocol"
-
         />
 
     <TextView
@@ -53,6 +50,7 @@ android:background="#ffffff">
         android:text="Caution"
         android:textColor="#cc0808"
         android:textSize="25dp"
+        android:fontFamily="sans-serif-condensed"
         android:textAlignment="center"/>
 
     <TextView
@@ -61,6 +59,8 @@ android:background="#ffffff">
         android:layout_height="wrap_content"
         android:textColor="#361818"
         android:layout_marginTop="10dp"
+        android:fontFamily="sans-serif-condensed"
+        android:textSize="16sp"
         android:text="@string/caution1"
         />
     <TextView
@@ -69,6 +69,7 @@ android:background="#ffffff">
         android:layout_height="wrap_content"
         android:layout_marginTop="10dp"
         android:textColor="#cc0808"
+        android:fontFamily="sans-serif-condensed"
         android:text="Antidepressants in special populations"
         android:textAlignment="center"
         android:textSize="20dp" />
@@ -80,8 +81,9 @@ android:background="#ffffff">
         android:layout_height="wrap_content"
         android:layout_marginTop="10dp"
         android:textColor="#881D6C"
-        android:text="ADOLESCENTS 12 YEARS OF AGE OR OLDER"
-        android:textSize="15dp"/>
+        android:fontFamily="sans-serif-condensed"
+        android:textSize="16sp"
+        android:text="ADOLESCENTS 12 YEARS OF AGE OR OLDER" />
 
     <TextView
         android:id="@+id/textView6"
@@ -89,6 +91,8 @@ android:background="#ffffff">
         android:textColor="#361818"
         android:layout_height="wrap_content"
         android:layout_marginTop="10dp"
+        android:fontFamily="sans-serif-condensed"
+        android:textSize="16sp"
         android:text="@string/caution2"
 
         />
@@ -98,8 +102,10 @@ android:background="#ffffff">
         android:layout_height="wrap_content"
         android:layout_marginTop="10dp"
         android:textColor="#881D6C"
+        android:fontFamily="sans-serif-condensed"
+        android:textSize="16sp"
         android:text="WOMEN WHO ARE PREGNANT OR BREASTFEEDING"
-        android:textSize="15dp"/>
+       />
 
     <TextView
         android:id="@+id/textView8"
@@ -107,6 +113,8 @@ android:background="#ffffff">
         android:layout_height="wrap_content"
         android:textColor="#361818"
         android:layout_marginTop="10dp"
+        android:fontFamily="sans-serif-condensed"
+        android:textSize="16sp"
         android:text="@string/caution3"
         />
 
@@ -115,19 +123,19 @@ android:background="#ffffff">
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_marginTop="10dp"
+        android:fontFamily="sans-serif-condensed"
+        android:textSize="16sp"
         android:textColor="#881D6C"
-        android:text="OLDER ADULTS"
-        android:textSize="15dp"/>
-
-
-
-    <TextView
-        android:id="@+id/textView10"
-        android:layout_width="match_parent"
-        android:textColor="#361818"
-        android:layout_height="wrap_content"
-        android:layout_marginTop="10dp"
-        android:text="@string/caution4"
+        android:text="OLDER ADULTS" />
+        <TextView
+            android:id="@+id/textView10"
+            android:layout_width="match_parent"
+            android:textColor="#361818"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:fontFamily="sans-serif-condensed"
+            android:textSize="16sp"
+            android:text="@string/caution4"
         />
 
     <TextView
@@ -136,8 +144,9 @@ android:background="#ffffff">
         android:layout_height="wrap_content"
         android:textColor="#881D6C"
         android:layout_marginTop="10dp"
-        android:text="PEOPLE WITH CARDIOVASCULAR DISEASE"
-        android:textSize="15dp"/>
+        android:fontFamily="sans-serif-condensed"
+        android:textSize="16sp"
+        android:text="PEOPLE WITH CARDIOVASCULAR DISEASE" />
 
 
     <TextView
@@ -146,6 +155,8 @@ android:background="#ffffff">
         android:textColor="#361818"
         android:layout_height="wrap_content"
         android:layout_marginTop="10dp"
+        android:fontFamily="sans-serif-condensed"
+        android:textSize="16sp"
         android:text="Do NOT prescribe amitriptyline."
         />
 
@@ -156,8 +167,9 @@ android:background="#ffffff">
         android:layout_height="wrap_content"
         android:textColor="#881D6C"
         android:layout_marginTop="10dp"
-        android:text="ADULTS WITH THOUGHTS OR PLANS OF SUICIDE"
-        android:textSize="15dp"/>
+        android:fontFamily="sans-serif-condensed"
+        android:textSize="16sp"
+        android:text="ADULTS WITH THOUGHTS OR PLANS OF SUICIDE" />
 
     <TextView
         android:id="@+id/textView14"
@@ -166,12 +178,9 @@ android:background="#ffffff">
         android:layout_marginTop="10dp"
         android:text="@string/caution5"
         android:textColor="#361818"
-
-        />
-
-
-
-</LinearLayout>
+        android:fontFamily="sans-serif-condensed"
+        android:textSize="16sp" />
+    </LinearLayout>
 </ScrollView>
 
 

@@ -13,8 +13,6 @@ android:background="#223C97">
     android:layout_height="match_parent"
     android:orientation="vertical"
     android:weightSum="1">
-
-
     <TextView
         android:layout_marginTop="20dp"
         android:id="@+id/textView16"
@@ -24,6 +22,7 @@ android:background="#223C97">
         android:text="Management"
         android:textAlignment="center"
         android:textSize="35dp"
+        android:fontFamily="sans-serif-condensed"
         tools:ignore="HardcodedText,SpUsage" />
 
 
@@ -44,7 +43,7 @@ android:background="#223C97">
         android:layout_marginRight="55dp"
         android:layout_marginTop="20dp"
         android:layout_marginBottom="20dp"
-
+        android:fontFamily="sans-serif-condensed"
         android:background="@drawable/depre"
         android:text="Protocol 1"
         android:textColor="#223C97"
@@ -58,7 +57,7 @@ android:background="#223C97">
         android:layout_marginLeft="55dp"
         android:layout_marginRight="55dp"
         android:layout_marginBottom="20dp"
-
+        android:fontFamily="sans-serif-condensed"
         android:background="@drawable/depre"
         android:text="protocol 2"
         android:textColor="#223C97"
@@ -76,6 +75,7 @@ android:background="#223C97">
         android:text="Special population"
         android:textColor="#223C97"
         android:textSize="18dp"
+        android:fontFamily="sans-serif-condensed"
         tools:ignore="HardcodedText,RtlHardcoded,SpUsage" />
 
 
@@ -91,6 +91,7 @@ android:background="#223C97">
         android:text="Medications"
         android:textColor="#223C97"
         android:textSize="18dp"
+        android:fontFamily="sans-serif-condensed"
         tools:ignore="HardcodedText,RtlHardcoded,SpUsage" />
 
 </LinearLayout>

@@ -18,6 +18,7 @@
             android:text="Protocol 6(Substance use)"
             android:textColor="#F68B1F"
             android:textSize="30sp"
+            android:fontFamily="sans-serif-condensed"
             android:textAlignment="center"
             tools:ignore="HardcodedText" />
         <TextView
@@ -26,8 +27,9 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_marginTop="10dp"
+            android:fontFamily="sans-serif-condensed"
+            android:textSize="16sp"
             android:text="@string/substance18"
-            android:textSize="15sp"
             android:textAlignment="center"
             />
 
@@ -37,8 +39,9 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_marginTop="10dp"
+            android:fontFamily="sans-serif-condensed"
+            android:textSize="16sp"
             android:text="@string/substance19"
-            android:textSize="15sp"
             android:textAlignment="center"
             />
     </LinearLayout>

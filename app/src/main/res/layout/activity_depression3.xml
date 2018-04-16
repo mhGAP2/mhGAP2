@@ -22,6 +22,7 @@
             android:layout_height="wrap_content"
             android:textColor="#FFFFFF"
             android:text="Management"
+            android:fontFamily="sans-serif-condensed"
             android:textAlignment="center"
             android:textSize="35dp"
             tools:ignore="HardcodedText,SpUsage" />
@@ -44,7 +45,7 @@
             android:layout_marginRight="55dp"
             android:layout_marginTop="20dp"
             android:layout_marginBottom="20dp"
-
+            android:fontFamily="sans-serif-condensed"
             android:background="@drawable/depre"
             android:text="Protocol 1"
             android:textColor="#881D6C"
@@ -58,7 +59,7 @@
             android:layout_marginLeft="55dp"
             android:layout_marginRight="55dp"
             android:layout_marginBottom="20dp"
-
+            android:fontFamily="sans-serif-condensed"
             android:background="@drawable/depre"
             android:text="protocol 2"
             android:textColor="#881D6C"
@@ -73,6 +74,7 @@
             android:layout_marginRight="55dp"
             android:background="@drawable/depre"
             android:layout_marginBottom="20dp"
+            android:fontFamily="sans-serif-condensed"
             android:text="Special population"
             android:textColor="#881D6C"
             android:textSize="18dp"
@@ -88,6 +90,7 @@
             android:layout_marginRight="55dp"
             android:background="@drawable/depre"
             android:layout_marginBottom="20dp"
+            android:fontFamily="sans-serif-condensed"
             android:text="Medications"
             android:textColor="#881D6C"
             android:textSize="18dp"

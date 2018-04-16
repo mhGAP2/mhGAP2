@@ -5,29 +5,23 @@ xmlns:tools="http://schemas.android.com/tools"
 android:layout_width="match_parent"
 android:layout_height="match_parent"
 android:background="#18B04B">
-
-
-<LinearLayout
+    <LinearLayout
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:orientation="vertical"
     android:weightSum="1">
-
-
-    <TextView
-        android:layout_marginTop="20dp"
-        android:id="@+id/textView16"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:textColor="#FFFFFF"
-        android:text="Management"
-        android:textAlignment="center"
-        android:textSize="35dp"
-        tools:ignore="HardcodedText,SpUsage" />
-
-
-
-    <ImageView
+        <TextView
+            android:layout_marginTop="20dp"
+            android:id="@+id/textView16"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textColor="#FFFFFF"
+            android:text="Management"
+            android:fontFamily="sans-serif-condensed"
+            android:textAlignment="center"
+            android:textSize="35dp"
+            tools:ignore="HardcodedText,SpUsage" />
+        <ImageView
         android:id="@+id/imageView3"
         android:layout_width="104dp"
         android:layout_height="97dp"
@@ -43,7 +37,7 @@ android:background="#18B04B">
         android:layout_marginRight="55dp"
         android:layout_marginTop="20dp"
         android:layout_marginBottom="20dp"
-
+        android:fontFamily="sans-serif-condensed"
         android:background="@drawable/depre"
         android:text="Protocol 1"
         android:textColor="#18B04B"
@@ -57,7 +51,7 @@ android:background="#18B04B">
         android:layout_marginLeft="55dp"
         android:layout_marginRight="55dp"
         android:layout_marginBottom="20dp"
-
+        android:fontFamily="sans-serif-condensed"
         android:background="@drawable/depre"
         android:text="protocol 2"
         android:textColor="#18B04B"
@@ -73,6 +67,7 @@ android:background="#18B04B">
         android:background="@drawable/depre"
         android:layout_marginBottom="20dp"
         android:text="protocol 3"
+        android:fontFamily="sans-serif-condensed"
         android:textColor="#18B04B"
         android:textSize="18dp"
         tools:ignore="HardcodedText,RtlHardcoded,SpUsage" />
@@ -88,6 +83,7 @@ android:background="#18B04B">
         android:background="@drawable/depre"
         android:layout_marginBottom="20dp"
         android:text="protocol 4"
+        android:fontFamily="sans-serif-condensed"
         android:textColor="#18B04B"
         android:textSize="18dp"
         tools:ignore="HardcodedText,RtlHardcoded,SpUsage" />
@@ -100,6 +96,7 @@ android:background="#18B04B">
         android:background="@drawable/depre"
         android:layout_marginBottom="20dp"
         android:text="protocol 5"
+        android:fontFamily="sans-serif-condensed"
         android:textColor="#18B04B"
         android:textSize="18dp"
         tools:ignore="HardcodedText,RtlHardcoded,SpUsage" />
@@ -112,6 +109,7 @@ android:background="#18B04B">
         android:background="@drawable/depre"
         android:layout_marginBottom="20dp"
         android:text="protocol 6"
+        android:fontFamily="sans-serif-condensed"
         android:textColor="#18B04B"
         android:textSize="18dp"
         tools:ignore="HardcodedText,RtlHardcoded,SpUsage" />

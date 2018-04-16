@@ -19,6 +19,7 @@
         android:layout_width="match_parent"
         android:textColor="#ffffff"
         android:textSize="35sp"
+        android:fontFamily="sans-serif-condensed"
         android:layout_height="wrap_content"
         android:textAlignment="center"
         tools:ignore="HardcodedText" />
@@ -36,6 +37,7 @@
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:textColor="#ffffff"
+            android:fontFamily="sans-serif-condensed"
             android:layout_marginTop="10dp"
                 android:text="@string/pf2"
                 android:textAlignment="center"
@@ -49,7 +51,9 @@
         android:layout_height="50dp"
         android:layout_marginTop="20dp"
         android:orientation="horizontal"
-        android:weightSum="3">
+        android:weightSum="3"
+        android:fontFamily="sans-serif-condensed"
+        android:textSize="16sp">
 
         <Button
             android:id="@+id/yes"
@@ -59,7 +63,8 @@
             android:layout_marginLeft="10dp"
             android:layout_marginRight="10dp"
             android:textColor="#223C97"
-            android:textSize="15sp"
+            android:fontFamily="sans-serif-condensed"
+            android:textSize="16sp"
             android:background="@drawable/depre"
             android:text="Yes"
             tools:ignore="ButtonStyle,HardcodedText,SmallSp" />
@@ -69,7 +74,8 @@
             android:layout_width="match_parent"
             android:layout_height="40dp"
             android:layout_weight="1"
-            android:textSize="15sp"
+            android:fontFamily="sans-serif-condensed"
+            android:textSize="16sp"
             android:text="No"
             android:layout_marginLeft="10dp"
             android:layout_marginRight="10dp"
@@ -87,8 +93,9 @@
             android:text="oth"
             android:background="@drawable/depre"
             android:textColor="#223C97"
-            android:textSize="15sp"
-            tools:ignore="ButtonStyle,HardcodedText,SmallSp"/>
+            android:fontFamily="sans-serif-condensed"
+            android:textSize="16sp"
+            tools:ignore="ButtonStyle,HardcodedText,SmallSp" />
 
     </LinearLayout>
     </LinearLayout>

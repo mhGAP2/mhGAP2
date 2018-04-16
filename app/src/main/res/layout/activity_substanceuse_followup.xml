@@ -9,7 +9,6 @@ android:background="#F68B1F"
 tools:context="com.example.tencho.mhgap2.Substanceuse_followup">
 
 <LinearLayout
-
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:orientation="vertical">
@@ -19,6 +18,7 @@ tools:context="com.example.tencho.mhgap2.Substanceuse_followup">
         android:text="Follow-Up"
         android:textColor="#ffffff"
         android:textSize="35sp"
+        android:fontFamily="sans-serif-condensed"
         android:textAlignment="center"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
@@ -41,6 +41,7 @@ tools:context="com.example.tencho.mhgap2.Substanceuse_followup">
             android:id="@+id/question"
             android:layout_width="0dp"
             android:textColor="#ffffff"
+            android:fontFamily="sans-serif-condensed"
             android:layout_height="match_parent"
             android:layout_weight="142.16"
             android:text="@string/DISORDERS_followup"
@@ -64,7 +65,8 @@ tools:context="com.example.tencho.mhgap2.Substanceuse_followup">
             android:layout_marginLeft="10dp"
             android:layout_marginRight="10dp"
             android:background="@drawable/depre"
-            android:textSize="15sp"
+            android:fontFamily="sans-serif-condensed"
+            android:textSize="16sp"
             android:textColor="#F68B1F"
             android:layout_weight="1"
             tools:ignore="ButtonStyle,HardcodedText,SmallSp" />

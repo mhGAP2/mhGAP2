@@ -17,7 +17,7 @@ tools:ignore="ExtraText">
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:text="PSYCHOSES"
-
+        android:fontFamily="sans-serif-condensed"
         android:layout_marginTop="10dp"
         android:textAlignment="center"
         android:textColor="#FFFFFF"
@@ -31,7 +31,8 @@ tools:ignore="ExtraText">
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:textColor="#ffffff"
-        android:textSize="15sp"
+        android:fontFamily="sans-serif-condensed"
+        android:textSize="16sp"
         android:text="@string/oth"
         />
     <Button
@@ -42,6 +43,7 @@ tools:ignore="ExtraText">
         android:layout_marginTop="20dp"
         android:background="@drawable/depre"
         android:text="@string/begin_test"
+        android:fontFamily="sans-serif-condensed"
         android:layout_marginBottom="10dp"
         android:textColor="#b33123"
         android:textSize="18sp"

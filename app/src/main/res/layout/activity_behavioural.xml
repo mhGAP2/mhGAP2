@@ -5,19 +5,12 @@ android:orientation="vertical"
 android:layout_width="match_parent"
 android:layout_height="match_parent"
 android:background="#18B04B"
-
 android:weightSum="3">
-
-
-
-<LinearLayout
+    <LinearLayout
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:orientation="vertical"
-    android:weightSum="4"
-
-
-    >
+    android:weightSum="4">
 
     <TextView
         android:id="@+id/textView35"
@@ -26,6 +19,7 @@ android:weightSum="3">
         android:layout_marginBottom="10dp"
         android:layout_marginTop="10dp"
         android:layout_weight="1"
+        android:fontFamily="sans-serif-condensed"
         android:text="CMH BEHAVIOURAL DISORDER"
         android:textAlignment="center"
         android:textColor="#ffffff"
@@ -39,8 +33,9 @@ android:weightSum="3">
         android:layout_marginRight="5dp"
         android:layout_marginTop="2dp"
         android:layout_weight="1"
+        android:fontFamily="sans-serif-condensed"
+        android:textSize="16sp"
         android:textColor="#ffffff"
-        android:textSize="15sp"
         android:text="@string/cmh" />
 
     <Button
@@ -50,10 +45,11 @@ android:weightSum="3">
         android:layout_marginTop="20dp"
         android:layout_marginBottom="20dp"
         android:text="Begin Test"
+        android:fontFamily="sans-serif-condensed"
+        android:textSize="16sp"
         android:background="@drawable/depre"
         android:layout_gravity="center"
-        android:textColor="#18B04B"
-        android:textSize="20dp"/>
+        android:textColor="#18B04B" />
 
 
 </LinearLayout>

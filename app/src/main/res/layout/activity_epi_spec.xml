@@ -21,6 +21,7 @@
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:textAlignment="center"
+                android:fontFamily="sans-serif-condensed"
                 android:textColor="#51b0d6"
                 android:textSize="25dp"
                 android:text="Special populations"
@@ -31,6 +32,8 @@
                 android:id="@+id/textView18"
                 android:layout_width="match_parent"
                 android:textColor="#361818"
+                android:fontFamily="sans-serif-condensed"
+                android:textSize="16sp"
                 android:layout_height="wrap_content"
                 android:layout_marginTop="7dp"
                 android:textStyle="italic"
@@ -44,7 +47,8 @@
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:layout_marginTop="10dp"
-                android:textSize="15dp"
+                android:fontFamily="sans-serif-condensed"
+                android:textSize="16sp"
                 android:text="WOMAN OF CHILDBEARING AGE"
                 tools:ignore="SpUsage"
                 />
@@ -56,6 +60,8 @@
                 android:layout_height="wrap_content"
                 android:layout_marginTop="7dp"
                 android:textStyle="italic"
+                android:fontFamily="sans-serif-condensed"
+                android:textSize="16sp"
                 android:text="Concern: Risk of antiepileptic medication to fetus/child"
                 />
 
@@ -64,6 +70,8 @@
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:textColor="#361818"
+                android:fontFamily="sans-serif-condensed"
+                android:textSize="16sp"
                 android:layout_marginTop="5dp"
                 android:text="@string/epi_childbearing1"/>
 
@@ -72,9 +80,10 @@
                 android:id="@+id/textView21"
                 android:layout_width="match_parent"
                 android:textColor="#51b0d6"
+                android:fontFamily="sans-serif-condensed"
+                android:textSize="16sp"
                 android:layout_height="wrap_content"
                 android:layout_marginTop="10dp"
-                android:textSize="15sp"
                 android:text="CHILD / ADOLESCENT"
                 tools:ignore="HardcodedText"
                 />
@@ -85,6 +94,8 @@
                 android:textColor="#361818"
                 android:layout_height="wrap_content"
                 android:layout_marginTop="7dp"
+                android:fontFamily="sans-serif-condensed"
+                android:textSize="16sp"
                 android:textStyle="italic"
                 android:text="Concern: Effect of antiepileptic medication  on development and/or behavior."
                 />
@@ -94,6 +105,8 @@
                 android:textColor="#361818"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
+                android:fontFamily="sans-serif-condensed"
+                android:textSize="16sp"
                 android:layout_marginTop="5dp"
                 android:text="@string/epi_child_adol1"
                 />
@@ -104,7 +117,8 @@
                 android:textColor="#51b0d6"
                 android:layout_height="wrap_content"
                 android:layout_marginTop="10dp"
-                android:textSize="15sp"
+                android:fontFamily="sans-serif-condensed"
+                android:textSize="16sp"
                 android:text="PERSON LIVING WITH HIV"
                 tools:ignore="HardcodedText"
                 />
@@ -115,6 +129,8 @@
                 android:textColor="#361818"
                 android:layout_height="wrap_content"
                 android:layout_marginTop="7dp"
+                android:fontFamily="sans-serif-condensed"
+                android:textSize="16sp"
                 android:textStyle="italic"
                 android:text="Concern: Drug interactions between antiepileptic  medications and antiretrovirals."
                 />
@@ -124,6 +140,8 @@
                 android:textColor="#361818"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
+                android:fontFamily="sans-serif-condensed"
+                android:textSize="16sp"
                 android:layout_marginTop="5dp"
                 android:text="@string/epi_hiv_perso1"
                 />

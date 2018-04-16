@@ -6,29 +6,23 @@ android:layout_width="match_parent"
 android:layout_height="match_parent"
 tools:context="com.example.tencho.mhgap2.Substance_management"
 android:background="#F68B1F">
-
-
-<LinearLayout
+    <LinearLayout
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:orientation="vertical"
     android:weightSum="1">
-
-
-    <TextView
-        android:layout_marginTop="20dp"
-        android:id="@+id/textView16"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:textColor="#FFFFFF"
-        android:text="Management"
-        android:textAlignment="center"
-        android:textSize="35dp"
-        tools:ignore="HardcodedText,SpUsage" />
-
-
-
-    <ImageView
+        <TextView
+            android:layout_marginTop="20dp"
+            android:id="@+id/textView16"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textColor="#FFFFFF"
+            android:text="Management"
+            android:fontFamily="sans-serif-condensed"
+            android:textAlignment="center"
+            android:textSize="35dp"
+            tools:ignore="HardcodedText,SpUsage" />
+        <ImageView
         android:id="@+id/imageView3"
         android:layout_width="104dp"
         android:layout_height="97dp"
@@ -44,7 +38,7 @@ android:background="#F68B1F">
         android:layout_marginRight="55dp"
         android:layout_marginTop="20dp"
         android:layout_marginBottom="20dp"
-
+        android:fontFamily="sans-serif-condensed"
         android:background="@drawable/depre"
         android:text="Protocol 1"
         android:textColor="#F68B1F"
@@ -58,7 +52,7 @@ android:background="#F68B1F">
         android:layout_marginLeft="55dp"
         android:layout_marginRight="55dp"
         android:layout_marginBottom="20dp"
-
+        android:fontFamily="sans-serif-condensed"
         android:background="@drawable/depre"
         android:text="protocol 2"
         android:textColor="#F68B1F"
@@ -74,24 +68,23 @@ android:background="#F68B1F">
         android:background="@drawable/depre"
         android:layout_marginBottom="20dp"
         android:text="Protocol 3"
+        android:fontFamily="sans-serif-condensed"
         android:textColor="#F68B1F"
         android:textSize="18dp"
         tools:ignore="HardcodedText,RtlHardcoded,SpUsage" />
-
-
-
-    <Button
-        android:id="@+id/bt4"
-        android:layout_width="match_parent"
-        android:layout_height="52dp"
-        android:layout_marginLeft="55dp"
-        android:layout_marginRight="55dp"
-        android:background="@drawable/depre"
-        android:layout_marginBottom="20dp"
-        android:text="Protocol 4"
-        android:textColor="#F68B1F"
-        android:textSize="18dp"
-        tools:ignore="HardcodedText,RtlHardcoded,SpUsage" />
+        <Button
+            android:id="@+id/bt4"
+            android:layout_width="match_parent"
+            android:layout_height="52dp"
+            android:layout_marginLeft="55dp"
+            android:layout_marginRight="55dp"
+            android:background="@drawable/depre"
+            android:layout_marginBottom="20dp"
+            android:text="Protocol 4"
+            android:fontFamily="sans-serif-condensed"
+            android:textColor="#F68B1F"
+            android:textSize="18dp"
+            tools:ignore="HardcodedText,RtlHardcoded,SpUsage" />
 
     <Button
         android:id="@+id/bt5"
@@ -102,23 +95,23 @@ android:background="#F68B1F">
         android:background="@drawable/depre"
         android:layout_marginBottom="20dp"
         android:text="Protocol 5"
+        android:fontFamily="sans-serif-condensed"
         android:textColor="#F68B1F"
         android:textSize="18dp"
         tools:ignore="HardcodedText,RtlHardcoded,SpUsage" />
-
-
-    <Button
-        android:id="@+id/bt6"
-        android:layout_width="match_parent"
-        android:layout_height="52dp"
-        android:layout_marginLeft="55dp"
-        android:layout_marginRight="55dp"
-        android:background="@drawable/depre"
-        android:layout_marginBottom="20dp"
-        android:text="Protocol 6"
-        android:textColor="#F68B1F"
-        android:textSize="18dp"
-        tools:ignore="HardcodedText,RtlHardcoded,SpUsage" />
+        <Button
+            android:id="@+id/bt6"
+            android:layout_width="match_parent"
+            android:layout_height="52dp"
+            android:layout_marginLeft="55dp"
+            android:layout_marginRight="55dp"
+            android:background="@drawable/depre"
+            android:layout_marginBottom="20dp"
+            android:text="Protocol 6"
+            android:textColor="#F68B1F"
+            android:fontFamily="sans-serif-condensed"
+            android:textSize="18dp"
+            tools:ignore="HardcodedText,RtlHardcoded,SpUsage" />
     <Button
         android:id="@+id/bt7"
         android:layout_width="match_parent"
@@ -130,6 +123,7 @@ android:background="#F68B1F">
         android:text="Special population"
         android:textColor="#F68B1F"
         android:textSize="18dp"
+        android:fontFamily="sans-serif-condensed"
         tools:ignore="HardcodedText,RtlHardcoded,SpUsage" />
 
 
@@ -142,6 +136,7 @@ android:background="#F68B1F">
     android:background="@drawable/depre"
     android:layout_marginBottom="20dp"
     android:text="Medications"
+    android:fontFamily="sans-serif-condensed"
     android:textColor="#F68B1F"
     android:textSize="18dp"
     tools:ignore="HardcodedText,RtlHardcoded,SpUsage" />

@@ -22,6 +22,7 @@
                     android:layout_height="wrap_content"
                     android:text="Protocol 1(Developmental Delay/Disorder)"
                     android:textColor="#51b0d6"
+                    android:fontFamily="sans-serif-condensed"
                     android:textSize="25sp"
                     android:textAlignment="center"
                     tools:ignore="HardcodedText" />
@@ -32,7 +33,8 @@
                     android:layout_height="wrap_content"
                     android:layout_marginTop="10dp"
                     android:text="PSYCHOSOCIAL INTERVENTIONS"
-                    android:textSize="15sp"
+                    android:fontFamily="sans-serif-condensed"
+                    android:textSize="16sp"
                     android:textAlignment="center"
                     tools:ignore="HardcodedText" />
 
@@ -41,9 +43,10 @@
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:textColor="#51b0d6"
+                    android:fontFamily="sans-serif-condensed"
+                    android:textSize="17sp"
                     android:layout_marginTop="3dp"
                     android:text="2.1 Provide psychoeducation to the person and carers."
-                    android:textSize="17sp"
                     />
 
 
@@ -52,17 +55,19 @@
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:layout_marginTop="2dp"
+                    android:fontFamily="sans-serif-condensed"
+                    android:textSize="16sp"
                     android:text="@string/epi_topic1"
                     android:textColor="#51b0d6"
-                    android:textStyle="italic"
-
-                    />
+                    android:textStyle="italic" />
 
                 <TextView
                     android:id="@+id/textView"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:layout_marginTop="2dp"
+                    android:fontFamily="sans-serif-condensed"
+                    android:textSize="16sp"
                     android:text="@string/epi_protocol_2_1"
                     android:textColor="#361818"
 
@@ -73,6 +78,8 @@
                     android:layout_height="wrap_content"
                     android:layout_marginTop="10dp"
                     android:text="CLINICAL TIP:"
+                    android:fontFamily="sans-serif-condensed"
+                    android:textSize="16sp"
                     android:textColor="#ed060e"
                     android:textStyle="bold"
 
@@ -82,6 +89,8 @@
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:layout_marginTop="2dp"
+                    android:fontFamily="sans-serif-condensed"
+                    android:textSize="16sp"
                     android:text="@string/epi_clinical_tip"
                     android:textColor="#361818"
 
@@ -91,6 +100,8 @@
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:layout_marginTop="1dp"
+                    android:fontFamily="sans-serif-condensed"
+                    android:textSize="16sp"
                     android:text="@string/epi_topic2"
                     android:textColor="#51b0d6"
                     android:textStyle="italic"
@@ -102,6 +113,8 @@
                     android:textColor="#361818"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
+                    android:fontFamily="sans-serif-condensed"
+                    android:textSize="16sp"
                     android:layout_marginTop="1dp"
                     android:text="@string/epi_protocol2_1"
                     android:layout_weight="0.41"
@@ -112,6 +125,8 @@
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:layout_marginTop="2dp"
+                    android:fontFamily="sans-serif-condensed"
+                    android:textSize="16sp"
                     android:text="@string/epi_topic3"
                     android:textColor="#51b0d6"
                     android:textStyle="italic"
@@ -123,6 +138,8 @@
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:layout_marginTop="3dp"
+                    android:fontFamily="sans-serif-condensed"
+                    android:textSize="16sp"
                     android:text="@string/epi_protocol__2_1"
                     android:textColor="#361818"
 
@@ -134,6 +151,7 @@
                     android:layout_height="wrap_content"
                     android:textColor="#51b0d6"
                     android:layout_marginTop="2dp"
+                    android:fontFamily="sans-serif-condensed"
                     android:text="2.3 Initiate antiepileptic medications."
                     android:textSize="17sp"
                     />
@@ -143,6 +161,8 @@
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:layout_marginTop="2dp"
+                    android:fontFamily="sans-serif-condensed"
+                    android:textSize="16sp"
                     android:text="@string/epi_protocol_2_3"
                     android:textColor="#361818"
 
@@ -155,6 +175,7 @@
                     android:layout_height="wrap_content"
                     android:text="Caution!"
                     android:textColor="#cc0808"
+                    android:fontFamily="sans-serif-condensed"
                     android:textSize="17dp"
                     />
 
@@ -164,6 +185,8 @@
                     android:layout_height="wrap_content"
                     android:textColor="#361818"
                     android:layout_marginTop="3dp"
+                    android:fontFamily="sans-serif-condensed"
+                    android:textSize="16sp"
                     android:text="@string/epi_caution"
                     />
 
@@ -174,6 +197,7 @@
                     android:layout_height="wrap_content"
                     android:textColor="#51b0d6"
                     android:layout_marginTop="3dp"
+                    android:fontFamily="sans-serif-condensed"
                     android:text="2.2 Promote functioning in daily activities. "
                     android:textSize="17sp"
                     />
@@ -184,6 +208,8 @@
                     android:layout_marginTop="10dp"
                     android:text="epi_protocol2.2"
                     android:textColor="#361818"
+                    android:fontFamily="sans-serif-condensed"
+                    android:textSize="16sp"
                     />
 
                 <TextView
@@ -191,6 +217,8 @@
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:layout_marginTop="10dp"
+                    android:fontFamily="sans-serif-condensed"
+                    android:textSize="16sp"
                     android:text="@string/epi_protocol_2_2"
                     android:textColor="#361818"
 

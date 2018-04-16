@@ -5,9 +5,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_marginLeft="5dp"
     android:layout_marginRight="5dp"
-    tools:context="com.example.tencho.mhgap2.psy_medication"
-
-    >
+    tools:context="com.example.tencho.mhgap2.psy_medication">
 
 
     <TextView
@@ -17,29 +15,19 @@
         android:text="TABLE 4: Review adherence, side effects and dosing based on clinical situation/ presentation"
         android:textAlignment="center"
         android:textColor="#223C97"
+        android:fontFamily="sans-serif-condensed"
         android:layout_marginTop="8dp"
         android:textSize="17sp"/>
-
-
-
-
-
-
-
     <TableRow
         android:layout_height="match_parent"
         android:layout_width="match_parent"
         android:background="@drawable/border2"
-        android:layout_marginTop="5dp"
-
-        >
-
-
-
+        android:layout_marginTop="5dp">
         <TextView
             android:layout_width="match_parent"
             android:layout_height="match_parent"
             android:ems="10"
+            android:fontFamily="sans-serif-condensed"
             android:background="#223C97"
             android:textAlignment="center"
             android:id="@+id/textVie50"
@@ -51,6 +39,7 @@
             android:layout_width="match_parent"
             android:layout_height="match_parent"
             android:ems="15"
+            android:fontFamily="sans-serif-condensed"
             android:textColor="#ffffff"
             android:background="#223C97"
             android:textAlignment="center"
@@ -59,21 +48,17 @@
             android:id="@+id/textVie51"
             android:text=" ACTION"
             tools:ignore="HardcodedText,SpUsage" />
-
-
     </TableRow>
-
     <TableRow
         android:layout_height="match_parent"
         android:layout_width="match_parent"
-        android:background="@drawable/border2"
-
-        >
+        android:background="@drawable/border2">
 
         <TextView
             android:layout_width="match_parent"
             android:layout_height="match_parent"
             android:ems="10"
+            android:fontFamily="sans-serif-condensed"
             android:textColor="#223C97"
             android:textSize="10dp"
             android:layout_marginTop="5dp"
@@ -86,27 +71,22 @@
             android:layout_width="match_parent"
             android:layout_height="match_parent"
             android:ems="15"
+            android:fontFamily="sans-serif-condensed"
             android:id="@+id/textVi10"
             android:text="@string/psy_action1.1"
             android:textSize="10dp"
             tools:ignore="SpUsage" />
-
-
-
     </TableRow>
-
-
     <TableRow
         android:layout_height="match_parent"
         android:layout_width="match_parent"
-        android:background="@drawable/border2"
-
-        >
+        android:background="@drawable/border2">
 
         <TextView
             android:layout_width="match_parent"
             android:layout_height="match_parent"
             android:ems="6"
+            android:fontFamily="sans-serif-condensed"
             android:textColor="#223C97"
             android:textSize="10dp"
             android:layout_marginTop="5dp"
@@ -119,26 +99,22 @@
             android:layout_width="match_parent"
             android:layout_height="match_parent"
             android:ems="4"
+            android:fontFamily="sans-serif-condensed"
             android:id="@+id/textV10"
             android:text="@string/psy_action2.1"
             android:textSize="10dp"
             tools:ignore="SpUsage" />
-
-
-
     </TableRow>
-
     <TableRow
         android:layout_height="match_parent"
         android:layout_width="match_parent"
-        android:background="@drawable/border2"
-
-        >
+        android:background="@drawable/border2">
 
         <TextView
             android:layout_width="match_parent"
             android:layout_height="match_parent"
             android:ems="6"
+            android:fontFamily="sans-serif-condensed"
             android:textColor="#223C97"
             android:textSize="10dp"
             android:layout_marginTop="5dp"
@@ -151,6 +127,7 @@
             android:layout_width="match_parent"
             android:layout_height="match_parent"
             android:ems="4"
+            android:fontFamily="sans-serif-condensed"
             android:id="@+id/text10"
             android:text="@string/psy_action3.1"
             android:textSize="10dp"

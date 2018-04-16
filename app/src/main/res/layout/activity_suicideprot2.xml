@@ -12,17 +12,12 @@
         android:background="#ffffff"
         tools:layout_editor_absoluteY="8dp"
         tools:layout_editor_absoluteX="8dp">
-
-
-
         <LinearLayout
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:orientation="vertical"
             android:layout_marginLeft="5dp"
             tools:ignore="RtlHardcoded">
-
-
             <TextView
                 android:id="@+id/textView1"
                 android:layout_width="match_parent"
@@ -30,19 +25,18 @@
                 android:text="Protocol 2 Imminent Risk of Self-Harm/Suicide"
                 android:textColor="#E65521"
                 android:textSize="25sp"
+                android:fontFamily="sans-serif-condensed"
                 android:textAlignment="center"
                 tools:ignore="HardcodedText" />
-
-
             <TextView
                 android:id="@+id/textView2"
                 android:layout_width="match_parent"
                 android:layout_height="30dp"
                 android:layout_marginTop="10dp"
+                android:fontFamily="sans-serif-condensed"
+                android:textSize="16sp"
                 android:text="Remove means of self-harm/suicide"
-                android:textColor="#E65521"
-
-                />
+                android:textColor="#E65521" />
 
             <TextView
                 android:id="@+id/textView4"
@@ -51,6 +45,8 @@
                 android:layout_marginTop="10dp"
                 android:text="@string/sui_proto2"
                 android:textColor="#E65521"
+                android:fontFamily="sans-serif-condensed"
+                android:textSize="16sp"
 
                 />
 
@@ -61,7 +57,8 @@
                 android:textColor="#E65521"
                 android:layout_marginTop="10dp"
                 android:text="DO NOT leave the person alone."
-                android:textSize="15sp"
+                android:fontFamily="sans-serif-condensed"
+                android:textSize="16sp"
                 />
 
             <TextView
@@ -71,6 +68,8 @@
                 android:layout_marginTop="10dp"
                 android:text="Supervise and assign a named staff or family member to ensure person’s safety at all times."
                 android:textColor="#E65521"
+                android:fontFamily="sans-serif-condensed"
+                android:textSize="16sp"
 
                 />
 
@@ -81,6 +80,8 @@
                 android:layout_marginTop="10dp"
                 android:text="Attend to mental state and emotional distress."
                 android:textColor="#E65521"
+                android:fontFamily="sans-serif-condensed"
+                android:textSize="16sp"
 
                 />
 
@@ -91,6 +92,8 @@
                 android:layout_marginTop="10dp"
                 android:text="Provide psychoeducation to the person and their carers."
                 android:textColor="#E65521"
+                android:fontFamily="sans-serif-condensed"
+                android:textSize="16sp"
 
                 />
 
@@ -102,6 +105,8 @@
                 android:layout_marginTop="10dp"
                 android:text="@string/sui_2_5_proto2"
                 android:textColor="#361818"
+                android:fontFamily="sans-serif-condensed"
+                android:textSize="16sp"
 
                 />
 
@@ -114,7 +119,8 @@
                 android:textColor="#E65521"
                 android:layout_marginTop="10dp"
                 android:text="@string/sui_2_3"
-                android:textSize="15sp"
+                android:fontFamily="sans-serif-condensed"
+                android:textSize="16sp"
                 />
             <TextView
                 android:id="@+id/textView7"
@@ -123,6 +129,8 @@
                 android:textColor="#E65521"
                 android:layout_marginTop="10dp"
                 android:text=" Offer carers support. "
+                android:fontFamily="sans-serif-condensed"
+                android:textSize="16sp"
                 />
 
             <TextView
@@ -132,6 +140,8 @@
                 android:layout_marginTop="10dp"
                 android:text="@string/sui_2_4_proto2"
                 android:textColor="#361818"
+                android:fontFamily="sans-serif-condensed"
+                android:textSize="16sp"
 
                 />
 
@@ -142,7 +152,8 @@
                 android:textColor="#E65521"
                 android:layout_marginTop="10dp"
                 android:text="Consult a mental health specialist, if available."
-                android:textSize="15sp"
+                android:fontFamily="sans-serif-condensed"
+                android:textSize="16sp"
                 />
 
             <TextView
@@ -152,7 +163,8 @@
                 android:textColor="#E65521"
                 android:layout_marginTop="10dp"
                 android:text="Maintain regular contact and Follow-Up."
-                android:textSize="15sp"
+                android:fontFamily="sans-serif-condensed"
+                android:textSize="16sp"
                 />
 
         </LinearLayout>

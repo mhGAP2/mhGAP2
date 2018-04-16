@@ -6,27 +6,21 @@
         android:background="#dfd5d5"
         android:layout_marginBottom="8dp"
     tools:context="com.example.tencho.mhgap2.psy_medication">
-
-        >
-
-
-        <TableLayout
+    <TableLayout
             android:layout_width="match_parent"
             android:layout_height="match_parent"
             android:layout_marginLeft="5dp"
             android:layout_marginRight="5dp">
 
-
-
-
-            <TextView
+        <TextView
                 android:id="@+id/textView24"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:text="TABLE 1: Antipsychotic medications"
                 android:textAlignment="center"
                 android:textColor="#223C97"
-                android:textSize="20sp"/>
+                android:textSize="20sp"
+            android:fontFamily="sans-serif-condensed" />
 
             <TableRow
                 android:layout_height="match_parent"
@@ -45,6 +39,7 @@
                     android:id="@+id/textView1"
                     android:textColor="#ffffff"
                     android:textSize="11dp"
+                    android:fontFamily="sans-serif-condensed"
                     android:text="MEDICATION"
                     tools:ignore="HardcodedText,SpUsage" />
                 <TextView
@@ -53,6 +48,7 @@
                     android:ems="6"
                     android:textColor="#ffffff"
                     android:textSize="12dp"
+                    android:fontFamily="sans-serif-condensed"
                     android:id="@+id/textView2"
                     android:textAlignment="center"
                     android:text="DOSING"
@@ -66,6 +62,7 @@
                     android:id="@+id/textView3"
                     android:textAlignment="center"
                     android:textSize="12dp"
+                    android:fontFamily="sans-serif-condensed"
                     android:text="SIDE EFFECTS"
                     tools:ignore="HardcodedText,SpUsage" />
                 <TextView
@@ -74,6 +71,7 @@
                     android:layout_height="match_parent"
                     android:ems="7"
                     android:textSize="12dp"
+                    android:fontFamily="sans-serif-condensed"
                     android:textAlignment="center"
                     android:id="@+id/textView4"
                     android:text="CONTRAINDICATIONS / CAUTIONS"
@@ -95,6 +93,7 @@
                     android:layout_height="match_parent"
                     android:layout_marginLeft="2dp"
                     android:ems="6"
+                    android:fontFamily="sans-serif-condensed"
                     android:textColor="#223C97"
                     android:text="HALOPERIDOL"
                     android:textSize="10dp"
@@ -108,7 +107,8 @@
                     android:textColor="#361818"
                     android:text="@string/psy_dosing1.1"
                     android:textSize="10dp"
-                    tools:ignore="SpUsage" />
+                    tools:ignore="SpUsage"
+                    android:fontFamily="sans-serif-condensed" />
 
                 <TextView
                     android:id="@+id/textView7"
@@ -118,6 +118,7 @@
                     android:textColor="#361818"
                     android:text="@string/psy_side1.1"
                     android:textSize="10dp"
+                    android:fontFamily="sans-serif-condensed"
                     tools:ignore="SpUsage" />
 
                 <TextView
@@ -129,13 +130,11 @@
                     android:text="@string/psy_cau1.1"
                     android:textColor="#361818"
                     android:textSize="10dp"
+                    android:fontFamily="sans-serif-condensed"
                     tools:ignore="SpUsage" />
 
-
             </TableRow>
-
-
-            <TableRow
+        <TableRow
                 android:layout_height="match_parent"
                 android:layout_width="match_parent"
                 android:background="@drawable/border2"
@@ -147,6 +146,7 @@
                     android:ems="6"
                     android:textColor="#223C97"
                     android:textSize="10dp"
+                    android:fontFamily="sans-serif-condensed"
                     android:layout_marginTop="5dp"
                     android:layout_marginLeft="2dp"
                     android:id="@+id/textView9"
@@ -157,6 +157,7 @@
                     android:layout_width="match_parent"
                     android:layout_height="match_parent"
                     android:ems="4"
+                    android:fontFamily="sans-serif-condensed"
                     android:id="@+id/textView60"
                     android:text="@string/psy_dosing1.2"
                     android:textSize="10dp"
@@ -168,6 +169,7 @@
                     android:textColor="#361818"
                     android:ems="4"
                     android:id="@+id/textView61"
+                    android:fontFamily="sans-serif-condensed"
                     android:textSize="10dp"
                     android:text="@string/psy_side1.2"
                     tools:ignore="SpUsage" />
@@ -176,19 +178,17 @@
                     android:layout_height="match_parent"
                     android:textColor="#361818"
                     android:ems="8"
+                    android:fontFamily="sans-serif-condensed"
                     android:textSize="10dp"
                     android:id="@+id/textView62"
                     android:text="@string/psy_cau1.2"
                     tools:ignore="SpUsage" />
-
-
-            </TableRow>
+        </TableRow>
 
             <TableRow
                 android:layout_height="match_parent"
                 android:layout_width="match_parent"
-                android:background="@drawable/border2"
-                >
+                android:background="@drawable/border2">
 
                 <TextView
                     android:layout_width="match_parent"
@@ -200,7 +200,8 @@
                     android:layout_marginLeft="2dp"
                     android:id="@+id/textView30"
                     android:text="CHLORPROMAZINE"
-                    tools:ignore="HardcodedText,SpUsage" />
+                    tools:ignore="HardcodedText,SpUsage"
+                    android:fontFamily="sans-serif-condensed" />
                 <TextView
                     android:textColor="#361818"
                     android:layout_width="match_parent"
@@ -209,7 +210,8 @@
                     android:id="@+id/textView31"
                     android:text="@string/psy_dosing1.3"
                     android:textSize="10dp"
-                    tools:ignore="SpUsage" />
+                    tools:ignore="SpUsage"
+                    android:fontFamily="sans-serif-condensed" />
 
                 <TextView
                     android:id="@+id/textView32"
@@ -219,7 +221,8 @@
                     android:text="@string/psy_side1.3"
                     android:textColor="#361818"
                     android:textSize="10dp"
-                    tools:ignore="SpUsage" />
+                    tools:ignore="SpUsage"
+                    android:fontFamily="sans-serif-condensed" />
 
                 <TextView
                     android:layout_width="match_parent"
@@ -229,9 +232,7 @@
                     android:textSize="10dp"
                     android:id="@+id/textView33"
                     android:text="@string/psy_cau1.3"
-                    tools:ignore="SpUsage" />
-
-
+                    tools:ignore="SpUsage" android:fontFamily="sans-serif-condensed" />
             </TableRow>
 
             <TableRow
@@ -249,14 +250,15 @@
                     android:textSize="10dp"
                     android:layout_marginTop="5dp"
                     android:layout_marginLeft="2dp"
+                    android:fontFamily="sans-serif-condensed"
                     android:id="@+id/textView40"
-                    android:text="FLUPHENAZINE\n
-depot/long-acting"
+                    android:text="FLUPHENAZINE\ndepot/long-acting"
                     tools:ignore="HardcodedText,SpUsage" />
                 <TextView
                     android:textColor="#361818"
                     android:layout_width="match_parent"
                     android:layout_height="match_parent"
+                    android:fontFamily="sans-serif-condensed"
                     android:ems="4"
                     android:id="@+id/textView42"
                     android:text="@string/psy_dosing1.4"
@@ -271,6 +273,7 @@ depot/long-acting"
                     android:ems="4"
                     android:id="@+id/textView43"
                     android:textSize="10dp"
+                    android:fontFamily="sans-serif-condensed"
                     android:text="@string/psy_side1.4"
                     tools:ignore="SpUsage" />
                 <TextView
@@ -278,35 +281,32 @@ depot/long-acting"
                     android:layout_height="match_parent"
                     android:textColor="#361818"
                     android:ems="8"
+                    android:fontFamily="sans-serif-condensed"
                     android:textSize="10dp"
                     android:id="@+id/textView44"
                     android:text="@string/psy_cau1.4"
                     tools:ignore="SpUsage" />
-
-
             </TableRow>
 
-
-            <TextView
+        <TextView
                 android:id="@+id/textView25"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:text="TABLE 2: Anticholinergic medications"
                 android:textAlignment="center"
                 android:textColor="#223C97"
+                android:fontFamily="sans-serif-condensed"
                 android:layout_marginTop="8dp"
                 android:textSize="20sp"/>
 
-
-
-            <TextView
+        <TextView
                 android:id="@+id/textVie25"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:text="(for treatment of extrapyramidal side effects (EPS)"
                 android:textColor="#361818"
-
-                />
+                android:fontFamily="sans-serif-condensed"
+               android:textSize="16sp"/>
 
             <TextView
                 android:id="@+id/textVie71"
@@ -314,21 +314,17 @@ depot/long-acting"
                 android:layout_height="wrap_content"
                 android:text="Avoid in women who are pregnant or breastfeeding if possible."
                 android:textColor="#cc0808"
-
-                />
+                android:fontFamily="sans-serif-condensed"
+                android:textSize="16sp" />
             <TableRow
                 android:layout_height="match_parent"
                 android:layout_width="match_parent"
-                android:background="#223C97"
-
-                >
-
-
-
+                android:background="#223C97">
                 <TextView
                     android:layout_width="match_parent"
                     android:layout_height="match_parent"
                     android:ems="3"
+                    android:fontFamily="sans-serif-condensed"
                     android:id="@+id/textView72"
                     android:textColor="#ffffff"
                     android:textSize="11dp"
@@ -340,6 +336,7 @@ depot/long-acting"
                     android:layout_height="match_parent"
                     android:ems="6"
                     android:textColor="#ffffff"
+                    android:fontFamily="sans-serif-condensed"
                     android:textSize="12dp"
                     android:id="@+id/textView73"
                     android:textAlignment="center"
@@ -350,6 +347,7 @@ depot/long-acting"
                     android:layout_width="match_parent"
                     android:layout_height="match_parent"
                     android:ems="6"
+                    android:fontFamily="sans-serif-condensed"
                     android:textAlignment="center"
                     android:textColor="#ffffff"
                     android:id="@+id/textView74"
@@ -361,6 +359,7 @@ depot/long-acting"
                     android:textColor="#ffffff"
                     android:layout_height="match_parent"
                     android:ems="7"
+                    android:fontFamily="sans-serif-condensed"
                     android:textAlignment="center"
                     android:textSize="12dp"
                     android:id="@+id/textView75"
@@ -384,6 +383,7 @@ depot/long-acting"
                     android:layout_height="match_parent"
                     android:layout_marginLeft="2dp"
                     android:ems="6"
+                    android:fontFamily="sans-serif-condensed"
                     android:textColor="#223C97"
                     android:text="BIPERIDEN"
                     android:textSize="10dp"
@@ -394,6 +394,7 @@ depot/long-acting"
                     android:layout_width="match_parent"
                     android:layout_height="match_parent"
                     android:ems="4"
+                    android:fontFamily="sans-serif-condensed"
                     android:textColor="#361818"
                     android:text="@string/psy_dosing2.1"
                     android:textSize="10dp"
@@ -404,6 +405,7 @@ depot/long-acting"
                     android:layout_width="match_parent"
                     android:layout_height="match_parent"
                     android:ems="4"
+                    android:fontFamily="sans-serif-condensed"
                     android:textColor="#361818"
                     android:text="@string/psy_side2.1"
                     android:textSize="10dp"
@@ -414,6 +416,7 @@ depot/long-acting"
                     android:layout_width="match_parent"
                     android:layout_height="match_parent"
                     android:ems="8"
+                    android:fontFamily="sans-serif-condensed"
                     android:textColor="#361818"
                     android:text="@string/psy_cau2.1"
                     android:textSize="10dp"
@@ -437,17 +440,18 @@ depot/long-acting"
                     android:ems="6"
                     android:textColor="#223C97"
                     android:textSize="10dp"
+                    android:fontFamily="sans-serif-condensed"
                     android:layout_marginTop="5dp"
                     android:layout_marginLeft="2dp"
                     android:id="@+id/textVie9"
-                    android:text="TRIHEXYPHENIDYL
-(Benzhexol)"
+                    android:text="TRIHEXYPHENIDYL(Benzhexol)"
                     tools:ignore="HardcodedText,SpUsage" />
                 <TextView
                     android:textColor="#361818"
                     android:layout_width="match_parent"
                     android:layout_height="match_parent"
                     android:ems="4"
+                    android:fontFamily="sans-serif-condensed"
                     android:id="@+id/textVie10"
                     android:text="@string/psy_dosing2.2"
                     android:textSize="10dp"
@@ -458,6 +462,7 @@ depot/long-acting"
                     android:layout_height="match_parent"
                     android:textColor="#361818"
                     android:ems="4"
+                    android:fontFamily="sans-serif-condensed"
                     android:id="@+id/textVie11"
                     android:textSize="10dp"
                     android:text="@string/psy_side2.1"
@@ -467,28 +472,23 @@ depot/long-acting"
                     android:layout_height="match_parent"
                     android:textColor="#361818"
                     android:ems="8"
+                    android:fontFamily="sans-serif-condensed"
                     android:textSize="10dp"
                     android:id="@+id/textVie12"
                     android:text="@string/psy_cau2.1"
                     tools:ignore="SpUsage" />
-
-
-
             </TableRow>
 
-
-
-
-
-            <TextView
-                android:id="@+id/textView70"
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:text="TABLE 3: Mood stabilizers"
-                android:textAlignment="center"
-                android:textColor="#223C97"
-                android:layout_marginTop="8dp"
-                android:textSize="20sp"/>
+                <TextView
+                    android:id="@+id/textView70"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="TABLE 3: Mood stabilizers"
+                    android:textAlignment="center"
+                    android:fontFamily="sans-serif-condensed"
+                    android:textColor="#223C97"
+                    android:layout_marginTop="8dp"
+                    android:textSize="20sp"/>
 
 
             <TextView
@@ -497,22 +497,19 @@ depot/long-acting"
                 android:layout_height="wrap_content"
                 android:text="Avoid in women who are pregnant or breastfeeding if possible."
                 android:textColor="#cc0808"
-
-                />
+                android:fontFamily="sans-serif-condensed"
+                android:textSize="16sp" />
             <TableRow
                 android:layout_height="match_parent"
                 android:layout_width="match_parent"
                 android:background="#223C97"
-                android:layout_marginTop="5dp"
-                >
-
-
-
+                android:layout_marginTop="5dp">
                 <TextView
                     android:layout_width="match_parent"
                     android:layout_height="match_parent"
                     android:ems="3"
                     android:id="@+id/textView50"
+                    android:fontFamily="sans-serif-condensed"
                     android:textColor="#ffffff"
                     android:textSize="11dp"
                     android:textAlignment="center"
@@ -522,6 +519,7 @@ depot/long-acting"
                     android:layout_width="match_parent"
                     android:layout_height="match_parent"
                     android:ems="6"
+                    android:fontFamily="sans-serif-condensed"
                     android:textAlignment="center"
                     android:textColor="#ffffff"
                     android:textSize="12dp"
@@ -533,6 +531,7 @@ depot/long-acting"
                     android:layout_width="match_parent"
                     android:layout_height="match_parent"
                     android:ems="6"
+                    android:fontFamily="sans-serif-condensed"
                     android:textAlignment="center"
                     android:textColor="#ffffff"
                     android:id="@+id/textView52"
@@ -544,21 +543,15 @@ depot/long-acting"
                     android:textColor="#ffffff"
                     android:layout_height="match_parent"
                     android:ems="7"
+                    android:fontFamily="sans-serif-condensed"
                     android:textAlignment="center"
                     android:textSize="12dp"
                     android:id="@+id/textView53"
                     android:text="CONTRAINDICATIONS / CAUTIONS"
                     tools:ignore="HardcodedText,SpUsage" />
 
-
             </TableRow>
-
-
-
-
-
-
-            <TableRow
+        <TableRow
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
                 android:background="@drawable/border2"
@@ -572,11 +565,9 @@ depot/long-acting"
                     android:layout_height="match_parent"
                     android:layout_marginLeft="2dp"
                     android:ems="6"
+                    android:fontFamily="sans-serif-condensed"
                     android:textColor="#223C97"
-                    android:text="LITHIUM\n\n
-Use only if clinical
-and laboratory monitoring
-are available."
+                    android:text="LITHIUM\n\nUse only if clinical and laboratory monitoring are available."
                     android:textSize="10dp"
                     tools:ignore="HardcodedText,SpUsage" />
 
@@ -585,6 +576,7 @@ are available."
                     android:layout_width="match_parent"
                     android:layout_height="match_parent"
                     android:ems="4"
+                    android:fontFamily="sans-serif-condensed"
                     android:textColor="#361818"
                     android:text="@string/psy_dosing3.1"
                     android:textSize="10dp"
@@ -595,6 +587,7 @@ are available."
                     android:layout_width="match_parent"
                     android:layout_height="match_parent"
                     android:ems="4"
+                    android:fontFamily="sans-serif-condensed"
                     android:textColor="#361818"
                     android:text="@string/psy_side3.1"
                     android:textSize="10dp"
@@ -605,18 +598,15 @@ are available."
                     android:layout_width="match_parent"
                     android:layout_height="match_parent"
                     android:ems="8"
+                    android:fontFamily="sans-serif-condensed"
                     android:textColor="#361818"
                     android:text="@string/psy_cau3.1"
                     android:textSize="10dp"
                     tools:ignore="SpUsage" />
 
+        </TableRow>
 
-            </TableRow>
-
-
-
-
-            <TableRow
+        <TableRow
                 android:layout_height="match_parent"
                 android:layout_width="match_parent"
                 android:background="@drawable/border2">
@@ -626,6 +616,7 @@ are available."
                     android:layout_width="match_parent"
                     android:layout_height="match_parent"
                     android:ems="6"
+                    android:fontFamily="sans-serif-condensed"
                     android:textColor="#223C97"
                     android:textSize="10dp"
                     android:layout_marginTop="5dp"
@@ -638,6 +629,7 @@ are available."
                     android:layout_width="match_parent"
                     android:layout_height="match_parent"
                     android:ems="4"
+                    android:fontFamily="sans-serif-condensed"
                     android:id="@+id/textVie79"
                     android:text="@string/psy_dosing3.2"
                     android:textSize="10dp"
@@ -648,6 +640,7 @@ are available."
                     android:layout_height="match_parent"
                     android:textColor="#361818"
                     android:ems="4"
+                    android:fontFamily="sans-serif-condensed"
                     android:id="@+id/textVie80"
                     android:textSize="10dp"
                     android:text="@string/psy_side3.2"
@@ -657,28 +650,23 @@ are available."
                     android:layout_height="match_parent"
                     android:textColor="#361818"
                     android:ems="8"
+                    android:fontFamily="sans-serif-condensed"
                     android:textSize="10dp"
                     android:id="@+id/textVie81"
                     android:text="@string/psy_cau3.2"
                     tools:ignore="SpUsage" />
 
-
-            </TableRow>
-
-
-
-
-            <TableRow
+        </TableRow>
+        <TableRow
                 android:layout_height="match_parent"
                 android:layout_width="match_parent"
-                android:background="@drawable/border2"
-
-                >
+                android:background="@drawable/border2">
 
                 <TextView
                     android:layout_width="match_parent"
                     android:layout_height="match_parent"
                     android:ems="6"
+                    android:fontFamily="sans-serif-condensed"
                     android:textColor="#223C97"
                     android:textSize="10dp"
                     android:layout_marginTop="5dp"
@@ -690,6 +678,7 @@ are available."
                     android:textColor="#361818"
                     android:layout_width="match_parent"
                     android:layout_height="match_parent"
+                    android:fontFamily="sans-serif-condensed"
                     android:ems="4"
                     android:id="@+id/textVi10"
                     android:text="@string/psy_dosing3.3"
@@ -701,6 +690,7 @@ are available."
                     android:layout_height="match_parent"
                     android:textColor="#361818"
                     android:ems="4"
+                    android:fontFamily="sans-serif-condensed"
                     android:id="@+id/textVi11"
                     android:textSize="10dp"
                     android:text="@string/psy_side3.3"
@@ -710,6 +700,7 @@ are available."
                     android:layout_height="match_parent"
                     android:textColor="#361818"
                     android:ems="8"
+                    android:fontFamily="sans-serif-condensed"
                     android:textSize="10dp"
                     android:id="@+id/textVi12"
                     android:text="@string/psy_cau3.3"

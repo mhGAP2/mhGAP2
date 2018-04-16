@@ -17,9 +17,10 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:textColor="#F68B1F"
+            android:fontFamily="sans-serif-condensed"
+            android:textSize="16sp"
             android:layout_marginTop="10dp"
            android:text="2.2 Motivational InterviewingBrief Intervention) "
-            android:textSize="15sp"
             />
 
         <TextView
@@ -28,6 +29,8 @@
             android:layout_height="wrap_content"
             android:textColor="#361818"
             android:layout_marginTop="10dp"
+            android:fontFamily="sans-serif-condensed"
+            android:textSize="16sp"
             android:text="@string/substancepro5" />
 
 

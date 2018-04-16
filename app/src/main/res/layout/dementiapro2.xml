@@ -10,8 +10,6 @@
         android:orientation="vertical"
         android:layout_marginLeft="5dp"
         tools:ignore="RtlHardcoded">
-
-
         <TextView
             android:id="@+id/textView1"
             android:layout_width="match_parent"
@@ -20,7 +18,9 @@
             android:textColor="#92C139"
             android:textSize="30sp"
             android:textAlignment="center"
-            tools:ignore="HardcodedText" />
+            tools:ignore="HardcodedText"
+            android:fontFamily="sans-serif-condensed"
+           />
         <TextView
             android:id="@+id/textView2"
             android:textColor="#92C139"
@@ -28,7 +28,8 @@
             android:layout_height="wrap_content"
             android:layout_marginTop="10dp"
             android:text="DEMENTIA – with behavioural  and/or psychological symptoms "
-            android:textSize="15sp"
+            android:fontFamily="sans-serif-condensed"
+            android:textSize="16sp"
             android:textAlignment="center"
             tools:ignore="HardcodedText"/>
 
@@ -39,7 +40,8 @@
             android:layout_height="wrap_content"
             android:layout_marginTop="10dp"
             android:text="PSYCHOSOCIAL INTERVENTIONS"
-            android:textSize="15sp"
+            android:fontFamily="sans-serif-condensed"
+            android:textSize="16sp"
             android:textAlignment="center"
             tools:ignore="HardcodedText" />
         <TextView
@@ -49,7 +51,8 @@
             android:layout_height="wrap_content"
             android:layout_marginTop="10dp"
             android:text="Follow PROTOCOL 1"
-            android:textSize="15sp"
+            android:fontFamily="sans-serif-condensed"
+            android:textSize="16sp"
             android:textAlignment="center"
             tools:ignore="HardcodedText" />
         <TextView
@@ -68,8 +71,9 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_marginTop="10dp"
+            android:fontFamily="sans-serif-condensed"
+            android:textSize="16sp"
             android:text="2.2 Manage behavioral and psychological symptoms."
-            android:textSize="15sp"
             android:textAlignment="center"
             tools:ignore="HardcodedText" />
         <TextView
@@ -79,7 +83,8 @@
             android:layout_height="wrap_content"
             android:layout_marginTop="10dp"
             android:text="@string/Dementia9"
-            android:textSize="15sp"
+            android:fontFamily="sans-serif-condensed"
+            android:textSize="16sp"
             android:textAlignment="center"
             tools:ignore="HardcodedText" />
         <TextView
@@ -89,7 +94,8 @@
             android:layout_height="wrap_content"
             android:layout_marginTop="10dp"
             android:text="@string/hi"
-            android:textSize="15sp"
+            android:fontFamily="sans-serif-condensed"
+            android:textSize="16sp"
             android:textAlignment="center"
             tools:ignore="HardcodedText" />
         <TextView
@@ -99,7 +105,8 @@
             android:layout_height="wrap_content"
             android:layout_marginTop="10dp"
             android:text="@string/com"
-            android:textSize="15sp"
+            android:fontFamily="sans-serif-condensed"
+            android:textSize="16sp"
             android:textAlignment="center"
             tools:ignore="HardcodedText" />
 
@@ -110,7 +117,8 @@
             android:layout_height="wrap_content"
             android:layout_marginTop="10dp"
             android:text="If there is imminent risk to the person or carer:"
-            android:textSize="15sp"
+            android:fontFamily="sans-serif-condensed"
+            android:textSize="16sp"
             android:textAlignment="center"
             tools:ignore="HardcodedText" />
         <TextView
@@ -120,7 +128,8 @@
             android:layout_height="wrap_content"
             android:layout_marginTop="10dp"
             android:text="2.7  Consider antipsychotic medications if symptoms persist  or if there is imminent risk of harm. "
-            android:textSize="15sp"
+            android:fontFamily="sans-serif-condensed"
+            android:textSize="16sp"
             android:textAlignment="center"
             tools:ignore="HardcodedText" />
         <TextView
@@ -130,7 +139,8 @@
             android:layout_height="wrap_content"
             android:layout_marginTop="10dp"
             android:text="@string/Dementia10"
-            android:textSize="15sp"
+            android:fontFamily="sans-serif-condensed"
+            android:textSize="16sp"
             android:textAlignment="center"
             tools:ignore="HardcodedText" />
         <TextView
@@ -140,7 +150,8 @@
             android:layout_height="wrap_content"
             android:layout_marginTop="10dp"
             android:text="Refer to speacialist when available "
-            android:textSize="15sp"
+            android:fontFamily="sans-serif-condensed"
+            android:textSize="16sp"
             android:textAlignment="center"
             tools:ignore="HardcodedText" />
     </LinearLayout>

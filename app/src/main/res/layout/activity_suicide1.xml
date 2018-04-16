@@ -26,12 +26,11 @@ android:weightSum="4"
         android:textColor="#ffffff"
         android:layout_marginBottom="30dp"
         android:textSize="30dp"
+        android:fontFamily="sans-serif-condensed"
         android:layout_weight="0.83" />
 
-
 </LinearLayout>
-
-<LinearLayout
+    <LinearLayout
     android:layout_width="match_parent"
     android:layout_height="50dp"
     android:layout_marginLeft="20dp"
@@ -59,6 +58,7 @@ android:weightSum="4"
         android:text="Assessment"
         android:textColor="#E65521"
         android:textSize="18dp"
+        android:fontFamily="sans-serif-condensed"
         tools:ignore="HardcodedText" />
 </LinearLayout>
 
@@ -92,6 +92,7 @@ android:weightSum="4"
         android:text="Management"
         android:textColor="#E65521"
         android:textSize="18dp"
+        android:fontFamily="sans-serif-condensed"
         />
 </LinearLayout>
 <LinearLayout
@@ -123,6 +124,7 @@ android:weightSum="4"
         android:text="Follow_up"
         android:textColor="#E65521"
         android:textSize="18dp"
+        android:fontFamily="sans-serif-condensed"
         />
 </LinearLayout>
 </LinearLayout>
