@@ -133,7 +133,7 @@ public class Glossery extends AppCompatActivity
         // Handle navigation view item clicks here.
         int id = item.getItemId();
 
-         if (id == R.id.essentials) {
+        if (id == R.id.essentials) {
             Intent intent=new Intent(Glossery.this,Essential.class);
             startActivity(intent);
 
@@ -146,12 +146,19 @@ public class Glossery extends AppCompatActivity
             startActivity(intent);
 
         }
+        else if (id == R.id.help) {
+            Intent intent=new Intent(Glossery.this,help.class);
+            startActivity(intent);
+
+        }
         else if (id == R.id.contact) {
             Intent intent=new Intent(Glossery.this,Contactus.class);
             startActivity(intent);
 
         }
         else if (id == R.id.Aboutus) {
+            Intent intent=new Intent(Glossery.this,Aboutus.class);
+            startActivity(intent);
         }
         DrawerLayout drawer = (DrawerLayout) findViewById(R.id.drawer_layout);
         drawer.closeDrawer(GravityCompat.START);

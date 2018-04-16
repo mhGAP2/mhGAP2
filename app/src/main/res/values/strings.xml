@@ -1560,4 +1560,19 @@ Consult a specialist for treatment.</string>
         – Advise the person and carers to restrict access to means of self-harm/suicide (e.g. pesticides/toxic substances, prescription medications, ﬁrearms, etc.) when the person has thoughts or plans of self-harm/suicide. \n\n
         – Optimize social support from available community resources. These include informal resources, such as relatives, friends, acquaintances, colleagues and religious leaders or formal community resources, if available, such as crisis centres, and local mental health centres.</string>
     <string name="offer_carers_support">Offer carers support.</string>
+    <string name="application_name">Application Name</string>
+    <string name="copyright_to_jdwnrh">Copyright to JDWNRH</string>
+    <string name="email">Email</string>
+    <string name="mhgap">MhGAP</string>
+    <string name="more_apps_from_ditt">More apps from DITT</string>
+    <string name="more">More</string>
+    <string name="please_rate_or_share_feedback">Please rate or share feedback</string>
+    <string name="rate">Rate</string>
+    <string name="app_icon">app icon</string>
+    <string name="copyright_icon">copyright icon</string>
+    <string name="copyright">copyright</string>
+    <string name="icon">icon</string>
+    <string name="icon_more">icon</string>
+    <string name="rate_icon">rate icon</string>
+    <string name="tencho_gmail_com">tencho@gmail.com</string>
 </resources>

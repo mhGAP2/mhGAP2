@@ -149,10 +149,12 @@ public class HomeActivity extends AppCompatActivity
         int id = item.getItemId();
 
         //noinspection SimplifiableIfStatement
-        if (id == R.id.action_settings) {
-            Intent intent = new Intent(HomeActivity.this, master.class);
-            startActivity(intent);
-           return true;
+        if (id == R.id.menuShare) {
+            Intent share=new Intent(Intent.ACTION_SEND);
+            share.setType("text/*");
+            share.putExtra(Intent.EXTRA_TEXT,"www.google.com");
+            startActivity(Intent.createChooser(share,"Share Using"));
+            return true;
         }
         return super.onOptionsItemSelected(item);
     }

@@ -196,23 +196,23 @@
 
     <Button
         android:id="@+id/OTH"
-        android:layout_width="314dp"
-        android:layout_height="38dp"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
         android:layout_gravity="center"
+        android:layout_marginEnd="32dp"
+        android:layout_marginLeft="32dp"
+        android:layout_marginRight="32dp"
+        android:layout_marginStart="32dp"
+        android:layout_marginTop="9dp"
         android:layout_weight="1"
         android:background="@drawable/d8"
         android:text="other significant health COMPLAINTS "
         android:textAlignment="center"
         android:textColor="#FFFFFF"
-        tools:ignore="HardcodedText"
-        android:layout_marginRight="32dp"
-        app:layout_constraintRight_toRightOf="parent"
-        android:layout_marginLeft="32dp"
-        app:layout_constraintLeft_toLeftOf="parent"
-        android:layout_marginTop="8dp"
-        app:layout_constraintTop_toBottomOf="@+id/SUICIDE"
         app:layout_constraintHorizontal_bias="0.0"
-        android:layout_marginStart="32dp"
-        android:layout_marginEnd="32dp" />
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/SUICIDE"
+        tools:ignore="HardcodedText" />
 
 </android.support.constraint.ConstraintLayout>

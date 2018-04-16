@@ -48,7 +48,7 @@ public class Contactus extends AppCompatActivity
     @Override
     public boolean onCreateOptionsMenu(Menu menu) {
         // Inflate the menu; this adds items to the action bar if it is present.
-        getMenuInflater().inflate(R.menu.home, menu);
+        getMenuInflater().inflate(R.menu.share, menu);
         return true;
     }
 
@@ -60,7 +60,11 @@ public class Contactus extends AppCompatActivity
         int id = item.getItemId();
 
         //noinspection SimplifiableIfStatement
-        if (id == R.id.action_settings) {
+        if (id == R.id.menuShare) {
+            Intent share=new Intent(Intent.ACTION_SEND);
+            share.setType("text/*");
+            share.putExtra(Intent.EXTRA_TEXT,"www.google.com");
+            startActivity(Intent.createChooser(share,"Share Using"));
             return true;
         }
         return super.onOptionsItemSelected(item);

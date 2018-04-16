@@ -1,9 +1,10 @@
 package com.example.tencho.mhgap2;
 
 import android.content.Intent;
+import android.content.pm.PackageManager;
+import android.content.pm.ResolveInfo;
+import android.net.Uri;
 import android.os.Bundle;
-import android.support.design.widget.FloatingActionButton;
-import android.support.design.widget.Snackbar;
 import android.view.View;
 import android.support.design.widget.NavigationView;
 import android.support.v4.view.GravityCompat;
@@ -11,11 +12,14 @@ import android.support.v4.widget.DrawerLayout;
 import android.support.v7.app.ActionBarDrawerToggle;
 import android.support.v7.app.AppCompatActivity;
 import android.support.v7.widget.Toolbar;
-import android.view.Menu;
 import android.view.MenuItem;
+import android.widget.RelativeLayout;
+
+import java.util.List;
 
 public class Aboutus extends AppCompatActivity
         implements NavigationView.OnNavigationItemSelectedListener {
+    RelativeLayout r1,r2,r3;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -32,7 +36,51 @@ public class Aboutus extends AppCompatActivity
 
         NavigationView navigationView = (NavigationView) findViewById(R.id.nav_view);
         navigationView.setNavigationItemSelectedListener(this);
+
+        r1 = (RelativeLayout) findViewById(R.id.emailLayout);
+        r2 = (RelativeLayout) findViewById(R.id.rateLayout);
+        r3 = (RelativeLayout) findViewById(R.id.moreLayout);
+
+        r1.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                Intent emailIntent = new Intent(Intent.ACTION_SEND);
+                emailIntent.setType("text/html");
+                final PackageManager pm = Aboutus.this.getPackageManager();
+                final List<ResolveInfo> matches = pm.queryIntentActivities(emailIntent, 0);
+                String className = null;
+                for (final ResolveInfo info : matches) {
+                    if (info.activityInfo.packageName.equals("com.google.android.gm")) {
+                        className = info.activityInfo.name;
+
+                        if (className != null && !className.isEmpty()) {
+                        }
+                    }
+                }
+            }
+
+        });
+        r2.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                try {
+                    startActivity(new Intent(Intent.ACTION_VIEW, Uri.parse("market://details?id=" + com.example.tencho.mhgap2.Aboutus.this.getPackageName())));
+                } catch (android.content.ActivityNotFoundException anfe) {
+                    startActivity(new Intent(Intent.ACTION_VIEW, Uri.parse("https://play.google.com/store/apps/details?id=" + Aboutus.this.getPackageName())));
+                }
+            }
+
+        });
+
+        r3.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                startActivity(new Intent(Intent.ACTION_VIEW, Uri.parse("https://play.google.com/store/apps/developer?id=Abhi+Android")));
+            }
+
+        });
     }
+
 
     @Override
     public void onBackPressed() {
@@ -43,31 +91,6 @@ public class Aboutus extends AppCompatActivity
             super.onBackPressed();
         }
     }
-
-    @Override
-    public boolean onCreateOptionsMenu(Menu menu) {
-        // Inflate the menu; this adds items to the action bar if it is present.
-        getMenuInflater().inflate(R.menu.home, menu);
-        return true;
-    }
-
-    @Override
-    public boolean onOptionsItemSelected(MenuItem item) {
-        // Handle action bar item clicks here. The action bar will
-        // automatically handle clicks on the Home/Up button, so long
-        // as you specify a parent activity in AndroidManifest.xml.
-        int id = item.getItemId();
-
-        //noinspection SimplifiableIfStatement
-        if (id == R.id.action_settings) {
-            Intent intent=new Intent(Aboutus.this,HomeActivity.class);
-            startActivity(intent);
-            return true;
-        }
-
-        return super.onOptionsItemSelected(item);
-    }
-
     @SuppressWarnings("StatementWithEmptyBody")
     @Override
     public boolean onNavigationItemSelected(MenuItem item) {
