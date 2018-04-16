@@ -49,7 +49,7 @@ public class Dep_followup extends AppCompatActivity {
         hmbtn.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                Intent intent=new Intent(Dep_followup.this,depression2.class);
+                Intent intent=new Intent(Dep_followup.this,HomeActivity.class);
                 startActivity(intent);
             }
         });
@@ -61,10 +61,16 @@ public class Dep_followup extends AppCompatActivity {
         if(mquestion.getText().toString().equals(Yesfollowquestions[0]))
             mquestion.setText(Yesfollowquestions[1]);
         else if(mquestion.getText().toString().equals(Yesfollowquestions[1]))
+        {
             mquestion.setText(Yesfollowquestions[2]);
+            yesbtn.setVisibility(View.GONE);
+            nobtn.setVisibility(View.GONE);
+            hmbtn.setVisibility(View.VISIBLE);
+        }
+
         else if(mquestion.getText().toString().equals(Nofollowquestions[0]))
         {
-            mquestion.setText(Yesfollowquestions[3]);
+            mquestion.setText(Nofollowquestions[2]);
             yesbtn.setVisibility(View.GONE);
             nobtn.setVisibility(View.GONE);
             hmbtn.setVisibility(View.VISIBLE);
@@ -88,6 +94,15 @@ public class Dep_followup extends AppCompatActivity {
         {
             mquestion.setText(Nofollowquestions[1]);
             hmbtn.setVisibility(View.VISIBLE);
+            yesbtn.setVisibility(View.GONE);
+            nobtn.setVisibility(View.GONE);
+        }
+        else if(mquestion.getText().toString().equals(Yesfollowquestions[1]))
+        {
+            mquestion.setText(Nofollowquestions[1]);
+            hmbtn.setVisibility(View.VISIBLE);
+            yesbtn.setVisibility(View.GONE);
+            nobtn.setVisibility(View.GONE);
         }
     }
 }

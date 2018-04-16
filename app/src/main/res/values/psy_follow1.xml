@@ -1,78 +1,78 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
     <string name="pf1">
-        1 \n
+        1) \n
             ASSESS FOR IMPROVEMENT \n
             Is the person improving?
     </string>
     <string name="pf2">
-        1 \n
+        1) \n
             ASSESS FOR IMPROVEMENT \n
             Is the person improving?
     </string>
 
     <string-array name="PSY_Followup_Yes_PSYCHOSIS">
         <item>
-            1 \n
+            1) \n
             ASSESS FOR IMPROVEMENT \n
             Is the person improving?
         </item>
 
         <item>
-            » Continue with treatment plan. \n
-            » Decrease frequency of follow-up once
+            - Continue with treatment plan. \n
+            - Decrease frequency of follow-up once
               symptoms have subsided. \n
-            » Follow-up as needed. \n
+            - Follow-up as needed. \n
 
             SKIP to STEP 2
         </item>
 
         <item>
-            » Ensure that person has been on a typical effective dose for minimum of 4-6 weeks. \n
-            » Maintain a high frequency of contact until symptoms start to respond to treatment. \n
-            » Involve the person and carers in treatment plan changes and decisions. \n\n
+            - Ensure that person has been on a typical effective dose for minimum of 4-6 weeks. \n
+            - Maintain a high frequency of contact until symptoms start to respond to treatment. \n
+            - Involve the person and carers in treatment plan changes and decisions. \n\n
 
             2 \n
             ROUTINELY MONITOR TREATMENT \n
 
-            » Review psychosocial interventions. \n
-            » If on medication, review adherence, side effects and dosing (Table 4).Check weight, blood pressure, and blood glucose. \n
-            » If the person starts to use any other medications with potential drug-drug interactions, consider reviewing the medication dose. \n
-            » Ask regarding the onset of symptoms, prior episodes, and details of any previous or current treatment. \n \n \n
+            - Review psychosocial interventions. \n
+            - If on medication, review adherence, side effects and dosing (Table 4).Check weight, blood pressure, and blood glucose. \n
+            - If the person starts to use any other medications with potential drug-drug interactions, consider reviewing the medication dose. \n
+            - Ask regarding the onset of symptoms, prior episodes, and details of any previous or current treatment. \n \n \n
 
-            3 \n
+            3) \n
             DISCONTINUE MEDICATIONS \n
 
             Person with first episode, relapse,or worsening of psychosis symptoms: \n
-            » Consider discontinuation of medications 12 MONTHS after symptoms have resolved. \n
+            - Consider discontinuation of medications 12 MONTHS after symptoms have resolved. \n \n
 
             Person with psychotic symptoms persisting more than 3 months: \n
-            » Consider discontinuation of medications if person is in FULL REMISSION of symptoms for several years. \n
+            - Consider discontinuation of medications if person is in FULL REMISSION of symptoms for several years. \n \n
 
-            » Discuss risks of relapse against long-term medication side-effects with person and family. \n
-            » If possible, consult a specialist. \n
-            » Gradually and slowly reduce the medication dose. When medications are withdrawn, individuals and family members need to be educated to detect early symptoms of relapse. Close clinical monitoring is recommended. \n
+            - Discuss risks of relapse against long-term medication side-effects with person and family. \n
+            -If possible, consult a specialist. \n
+            - Gradually and slowly reduce the medication dose. When medications are withdrawn, individuals and family members need to be educated to detect early symptoms of relapse. Close clinical monitoring is recommended. \n
         </item>
         <item>
-            2 \n
+            2) \n
             ROUTINELY MONITOR TREATMENT \n
-            » Review psychosocial interventions. \n
-            » If on medication, review adherence, side effects and dosing (Table 4).Check weight, blood pressure, and blood glucose. \n
-            » If the person starts to use any other medications with potential drug-drug interactions, consider reviewing the medication dose. \n
-            » Ask regarding the onset of symptoms, prior episodes, and details of any previous or current treatment. \n \n
+            - Review psychosocial interventions. \n
+            - If on medication, review adherence, side effects and dosing (Table 4).Check weight, blood pressure, and blood glucose. \n
+            - If the person starts to use any other medications with potential drug-drug interactions, consider reviewing the medication dose. \n
+            - Ask regarding the onset of symptoms, prior episodes, and details of any previous or current treatment. \n \n
 
-            3 \n
+            3) \n
             DISCONTINUE MEDICATIONS \n
 
             Person with first episode, relapse,or worsening of psychosis symptoms: \n
-            » Consider discontinuation of medications 12 MONTHS after symptoms have resolved. \n
+            - Consider discontinuation of medications 12 MONTHS after symptoms have resolved. \n
 
             Person with psychotic symptoms persisting more than 3 months: \n
-            » Consider discontinuation of medications if person is in FULL REMISSION of symptoms for several years. \n
+            - Consider discontinuation of medications if person is in FULL REMISSION of symptoms for several years. \n
 
-            » Discuss risks of relapse against long-term medication side-effects with person and family. \n
-            » If possible, consult a specialist. \n
-            » Gradually and slowly reduce the medication dose. When medications are withdrawn, individuals and family members need to be educated
+            - Discuss risks of relapse against long-term medication side-effects with person and family. \n
+            - If possible, consult a specialist. \n
+            - Gradually and slowly reduce the medication dose. When medications are withdrawn, individuals and family members need to be educated
             to detect early symptoms of relapse. Close clinical monitoring is recommended. \n
         </item>
     </string-array>
@@ -83,75 +83,81 @@
         </item>
 
         <item>
-            » START ANTIPSYCHOTIC MEDICATIONS (Go to Table 1). \n
-            » Maintain a high frequency of contact until symptoms start to respond to treatment. \n
-            » Involve the person and carers in treatment plan changes and decisions. \n \n
+            - START ANTIPSYCHOTIC MEDICATIONS (Go to Table 1). \n \n
+            - Maintain a high frequency of contact until symptoms start to respond to treatment. \n
+            - Involve the person and carers in treatment plan changes and decisions. \n \n
 
-            2 \n
+            2) \n
             ROUTINELY MONITOR TREATMENT \n
-            » Review psychosocial interventions. \n
-            » If on medication, review adherence, side effects and dosing (Table 4).Check weight, blood pressure, and blood glucose. \n
-            » If the person starts to use any other medications with potential drug-drug interactions, consider reviewing the medication dose. \n
-            » Ask regarding the onset of symptoms, prior episodes, and details of any previous or current treatment. \n \n
+            -Review psychosocial interventions. \n
+            - If on medication, review adherence, side effects and dosing (Table 4).Check weight, blood pressure, and blood glucose. \n
+            - If the person starts to use any other medications with potential drug-drug interactions, consider reviewing the medication dose. \n
+            - Ask regarding the onset of symptoms, prior episodes, and details of any previous or current treatment. \n \n
 
-            3 \n
+            3) \n
             DISCONTINUE MEDICATIONS \n
 
             Person with first episode, relapse,or worsening of psychosis symptoms: \n
-            » Consider discontinuation of medications 12 MONTHS after symptoms have resolved. \n
+            - Consider discontinuation of medications 12 MONTHS after symptoms have resolved. \n \n
 
             Person with psychotic symptoms persisting more than 3 months: \n
-            » Consider discontinuation of medications if person is in FULL REMISSION of symptoms for several years. \n
+            - Consider discontinuation of medications if person is in FULL REMISSION of symptoms for several years. \n \n
 
-            » Discuss risks of relapse against long-term medication side-effects with person and family. \n
-            » If possible, consult a specialist. \n
-            » Gradually and slowly reduce the medication dose. When medications are withdrawn, individuals and family members need to be educated
+            - Discuss risks of relapse against long-term medication side-effects with person and family. \n
+            - If possible, consult a specialist. \n
+            - Gradually and slowly reduce the medication dose. When medications are withdrawn, individuals and family members need to be educated
             to detect early symptoms of relapse. Close clinical monitoring is recommended. \n
         </item>
 
 
     </string-array>
     <string-array name="PSY_Followup_Yes_BIPOLARDISORDER">
-
         <item>
-            1 \n
+            1) \n
             ASSESS FOR IMPROVEMENT \n
             Is the person improving?
         </item>
 
         <item>
-            » Follow-up as needed until symptoms have subsided. \n
-            » Continue maintenance medications for at least 2 years. \n
-
+            - Follow-up as needed until symptoms have subsided. \n
+            - Continue maintenance medications for at least 2 years. \n \n
             SKIP to STEP  2
         </item>
 
         <item>
-            » Check dosing and side effects. Go to Table 1 or Table 3. \n
-            » Ensure that person has been on a typical effective dose of medication for a minimum of four to six weeks. \n
-            » If on typical effective dose of medications for four to six weeks with no improvement, consider switching medication.  See Table 3. \n
-            » If response is still poor, consult a specialist. \n
-            » Review psychosocial interventions. \n
-            » Evaluate for medical problems. \n
-        </item>
-
-        <item>
-            2 \n
+            - Check dosing and side effects. Go to Table 1 or Table 3. \n
+            - Ensure that person has been on a typical effective dose of medication for a minimum of four to six weeks. \n
+            - If on typical effective dose of medications for four to six weeks with no improvement, consider switching medication.  See Table 3. \n
+            - If response is still poor, consult a specialist. \n
+            - Review psychosocial interventions. \n
+            - Evaluate for medical problems. \n
+            2) \n
             ROUTINELY MONITOR TREATMENT \n
-            » Review and provide psychosocial interventions.\n
-            » If on medication, review adherence, side effects and dosing. See Table 4. \n
-            » If the person starts any other medications with the potential for drug-drug interactions, consider reviewing the medication dose. \n
-        </item>
-
-        <item>
-            3 \n
+            - Review and provide psychosocial interventions.\n
+            - If on medication, review adherence, side effects and dosing. See Table 4. \n
+            - If the person starts any other medications with the potential for drug-drug interactions, consider reviewing the
+            medication dose. \n \n
+            3) \n
             DISCONTINUE MEDICATIONS \n
 
             Has the person been in full remission of symptoms with no episodes of bipolar disorder for at least two years?
         </item>
 
         <item>
-            » C onsider discontinuation of medications p and monitor treatment. \n
+            2) \n
+            ROUTINELY MONITOR TREATMENT \n
+            - Review and provide psychosocial interventions.\n
+            - If on medication, review adherence, side effects and dosing. See Table 4. \n
+            - If the person starts any other medications with the potential for drug-drug interactions, consider reviewing the
+            medication dose. \n \n
+            3) \n
+            DISCONTINUE MEDICATIONS \n
+
+            Has the person been in full remission of symptoms with no episodes of bipolar disorder for at least two years?
+        </item>
+
+        <item>
+             Consider discontinuation of medications p and monitor treatment. \n
                 – Discuss with person/carer the risk of discontinuation. \n
                 – Consult a specialist regarding the decision to discontinue maintenance treatment after 2 years. \n
                 – Reduce gradually over period of weeks or months. \n
@@ -164,19 +170,20 @@
         </item>
 
         <item>
-            » If appropriate, initiate medication.
-        </item>
+            - If appropriate, initiate medication. \n
+            - Review psychosocial interventions. \n
+            - Evaluate for medical problems. \n \n
 
-        <item>
-            » Review psychosocial interventions. \n
-            » Evaluate for medical problems
-        </item>
-        <item>
-            2 \n
+            2) \n
             ROUTINELY MONITOR TREATMENT \n
-            » Review and provide psychosocial interventions. \n
-            » If on medication, review adherence, side effects and dosing. See Table 4. \n
-            » If the person starts any other medications with the potential for drug-drug interactions, consider reviewing the medication dose. \n
+            - Review and provide psychosocial interventions. \n
+            - If on medication, review adherence, side effects and dosing. See Table 4. \n
+            - If the person starts any other medications with the potential for drug-drug interactions, consider reviewing
+            the medication dose. \n \n
+        3) \n
+            DISCONTINUE MEDICATIONS \n
+
+            Has the person been in full remission of symptoms with no episodes of bipolar disorder for at least two years?
         </item>
 
         <item>

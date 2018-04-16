@@ -39,7 +39,7 @@ public class suicide1 extends AppCompatActivity {
         btn3.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                Intent intent = new Intent(suicide1.this, suicide2.class);
+                Intent intent = new Intent(suicide1.this, suicide_followup.class);
                 startActivity(intent);
             }
         });

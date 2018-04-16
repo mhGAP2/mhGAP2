@@ -1,23 +1,24 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <string name="CMH1">1 \n
+    <string name="CMH1">
+        1) \n
         ASSESS FOR DEVELOPMENTAL DISORDERS \n
-        Assess all domains – motor, cognitive, social, communication, and adaptive. \n
-        >>For toddlers and young children: \n
-          Has the child had any difficulties with ageappropriate milestones across all developmental areas? \n
-        >>For older children and adolescents: \n
+        Assess all domains – motor, cognitive, social, communication, and adaptive. \n \n
+        For toddlers and young children: \n
+          Has the child had any difficulties with age appropriate milestones across all developmental areas? \n \n
+        For older children and adolescents: \n
           Are there difficulties with school (learning, reading, and writing), communicating and interacting with others,
         self-care, and everyday household activities?
     </string>
 
     <string-array name="CMH_Asse_Yes">
     <item>
-        1 \n
+        1) \n
         ASSESS FOR DEVELOPMENTAL DISORDERS \n
-        Assess all domains – motor, cognitive, social, communication, and adaptive. \n
-        >>For toddlers and young children: \n
-          Has the child had any difficulties with ageappropriate milestones across all developmental areas? \n
-        >>For older children and adolescents: \n
+        Assess all domains – motor, cognitive, social, communication, and adaptive. \n \n
+        For toddlers and young children: \n
+          Has the child had any difficulties with age appropriate milestones across all developmental areas? \n \n
+        For older children and adolescents: \n
           Are there difficulties with school (learning, reading, and writing), communicating and interacting with others,
         self-care, and everyday household activities?
     </item>
@@ -31,12 +32,15 @@
 </item>
 
         <item>
-    >>Manage conditions using Integrated Management of Childhood Illness (IMCI) \n
-            (www.who.int/maternal_child_adolescent/documents/ IMCI_chartbooklet) or other available guidelines.
+    - Manage conditions using Integrated Management of Childhood Illness (IMCI) \n
+            (www.who.int/maternal_child_adolescent/documents/IMCI_chartbooklet) or other available guidelines. \n \n
+
+    Assess the child for visual and/or hearing impairment: \n
     For vision assessment, see if the child fails to: \n
     –  Look at your eyes \n
     –  Follow a moving object with the head and eyes \n
-    –  Grab an object –  Recognize familiar people \n
+    –  Grab an object \n
+    –  Recognize familiar people \n
 
    For hearing assessment, see if the child fails to: \n
     –  Turn head to see someone behind them when they speak \n
@@ -47,21 +51,22 @@
         <item>
     CONSULT WITH SPECIALIST FOR EVALUATION. \n
     Go to PROTOCOL 1 \n \n
-    2 \n
+    2) \n
     ASSESS FOR PROBLEMS WITH  INATTENTION OR HYPERACTIVITY \n
     Is the child/adolescent: \n
-    – Overactive? – Unable to stay still for long? \n
+    – Overactive? \n
+    – Unable to stay still for long? \n
     – Easily distracted, has difficulty completing tasks? \n
-            – Moving restlessly? \n
+    – Moving restlessly? \n
 
 </item>
 
         <item>
-    Are symptoms persistent, severe, and causing considerable dif?culty with daily functioning? Are ALL of the following true? \n
+    Are symptoms persistent, severe, and causing considerable difficulty with daily functioning? Are<u> ALL </u> of the following true? \n
     – Are symptoms present in multiple settings? \n
     – Have they lasted at least 6 months? \n
     – Are they inappropriate for the child/ adolescent’s developmental level? \n
-    – Is there considerable dif?culty with daily functioning in personal, family, social, educational, occupational or other areas?
+    – Is there considerable difficulty with daily functioning in personal, family, social, educational, occupational or other areas?
 </item>
 
         <item>
@@ -75,19 +80,19 @@
 
         <item>
     Treat the physical condition \n
-    >>Go to PROTOCOL 3 \n \n
-    3 \n
+    Go to PROTOCOL 3 \n \n
+    3) \n
     ASSESS FOR CONDUCT DISORDER \n
-    Does the child/adolescent show repeated aggressive, disobedient, or de?ant behaviour, for example: \n
+    Does the child/adolescent show repeated aggressive, disobedient, or defiant behaviour, for example: \n
     – Arguing with adults \n
     – Defying or refusing to comply with their requests or rules \n
     – Extreme irritability/anger \n
     – Frequent and severe temper tantrums \n
-    – Dif?culty getting along with others \n
+    – Difficulty getting along with others \n
     – Provocative behaviour \n
-    – Excessive levels of ?ghting or bullying \n
+    – Excessive levels of fighting or bullying \n
     – Cruelty to animals or people \n
-    – Severe destructiveness to property, ?re-setting \n
+    – Severe destructiveness to property, fire-setting \n
     – Stealing, repeated lying, truancy from school, running away from home
 
 </item>
@@ -97,13 +102,13 @@
     –  Symptoms are present in different settings (e.g. at home, at school and in other social settings). \n
     –   Symptoms have been present for at least 6 months. \n
     –  More severe than ordinary childish mischief or adolescent rebelliousness. \n
-    –  Is there considerable dif?culty with daily functioning in personal, family, social, educational, occupational or other areas? \n
+    –  Is there considerable difficulty with daily functioning in personal, family, social, educational, occupational or other areas? \n
 </item>
 
         <item>
     Consider CONDUCT DISORDER \n
-    >>Go to PROTOCOL 4 \n \n
-    4 \n
+    Go to PROTOCOL 4 \n \n
+    4) \n
     ASSESS FOR EMOTIONAL DISORDERS  (prolonged, disabling distress involving sadness, fearfulness, anxiety or irritability) \n
     Ask if the child/adolescent: \n
     – Is often feeling irritable, easily annoyed, down or sad? \n
@@ -137,11 +142,11 @@
         <item>
     Manage the physical condition. \n
     In adolescents, assess for moderate to severe depression. \n
-    Does the adolescent have problems with mood (feeling irritable, down or sad)  OR has lost interest in or enjoyment of activities? \n
+    Does the adolescent have problems with mood (feeling irritable, down or sad) <u> OR </u> has lost interest in or enjoyment of activities? \n
 </item>
 
         <item>
-    Has the adolescent had several of the following additional symptoms most days for the last 2 weeks? \n
+    Has the adolescent had several of the following additional symptoms most days for the <u> last 2 weeks? </u> \n
     –  Disturbed sleep or sleeping too much \n
     –  Significant change in appetite or weight (decrease or increase) \n
     –  Beliefs of worthlessness or excessive guilt \n
@@ -151,61 +156,61 @@
     –  Observable agitation or physical restlessness \n
     –  Talking or moving more slowly than usual \n
     –  Hopelessness \n
-    –  Suicidal thoughts or acts \n
+    –  Suicidal thoughts or acts \n \n
 
-    Is there considerable dif?culty with daily functioning in personal, family, social, educational, occupational or other areas?
+    Is there considerable difficulty with daily functioning in personal, family, social, educational, occupational or other areas?
 </item>
         <item>
     Consider DEPRESSION \n
     Rule out a history of manic episode(s) and normal reaction to recent major loss. See » DEP. \n
-    >>Go to PROTOCOL 6 \n \n
+    Go to PROTOCOL 6 \n \n
 
-    5 \n
+    5) \n
     ASSESS FOR OTHER PRIORITY MNS CONDITIONS \n
 
     Are there any other concurrent MNS conditions? Assess according to the  mhGAP-IG Master Chart. See » MC. \n
-    Do not forget to assess for disorders due to substance use. See » SUB. \n
-    For children with developmental delay/disorders, do not forget to assess for epilepsy. See » EPI.
+    <i> Do not forget to assess for disorders due to substance use. </i> See » SUB. \n
+    <i> For children with developmental delay/disorders, do not forget to assess for epilepsy.</i> See » EPI.
 </item>
 
         <item>
     ASSESS AND MANAGE concurrent MNS conditions \n
-    6 \n
+    6) \n
     ASSESS THE HOME ENVIRONMENT \n
     Are the emotional, behavioural or developmental problems a reaction to or aggravated by a distressing or frightening situation? \n
     Assess for: \n
-    Clinical features or any element in the clinical history that suggest maltreatment or exposure to violence (see CLINICAL TIP). \n
-    Any recent or ongoing severe stressors (e.g. illness or death of a family member, difficult living and financial circumstances, being bullied or harmed). \n
+    - Clinical features or any element in the clinical history that suggest maltreatment or exposure to violence (see CLINICAL TIP). \n
+    - Any recent or ongoing severe stressors (e.g. illness or death of a family member, difficult living and financial circumstances, being bullied or harmed). \n
 
 </item>
 
         <item>
-    >>Refer to child protection services if necessary  \n
-    >>Explore and manage stressors \n
-    >>Ensure child/adolescent’s safety as a ?rst priority  \n
-    >>Reassure the child/adolescent that all children/adolescents need to  be protected from abuse \n
-    >>Provide information about where to seek help for any ongoing abuse \n
-    >>Arrange additional support including referral to specialist \n
-    >>Contact legal and community resources, as appropriate and as mandated  \n
-    >>Consider additional psychosocial interventions  \n
-    >>Ensure appropriate follow-up \n \n
+    - Refer to child protection services if necessary  \n
+    - Explore and manage stressors \n
+    - Ensure child/adolescent’s safety as a first priority  \n
+    - Reassure the child/adolescent that all children/adolescents need to  be protected from abuse \n
+    - Provide information about where to seek help for any ongoing abuse \n
+    - Arrange additional support including referral to specialist \n
+    - Contact legal and community resources, as appropriate and as mandated  \n
+    - Consider additional psychosocial interventions  \n
+    - Ensure appropriate follow-up \n \n
 
     Do the carers have any priority MNS condition that could impact their ability to care for the child/adolescent?
-    Consider especially depression and disorders due to substance use.
+   <i> Consider especially depression and disorders due to substance use. </i>
 </item>
 
         <item>
-   >> Assess and manage for carer  MNS conditions. \n
-   >> Go to Management 2.6 (Carer support)
+   - Assess and manage for carer  MNS conditions. \n
+   - Go to Management 2.6 (Carer support)
 </item>
 
         <item>
-    >>Provide advise on age-appropriate stimulation and parenting. Refer to Care for Child Development http://www.who.int/maternal_ child_adolescent/documents/care_child_ development/en/  \n
-    >>Consider need for additional support for the  child including referral to child protection services where available.
+    - Provide advise on age-appropriate stimulation and parenting. Refer to Care for Child Development http://www.who.int/maternal_ child_adolescent/documents/care_child_ development/en/  \n
+    - Consider need for additional support for the  child including referral to child protection services where available.
 </item>
 
         <item>
-    7 \n
+    7) \n
     ASSESS THE SCHOOL ENVIRONMENT \n
     Is the child/adolescent in school?
 
@@ -213,15 +218,15 @@
 
         <item>
     Is the child/adolescent: \n
-    >>Being bullied, picked on or made fun of? \n
-    >>Not able to participate and learn?  \n
-    >>Not wanting/refusing to attend school?
+    - Being bullied, picked on or made fun of? \n
+    - Not able to participate and learn?  \n
+    - Not wanting/refusing to attend school?
 
 </item>
 
         <item>
-    >>After getting consent, liaise with teachers and other school staff. Go to Management (2.7). \n
-    >>If there has been an absence from school,  try to help the child/adolescent return to school as soon as possible and explore reasons for absence.
+    - After getting consent, liaise with teachers and other school staff. Go to Management (2.7). \n
+    - If there has been an absence from school,  try to help the child/adolescent return to school as soon as possible and explore reasons for absence.
 
 </item>
 
@@ -233,12 +238,13 @@
             SKIP to STEP  2
         </item>
         <item>
-            2 \n
+            2) \n
     ASSESS FOR PROBLEMS WITH  INATTENTION OR HYPERACTIVITY \n
-    Is the child/adolescent: \n
-    – Overactive? – Unable to stay still for long? \n
+    Is the child/adolescent: \n \n
+    – Overactive? \n
+    – Unable to stay still for long? \n
     – Easily distracted, has difficulty completing tasks? \n
-            – Moving restlessly? \n
+    – Moving restlessly? \n
         </item>
 
         <item>
@@ -256,25 +262,25 @@
 </item>
 
         <item>
-    >>Go to PROTOCOL 1
+    Go to PROTOCOL 1
 </item>
 
         <item>
     SKIP to STEP  3
     </item>
         <item>
-             3 \n
+             3) \n
     ASSESS FOR CONDUCT DISORDER \n
-    Does the child/adolescent show repeated aggressive, disobedient, or de?ant behaviour, for example: \n
+    Does the child/adolescent show repeated aggressive, disobedient, or defiant behaviour, for example: \n
     – Arguing with adults \n
     – Defying or refusing to comply with their requests or rules \n
     – Extreme irritability/anger \n
     – Frequent and severe temper tantrums \n
-    – Dif?culty getting along with others \n
+    – Difficulty getting along with others \n
     – Provocative behaviour \n
-    – Excessive levels of ?ghting or bullying \n
+    – Excessive levels of fighting or bullying \n
     – Cruelty to animals or people \n
-    – Severe destructiveness to property, ?re-setting \n
+    – Severe destructiveness to property, fire-setting \n
     – Stealing, repeated lying, truancy from school, running away from home
         </item>
         <item>
@@ -283,18 +289,18 @@
 </item>
 
         <item>
-    ADHD  is unlikely \n
-    Consider  PROBLEMS WITH BEHAVIOUR \n
-    >> Go to PROTOCOL 2 \n
+    ADHD  is unlikely \n \n
+    Consider  PROBLEMS WITH BEHAVIOUR \n \n
+     Go to PROTOCOL 2 \n \n
     SKIP to STEP  3
         </item>
 
         <item>
-    >>Go to PROTOCOL 3
+    Go to PROTOCOL 3
 </item>
 
         <item>
-    4 \n
+    4) \n
     ASSESS FOR EMOTIONAL DISORDERS  (prolonged, disabling distress involving sadness, fearfulness, anxiety or irritability) \n
     Ask if the child/adolescent: \n
     – Is often feeling irritable, easily annoyed, down or sad? \n
@@ -323,59 +329,59 @@
 </item>
 
         <item>
-   5 \n
+   5) \n
     ASSESS FOR OTHER PRIORITY MNS CONDITIONS \n
 
     Are there any other concurrent MNS conditions? Assess according to the  mhGAP-IG Master Chart. See » MC. \n
-    Do not forget to assess for disorders due to substance use. See » SUB. \n
-    For children with developmental delay/disorders, do not forget to assess for epilepsy. See » EPI.
+    <i> Do not forget to assess for disorders due to substance use. </i> See » SUB. \n
+    <i> For children with developmental delay/disorders, do not forget to assess for epilepsy. </i> See » EPI.
 </item>
 
         <item>
     Consider  PROBLEMS WITH EMOTIONS \n
-    >> Go to PROTOCOL 5 \n
+    Go to PROTOCOL 5 \n
     SKIP to STEP  5
 
 </item>
 
         <item>
-    6 \n
+    6) \n
     ASSESS THE HOME ENVIRONMENT \n
     Are the emotional, behavioural or developmental problems a reaction to or aggravated by a distressing or frightening situation? \n
     Assess for: \n
-    Clinical features or any element in the clinical history that suggest maltreatment or exposure to violence (see CLINICAL TIP). \n
-    Any recent or ongoing severe stressors (e.g. illness or death of a family member, dif?cult living and ?nancial circumstances, being bullied or harmed). \n
+    - Clinical features or any element in the clinical history that suggest maltreatment or exposure to violence (see CLINICAL TIP). \n
+    - Any recent or ongoing severe stressors (e.g. illness or death of a family member, difficult living and financial circumstances, being bullied or harmed). \n
 
 </item>
 
         <item>
     Do the carers have any priority MNS condition that could impact their ability to care for the child/adolescent? \n
-    Consider especially depression and disorders due to substance use.
+    <i> Consider especially depression and disorders due to substance use. </i>
 
 </item>
 
         <item>
     Is the child getting adequate opportunities for play and social interaction/communication at home? \n
     Consider asking: \n
-   >> With whom does the child spend most of their time?  \n
-    >>How do you/they play with the child? How often?   \n
-    >>How do you/they communicate with the child? How often?
+    - With whom does the child spend most of their time?  \n
+    - How do you/they play with the child? How often?   \n
+    - How do you/they communicate with the child? How often?
 
 </item>
 
         <item>
-    7 \n
+    7) \n
     ASSESS THE SCHOOL ENVIRONMENT \n
     Is the child/adolescent in school?
 
 </item>
 
         <item>
-    >>Provide information regarding educational services and educate carer on importance of keeping the child/adolescent in school as much as possible.
+    - Provide information regarding educational services and educate carer on importance of keeping the child/adolescent in school as much as possible.
 </item>
 
         <item>
-    >>Go to CMH 2 (Management)
+    Go to CMH 2 (Management)
 </item>
         <item>
             Are there signs/symptoms suggesting any of the following:  \n
@@ -386,99 +392,100 @@
         </item>
     </string-array>
     <string name="cmhfollow1">
-        1 \n
+        1) \n
     ASSESS FOR IMPROVEMENT \n
     Is the person improving? \n
-    Reassess and monitor the child/adolescent’s symptoms, behaviour, and functioning at every visit.
+   <i> Reassess and monitor the child/adolescent’s symptoms, behaviour, and functioning at every visit. </i>
     </string>
 
     <string-array name="CMH_FolowUp_Yes">
 
 <item>
-    1 \n
+    1) \n
     ASSESS FOR IMPROVEMENT \n
     Is the person improving? \n
-    Reassess and monitor the child/adolescent’s symptoms, behaviour, and functioning at every visit.
+   <i> Reassess and monitor the child/adolescent’s symptoms, behaviour, and functioning at every visit. </i>
 
 </item>
 
         <item>
-        »  Continue with management plan and follow-up  until symptoms cease or remit. \n
-        »  Provide additional psychoeducation and advice on parenting. \n
-        »  If on medication, consider gradually reducing medication dose in consultation with a specialist. \n
-        »  If not on medication, decrease frequency of  follow up once symptoms have subsided and the child/adolescent is able to perform well in daily life.
+        -  Continue with management plan and follow-up  until symptoms cease or remit. \n
+        -  Provide additional psychoeducation and advice on parenting. \n
+        -  If on medication, consider gradually reducing medication dose in consultation with a specialist. \n
+        -  If not on medication, decrease frequency of  follow up once symptoms have subsided and the child/adolescent is able to perform well in daily life.
     </item>
     </string-array>
 
     <string-array name="CMH_FolowUp_No">
 <item>
-    »  Provide additional psychoeducation and advice on parenting, as appropriate.  \n
-    »  Review psychosocial interventions and revise management plan as needed.  Involve child/adolescent and carers in decision-making, as appropriate. \n
-    » Offer regular follow-up. \n \n
+    -  Provide additional psychoeducation and advice on parenting, as appropriate.  \n
+    -  Review psychosocial interventions and revise management plan as needed.  Involve child/adolescent and carers in decision-making, as appropriate. \n
+    - Offer regular follow-up. \n \n
 
     If NO improvement in symptoms and/or functioning in 6 months: \n
-    »  Provide additional interventions if available. \n
-    »   Increase the frequency of follow-up visits as needed. \n
-    »  REFER TO SPECIALIST if available, for further assessment and management. \n \n
+    -  Provide additional interventions if available. \n
+    -   Increase the frequency of follow-up visits as needed. \n
+    -  REFER TO SPECIALIST if available, for further assessment and management. \n \n
 
-        DEVELOPMENTAL DISORDERS
-        If no improvement, further deterioration, predicted danger to the  child, or physical health is affected (such as nutritional problems), \n
-        »  REFER TO SPECIALIST for further assessment and advice on management plan.  \n
+        DEVELOPMENTAL DISORDERS \n
+    If no improvement, further deterioration, predicted danger to the  child, or physical health is affected
+    (such as nutritional problems), \n
+        -  REFER TO SPECIALIST for further assessment and advice on management plan.  \n
         DO NOT consider pharmacological treatment. \n \n
 
-        ADHD
-        If no improvement and the child is at least 6 years old and has  received psychosocial treatment for at least 6 months  \n
-        »  Refer to or consult SPECIALIST for methylphenidate use. \n \n
+        ADHD \n
+     If no improvement and the child is at least 6 years old and has  received psychosocial treatment for at least 6 months. \n
+        -  Refer to or consult SPECIALIST for methylphenidate use. \n \n
 
-        CONDUCT DISORDERS
-        If no improvemen or predicted danger to the adolescent \n
-        »  REFER TO SPECIALIST for further assessment and advice  on management plan.  \n
+        CONDUCT DISORDERS \n
+       If no improvemen or predicted danger to the adolescent  \n
+        -  REFER TO SPECIALIST for further assessment and advice  on management plan.  \n
         DO NOT consider pharmacological treatment. \n \n
 
-        EMOTIONAL DISORDERS
-        If no improvement and the child/adolescent has received psychosocial treatment for at least 6 months \n
-        »  REFER TO SPECIALIST.  \n
+        EMOTIONAL DISORDERS \n
+         If no improvement and the child/adolescent has received psychosocial treatment for at least 6 months  \n
+        -  REFER TO SPECIALIST.  \n
         DO NOT initiate pharmacological treatment. \n \n
 
-        DEPRESSION
-        If no improvement and the adolescent is 12 years or older and  has received psychosocial treatment for at least 6 months \n
-        »  Refer to or consult SPECIALIST for fluoxetine (but not other  SSRIs or TCAs). \n \n
+        DEPRESSION \n
+         If no improvement and the adolescent is 12 years or older and  has received psychosocial treatment for at least 6 months  \n
+        -  Refer to or consult SPECIALIST for fluoxetine (but not other  SSRIs or TCAs). \n \n
 
-       2 \n
+       2) \n
         <b>  CONDUCT ROUTINE ASSESSMENTS </b>\n
 
         At every visit: \n
-        »  For children under 5 years, monitor child development. \n
-        »  Assess for the presence of any new problem or symptom related to mood, behaviour or development/learning. For adolescents, assess for the presence of worsening mood (irritable, easily annoyed or frustrated, down or sad) or suicidal thoughts.  Go back to Assessment Step 4 for worsening mood. Go to » SUI for suicidal thoughts. \n
-        »  Explore and address psychosocial stressors in the home, school  or work environment, including exposure to violence or other forms of maltreatment. \n
-        »  Assess opportunities for the child/adolescent to participate  in family and social life. \n
-        »  Assess carers’ needs and support available to the family. \n
-        »  Monitor attendance at school. \n
-        »  Review management plan and monitor adherence to psychosocial interventions. \n
-        »  If on medication, review adherence, side-effects, and dosing. \n \n
+        -  For children under 5 years, monitor child development. \n
+        -  Assess for the presence of any new problem or symptom related to mood, behaviour or development/learning. For adolescents, assess for the presence of worsening mood (irritable, easily annoyed or frustrated, down or sad) or suicidal thoughts.  Go back to Assessment Step 4 for worsening mood. Go to » SUI for suicidal thoughts. \n
+        -  Explore and address psychosocial stressors in the home, school  or work environment, including exposure to violence or other forms of maltreatment. \n
+        -  Assess opportunities for the child/adolescent to participate  in family and social life. \n
+        -  Assess carers’ needs and support available to the family. \n
+        -  Monitor attendance at school. \n
+        -  Review management plan and monitor adherence to psychosocial interventions. \n
+        -  If on medication, review adherence, side-effects, and dosing. \n \n
 
-        3 \n
+        3) \n
         <b> MONITOR PHARMACOLOGICAL TREATMENT AS APPLICABLE </b> \n
 
         Additional monitoring if the adolescent  has been prescribed fluoxetine \n
 
-        >> Record prescription and administration details. \n
-        >> Weekly for the first month, then every month: \n
+        - Record prescription and administration details. \n
+        - Weekly for the first month, then every month: \n
            monitor for reported side-effects and changes in mood and other symptoms. \n
-        >>Consult specialist if you identify severe medication sideeffects or adverse events (e.g. new or worsening suicidal thoughts, suicidal or self-harming behaviour, agitation, irritability, anxiety or insomnia). \n
-        >>Advise the adolescent to continue the medication even if they feel better. The medication should be continued for 9-12 months after the symptoms have resolved to reduce the risk of relapse. \n
-        >>Advise against suddenly stopping the medication. \n
-        >>If symptoms have been resolved for 9-12 months: \n
+        - Consult specialist if you identify severe medication side-effects or adverse events (e.g. new or worsening suicidal thoughts, suicidal or self-harming behaviour, agitation, irritability, anxiety or insomnia). \n
+        - Advise the adolescent to continue the medication even if they feel better. The medication should be continued for 9-12 months after the symptoms have resolved to reduce the risk of relapse. \n
+        - Advise against suddenly stopping the medication. \n
+        - If symptoms have been resolved for 9-12 months: \n
           Discuss with adolescent and carer risks and benefits to taper off medication. Reduce treatment gradually over minimum 4 weeks, monitor closely for symptom recurrence. \n \n
 
 
         Additional monitoring if the child has  been prescribed methylphenidate \n
 
-        >> Record prescription and administration details. \n
-        >> Monitor potential for misuse and diversion. \n
-        >> Every three months: monitor/record height, weight, blood pressure, reported side-effects, and changes in behaviour. \n
-        >> Consult specialist if you observe medication side-effects  (e.g. failure to make expected gains in weight and height, increased blood pressure, agitation, anxiety, and severe insomnia). \n
-        >> After one year of treatment: Consult specialist regarding the continuation of methylphenidate.
+        - Record prescription and administration details. \n
+        - Monitor potential for misuse and diversion. \n
+        - Every three months: monitor/record height, weight, blood pressure, reported side-effects, and changes in behaviour. \n
+        - Consult specialist if you observe medication side-effects  (e.g. failure to make expected gains in weight and height, increased blood pressure, agitation, anxiety, and severe insomnia). \n
+        - After one year of treatment: Consult specialist regarding the continuation of methylphenidate.
 
     </item>
 

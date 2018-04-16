@@ -86,14 +86,20 @@ public class Essential2 extends AppCompatActivity
             startActivity(intent);
 
         }
+        else if (id == R.id.help) {
+            Intent intent=new Intent(Essential2.this,help.class);
+            startActivity(intent);
+
+        }
         else if (id == R.id.contact) {
             Intent intent=new Intent(Essential2.this,Contactus.class);
             startActivity(intent);
 
         }
         else if (id == R.id.Aboutus) {
+            Intent intent=new Intent(Essential2.this,Aboutus.class);
+            startActivity(intent);
         }
-
         DrawerLayout drawer = (DrawerLayout) findViewById(R.id.drawer_layout);
         drawer.closeDrawer(GravityCompat.START);
         return true;

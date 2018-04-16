@@ -66,7 +66,7 @@ public class Essential extends AppCompatActivity
     @Override
     public boolean onCreateOptionsMenu(Menu menu) {
         // Inflate the menu; this adds items to the action bar if it is present.
-        getMenuInflater().inflate(R.menu.home, menu);
+        getMenuInflater().inflate(R.menu.share, menu);
         return true;
     }
 
@@ -78,12 +78,13 @@ public class Essential extends AppCompatActivity
         int id = item.getItemId();
 
         //noinspection SimplifiableIfStatement
-        if (id == R.id.action_settings) {
-            Intent intent=new Intent(Essential.this,HomeActivity.class);
-            startActivity(intent);
+        if (id == R.id.menuShare) {
+            Intent share=new Intent(Intent.ACTION_SEND);
+            share.setType("text/*");
+            share.putExtra(Intent.EXTRA_TEXT,"www.google.com");
+            startActivity(Intent.createChooser(share,"Share Using"));
             return true;
         }
-
         return super.onOptionsItemSelected(item);
     }
 
@@ -93,11 +94,22 @@ public class Essential extends AppCompatActivity
         // Handle navigation view item clicks here.
         int id = item.getItemId();
 
-         if (id == R.id.essentials) {
+        if (id == R.id.essentials) {
+            Intent intent=new Intent(Essential.this,Essential.class);
+            startActivity(intent);
 
         } else if (id == R.id.master) {
+            Intent intent=new Intent(Essential.this,master.class);
+            startActivity(intent);
 
         }else if (id == R.id.glossery) {
+            Intent intent=new Intent(Essential.this,Glossery.class);
+            startActivity(intent);
+
+        }
+        else if (id == R.id.help) {
+            Intent intent=new Intent(Essential.this,help.class);
+            startActivity(intent);
 
         }
         else if (id == R.id.contact) {
@@ -106,6 +118,8 @@ public class Essential extends AppCompatActivity
 
         }
         else if (id == R.id.Aboutus) {
+            Intent intent=new Intent(Essential.this,Aboutus.class);
+            startActivity(intent);
         }
         DrawerLayout drawer = (DrawerLayout) findViewById(R.id.drawer_layout);
         drawer.closeDrawer(GravityCompat.START);

@@ -69,6 +69,11 @@ public class psy_assesment extends AppCompatActivity {
                     Intent intent=new Intent(psy_assesment.this,HomeActivity.class);
                     startActivity(intent);
                 }
+                else if(othbtn.getText().toString().equalsIgnoreCase("Go to protocol 2"))
+                {
+                    Intent intent=new Intent(psy_assesment.this,psy_management.class);
+                    startActivity(intent);
+                }
 
             }
         });
@@ -87,11 +92,19 @@ public class psy_assesment extends AppCompatActivity {
             mquestion.setText(YesQuestions[2]);
         else if(mquestion.getText().toString().equals(YesQuestions[2]))
         {
-            mquestion.setText(YesQuestions[3]);
+            mquestion.setText(YesQuestions[4]);
+            othbtn.setText("Go to PROTOCOL 1");
+            othbtn.setVisibility(View.VISIBLE);
+            mtruebtn.setVisibility(View.GONE);
+            mfalsebtn.setVisibility(View.GONE);
         }
         else if(mquestion.getText().toString().equals(NoQuestions[2]))
         {
-            mquestion.setText(YesQuestions[3]);
+            mquestion.setText(YesQuestions[5]);
+            mtruebtn.setVisibility(View.GONE);
+            mfalsebtn.setVisibility(View.GONE);
+            othbtn.setText("Go to Protocol 2");
+            othbtn.setVisibility(View.VISIBLE);
         }
         else if(mquestion.getText().toString().equals(NoQuestions[1]))
         {
@@ -113,11 +126,14 @@ public class psy_assesment extends AppCompatActivity {
             mquestion.setText(NoQuestions[2]);
         else if(mquestion.getText().toString().equals(NoQuestions[2]))
         {
-            mquestion.setText(NoQuestions[2]);
+            mquestion.setText(NoQuestions[3]);
             othbtn.setText("Home");
             othbtn.setVisibility(View.VISIBLE);
             mtruebtn.setVisibility(View.GONE);
             mfalsebtn.setVisibility(View.GONE);
+        }else if(mquestion.getText().toString().equals(YesQuestions[2]))
+        {
+            mquestion.setText(NoQuestions[2]);
         }
     }
 }

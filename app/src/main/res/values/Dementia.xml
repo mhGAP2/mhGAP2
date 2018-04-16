@@ -1,14 +1,14 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
     <string name="dem_ass1">
-        1 \n
+        1) \n
             Assess for signs of dementia \n
             Are there problems with memory and/or orientation? \n
             (e.g. forgetting what happened the previous day or not knowing where he or she is) \n
     </string>
     <string-array name="Dementia_Assessment_Yes">
         <item>
-            1 \n
+            1) \n
             Assess for signs of dementia \n
             Are there problems with memory and/or orientation? \n
             (e.g. forgetting what happened the previous day or not knowing where he or she is) \n
@@ -20,7 +20,7 @@
         </item>
 
         <item>
-            2 \n
+            2) \n
             Are there any other explanations for the symptoms? \n
             Have the symptoms been present and slowly  progressing for at least 6 months? \n
         </item>
@@ -30,13 +30,13 @@
         </item>
 
         <item>
-            » Manage depression. Go to »DEP. \n
-            » Once treated for depression, review criteria for dementia. Go to STEP 1 \n
+            - Manage depression. Go to »DEP. \n
+            - Once treated for depression, \n review criteria for dementia from step 1. \n
         </item>
 
         <item>
             Suspect DELIRIUM \n
-            » Evaluate for possible medical causes (toxic/metabolic/infectious). \n
+             Evaluate for possible medical causes (toxic/metabolic/infectious). \n
             – Obtain urinalysis to evaluate for infection \n
             –  Review medications, particularly those with signiﬁcant anti- cholinergic side effects (such as antidepressants, many antihistamines, and antipsychotics) \n
             – Evaluate for pain \n
@@ -46,12 +46,12 @@
 
         <item>
             Unusual Features. \n
-            » Refer to specialist. \n
+            - Refer to specialist. \n
 
         </item>
 
         <item>
-            » Fortiﬁcation of food and monitoring of weight is necessary. \n \n
+            - Fortiﬁcation of food and monitoring of weight is necessary. \n \n
 
             Does the person have cardiovascular risk factors? \n
             –  Hypertension \n
@@ -64,58 +64,58 @@
         </item>
 
         <item>
-            » Refer to appropriate SPECIALIST. \n
-            » Reduce cardiovascular risk factors: \n
+            - Refer to appropriate SPECIALIST. \n
+            - Reduce cardiovascular risk factors: \n
             – Advise person to stop smoking \n
             – Treat hypertension \n
             – Advise weight-reducing diet for obesity \n
             – Treat diabetes \n \n
-            4 \n
-            Evaluate the needs of the carers. \n
+            4) \n
+            Evaluate the needs of the carers. \n \n
             Is the carer having difficulty coping or experiencing strain? \n
         </item>
 
         <item>
-            » Explore psychosocial interventions about  respite care, activation of community support network,
+            - Explore psychosocial interventions about  respite care, activation of community support network,
             and family/individual therapy, if available. \n \n
             Is the carer experiencing depressed mood? \n
         </item>
         <item>
-            » For assessment of depression in care, go to » DEP. \n
-            » Try to address strain with support and psychoeducation. Problem-solving counselling or cognitive behavioural therapy. \n \n \n
+            - For assessment of depression in care, go to » DEP. \n
+            - Try to address strain with support and psychoeducation. Problem-solving counselling or cognitive behavioural therapy. \n \n \n
 
             Is the carer facing loss of income and/or additional expenses because of the needs for care? \n
                 </item>
         <item>
             Explore local ﬁnancial support options, such as disability services. \n \n
-            5 \n
+            5) \n
             Does the person have ANY of the following \n
             BEHAVIOURAL or PSYCHOLOGICAL symptoms of dementia? \n
 
             Behavioural symptoms, e.g. \n
-            » Wandering \n
-            » Night-time disturbance \n
-            » Agitation \n
-            » Aggression \n
+            - Wandering \n
+            - Night-time disturbance \n
+            - Agitation \n
+            - Aggression \n \n
 
             Psychological symptoms, e.g. \n
-            » Hallucinations \n
-            » Delusions \n
-            » Anxiety \n
-            » Uncontrollable emotional outbursts \n
+            - Hallucinations \n
+            - Delusions \n
+            - Anxiety \n
+            - Uncontrollable emotional outbursts \n
         </item>
         <item>
-            » Go to PROTOCOL 2 \n
+            - Go to PROTOCOL 2 \n
         </item>
     </string-array>
 
     <string-array name="Dementia_Assessment_No">
         <item>
             DEMENTIA is unlikely. \n
-            » Screen for other MNS conditions.
+            - Screen for other MNS conditions.
         </item>
         <item>
-            » Ask for ANY of the following: \n
+             Ask for ANY of the following: \n
             – Abrupt onset \n
             – Short duration (days to weeks) \n
             –  Disturbance at night and associated  with impairment of consciousness \n
@@ -127,13 +127,13 @@
 
         <item>
             Suspect DEMENTIA \n
-            3 \n
+            3) \n
             Evaluate for other medical issues \n
             Does the person have ANY of the following? \n
-            » Less than 60 years old prior to symptom onset \n
-            » Onset of symptoms associated with head injury, stroke,  or altered or loss of consciousness \n
-            » Clinical history of goitre, slow pulse, dry skin (hypothyroidism) \n
-            » History of sexually transmitted infection (STI),  including HIV/AIDS \n
+            - Less than 60 years old prior to symptom onset \n
+            - Onset of symptoms associated with head injury, stroke,  or altered or loss of consciousness \n
+            - Clinical history of goitre, slow pulse, dry skin (hypothyroidism) \n
+            - History of sexually transmitted infection (STI),  including HIV/AIDS \n
         </item>
 
         <item>
@@ -152,7 +152,7 @@
         </item>
 
         <item>
-        4 \n
+        4) \n
             Evaluate the needs of the carers. \n
             Is the carer having difficulty coping or experiencing strain? \n
         </item>
@@ -166,7 +166,7 @@
         </item>
 
         <item>
-            5 \n
+            5) \n
             Does the person have ANY of the following  BEHAVIOURAL or PSYCHOLOGICAL symptoms of dementia? \n
             Behavioural symptoms, e.g. \n
             - Wandering \n
@@ -182,11 +182,11 @@
         </item>
 
         <item>
-            » Go to PROTOCOL 1
+             Go to PROTOCOL 1
         </item>
     </string-array>
     <string name="demfollow1">
-        1 \n
+         1 \n
             ASSESS FOR IMPROVEMENT \n
             Is the person stable (no worsening symptoms or decline  in function; behavioural/psychological symptoms are improving if present)?
     </string>
@@ -199,47 +199,52 @@
         </item>
 
         <item>
-            » Continue management plan. \n
-            » Follow up at minimum every 3 months. \n \n
-            2 \n
+            - Continue management plan. \n
+            - Follow up at minimum every 3 months. \n \n
+            2) \n
             CONDUCT ROUTINE ASSESSMENTS \n
             At each visit, routinely assess and address the following: \n
-            » Medication side-effects \n
+            - Medication side-effects \n
               If on antipsychotics, check for extrapyramidal symptoms  (Go to » PSY). Stop or reduce dose if present. \n
-            » Medical and MNS co-morbidities \n
-            » Ability to participate in activities of daily living and  any needs of care \n
-            » Safety risks and offer appropriate behaviour modiﬁcation  if disease has progressed (e.g. limit driving, cooking, etc.) \n
-            » New behavioural or psychological symptoms \n
-            » Symptoms of depression (Go to » DEP)  or imminent risk of self-harm/suicide (Go to » SUI). \n
-            » Needs of the carers \n \n
+            - Medical and MNS co-morbidities \n
+            - Ability to participate in activities of daily living and  any needs of care \n
+            - Safety risks and offer appropriate behaviour modiﬁcation  if disease has progressed (e.g. limit driving, cooking, etc.) \n
+            - New behavioural or psychological symptoms \n
+            - Symptoms of depression (Go to » DEP)  or imminent risk of self-harm/suicide (Go to » SUI). \n
+            - Needs of the carers \n \n
 
-            3 \n
+            3) \n
             PROVIDE PSYCHOSOCIAL INTERVENTIONS \n
-            » Continue to promote functioning and provide psychosocial education.
+            - Continue to promote functioning and provide psychosocial education.
             See » DEM 2.1-2.5 and » ECP for details.
         </item>
     </string-array>
     <string-array name="Dementia_FollowUp_No">
         <item>
-            » If not on medications \n
+            - If not on medications \n
             Initiate pharmacological intervention, if appropriate. \n
-            » If on medications \n
+            - If on medications \n
             Review adherence, side effects and dosing. Adjust or consider alternative medication as appropriate. \n
-            » Review psychosocial interventions. \n
-            » Evaluate for medical problems. \n \n
+            - Review psychosocial interventions. \n
+            - Evaluate for medical problems. \n \n
 
-            2 \n
+            2) \n
             CONDUCT ROUTINE ASSESSMENTS \n
             At each visit, routinely assess and address the following: \n
-            » Medication side-effects \n
+            - Medication side-effects \n
             If on antipsychotics, check for extrapyramidal symptoms \n
             (Go to » PSY). Stop or reduce dose if present. \n
-            » Medical and MNS co-morbidities \n
-            » Ability to participate in activities of daily living and  any needs of care \n
-            » Safety risks and offer appropriate behaviour modiﬁcation if disease has progressed (e.g. limit driving, cooking, etc.) \n
-            » New behavioural or psychological symptoms \n
-            » Symptoms of depression (Go to » DEP)  or imminent risk of self-harm/suicide (Go to » SUI). \n
-            » Needs of the carers
+            - Medical and MNS co-morbidities \n
+            - Ability to participate in activities of daily living and  any needs of care \n
+            - Safety risks and offer appropriate behaviour modiﬁcation if disease has progressed (e.g. limit driving, cooking, etc.) \n
+            - New behavioural or psychological symptoms \n
+            - Symptoms of depression (Go to » DEP)  or imminent risk of self-harm/suicide (Go to » SUI). \n
+            - Needs of the carers \n \n
+
+            3)\n
+            PROVIDE PSYCHOSOCIAL INTERVENTIONS \n
+            - Continue to promote functioning and provide psychosocial education.
+            See » DEM 2.1-2.5 and » ECP for details.
         </item>
     </string-array>
 </resources>

@@ -1,7 +1,9 @@
 <?xml version="1.0" encoding="utf-8"?>
-<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+<manifest
+    xmlns:android="http://schemas.android.com/apk/res/android"
     package="com.example.tencho.mhgap2">
 
+    <uses-permission android:name="android.permission.INTERNET"/>
     <application
         android:allowBackup="true"
         android:icon="@mipmap/ic_launcher"
@@ -117,5 +119,4 @@
         <activity android:name=".oth_followup" />
         <activity android:name=".epi_followupp"></activity>
     </application>
-
-</manifest>
+    </manifest>

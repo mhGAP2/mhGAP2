@@ -109,7 +109,7 @@ public class Dep_assesment extends AppCompatActivity {
             mquestion.setText(YesQuestions[8]);
             othbtn.setText("Go to Protocol 1");
             othbtn.setVisibility(View.VISIBLE);
-            mtruebtn.setVisibility(View.GONE);
+           mtruebtn.setText("Go to Master Chart");
             mfalsebtn.setVisibility(View.GONE);
         }
         else if(mquestion.getText().toString().equals(NoQuestions[3]))
@@ -130,6 +130,12 @@ public class Dep_assesment extends AppCompatActivity {
             mtruebtn.setVisibility(View.GONE);
             mfalsebtn.setVisibility(View.GONE);
         }
+        else if(mtruebtn.getText().toString().equals("Go to Master Chart"))
+        {
+            Intent intent =new Intent(Dep_assesment.this,master.class);
+            startActivity(intent);
+        }
+
     }
 
     private void updateNoquestion() {
@@ -158,7 +164,7 @@ public class Dep_assesment extends AppCompatActivity {
         else if(mquestion.getText().toString().equals(YesQuestions[4]))
         {
             mquestion.setText(NoQuestions[1]);
-            othbtn.setText("Go to Protocol 1");
+            othbtn.setText("Home");
             othbtn.setVisibility(View.VISIBLE);
             mtruebtn.setVisibility(View.GONE);
             mfalsebtn.setVisibility(View.GONE);

@@ -1,34 +1,34 @@
 
 <resources>
     <string name="phy1">
-         1 \n
+         1) \n
         Are there any other explanations for the symptoms? \n
-        EVALUATE FOR MEDICAL CONDITIONS \n
+        - EVALUATE FOR MEDICAL CONDITIONS \n
         By history, clinical examination, or laboratory findings, are there signs and symptoms
-        suggesting delirium due to an acute physical condition, e.g. infection, cerebral malaria,
+        suggesting  delirium  due to an acute physical condition, e.g. infection, cerebral malaria,
         dehydration, metabolic abnormalities (such as hypoglycaemia or hyponatraemia);
-        or medication side effects, e.g. due to some antimalarial medication or steroids?
+       or medication side effects, e.g. due to some antimalarial medication or steroids?
     </string>
     <string-array name="PSY_Asse_Yes">
         <item>
-        1 \n
+        1) \n
         Are there any other explanations for the symptoms? \n
-        EVALUATE FOR MEDICAL CONDITIONS \n
+        - EVALUATE FOR MEDICAL CONDITIONS \n
         By history, clinical examination, or laboratory findings, are there signs and symptoms
-        suggesting delirium due to an acute physical condition, e.g. infection, cerebral malaria,
+        suggesting  delirium  due to an acute physical condition, e.g. infection, cerebral malaria,
         dehydration, metabolic abnormalities (such as hypoglycaemia or hyponatraemia);
-        or medication side effects, e.g. due to some antimalarial medication or steroids?
+      or medication side effects, e.g. due to some antimalarial medication or steroids?
     </item>
         <item>
-            Assess and manage the acute physical condition, and refer to emergency services/ specialist as needed.
-            If symptoms persist after management of the acute cause, go to STEP 2
+           - Assess and manage the acute physical condition, and refer to emergency services/ specialist as needed. \n
+           - If symptoms persist after management of the acute cause, go to STEP 2
         </item>
 
         <item>
-            Consider consultation with a mental health specialist for management of concurrent conditions.
-            Manage concurrent conditions.
+           - Consider consultation with a mental health specialist for management of concurrent conditions. \n
+           -  Manage concurrent conditions. \n
             Go to relevant modules. \n\n
-            2\n
+            2) \n
            Is the person having an acute manic episode? \n
             Have several of the following symptoms occurred simultaneously, lasting for at least 1 week, and severely enough
             to interfere significantly with work and social activities or requiring confinement or hospitalization: \n
@@ -41,7 +41,7 @@
             – Unrealistically inflated self-esteem \n
         </item>
         <item>
-           2\n
+           2) \n
            Is the person having an acute manic episode? \n
             Have several of the following symptoms occurred simultaneously, lasting for at least 1 week, and severely enough
             to interfere significantly with work and social activities or requiring confinement or hospitalization: \n
@@ -57,7 +57,7 @@
         <item>
             Suspect \n
             BIPOLAR DISORDER Manic Episode \n
-            Go to PROTOCOL 1
+             Go to PROTOCOL 1
         </item>
 
         <item>
@@ -69,11 +69,11 @@
 
     <string-array name="PSY_Asse_No">
         <item>
-        » EVALUATE FOR DEMENTIA, DEPRESSION, DRUG/ALCOHOL INTOXICATION OR WITHDRAWAL.
+        - EVALUATE FOR DEMENTIA, DEPRESSION, DRUG/ALCOHOL INTOXICATION OR WITHDRAWAL.
         </item>
 
         <item>
-            2\n
+            2) \n
            Is the person having an acute manic episode? \n
             Have several of the following symptoms occurred simultaneously, lasting for at least 1 week, and severely enough
             to interfere significantly with work and social activities or requiring confinement or hospitalization: \n
@@ -87,7 +87,7 @@
         </item>
 
         <item>
-            3\n
+            3) \n
             Does the person have psychosis? \n
 
             Does the person have at least two of the following: \n

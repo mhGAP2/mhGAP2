@@ -37,6 +37,7 @@
                 android:id="@+id/Psyo"
                 style="@style/tview"
                 android:text="@string/psychoses"
+                android:background="@drawable/psy"
                 android:fontFamily="sans-serif-condensed"
                 android:textColor="#6f0aa9" />
 
@@ -51,6 +52,7 @@
                 android:id="@+id/EPILEPSY"
                 style="@style/tview"
                 android:text="@string/epilepsy"
+                android:background="@drawable/epi"/>
                 android:fontFamily="sans-serif-condensed"
                 android:textColor="#0c6ac9" />
 
@@ -66,7 +68,7 @@
                 style="@style/tview"
                 android:fontFamily="sans-serif-condensed"
                 android:text="@string/child_and_adolescent_mental_and_behavioural_disorders_cmh"
-                android:textColor="#08a406" />
+                android:background="@drawable/d4" />
 
             <TextView
                 android:id="@+id/DISORDER_content"
@@ -80,7 +82,7 @@
                 style="@style/tview"
                 android:fontFamily="sans-serif-condensed"
                 android:text="@string/dementia"
-                android:textColor="#6ca413" />
+                android:background="@drawable/d5" />
 
             <TextView
                 android:id="@+id/DEM_content"
@@ -94,7 +96,7 @@
                 style="@style/tview"
                 android:fontFamily="sans-serif-condensed"
                 android:text="@string/disorders_due_to_substance_use_sub"
-                android:textColor="#f18d23" />
+                android:background="@drawable/d6"/>
 
             <TextView
                 android:id="@+id/SUBSTANCEUSE_content"
@@ -108,7 +110,7 @@
                 style="@style/tview"
                 android:fontFamily="sans-serif-condensed"
                 android:text="@string/self_harm_suicide_sui"
-                android:textColor="#cf4607" />
+                android:background="@drawable/d7" />
 
             <TextView
                 android:id="@+id/SUICIDE_content"
@@ -118,6 +120,4 @@
                 android:text="@string/SUICIDE_content" />
         </LinearLayout>
     </ScrollView>
-
-
 </LinearLayout>
