@@ -4,7 +4,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="@dimen/nav_header_height"
-    android:background="@drawable/side_nav_bar"
+    android:background="@drawable/app_bg2"
     android:gravity="bottom"
     android:orientation="vertical"
     android:paddingBottom="5dp"
@@ -13,31 +13,23 @@
     android:paddingTop="10dp"
     android:theme="@style/ThemeOverlay.AppCompat.Dark"
     android:weightSum="1">
-    <ImageView
-        android:id="@+id/imageView5"
-        android:layout_width="90dp"
-        android:layout_height="80dp"
-        android:layout_marginLeft="2dp"
-        android:paddingTop="25dp"
-        app:srcCompat="@drawable/jdwnrh"
-        tools:ignore="ContentDescription,RtlHardcoded"
-        android:contentDescription="" />
-
     <TextView
         android:layout_width="317dp"
         android:layout_height="wrap_content"
         android:paddingTop="@dimen/nav_header_vertical_spacing"
-        android:textSize="23dp"
+        android:textColor="#000000"
+        android:textSize="@dimen/navHead"
         android:fontFamily="sans-serif-condensed"
-        android:text="mhGAP"/>
+        android:text="@string/mhgap"/>
 
     <TextView
         android:id="@+id/textView"
-        android:textSize="12sp"
-        android:textColor="#FFFFFF"
+        android:textSize="@dimen/navCon"
+        android:textColor="#ff8605"
+        android:textStyle="bold"
         android:fontFamily="sans-serif-condensed"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="mental health gap action programme" />
+        android:text="@string/mental_health_gap_action_programme" />
 
 </LinearLayout>

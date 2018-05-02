@@ -1,5 +1,5 @@
 <resources>
-    <string name="app_name">mhGAP</string>
+    <string name="app_name">     mCare</string>
     <string name="title_activity_home">Home</string>
 
     <string name="navigation_drawer_open">Open navigation drawer</string>
@@ -10,7 +10,7 @@
     <string name="title_activity_essential">Essential Care</string>
     <string name="title_activity_symbols">Symbols</string>
     <string name="activity_master">Master Chart</string>
-    <string name="title_activity_glossery">Glossery</string>
+    <string name="title_activity_glossery">Glossary</string>
     <string name="title_activity_aboutus">About Us</string>
     <string name="title_activity_help">Help</string>
     <string name="rd">This module outlines the principles of essential care for all people seeking health care, including those
@@ -40,8 +40,8 @@
     <string name="k">Persons with MNS conditions should be treated with respect and dignity in a culturally appropriate manner. As a health care provider, make every effort to respect and promote the will and preference of people with MNS conditions and support and engage them and their carers in the most inclusive way. Persons with MNS conditions are often more vulnerable to human rights violations. Therefore, it is essential that in the health care setting, providers promote the rights of people with MNS conditions in line with international human rights standards, including the UN Convention on the Rights of Persons with Disability (CRPD)*.</string>
     <string name="u">"> Treat people with MNS conditions with respect and dignity."\n"> Protect the conﬁdentiality of people with MNS conditions."\n"> Ensure privacy in the clinical setting."\n"> Always provide access to information and explain the proposed treatment risks and beneﬁts in writing, if possible."\n"> Make sure the person provides consent to treatment."\n"> Promote autonomy and independent living in the community."\n"> Provide persons with MNS conditions with access to supported decision making options."</string>
     <string name="v">Using effective communication skills allows healthcare providers to deliver good quality care to adults, adolescents, and children with mental, neurological and substance use (MNS) conditions. Consider the following core communication skills and tips:</string>
-    <string name="title_activity_essentail1">Essentail 1</string>
-    <string name="title_activity_essential2">Essential 2</string>
+    <string name="title_activity_essentail1">General Principles</string>
+    <string name="title_activity_essential2">Clinical Practice</string>
 
     <string name="hello_blank_fragment">Hello blank fragment</string>
     <string name="history_taking">History Taking</string>
@@ -95,7 +95,6 @@ The management of symptoms not fully meeting the criteria
 for depression is covered within the module on Other Significant
 Mental Health Complaints.
     </string>
-
 
     <string name="psy">
         The psychoses module covers management of two severe mental
@@ -171,7 +170,6 @@ in emotional control, social behaviour, or motivation. People with
 dementia may be totally unaware of these changes and may not
 seek help. Family members may notice memory problems, changes
 in personality or behaviour, confusion, wandering, or incontinence.
-
  </string>
 
     <string name="sub">Disorders due to substance use include both drug and alcohol
@@ -1566,7 +1564,7 @@ Consult a specialist for treatment.</string>
     <string name="offer_carers_support">Offer carers support.</string>
     <string name="application_name">Application Name</string>
     <string name="copyright_to_jdwnrh">Copyright to JDWNRH</string>
-    <string name="email">Email</string>
+    <string name="developers">Developers</string>
     <string name="mhgap">MhGAP</string>
     <string name="more_apps_from_ditt">More apps from DITT</string>
     <string name="more">More</string>
@@ -1594,4 +1592,14 @@ Consult a specialist for treatment.</string>
         \n\n»    Encourage self-practice.\n
   “Try on your own for one minute. This is something you can practice  on your own.”
 </string>
+    <string name="mcare">Mental Health Care</string>
+    <string name="mental_health_gap_action_programme">mental health gap action programme</string>
+    <string name="about_us">About us</string>
+    <string name="communicate">Communicate</string>
+    <string name="contact_us">Contact us</string>
+    <string name="essential_care1">Essential care</string>
+    <string name="give_feedback">Give Feedback</string>
+    <string name="glossary">Glossary</string>
+    <string name="help">Help</string>
+    <string name="master_chart">Master Chart</string>
 </resources>

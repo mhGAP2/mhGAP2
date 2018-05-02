@@ -23,7 +23,8 @@
                 style="@style/tview"
                 android:fontFamily="sans-serif-condensed"
                 android:text="@string/depression"
-                android:textColor="#870f05" />
+                android:background="@drawable/dep"
+                android:textColor="#fafafa" />
 
             <TextView
                 android:id="@+id/depc"
@@ -39,7 +40,7 @@
                 android:text="@string/psychoses"
                 android:background="@drawable/psy"
                 android:fontFamily="sans-serif-condensed"
-                android:textColor="#6f0aa9" />
+                android:textColor="#ffffff" />
 
             <TextView
                 android:id="@+id/Psyoc"
@@ -52,9 +53,9 @@
                 android:id="@+id/EPILEPSY"
                 style="@style/tview"
                 android:text="@string/epilepsy"
-                android:background="@drawable/epi"/>
+                android:background="@drawable/epi"
                 android:fontFamily="sans-serif-condensed"
-                android:textColor="#0c6ac9" />
+                android:textColor="#ffffff" />
 
             <TextView
                 android:id="@+id/EPILEPSY_content"

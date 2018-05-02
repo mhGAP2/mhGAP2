@@ -152,6 +152,8 @@ public class Dep_assesment extends AppCompatActivity {
             mquestion.setText(NoQuestions[2]);
         else if(mquestion.getText().toString().equals(YesQuestions[5]))
             mquestion.setText(NoQuestions[3]);
+        else if(mquestion.getText().toString().equals(NoQuestions[2]))
+            mquestion.setText(NoQuestions[3]);
         else if(mquestion.getText().toString().equals(NoQuestions[3]))
         {
             mquestion.setText(NoQuestions[4]);
