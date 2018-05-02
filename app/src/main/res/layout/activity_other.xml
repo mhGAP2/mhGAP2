@@ -16,7 +16,7 @@ tools:ignore="ExtraText">
     <TextView
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="PSYCHOSES"
+        android:text="OTH"
         android:fontFamily="sans-serif-condensed"
         android:layout_marginTop="10dp"
         android:textAlignment="center"
@@ -34,6 +34,17 @@ tools:ignore="ExtraText">
         android:fontFamily="sans-serif-condensed"
         android:textSize="16sp"
         android:text="@string/oth"
+        />
+    <TextView
+        android:id="@+id/t9"
+        android:layout_marginLeft="5dp"
+        android:layout_marginRight="5dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textColor="#ffffff"
+        android:fontFamily="sans-serif-condensed"
+        android:textSize="16sp"
+        android:text="@string/oth0"
         />
     <Button
         android:id="@+id/btty"

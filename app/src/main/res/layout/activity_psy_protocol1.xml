@@ -31,9 +31,6 @@
             android:text="2.1 Provide psychoeducation to the person and carers."
             android:textSize="16sp"
             />
-
-
-
         <TextView
             android:fontFamily="sans-serif-condensed"
             android:textSize="16sp"

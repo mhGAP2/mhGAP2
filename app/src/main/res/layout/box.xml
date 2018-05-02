@@ -4,7 +4,6 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:background="#ffffff">
-
     <LinearLayout
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
@@ -15,35 +14,23 @@
             android:id="@+id/textView1"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:text="Protocol 2(OTH)"
+            android:text="BOX 1: RELAXATION TRAINING INSTRUCTIONS"
             android:textColor="#b33123"
-            android:textSize="30sp"
+            android:textSize="18sp"
             android:fontFamily="sans-serif-condensed"
-            android:textAlignment="center"
+            android:textAlignment="textStart"
             tools:ignore="HardcodedText" />
         <TextView
-            android:id="@+id/textView2"
-            android:textColor="#b33123"
+            android:id="@+id/tex"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:layout_marginTop="10dp"
-            android:text="OTHER SIGNIFICANT MENTAL HEALTH COMPLAINTS IN PEOPLE EXPOSED TO EXTREME STRESSORS  (e.g. physical or sexual violence, major accidents, bereavement or other major loss)"
-            android:fontFamily="sans-serif-condensed"
+            android:text="@string/box"
+            android:textColor="#361818"
             android:textSize="16sp"
-            android:textAlignment="center"
+            android:fontFamily="sans-serif-condensed"
+            android:textAlignment="textStart"
             tools:ignore="HardcodedText" />
 
-        <TextView
-            android:id="@+id/textView2"
-            android:textColor="#361818"
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:layout_marginTop="10dp"
-            android:text="@string/oth4"
-            android:fontFamily="sans-serif-condensed"
-            android:textSize="16sp"
-            android:textAlignment="center"
-            tools:ignore="DuplicateIds,HardcodedText" />
     </LinearLayout>
 </ScrollView>
 

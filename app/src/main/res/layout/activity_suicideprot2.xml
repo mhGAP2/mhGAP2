@@ -7,8 +7,8 @@
     tools:context="com.example.tencho.mhgap2.Suicideprot2">
     <ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
         xmlns:tools="http://schemas.android.com/tools"
-        android:layout_width="368dp"
-        android:layout_height="551dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
         android:background="#ffffff"
         tools:layout_editor_absoluteY="8dp"
         tools:layout_editor_absoluteX="8dp">
@@ -31,7 +31,7 @@
             <TextView
                 android:id="@+id/textView2"
                 android:layout_width="match_parent"
-                android:layout_height="30dp"
+                android:layout_height="wrap_content"
                 android:layout_marginTop="10dp"
                 android:fontFamily="sans-serif-condensed"
                 android:textSize="16sp"
@@ -41,7 +41,7 @@
             <TextView
                 android:id="@+id/textView4"
                 android:layout_width="match_parent"
-                android:layout_height="38dp"
+                android:layout_height="wrap_content"
                 android:layout_marginTop="10dp"
                 android:text="@string/sui_proto2"
                 android:textColor="#E65521"
@@ -64,7 +64,7 @@
             <TextView
                 android:id="@+id/textView8"
                 android:layout_width="match_parent"
-                android:layout_height="38dp"
+                android:layout_height="wrap_content"
                 android:layout_marginTop="10dp"
                 android:text="Supervise and assign a named staff or family member to ensure person’s safety at all times."
                 android:textColor="#E65521"
@@ -76,7 +76,7 @@
             <TextView
                 android:id="@+id/textView10"
                 android:layout_width="match_parent"
-                android:layout_height="33dp"
+                android:layout_height="wrap_content"
                 android:layout_marginTop="10dp"
                 android:text="Attend to mental state and emotional distress."
                 android:textColor="#E65521"
@@ -88,7 +88,7 @@
             <TextView
                 android:id="@+id/textView11"
                 android:layout_width="match_parent"
-                android:layout_height="33dp"
+                android:layout_height="wrap_content"
                 android:layout_marginTop="10dp"
                 android:text="Provide psychoeducation to the person and their carers."
                 android:textColor="#E65521"
@@ -101,7 +101,7 @@
             <TextView
                 android:id="@+id/textView"
                 android:layout_width="match_parent"
-                android:layout_height="250dp"
+                android:layout_height="wrap_content"
                 android:layout_marginTop="10dp"
                 android:text="@string/sui_2_5_proto2"
                 android:textColor="#361818"
@@ -136,7 +136,7 @@
             <TextView
                 android:id="@+id/textViewc1"
                 android:layout_width="match_parent"
-                android:layout_height="204dp"
+                android:layout_height="wrap_content"
                 android:layout_marginTop="10dp"
                 android:text="@string/sui_2_4_proto2"
                 android:textColor="#361818"
@@ -169,7 +169,4 @@
 
         </LinearLayout>
     </ScrollView>
-
-
-
 </android.support.constraint.ConstraintLayout>

@@ -7,9 +7,12 @@ import android.view.View;
 import android.view.Window;
 import android.view.WindowManager;
 import android.widget.Button;
+import android.widget.TextView;
 
 public class Depression1 extends AppCompatActivity {
     Button btn;
+    TextView btn1;
+
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -27,5 +30,13 @@ public class Depression1 extends AppCompatActivity {
             }
         });
 
+        btn1=(TextView)findViewById(R.id.textb);
+        btn1.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                Intent intent=new Intent(Depression1.this,Oth1.class);
+                startActivity(intent);
+            }
+        });
     }
 }

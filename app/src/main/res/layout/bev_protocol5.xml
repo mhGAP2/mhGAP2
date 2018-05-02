@@ -60,7 +60,7 @@
         <TextView
             android:id="@+id/textView"
             android:layout_width="match_parent"
-            android:layout_height="250dp"
+            android:layout_height="wrap_content"
             android:layout_marginTop="10dp"
             android:text="@string/bev_2_1_cmh"
             android:textColor="#361818"
@@ -83,7 +83,7 @@
         <TextView
             android:id="@+id/textViewc"
             android:layout_width="match_parent"
-            android:layout_height="250dp"
+            android:layout_height="wrap_content"
             android:layout_marginTop="10dp"
             android:text="@string/bev_2_1_cmh_p1"
             android:textColor="#361818"
@@ -140,7 +140,7 @@
         <TextView
             android:id="@+id/textViewc3"
             android:layout_width="match_parent"
-            android:layout_height="250dp"
+            android:layout_height="wrap_content"
             android:layout_marginTop="10dp"
             android:text="@string/bev_2_7_cmh"
             android:textColor="#361818"

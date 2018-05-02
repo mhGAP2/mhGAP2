@@ -8,7 +8,7 @@
     <ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
         xmlns:tools="http://schemas.android.com/tools"
         android:layout_width="368dp"
-        android:layout_height="551dp"
+        android:layout_height="0dp"
         android:background="#ffffff"
         tools:layout_editor_absoluteY="8dp"
         tools:layout_editor_absoluteX="8dp">
@@ -22,7 +22,7 @@
                 android:id="@+id/textView1"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:text="Protocol 1(Emotional Disorder or Depression)"
+                android:text="Protocol 6(Emotional Disorder or Depression)"
                 android:textColor="#18B04B"
                 android:textSize="25sp"
                 android:fontFamily="sans-serif-condensed"

@@ -30,7 +30,8 @@ public class oth_management extends AppCompatActivity {
         btn2.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                setContentView(R.layout.othpro2);
+              Intent intent=new Intent(oth_management.this,Othprot2.class);
+                startActivity(intent);
 
             }
         });

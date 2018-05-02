@@ -7,9 +7,11 @@ import android.view.View;
 import android.view.Window;
 import android.view.WindowManager;
 import android.widget.Button;
+import android.widget.TextView;
 
 public class other extends AppCompatActivity {
 Button btn;
+    TextView t1;
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
@@ -25,6 +27,13 @@ Button btn;
 
             }
         });
-
+      t1=(TextView)findViewById(R.id.t9);
+        t1.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                Intent intent=new Intent(other.this,Cmh.class);
+                startActivity(intent);
+            }
+        });
     }
 }

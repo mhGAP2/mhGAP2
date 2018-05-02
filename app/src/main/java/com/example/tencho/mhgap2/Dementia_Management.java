@@ -1,5 +1,6 @@
 package com.example.tencho.mhgap2;
 
+import android.content.Intent;
 import android.os.Bundle;
 import android.support.v7.app.AppCompatActivity;
 import android.view.View;
@@ -19,14 +20,16 @@ Button btn1,btn2;
         btn1.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                setContentView(R.layout.dementiapro1);
+               Intent intent=new Intent(Dementia_Management.this,Dementiaprot1.class);
+                startActivity(intent);
             }
         });
         btn2=(Button)findViewById(R.id.button2);
         btn2.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                setContentView(R.layout.dementiapro2);
+               Intent intent=new Intent(Dementia_Management.this,Dementiaproto2.class);
+                startActivity(intent);
             }
         });
 

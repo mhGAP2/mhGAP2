@@ -4,9 +4,6 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:background="#ffffff">
-
-
-
     <LinearLayout
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
@@ -62,7 +59,7 @@
         <TextView
             android:id="@+id/textView"
             android:layout_width="match_parent"
-            android:layout_height="250dp"
+            android:layout_height="wrap_content"
             android:layout_marginTop="10dp"
             android:text="@string/bev_2_1_cmhproto3"
             android:textColor="#361818"
@@ -83,13 +80,12 @@
         <TextView
             android:id="@+id/textViewc"
             android:layout_width="match_parent"
-            android:layout_height="250dp"
+            android:layout_height="wrap_content"
             android:layout_marginTop="10dp"
             android:text="@string/bev_2_1_cmh_proto3"
             android:textColor="#361818"
             android:fontFamily="sans-serif-condensed"
             android:textSize="16sp"
-
             />
 
         <TextView
@@ -102,8 +98,6 @@
             android:fontFamily="sans-serif-condensed"
             android:textSize="16sp"
             tools:ignore="HardcodedText" />
-
-
         <TextView
             android:id="@+id/textView6"
             android:textColor="#361818"
@@ -118,7 +112,7 @@
         <TextView
             android:id="@+id/textViewc1"
             android:layout_width="match_parent"
-            android:layout_height="250dp"
+            android:layout_height="wrap_content"
             android:layout_marginTop="10dp"
             android:text="@string/bev_2_3_cmhproto3"
             android:textColor="#361818"
@@ -150,7 +144,7 @@
         <TextView
             android:id="@+id/textViewc2"
             android:layout_width="match_parent"
-            android:layout_height="250dp"
+            android:layout_height="wrap_content"
             android:layout_marginTop="10dp"
             android:text="@string/bev_2_6_cmh"
             android:textColor="#361818"
@@ -170,7 +164,7 @@
         <TextView
             android:id="@+id/textViewc3"
             android:layout_width="match_parent"
-            android:layout_height="250dp"
+            android:layout_height="wrap_content"
             android:layout_marginTop="10dp"
             android:text="@string/bev_2_7_cmh"
             android:textColor="#361818"
@@ -201,7 +195,7 @@
         <TextView
             android:id="@+id/textViewc4"
             android:layout_width="match_parent"
-            android:layout_height="126dp"
+            android:layout_height="wrap_content"
             android:layout_marginTop="10dp"
             android:text="@string/bev_2_8_cmh"
             android:textColor="#361818"
@@ -222,13 +216,12 @@
         <TextView
             android:id="@+id/textViewc6"
             android:layout_width="match_parent"
-            android:layout_height="114dp"
+            android:layout_height="wrap_content"
             android:layout_marginTop="10dp"
             android:text="@string/bev_2_8_cmh"
             android:textColor="#361818"
             android:fontFamily="sans-serif-condensed"
             android:textSize="16sp"
-
             />
         <TextView
             android:id="@+id/textViewT7"
@@ -236,7 +229,7 @@
             android:layout_height="wrap_content"
             android:textColor="#18B04B"
             android:layout_marginTop="10dp"
-            android:text="      If above treatments have failed AND the child/ adolescent has a diagnosis of ADHD AND is at least  6 years old, refer to a specialist for methylphenidate treatment."
+            android:text="If above treatments have failed AND the child/ adolescent has a diagnosis of ADHD AND is at least  6 years old, refer to a specialist for methylphenidate treatment."
             android:fontFamily="sans-serif-condensed"
             android:textSize="16sp"
             />
@@ -246,7 +239,7 @@
             android:layout_height="wrap_content"
             android:textColor="#18B04B"
             android:layout_marginTop="10dp"
-            android:text="         Ensure appropriate follow-up every three months  or more, if needed. "
+            android:text=" Ensure appropriate follow-up every three months  or more, if needed. "
             android:fontFamily="sans-serif-condensed"
             android:textSize="16sp"
             />

@@ -5,8 +5,6 @@
     android:layout_height="match_parent"
     android:background="#ffffff">
 
-
-
     <LinearLayout
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
@@ -62,7 +60,7 @@
         <TextView
             android:id="@+id/textView"
             android:layout_width="match_parent"
-            android:layout_height="250dp"
+            android:layout_height="wrap_content"
             android:layout_marginTop="10dp"
             android:text="@string/bev_2_1_cmh"
             android:textColor="#361818"
@@ -83,7 +81,7 @@
         <TextView
             android:id="@+id/textViewc"
             android:layout_width="match_parent"
-            android:layout_height="250dp"
+            android:layout_height="wrap_content"
             android:layout_marginTop="10dp"
             android:text="@string/bev_2_1_cmh_p1"
             android:textColor="#361818"
@@ -138,7 +136,7 @@
         <TextView
             android:id="@+id/textViewc1"
             android:layout_width="match_parent"
-            android:layout_height="250dp"
+            android:layout_height="wrap_content"
             android:layout_marginTop="10dp"
             android:text="@string/bev_2_3_cmh"
             android:textColor="#361818"
@@ -149,8 +147,7 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:textColor="#18B04B"
-            android:layout_marginTop="10dp"
-            android:text="   Assess and manage stressors, reduce stress and strengthen social supports."
+            android:text="Assess and manage stressors, reduce stress and strengthen social supports."
             android:fontFamily="sans-serif-condensed"
             android:textSize="16sp"
             />
@@ -169,7 +166,7 @@
         <TextView
             android:id="@+id/textViewc2"
             android:layout_width="match_parent"
-            android:layout_height="250dp"
+            android:layout_height="wrap_content"
             android:layout_marginTop="10dp"
             android:text="@string/bev_2_6_cmh"
             android:textColor="#361818"
@@ -189,7 +186,7 @@
         <TextView
             android:id="@+id/textViewc3"
             android:layout_width="match_parent"
-            android:layout_height="250dp"
+            android:layout_height="wrap_content"
             android:layout_marginTop="10dp"
             android:text="@string/bev_2_7_cmh"
             android:textColor="#361818"
@@ -210,7 +207,7 @@
         <TextView
             android:id="@+id/textViewc4"
             android:layout_width="match_parent"
-            android:layout_height="147dp"
+            android:layout_height="wrap_content"
             android:layout_marginTop="10dp"
             android:text="@string/bev_2_8_cmh"
             android:textColor="#361818"
@@ -243,7 +240,7 @@
             android:layout_height="wrap_content"
             android:textColor="#18B04B"
             android:layout_marginTop="10dp"
-            android:text="     »   Consider behavioural interventions when available."
+            android:text="»   Consider behavioural interventions when available."
             android:fontFamily="sans-serif-condensed"
             android:textSize="16sp"
             />
@@ -251,7 +248,7 @@
         <TextView
             android:id="@+id/textViewc5"
             android:layout_width="match_parent"
-            android:layout_height="130dp"
+            android:layout_height="wrap_content"
             android:layout_marginTop="10dp"
             android:text="@string/bev_2_8_cmhp1"
             android:textColor="#361818"
@@ -265,7 +262,7 @@
             android:layout_height="wrap_content"
             android:textColor="#18B04B"
             android:layout_marginTop="10dp"
-            android:text="     DO NOT offer pharmacological treatment."
+            android:text="DO NOT offer pharmacological treatment."
             android:fontFamily="sans-serif-condensed"
             android:textSize="16sp"
             />

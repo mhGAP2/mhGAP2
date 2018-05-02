@@ -20,7 +20,7 @@ public class epi_protocol1 extends AppCompatActivity {
         getWindow().setFlags(WindowManager.LayoutParams.FLAG_FULLSCREEN,WindowManager.LayoutParams.FLAG_FULLSCREEN);
         setContentView(R.layout.activity_epi_protocol1);
 
-        tv1=(TextView) findViewById(R.id.ecp);
+        tv1=(TextView) findViewById(R.id.textViewc3);
         tv1.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {

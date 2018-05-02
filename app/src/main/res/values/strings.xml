@@ -93,7 +93,7 @@ and medically unexplained somatic symptoms.\n\nDepression commonly occurs alongs
 well as physical conditions.\n\n
 The management of symptoms not fully meeting the criteria
 for depression is covered within the module on Other Significant
-Mental Health Complaints. Go to » OTH.
+Mental Health Complaints.
     </string>
 
 
@@ -210,7 +210,6 @@ themselves.
     </string>
 
 
-
     <string name="oth">This module aims to provide basic guidance on management
 of a range of mental health complaints not covered elsewhere in
 this guide. Some of these complaints may be similar to depression,
@@ -222,7 +221,9 @@ help for them. Other mental health complaints can be due
 to stress.\n\n
     This module should not be considered for people who meet the criteria for any of the mhGAP priority conditions (except self-harm).\n
 This module should only be used after explicitly ruling out depression.\n
-This module should be used when helping adults. In case the person is a child or adolescent, go to » CMH.</string>
+This module should be used when helping adults. In case the person is a child or adolescent,
+        </string>
+    <string name="oth0"><a href="">go to » CMH.</a></string>
     <string name="title_activity_depression3">depression3</string>
     <string name="section_format">Hello World from section: %1$d</string>
     <string name="help1">The mhGAP-IG is a model guide and it is essential that it is
@@ -386,10 +387,12 @@ Consult a specialist if available.</string>
     <string name="caution4">Avoid amitriptyline if possible.</string>
     <string name="caution5">SSRIs are the first choice. Overdose of TCAs such as
 amitriptyline may be fatal and therefore should be avoided in
-this group.\n\n
+this group.</string>
+    <string name="caution8">
 If there is an imminent risk of self-harm or suicide
 <a href="">(Go to » SUI)</a>, give a limited supply of antidepressants
-(e.g. one week supply at a time).\n\n
+(e.g. one week supply at a time).</string>
+    <string name="caution9">
 Ask the person’s carers to keep and monitor medications
 and to follow-up frequently to prevent medication overdose.</string>
     <string name="population">Follow treatment for depression
@@ -550,7 +553,7 @@ Encourage the person and carers to improve social
 support systems.</string>
     <string name="psy_tip2">Ensure persons with psychosis are
 treated with respect and dignity. For
-further details<a href=""> go to » ECP.</a></string>
+further details<a href=""> go to » ECP.\n\n\n</a></string>
     <string name="psy_protocol2.5">Start with a low dose within the therapeutic range and
 increase slowly to the lowest effective dose, in order to reduce
 the risk of side-effects.</string>
@@ -902,7 +905,7 @@ Consult a specialist for treatment.</string>
               Consider monitoring blood count, blood chemistry and  liver function tests, if available. \n\n
     </string>
 
-    <string name="epi_protocol_2_2"><a href="">Refer to Essential Care and Practice (ECP)</a></string>
+    <string name="epi_protocol_2_2"><a href="">Refer to Essential Care and Practice (ECP)\n\n</a></string>
     <string name="epi_prot"> for interventions that promote functioning in daily living and community life. \n\n
         In addition, inform carers and people  with epilepsy that:  \n\n
     </string>
@@ -1002,19 +1005,16 @@ Consult a specialist for treatment.</string>
 
 
     <string name="bev_2_1_cmh">  Spend time with their child in enjoyable activities.  Play and communicate with their child/adolescent.  http://www.who.int/maternal_child_adolescent/documents/ care_child_development/en/ \n\n
-
-     Listen to the child/adolescent and show understanding  and respect. \n\n
+        Listen to the child/adolescent and show understanding  and respect. \n
      Protect them from any form of maltreatment, including bullying and exposure to violence in the home, at school, and in the community. \n\n
-     Anticipate major life changes (such as puberty, starting school, or birth of a sibling) and provide support. \n\n
-
+     Anticipate major life changes (such as puberty, starting school, or birth of a sibling) and provide support.
     </string>
-
     <string name="bev_2_1_cmh_p1">    Get enough sleep. Promote regular bed routines and remove TV or other electronic devices  with screens from the sleeping area/bedroom. \n\n
      Eat regularly. All children/adolescents need three meals (breakfast, mid-day, and evening) and some snacks each day. \n\n
      Be physically active. If they are able, children and adolescents aged 5–17 should do 60 minutes or more of physical activity each day through daily activities, play, or sports. See www.who.int/dietphysicalactivity/publications/ recommendations5_17years \n\n
      Participate in school, community, and other social activities as much as possible. \n\n
      Spend time with trusted friends and family. \n\n
-     Avoid the use of drugs, alcohol, and nicotine. \n\n
+     Avoid the use of drugs, alcohol, and nicotine.
 </string>
 
     <string name="bev_2_2_cmh">    Explain the delay or difﬁculty to the carer and the child/ adolescent as appropriate and help them identify strengths and resources. \n\n
@@ -1022,7 +1022,7 @@ Consult a specialist for treatment.</string>
      Explain to the carer that parenting a child/adolescent with an emotional, behavioural or developmental delay or disorder can be rewarding but also very challenging. \n\n
     Explain that persons with mental disorders should not be blamed for having the disorder. Encourage carers to be kind and supportive and show love and affection. \n\n
     Promote and protect human rights of the person and the family and be vigilant about maintaining human rights and dignity.\n\n
-    Help carers to have realistic expectations and encourage them to contact other carers of children/adolescents with similar conditions for mutual support. \n\n
+    Help carers to have realistic expectations and encourage them to contact other carers of children/adolescents with similar conditions for mutual support.
 </string>
 
     <string name="bev_2_3_cmh"> Give loving attention, including playing with the child every day.  Provide opportunities for the adolescents to talk to you. \n\n
@@ -1033,13 +1033,13 @@ Consult a specialist for treatment.</string>
      Respond only to the most important problem behaviours and make punishment mild (e.g. witholding rewards and fun activities) and infrequent compared to the amount of praise. \n\n
      Put off discussions with the child/adolescent until you are calm. Avoid using criticism, yelling, and name-calling. \n\n
       DO NOT use threats or physical punishment, and never physically abuse the child/adolescent. Physical punishment can harm the child-carer relationship; it does not work as well as other methods and can make behaviour problems worse. \n\n
-     Encourage age-appropriate play (e.g. sports, drawing or other hobbies) for adolescents and offer age-appropriate support in practical ways (e.g. with homework or other  life skillls). \n\n
+     Encourage age-appropriate play (e.g. sports, drawing or other hobbies) for adolescents and offer age-appropriate support in practical ways (e.g. with homework or other  life skillls).\n
  </string>
 
     <string name="bev_2_6_cmh">    Assess the psychosocial impact of the child/adolescent’s disorders on the carers, and offer support for their personal, social, and mental health needs. \n\n
      Promote necessary support and resources for their family life, employment, social activities, and health. \n\n
      Arrange for respite care (trustworthy carers taking over  care on a short term basis) to give primary carers a break, especially if the child has a developmental disorder. \n\n
-     Support family to handle social and familial problems and help to problem solve. \n\n
+     Support family to handle social and familial problems and help to problem solve.
 </string>
 
     <string name="bev_2_7_cmh">    After getting consent from the child/adolescent and carer, contact the child/adolescent’s teacher and provide advice/ make a plan on how to support the child with learning and participation in school activities. \n\n
@@ -1062,34 +1062,31 @@ Consult a specialist for treatment.</string>
     </string>
 
     <string name="bev_2_8_cmhp1"> This guide does not provide speciﬁc protocols to implement  brief psychological interventions, such as parent skills training, interpersonal therapy and behavioural therapy. WHO has developed Parent Skills Training package for caregivers of children with developmental delay/disorders and is available  on request.
-
     </string>
 
-    <string name="bev_2_1_cmhproto2">  Spend time with their child in enjoyable activities.  Play and communicate with their child/adolescent.  http://www.who.int/maternal_child_adolescent/documents/ care_child_development/en/ \n\n
-
-     Listen to the child/adolescent and show understanding  and respect. \n\n
+    <string name="bev_2_1_cmhproto2"> Spend time with their child in enjoyable activities.  Play and communicate with their child/adolescent.  http://www.who.int/maternal_child_adolescent/documents/ care_child_development/en/ \n\n
+        Listen to the child/adolescent and show understanding  and respect. \n\n
      Protect them from any form of maltreatment, including bullying and exposure to violence in the home, at school, and in the community. \n\n
-     Anticipate major life changes (such as puberty, starting school, or birth of a sibling) and provide support. \n\n
-
+     Anticipate major life changes (such as puberty, starting school, or birth of a sibling) and provide support.
     </string>
 
-    <string name="bev_2_1_cmh_proto">    Get enough sleep. Promote regular bed routines and remove TV or other electronic devices  with screens from the sleeping area/bedroom. \n\n
+    <string name="bev_2_1_cmh_proto">Get enough sleep. Promote regular bed routines and remove TV or other electronic devices  with screens from the sleeping area/bedroom. \n\n
      Eat regularly. All children/adolescents need three meals (breakfast, mid-day, and evening) and some snacks each day. \n\n
      Be physically active. If they are able, children and adolescents aged 5–17 should do 60 minutes or more of physical activity each day through daily activities, play, or sports. See www.who.int/dietphysicalactivity/publications/ recommendations5_17years \n\n
      Participate in school, community, and other social activities as much as possible. \n\n
      Spend time with trusted friends and family. \n\n
-     Avoid the use of drugs, alcohol, and nicotine. \n\n
+     Avoid the use of drugs, alcohol, and nicotine.\n
 </string>
 
-    <string name="bev_2_2_cmhproto2">    Explain the delay or difﬁculty to the carer and the child/ adolescent as appropriate and help them identify strengths and resources. \n\n
+    <string name="bev_2_2_cmhproto2"> Explain the delay or difﬁculty to the carer and the child/ adolescent as appropriate and help them identify strengths and resources. \n\n
      Praise the carer and the child/adolescents for their efforts. \n\n
      Explain to the carer that parenting a child/adolescent with an emotional, behavioural or developmental delay or disorder can be rewarding but also very challenging. \n\n
     Explain that persons with mental disorders should not be blamed for having the disorder. Encourage carers to be kind and supportive and show love and affection. \n\n
     Promote and protect human rights of the person and the family and be vigilant about maintaining human rights and dignity.\n\n
-    Help carers to have realistic expectations and encourage them to contact other carers of children/adolescents with similar conditions for mutual support. \n\n
+    Help carers to have realistic expectations and encourage them to contact other carers of children/adolescents with similar conditions for mutual support.
 </string>
 
-    <string name="bev_2_7_cmhproto2">    After getting consent from the child/adolescent and carer, contact the child/adolescent’s teacher and provide advice/ make a plan on how to support the child with learning and participation in school activities. \n\n
+    <string name="bev_2_7_cmhproto2"> After getting consent from the child/adolescent and carer, contact the child/adolescent’s teacher and provide advice/ make a plan on how to support the child with learning and participation in school activities. \n\n
      Explain that the child/adolescent’s mental disorder is affecting their learning/behaviour/social functioning and that there are things the teacher can do to help. \n\n
      Ask about any stressful situations that may have an adverse impact on the child’s emotional well-being and learning. If the child is being bullied, advise the teacher on appropriate action to stop it. \n\n
      Explore strategies to help engage the child in school activities and facilitate learning, inclusion, and participation. \n\n
@@ -1100,8 +1097,7 @@ Consult a specialist for treatment.</string>
  –  Divide long assignments into smaller pieces and assign  one piece at a time. \n
  –  Provide extra praise for effort and rewards for achievements.  –   DO NOT use threats or physical punishments or  excessive criticism. \n
  –  For students with signiﬁcant difﬁculties in the classroom, recruit a volunteer to come to class to provide one-on-one attention or pair the student with a peer who can provide support or help with learning. \n
- –  If the child/adolescent has been out of school, help them return as soon as possible by creating a gradually increasing reintegration schedule. During the reintegration period, the student should be excused from quizzes and exams. \n
-
+ –  If the child/adolescent has been out of school, help them return as soon as possible by creating a gradually increasing reintegration schedule. During the reintegration period, the student should be excused from quizzes and exams.
     </string>
 
     <string name="bev_2_1_cmhproto3">  Spend time with their child in enjoyable activities.  Play and communicate with their child/adolescent.  http://www.who.int/maternal_child_adolescent/documents/ care_child_development/en/ \n\n
@@ -1238,7 +1234,8 @@ Consult a specialist for treatment.</string>
  –  Advise the person and carers to restrict access to means  of self-harm/suicide (e.g. pesticides/toxic substances, prescription medications, ﬁrearms, etc.) when the person has thoughts or plans of self-harm/suicide. \n
  –  Optimize social support from available community resources. These include informal resources, such as relatives, friends, acquaintances, colleagues and religious leaders or formal community resources, if available, such  as crisis centres, and local mental health centres. \n
 </string>
-    <string name="dementia1">For interventions that promote functioning in ADLs and community life, go to » ECP. \n\n
+    <string name="dementia1">For interventions that promote functioning in ADLs and community life, <a href="">go to » ECP.</a>\n</string>
+    <string name="dementia1_1">
         Plan for ADL in a way that maximises independent activity, enhances function, helps to adapt and develop skills, and minimises the need for support. Facilitate functioning and participation in the community involving people and their carers in planning and implementation of these interventions. Assist in liaison with available social resources. \n\n
         – Give advice to maintain independent toileting skills, including prompting and regulation of ﬂuid intake. (If incontinence occurs, all possible causes should be evaluated and treatments trialed before concluding it is permanent). \n\n
         – Keep the environment at home safe to reduce the risk of falling and injury. \n\n
@@ -1248,7 +1245,8 @@ Consult a specialist for treatment.</string>
         – Advise recreational activities (tailored to stage and severity of dementia).\n\n
         – Manage sensory deﬁcits (such as low vision or poor hearing) with appropriate devices (e.g. magnifying glass, hearing aids). \n\n
         – Refer for occupational therapy, if available.</string>
-    <string name="Dementia2">Assess the impact on the carer and the carer’s needs to ensure necessary support and resources for their family life, employment, social activities, and health (see » DEM 1). \n\n-Acknowledge that it can be extremely frustrating and stressful to take care of people with dementia. Carers need to be encouraged to respect the dignity of the person with dementia and avoid hostility towards, or neglect of, the person. \n\n-Encourage the carers to seek help if they are experiencing difﬁculty or strain in caring for their loved one. \n\n-Provide information to the carer regarding dementia, keeping in mind the wishes of the person with dementia. \n\n- Provide training and support in speciﬁc skills, e.g. managing difﬁcult behaviour, if necessary. To be most effective, elicit active participation, e.g. role play. \n\n-Consider providing practical support when feasible, e.g. home-based respite care. Another family or suitable person can supervise and care for the person with dementia to provide the main carer with a period of relief to rest or carry out other activities. \n\n-Explore whether the person qualiﬁes for any disability beneﬁts or other social/ﬁnancial support (government or non-governmental).</string>
+    <string name="Dementia2">Assess the impact on the carer and the carer’s needs to ensure necessary support and resources for their family life, employment, social activities, and health <a href="">(see » DEM 1).</a></string>
+    <string name="Dementia2_1">-Acknowledge that it can be extremely frustrating and stressful to take care of people with dementia. Carers need to be encouraged to respect the dignity of the person with dementia and avoid hostility towards, or neglect of, the person. \n\n-Encourage the carers to seek help if they are experiencing difﬁculty or strain in caring for their loved one. \n\n-Provide information to the carer regarding dementia, keeping in mind the wishes of the person with dementia. \n\n- Provide training and support in speciﬁc skills, e.g. managing difﬁcult behaviour, if necessary. To be most effective, elicit active participation, e.g. role play. \n\n-Consider providing practical support when feasible, e.g. home-based respite care. Another family or suitable person can supervise and care for the person with dementia to provide the main carer with a period of relief to rest or carry out other activities. \n\n-Explore whether the person qualiﬁes for any disability beneﬁts or other social/ﬁnancial support (government or non-governmental).</string>
     <string name="Dementia3">Do not consider cholinesterase inhibitors (like donepezil, galantamine and rivastigmine) or memantine routinely for all cases of dementia. \n\n-Consider medications only in settings where speciﬁc diagnosis of Alzheimer’s Disease can be made AND where adequate support and supervision by specialists and monitoring (for side-effects and response) from carers is available. \n\nIf appropriate:\n\n -For dementia with suspected Alzhemer’s Disease, and with CLOSE MONITORING, consider cholinesterase inhibitors (e.g. donepezil, galantamine, rivastigmine) OR memantine.\n\n For dementia with associated vascular disease, consider memantine.</string>
     <string name="Dementia4">2.1 Provide Psychoeducation to person and carers.</string>
     <string name="Dementia5">2.5 Provide carers with support.</string>
@@ -1266,14 +1264,16 @@ Consult a specialist for treatment.</string>
         -Use simple short sentences to make verbal communication clear. Try to minimize competing noises, such as radio, TV, or other conversation. Listen carefully to what the person has to say. \n\n
         -Keep things simple, avoid changes to routine, and, as far as possible, avoid exposing the person to unfamiliar and bewildering places.</string>
     <string name="Dementia9">Identify and treat underlying physical health problems that may affect behaviour. Look for pain, infections, etc. on physical exam </string>
-    <string name="hi">(Go to » ECP). Refer to specialist if needed.</string>
+    <string name="hi"><a hre="">(Go to » ECP).</a> Refer to specialist if needed.</string>
     <string name="com">Identify events (e.g. shopping at busy market) or factors  (e.g. going out alone) that may precede, trigger, or enhance problem behaviours. Modify these triggers if possible.\n\n
-                   \n\nConsider environmental adaptations such as appropriate seating, safe wandering areas, signs (e.g. ‘no exit’ sign on the street door or signpost to toilet).\n\n
-                  \n\n Encourage soothing, calming, or distracting strategies. Suggest an activity the person enjoys (e.g. going for a walk, listening to music, engaging in conversation), especially when feeling agitated.\n\n
+                   \nConsider environmental adaptations such as appropriate seating, safe wandering areas, signs (e.g. ‘no exit’ sign on the street door or signpost to toilet).\n
+                   Encourage soothing, calming, or distracting strategies. Suggest an activity the person enjoys (e.g. going for a walk, listening to music, engaging in conversation), especially when feeling agitated.\n
             </string>
     <string name="Dementia10">Provide psychosocial interventions ﬁrst.\n\n
-  -If there is imminent risk to person or carers, consider antipsychotic medication. Go to » PSY 2, Management  for details about antipsychotic medication.\n\n
- Follow the principles of:\n\n
+  -If there is imminent risk to person or carers, consider antipsychotic medication.</string>
+    <string name="Dementia"><a href="">Go to » PSY 2</a>, Management  for details about antipsychotic medication.</string>
+    <string name="Dementia11">
+ Follow the principles of:\n
  –  “Start low, go slow” (titrate) and review the need regularly (at least monthly).\n   – Use the lowest effective dose. \n – Monitor the person for extrapyramidal symptoms (EPS).\n
  - Avoid i.v. haloperidol.\n
  -Avoid diazepam.\n</string>
@@ -1320,7 +1320,7 @@ Consult a specialist for treatment.</string>
      Identify emotional cues for use and ways to cope with them (i.e. relationship problems, difﬁculties at work, etc.).
      \n\nEncourage the person not to keep substances at home. </string>
     <string name="if_the_person_is_an_adolescent_or_a_woman_of_child_bearing_age_pregnant_or_breastfeeding_see_special_populations">- If the person is an adolescent or a woman of child-bearing age, pregnant, or breastfeeding.</string>
-    <string name="see"><a href="">See SPECIAL POPULATIONS</a></string>
+    <string name="see"><a href="">See SPECIAL POPULATIONS</a>\n\n</string>
     <string name="subs7">Provide psychoeducation.\n\n
         » Arrange for detoxiﬁcation services if necessary or treatment in an inpatient facility where available. Treat withdrawal symptoms as needed. \n\n
         » Provide a brief intervention using motivational interviewing to encourage the person to engage in treatment of their substance dependence. \n\n
@@ -1367,19 +1367,19 @@ Consult a specialist for treatment.</string>
         » Methadone: Methadone is given orally at an initial dose of 15-20 mg, increasing, if necessary, to 30 mg per day. Then gradually decrease the dose, until tapered off completely, over 3-10 days. As with buprenorphine, special care should be taken for individuals taking other sedating medications. \n\n
         » Clonidine or Lofexidine: If opioid substitution medications are not available, clonidine or lofexidine can be used to manage some opioid withdrawal symptoms, namely hyperarousal. They are given at dose ranges of 0.1-0.15 mg 3 times daily p.o. and are dosed according to body weight. Light-headedness and sedation may result. Monitor blood pressure closely. Other symptoms of withdrawal should also be treated, i.e. nausea with anti-emetics, pain with simple analgesics, and insomnia with light sedatives. \n\n
         » Morphine sulphate: 10-20 mg as an initial dose with 10 mg extra dose if needed. Sedation and respiratory depression which canbe life threatening. Prolonged use can lead to dependence. For more details </string>
-    <string name="wa"><a href="">Go to Table 1.</a></string>
+    <string name="wa"><a href="">Go to Table 1.</a>\n\n</string>
     <string name="opioid_withdrawal">Opioid Withdrawal</string>
     <string name="substance17"> Opioid agonist maintenance treatment requires the presence of an established and regulated national framework. It is characterized by the prescription of long-acting opioid agonists (or partial agonists), such as methadone or buprenorphine, generally on a daily, supervised basis.  There is strong evidence that agonist maintenance treatment with methadone or buprenorphine effectively reduces illicit drug use, the spread of HIV, mortality, and criminality, as well as improving physical health, mental health, and social functioning. \n\n
         »  Monitoring: Medications used for opioid agonist maintenance treatment are open to misuse and diversion, hence, programmes should use various methods of limiting the risk of diversion, including supervised consumption. \n\n
        </string>
-    <string name="ta"><a href="">» For more details please see Table 1.</a></string>
+    <string name="ta"><a href="">» For more details please see Table 1.</a>\n\n</string>
     <string name="substance18">Benzodiazepine Withdrawal</string>
     <string name="substance19">» Benzodiazepine withdrawal can be managed by switching to a longacting benzodiazepine and gradually decreasing the dose, tapered over 8-12 weeks, and in conjunction with psychosocial support. More rapid tapering is possible only if the person is in an inpatient setting in a hospital or detoxiﬁcation facility. \n\n
         » If severe, uncontrolled benzodiazepine withdrawal develops or occurs due to a sudden or unplanned cessation, consult a specialist or other available resource person immediately to start a high-dose benzodiazepine sedation regime and to hospitalise the person. Be cautious with unsupervised dispensing of benzodiazepines to unknown patients.</string>
     <string name="substance20"><![CDATA[Clarify the conﬁdential nature of the health care discussion, including in what circumstances the adolescent’s parents or carers will be given any information. \n\n
     Ask what else is going on in the adolescent’s life? Identify the most important underlying issues for the adolescent. Keep in mind that adolescents may not be able to fully articulate what is bothering them. \n\n
     Open-ended questions may be helpful in eliciting information in the following areas: Home, Education & Employment, Eating, Activities, Drugs and Alcohol, Sexuality, Safety, and Suicide/Depression. Allow sufﬁcient time for discussion. Also assess for other priority mental health conditions. If any priority conditions are identiﬁed]]></string>
-<string name="substance222"><a href="">see CMH.</a></string>
+    <string name="substance222"><a href="">see CMH.</a></string>
     <string name="adolescents">ADOLESCENTS</string>
     <string name="substance21">Advise women who are pregnant or considering becoming pregnant to avoid alcohol completely. \n\n
         Inform women that consuming even small amounts of alcohol early in pregnancy can harm the developing fetus, and that larger amounts of alcohol can result in a syndrome of severe developmental problems (Fetal Alcohol Syndrome). \n\n
@@ -1456,7 +1456,11 @@ Consult a specialist for treatment.</string>
  \n–  People often have reactions after such events. The reactions may be highly variable from person to person and change over time.
  \n–  They can include somatic symptoms such as palpitations, aches and pains, gastric upset, and headaches and emotional and behavioural symptoms that include sleep disturbance, sadness, anxiety, irritation and aggression.
  \n–  Such feelings can be exacerbated or can reappear when reminders of the stressful event or new stressors occur.
- \n–  In most cases the symptoms are likely to diminish over time, particularly if the person gets rest, social support, and engages in stress reduction. Go to » ECP.  Go to Box 1.
+ \n–  In most cases the symptoms are likely to diminish over time, particularly if the person gets rest, social support, and engages in stress reduction.
+        </string>
+    <string name="oth3"><a href="">Go to » ECP.</a></string>
+    <string name="oth7"><a href="">Go to Box 1.</a></string>
+    <string name="oth9">
 \n\n»  If post-traumatic stress disorder (PTSD) is suspected, consult a specialist  for further assessment and management.
 \n –  After a potentially traumatic event, the person may have PTSD if the symptoms involve considerable difﬁculty with daily functioning for at least 1 month and include recurring frightening dreams, ﬂashbacks or intrusive memories of the events accompanied by intense fear or horror; deliberate avoidance of reminders  of the event; excessive concern and alertness to danger or reacting strongly to  loud noises or unexpected movements.
 
@@ -1523,13 +1527,13 @@ Consult a specialist for treatment.</string>
     <string name="substancetab34">VITAMINS \n\nTo prevent or treat Wernicke’s encephalopathy</string>
     <string name="table_1_antidepressants">TABLE 1: Antidepressants</string>
     <string name="cmh1">Consider behavioural interventions when available.</string>
-    <string name="cmh2" />
+    <string name="cmh2">Consider behavioural interventions when available.</string>
     <string name="cmh3">DO NOT offer pharmacological treatment.</string>
     <string name="brief_psychological_treatments">Brief psychological treatments</string>
     <string name="ensure_appropriate_follow_up_every_three_months_or_more_if_needed">Ensure appropriate follow-up every three months or more, if needed.</string>
     <string name="cmh4">Guidance to promote child/adolescent well-being and functioning</string>
     <string name="cmh7">Liaise with teachers and other school staff</string>
-    <string name="link_with_other_available_resources_in_the_community">Link with other available resources in the community.</string>
+    <string name="link_with_other_available_resources_in_the_community">Link with other available resources in the community such as Community-Based Rehabilitation..</string>
     <string name="provide_carer_support">Provide carer support.</string>
     <string name="cmh9">Guidance for improving behaviour</string>
     <string name="cmh10">ENCOURAGE AND HELP THE CHILD / ADOLESCENT TO:</string>
@@ -1575,4 +1579,19 @@ Consult a specialist for treatment.</string>
     <string name="icon_more">icon</string>
     <string name="rate_icon">rate icon</string>
     <string name="tencho_gmail_com">tencho@gmail.com</string>
+    <string name="dep1">ADOLESCENTS 12 YEARS OF AGE OR OLDER</string>
+    <string name="st1">Offer Parent Skills Training, when available.</string>
+    <string name="st2">This guide does not provide specific protocols to implement brief psychological interventions, such as parent skills training, interpersonal therapy and behavioural therapy. WHO has developed Parent Skills Training package for caregivers of children with developmental delay/disorders and is available on request.</string>
+    <string name="h1">DEMENTIA – without behavioural and/or psychological symptoms</string>
+    <string name="box">»Explain what you will be doing.\n
+       “I am going to teach you how to breathe in a way that will help relax your  body and your mind.
+        It will take some practice before you feel the full beneﬁts of this breathing technique.
+        The reason this strategy focuses on breathing is because when we feel stressed our breathing becomes fast and shallow, making us feel more tense. To begin to relax, you need to start by changing your breathing. Before we start, we will relax the body.”\n\n»    Slowly start relaxation exercises and demonstrate breathing.\n
+    “Gently shake and loosen your arms and legs.
+        Let them go ﬂoppy and loose.  Roll your shoulders back and gently move your head from side to side.  Now place one hand on your belly and the other hand on your upper chest. I want you to imagine you have a balloon in your stomach and when you breathe in you are going to blow that balloon up, so your stomach will expand. And when you breathe out, the air in the balloon will also go out,  so your stomach will ﬂatten. Watch me ﬁrst. I am going to exhale ﬁrst to get all the air out of my stomach.” Demonstrate breathing from the stomach –  try to exaggerate the pushing out, and pulling in, of your stomach.
+\n\n»    Focus on breathing techniques.\n
+  “Try to breathe from your stomach with me. Remember, we start by breathing out until all the air is out; then breathe in. If you can, breathe in through your nose and out through your mouth. The second step is to slow the rate of your breathing down. Take three seconds to breathe in, two seconds to hold your breath, and three seconds to breathe out. I will count with you. You may close your eyes or keep them open. Slowly breathe in, 1, 2, 3. Hold, 1, 2. Now breathe out, 1, 2, 3.” Repeat this breathing exercise for approximately one minute, rest for one minute then repeat the cycle two more times.
+        \n\n»    Encourage self-practice.\n
+  “Try on your own for one minute. This is something you can practice  on your own.”
+</string>
 </resources>

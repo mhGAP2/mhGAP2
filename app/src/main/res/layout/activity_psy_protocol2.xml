@@ -110,18 +110,6 @@
             android:layout_marginTop="10dp"
             android:text="@string/t4" />
 
-
-        <TextView
-            android:id="@+id/textView0"
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:textColor="#361818"
-            android:fontFamily="sans-serif-condensed"
-            android:textSize="16sp"
-            android:layout_marginTop="10dp"
-            android:text="@string/psy_protocol2.51"
-
-            />
         <TextView
             android:id="@+id/textView10"
             android:layout_width="match_parent"

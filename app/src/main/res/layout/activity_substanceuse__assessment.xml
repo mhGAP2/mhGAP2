@@ -43,6 +43,7 @@ tools:context="com.example.tencho.mhgap2.Substanceuse_Assessment">
             android:text="@string/Asessment_1"
             android:textAlignment="center"
             android:textSize="18sp"
+            android:fontFamily="sans-serif-condensed"
             tools:ignore="HardcodedText" />
     </LinearLayout>
 

@@ -4,6 +4,10 @@ import android.content.Intent;
 import android.os.Bundle;
 import android.support.design.widget.FloatingActionButton;
 import android.support.design.widget.Snackbar;
+import android.text.Spannable;
+import android.text.SpannableString;
+import android.text.style.TypefaceSpan;
+import android.view.SubMenu;
 import android.view.View;
 import android.support.design.widget.NavigationView;
 import android.support.v4.view.GravityCompat;
@@ -38,6 +42,24 @@ public class HomeActivity extends AppCompatActivity
 
         NavigationView navigationView = (NavigationView) findViewById(R.id.nav_view);
         navigationView.setNavigationItemSelectedListener(this);
+        Menu m = navigationView .getMenu();
+
+        for (int i=0;i<m.size();i++) {
+            MenuItem mi = m.getItem(i);
+
+            //for applying a font to subMenu ...
+            SubMenu subMenu = mi.getSubMenu();
+            if (subMenu!=null && subMenu.size() >0 ) {
+                for (int j=0; j <subMenu.size();j++) {
+                    MenuItem subMenuItem = subMenu.getItem(j);
+                    SpannableString s = new SpannableString(subMenuItem.getTitle());
+                    s.setSpan(new TypefaceSpan("sans-serif-condensed"), 0, s.length(),
+                            Spannable.SPAN_EXCLUSIVE_EXCLUSIVE);
+                    subMenuItem.setTitle(s);
+                }
+            }
+
+        }
 
         btn1=(Button)findViewById(R.id.depression);
         btn1.setOnClickListener(new View.OnClickListener() {
