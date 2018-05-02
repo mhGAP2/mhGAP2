@@ -160,7 +160,7 @@
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:maxLines="3"
-                    android:text="@string/email"
+                    android:text="@string/developers"
                     android:textColor="@color/colorPrimaryDark"
                     android:textSize="14sp" />
 
@@ -176,8 +176,6 @@
             </RelativeLayout>
         </RelativeLayout>
     </android.support.v7.widget.CardView>
-
-
 
     <android.support.v7.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
         android:layout_width="match_parent"

@@ -1,6 +1,7 @@
 package com.example.tencho.mhgap2;
 
 import android.content.Intent;
+import android.net.Uri;
 import android.os.Bundle;
 import android.support.design.widget.FloatingActionButton;
 import android.support.design.widget.Snackbar;
@@ -192,6 +193,15 @@ public class HomeActivity extends AppCompatActivity
             Intent intent=new Intent(HomeActivity.this,Aboutus.class);
             startActivity(intent);
                     }
+         else if (id == R.id.feedback) {
+             Intent emailIntent = new Intent(Intent.ACTION_SENDTO);
+             emailIntent.setType("text/plain");
+             emailIntent.putExtra(Intent.EXTRA_SUBJECT,"Subject");
+             emailIntent.putExtra(Intent.EXTRA_TEXT,"Body");
+             emailIntent.setData(Uri.parse("mailto:tenzincho74@gmail.com"));
+             emailIntent.addFlags(Intent.FLAG_ACTIVITY_NEW_TASK);
+             startActivity(emailIntent);
+         }
         DrawerLayout drawer = (DrawerLayout) findViewById(R.id.drawer_layout);
         drawer.closeDrawer(GravityCompat.START);
         return true;

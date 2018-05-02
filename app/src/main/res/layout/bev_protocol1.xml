@@ -56,11 +56,11 @@
         <TextView
             android:id="@+id/textView"
             android:layout_width="match_parent"
-            android:layout_height="250dp"
+            android:layout_height="wrap_content"
             android:layout_marginTop="10dp"
+            android:fontFamily="sans-serif-condensed"
             android:text="@string/bev_2_1_cmh"
             android:textColor="#361818"
-            android:fontFamily="sans-serif-condensed"
             android:textSize="16sp"
 
             />
@@ -74,16 +74,16 @@
             android:textStyle="bold"
             android:fontFamily="sans-serif-condensed"
             android:textSize="16sp" />
+
         <TextView
             android:id="@+id/textViewc"
             android:layout_width="match_parent"
-            android:layout_height="250dp"
+            android:layout_height="wrap_content"
             android:layout_marginTop="10dp"
+            android:fontFamily="sans-serif-condensed"
             android:text="@string/bev_2_1_cmh_p1"
             android:textColor="#361818"
-            android:fontFamily="sans-serif-condensed"
-            android:textSize="16sp"
-            />
+            android:textSize="16sp" />
 
         <TextView
             android:id="@+id/textView5"
@@ -131,15 +131,16 @@
             android:textStyle="bold"
 
             />
+
         <TextView
             android:id="@+id/textViewc1"
             android:layout_width="match_parent"
-            android:layout_height="250dp"
+            android:layout_height="wrap_content"
             android:layout_marginTop="10dp"
             android:fontFamily="sans-serif-condensed"
-            android:textSize="16sp"
             android:text="@string/bev_2_3_cmh"
-            android:textColor="#361818" />
+            android:textColor="#361818"
+            android:textSize="16sp" />
 
         <TextView
             android:id="@+id/textViewT3"
@@ -155,7 +156,7 @@
         <TextView
             android:id="@+id/textViewc2"
             android:layout_width="match_parent"
-            android:layout_height="250dp"
+            android:layout_height="wrap_content"
             android:layout_marginTop="10dp"
             android:text="@string/bev_2_6_cmh"
             android:textColor="#361818"
@@ -171,14 +172,15 @@
             android:fontFamily="sans-serif-condensed"
             android:textSize="16sp"
             />
+
         <TextView
             android:id="@+id/textViewc3"
             android:layout_width="match_parent"
-            android:layout_height="250dp"
+            android:layout_height="wrap_content"
             android:layout_marginTop="10dp"
+            android:fontFamily="sans-serif-condensed"
             android:text="@string/bev_2_7_cmh"
             android:textColor="#361818"
-            android:fontFamily="sans-serif-condensed"
             android:textSize="16sp"
 
             />
@@ -196,11 +198,11 @@
         <TextView
             android:id="@+id/textViewc4"
             android:layout_width="match_parent"
-            android:layout_height="143dp"
+            android:layout_height="wrap_content"
             android:layout_marginTop="10dp"
+            android:fontFamily="sans-serif-condensed"
             android:text="@string/bev_2_8_cmh"
             android:textColor="#361818"
-            android:fontFamily="sans-serif-condensed"
             android:textSize="16sp"
 
             />
@@ -238,11 +240,11 @@
         <TextView
             android:id="@+id/textViewc5"
             android:layout_width="match_parent"
-            android:layout_height="127dp"
+            android:layout_height="wrap_content"
             android:layout_marginTop="10dp"
+            android:fontFamily="sans-serif-condensed"
             android:text="@string/bev_2_8_cmhp1"
             android:textColor="#361818"
-            android:fontFamily="sans-serif-condensed"
             android:textSize="16sp"
 
             />

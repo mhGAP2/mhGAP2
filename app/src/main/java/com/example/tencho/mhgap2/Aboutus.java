@@ -44,19 +44,6 @@ public class Aboutus extends AppCompatActivity
         r1.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                Intent emailIntent = new Intent(Intent.ACTION_SEND);
-                emailIntent.setType("text/html");
-                final PackageManager pm = Aboutus.this.getPackageManager();
-                final List<ResolveInfo> matches = pm.queryIntentActivities(emailIntent, 0);
-                String className = null;
-                for (final ResolveInfo info : matches) {
-                    if (info.activityInfo.packageName.equals("com.google.android.gm")) {
-                        className = info.activityInfo.name;
-
-                        if (className != null && !className.isEmpty()) {
-                        }
-                    }
-                }
             }
 
         });
@@ -123,6 +110,15 @@ public class Aboutus extends AppCompatActivity
         else if (id == R.id.Aboutus) {
             Intent intent=new Intent(Aboutus.this,Aboutus.class);
             startActivity(intent);
+        }
+        else if (id == R.id.feedback) {
+            Intent emailIntent = new Intent(Intent.ACTION_SENDTO);
+            emailIntent.setType("text/plain");
+            emailIntent.putExtra(Intent.EXTRA_SUBJECT,"Subject");
+            emailIntent.putExtra(Intent.EXTRA_TEXT,"Body");
+            emailIntent.setData(Uri.parse("mailto:tenzincho74@gmail.com"));
+            emailIntent.addFlags(Intent.FLAG_ACTIVITY_NEW_TASK);
+            startActivity(emailIntent);
         }
         DrawerLayout drawer = (DrawerLayout) findViewById(R.id.drawer_layout);
         drawer.closeDrawer(GravityCompat.START);

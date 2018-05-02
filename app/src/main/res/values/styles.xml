@@ -26,7 +26,7 @@
         <item name="android:textStyle">bold</item>
         <item name="android:textSize">25dp</item>
         <item name="android:textAlignment">center</item>
-        <item name="android:layout_margin">8dp</item>
+        <item name="android:layout_margin">10dp</item>
         <item name="android:textColor">#ffffff</item>
         <item name="android:textAppearance">@style/Base.TextAppearance.AppCompat.Widget.PopupMenu.Large</item>
     </style>
@@ -44,5 +44,11 @@
     </style>
     <style name="ToolbarColoredBackArrow" parent="AppTheme">
         <item name="android:textColorSecondary">#000</item>
+    </style>
+    <style name="ToolbarColoredBackArrow2" parent="AppTheme.NoActionBar">
+        <item name="android:textColorSecondary">#000</item>
+        <item name="android:textAlignment">center</item>
+        <item name="android:fontFamily">cursive</item>
+        <item name="android:textSize">20sp</item>
     </style>
 </resources>

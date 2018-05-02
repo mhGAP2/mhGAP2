@@ -10,9 +10,8 @@ tools:context="com.example.tencho.mhgap2.Bev_assesment">
 
 <LinearLayout
     android:layout_width="match_parent"
-    android:layout_height="match_parent"
-    android:orientation="vertical"
-    >
+    android:layout_height="wrap_content"
+    android:orientation="vertical">
 
     <TextView
         android:id="@+id/title"
@@ -29,7 +28,8 @@ tools:context="com.example.tencho.mhgap2.Bev_assesment">
         android:layout_width="124dp"
         android:layout_height="86dp"
         android:layout_gravity="center"
-        app:srcCompat="@drawable/assesment" />
+        app:srcCompat="@drawable/assesment"
+        tools:ignore="ContentDescription" />
 
 
     <LinearLayout
@@ -52,67 +52,61 @@ tools:context="com.example.tencho.mhgap2.Bev_assesment">
 
     <LinearLayout
         android:layout_width="match_parent"
-        android:layout_height="match_parent"
+        android:layout_height="wrap_content"
         android:layout_marginBottom="20dp"
-        android:orientation="horizontal"
-        >
+        android:orientation="horizontal">
 
         <Button
             android:id="@+id/yes"
             android:layout_width="match_parent"
-            android:layout_height="40dp"
-            android:text="Yes"
-            android:background="@drawable/depre"
-            android:textColor="#18B04B"
-            android:fontFamily="sans-serif-condensed"
-            android:textSize="16sp"
-            android:layout_marginLeft="10dp"
-            android:layout_marginRight="10dp"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="10dp"
             android:layout_weight="1"
+            android:background="@drawable/depre"
+            android:fontFamily="sans-serif-condensed"
+            android:text="Yes"
+            android:textColor="#18B04B"
+            android:textSize="16sp"
             tools:ignore="ButtonStyle,HardcodedText,SmallSp" />
 
         <Button
             android:id="@+id/no"
             android:layout_width="match_parent"
-            android:layout_height="40dp"
-            android:text="No"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="10dp"
             android:layout_weight="1"
-            android:layout_marginLeft="10dp"
-            android:layout_marginRight="10dp"
             android:background="@drawable/depre"
-            android:textColor="#18B04B"
             android:fontFamily="sans-serif-condensed"
+            android:text="No"
+            android:textColor="#18B04B"
             android:textSize="16sp"
             tools:ignore="ButtonStyle,HardcodedText,SmallSp" />
+
         <Button
             android:id="@+id/oth"
             android:layout_width="match_parent"
-            android:layout_height="40dp"
-            android:background="@drawable/depre"
-            android:textColor="#18B04B"
-            android:text="oth"
-            android:fontFamily="sans-serif-condensed"
-            android:textSize="16sp"
-            android:layout_marginLeft="10dp"
-            android:layout_marginRight="10dp"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="10dp"
             android:layout_weight="1"
-            tools:ignore="ButtonStyle,HardcodedText,SmallSp"/>
+            android:background="@drawable/depre"
+            android:fontFamily="sans-serif-condensed"
+            android:text="oth"
+            android:textColor="#18B04B"
+            android:textSize="16sp"
+            tools:ignore="ButtonStyle,HardcodedText,SmallSp" />
 
         <Button
             android:id="@+id/oth2"
             android:layout_width="match_parent"
-            android:layout_height="40dp"
-            android:background="@drawable/depre"
-            android:textColor="#18B04B"
-            android:text="oth"
-            android:fontFamily="sans-serif-condensed"
-            android:textSize="16sp"
-            android:layout_marginLeft="10dp"
-            android:layout_marginRight="10dp"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="10dp"
             android:layout_weight="1"
-            tools:ignore="ButtonStyle,HardcodedText,SmallSp"/>
-
-
+            android:background="@drawable/depre"
+            android:fontFamily="sans-serif-condensed"
+            android:text="oth 2"
+            android:textColor="#18B04B"
+            android:textSize="16sp"
+            tools:ignore="ButtonStyle,HardcodedText,SmallSp" />
     </LinearLayout>
 </LinearLayout>
 </ScrollView>

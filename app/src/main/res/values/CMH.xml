@@ -3,7 +3,7 @@
     <string name="CMH1">
         1) \n
         ASSESS FOR DEVELOPMENTAL DISORDERS \n
-        Assess all domains – motor, cognitive, social, communication, and adaptive. \n \n
+        Assess all domains – \n motor, cognitive, social, communication, and adaptive. \n \n
         For toddlers and young children: \n
           Has the child had any difficulties with age appropriate milestones across all developmental areas? \n \n
         For older children and adolescents: \n
@@ -13,9 +13,9 @@
 
     <string-array name="CMH_Asse_Yes">
     <item>
-        1) \n
+       1) \n
         ASSESS FOR DEVELOPMENTAL DISORDERS \n
-        Assess all domains – motor, cognitive, social, communication, and adaptive. \n \n
+        Assess all domains – \n motor, cognitive, social, communication, and adaptive. \n \n
         For toddlers and young children: \n
           Has the child had any difficulties with age appropriate milestones across all developmental areas? \n \n
         For older children and adolescents: \n
@@ -23,7 +23,7 @@
         self-care, and everyday household activities?
     </item>
         <item>
-    Suspect DEVELOPMENTAL DELAY / DISORDER \n
+    Suspect DEVELOPMENTAL DELAY/DISORDER \n
     Are there signs/symptoms suggesting any of the following: \n
     – Nutritional deficiency, including iodine deficiency \n
     – Anaemia \n
@@ -33,14 +33,12 @@
 
         <item>
     - Manage conditions using Integrated Management of Childhood Illness (IMCI) \n
-            (www.who.int/maternal_child_adolescent/documents/IMCI_chartbooklet) or other available guidelines. \n \n
-
     Assess the child for visual and/or hearing impairment: \n
     For vision assessment, see if the child fails to: \n
     –  Look at your eyes \n
     –  Follow a moving object with the head and eyes \n
     –  Grab an object \n
-    –  Recognize familiar people \n
+    –  Recognize familiar people \n \n
 
    For hearing assessment, see if the child fails to: \n
     –  Turn head to see someone behind them when they speak \n
@@ -60,18 +58,17 @@
     – Moving restlessly? \n
 
 </item>
-
         <item>
-    Are symptoms persistent, severe, and causing considerable difficulty with daily functioning? Are<u> ALL </u> of the following true? \n
+    Are symptoms persistent, severe, and causing considerable difficulty with daily functioning? \n Are ALL  of the following true? \n
     – Are symptoms present in multiple settings? \n
     – Have they lasted at least 6 months? \n
-    – Are they inappropriate for the child/ adolescent’s developmental level? \n
+    – Are they inappropriate for the child/adolescent’s developmental level? \n
     – Is there considerable difficulty with daily functioning in personal, family, social, educational, occupational or other areas?
 </item>
 
         <item>
     Consider ADHD \n
-    Rule out physical conditions that can resemble ADHD. Does the child/adolescent have any of the following: \n
+    Rule out physical conditions that can resemble ADHD. \n Does the child/adolescent have any of the following: \n
     – Thyroid diseases \n
     – Acute or chronic infectious illness, including HIV/AIDS \n
     – Uncontrolled pain e.g. from an ear infection, sickle cell disease \n
@@ -138,11 +135,10 @@
     –  Medication side-effects  (e.g. from corticosteroids or   inhaled asthma medications)
 
 </item>
-
         <item>
     Manage the physical condition. \n
     In adolescents, assess for moderate to severe depression. \n
-    Does the adolescent have problems with mood (feeling irritable, down or sad) <u> OR </u> has lost interest in or enjoyment of activities? \n
+    Does the adolescent have problems with mood (feeling irritable, down or sad)  OR has lost interest in or enjoyment of activities? \n
 </item>
 
         <item>
@@ -223,7 +219,6 @@
     - Not wanting/refusing to attend school?
 
 </item>
-
         <item>
     - After getting consent, liaise with teachers and other school staff. Go to Management (2.7). \n
     - If there has been an absence from school,  try to help the child/adolescent return to school as soon as possible and explore reasons for absence.
@@ -246,7 +241,6 @@
     – Easily distracted, has difficulty completing tasks? \n
     – Moving restlessly? \n
         </item>
-
         <item>
     Assess the child for visual and/or hearing impairment: \n
     For vision assessment, see if the child fails to: \n
@@ -333,8 +327,10 @@
     ASSESS FOR OTHER PRIORITY MNS CONDITIONS \n
 
     Are there any other concurrent MNS conditions? Assess according to the  mhGAP-IG Master Chart. See » MC. \n
-    <i> Do not forget to assess for disorders due to substance use. </i> See » SUB. \n
-    <i> For children with developmental delay/disorders, do not forget to assess for epilepsy. </i> See » EPI.
+     Do not forget to assess for disorders due to substance use. \n
+            See » SUBSTANCE USE. \n
+    For children with developmental delay/disorders, do not forget to assess for epilepsy. \n
+            See » EPILEPSY.
 </item>
 
         <item>
@@ -356,7 +352,7 @@
 
         <item>
     Do the carers have any priority MNS condition that could impact their ability to care for the child/adolescent? \n
-    <i> Consider especially depression and disorders due to substance use. </i>
+     Consider especially depression and disorders due to substance use.
 
 </item>
 
@@ -395,7 +391,7 @@
         1) \n
     ASSESS FOR IMPROVEMENT \n
     Is the person improving? \n
-   <i> Reassess and monitor the child/adolescent’s symptoms, behaviour, and functioning at every visit. </i>
+   Reassess and monitor the child/adolescent’s symptoms, behaviour, and functioning at every visit.
     </string>
 
     <string-array name="CMH_FolowUp_Yes">
@@ -404,7 +400,7 @@
     1) \n
     ASSESS FOR IMPROVEMENT \n
     Is the person improving? \n
-   <i> Reassess and monitor the child/adolescent’s symptoms, behaviour, and functioning at every visit. </i>
+  Reassess and monitor the child/adolescent’s symptoms, behaviour, and functioning at every visit.
 
 </item>
 
@@ -488,6 +484,5 @@
         - After one year of treatment: Consult specialist regarding the continuation of methylphenidate.
 
     </item>
-
     </string-array>
 </resources>

@@ -49,6 +49,11 @@ public class Bev_assesment extends AppCompatActivity {
         mfalsebtn.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
+                if (mfalsebtn.getText().toString().equalsIgnoreCase("GO TO Protocol 1")) {
+                    Intent intent = new Intent(Bev_assesment.this, behavioural2.class);
+                    startActivity(intent);
+                }
+                else
                 updateNoquestion();
             }
         });
@@ -131,7 +136,7 @@ public class Bev_assesment extends AppCompatActivity {
             mquestion.setText(YesQuestions[2]);
         else if (mquestion.getText().toString().equals(YesQuestions[2])) {
             mquestion.setText(YesQuestions[3]);
-            othbtn.setText("Go to Protocol 1");
+            othbtn.setText("GO TO Protocol 1");
             othbtn.setVisibility(View.VISIBLE);
         } else if (mquestion.getText().toString().equals(YesQuestions[3])) {
             othbtn.setVisibility(View.GONE);
@@ -196,15 +201,22 @@ public class Bev_assesment extends AppCompatActivity {
             mtruebtn.setVisibility(View.GONE);
             mfalsebtn.setVisibility(View.GONE);
         }
-        if (mquestion.getText().toString().equals(YesQuestions[1]))
+        else if (mquestion.getText().toString().equals(YesQuestions[1]))
             mquestion.setText(NoQuestions[2]);
-        if (mquestion.getText().toString().equals(YesQuestions[3])) {
+        else if (mquestion.getText().toString().equals(YesQuestions[2]))
+        {
+            mquestion.setText(YesQuestions[3]);
+            othbtn.setText("GO TO protocol 1");
+            othbtn.setVisibility(View.VISIBLE);
+        }
+
+        else if (mquestion.getText().toString().equals(YesQuestions[3])) {
             mquestion.setText("Skip to step 3");
             othbtn.setText("Skip to step 3");
             mtruebtn.setVisibility(View.GONE);
             mfalsebtn.setVisibility(View.GONE);
+            othbtn.setVisibility(View.VISIBLE);
         }
-
         else if (mquestion.getText().toString().equals(YesQuestions[4]))
         {
             mquestion.setText(NoQuestions[7]);
@@ -226,7 +238,7 @@ public class Bev_assesment extends AppCompatActivity {
         else if (mquestion.getText().toString().equals(NoQuestions[2]))
         {
             mquestion.setText(NoQuestions[3]);
-            mfalsebtn.setText("Go to Protocol 1");
+            mfalsebtn.setText("GO TO Protocol 1");
             mtruebtn.setVisibility(View.GONE);
         }
         else if (mquestion.getText().toString().equals(NoQuestions[1]))
