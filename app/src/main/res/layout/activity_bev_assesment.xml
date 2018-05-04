@@ -8,105 +8,106 @@ android:layout_height="match_parent"
 android:background="#18B04B"
 tools:context="com.example.tencho.mhgap2.Bev_assesment">
 
-<LinearLayout
-    android:layout_width="match_parent"
-    android:layout_height="wrap_content"
-    android:orientation="vertical">
-
-    <TextView
-        android:id="@+id/title"
-        android:text="Assessment"
-        android:textSize="35sp"
-        android:textColor="#ffffff"
-        android:fontFamily="sans-serif-condensed"
-        android:textAlignment="center"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        tools:ignore="HardcodedText" />
-    <ImageView
-        android:id="@+id/imageView4"
-        android:layout_width="124dp"
-        android:layout_height="86dp"
-        android:layout_gravity="center"
-        app:srcCompat="@drawable/assesment"
-        tools:ignore="ContentDescription" />
-
-
     <LinearLayout
         android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:layout_marginBottom="20dp">
-
+        android:layout_height="match_parent"
+        android:orientation="vertical">
 
         <TextView
-            android:id="@+id/question"
+            android:id="@+id/title"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:textColor="#ffffff"
             android:fontFamily="sans-serif-condensed"
-            android:text="@string/CMH1"
+            android:text="Assessment"
             android:textAlignment="center"
-            android:textSize="18sp"
+            android:textColor="#ffffff"
+            android:textSize="35sp"
             tools:ignore="HardcodedText" />
+
+        <ImageView
+            android:id="@+id/imageView4"
+            android:layout_width="124dp"
+            android:layout_height="86dp"
+            android:layout_gravity="center"
+            app:srcCompat="@drawable/assesment"
+            tools:ignore="ContentDescription" />
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="20dp">
+
+
+            <TextView
+                android:id="@+id/question"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:fontFamily="sans-serif-condensed"
+                android:text="@string/CMH1"
+                android:textAlignment="center"
+                android:textColor="#ffffff"
+                android:textSize="18sp"
+                tools:ignore="HardcodedText" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="20dp"
+            android:orientation="horizontal">
+
+            <Button
+                android:id="@+id/yes"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="10dp"
+                android:layout_weight="1"
+                android:background="@drawable/depre"
+                android:fontFamily="sans-serif-condensed"
+                android:text="Yes"
+                android:textColor="#18B04B"
+                android:textSize="16sp"
+                tools:ignore="ButtonStyle,HardcodedText,SmallSp" />
+
+            <Button
+                android:id="@+id/no"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="10dp"
+                android:layout_weight="1"
+                android:background="@drawable/depre"
+                android:fontFamily="sans-serif-condensed"
+                android:text="No"
+                android:textColor="#18B04B"
+                android:textSize="16sp"
+                tools:ignore="ButtonStyle,HardcodedText,SmallSp" />
+
+            <Button
+                android:id="@+id/oth"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="10dp"
+                android:layout_weight="1"
+                android:background="@drawable/depre"
+                android:fontFamily="sans-serif-condensed"
+                android:text="oth"
+                android:textColor="#18B04B"
+                android:textSize="16sp"
+                tools:ignore="ButtonStyle,HardcodedText,SmallSp" />
+
+            <Button
+                android:id="@+id/oth2"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="10dp"
+                android:layout_weight="1"
+                android:background="@drawable/depre"
+                android:fontFamily="sans-serif-condensed"
+                android:text="oth 2"
+                android:textColor="#18B04B"
+                android:textSize="16sp"
+                tools:ignore="ButtonStyle,HardcodedText,SmallSp" />
+        </LinearLayout>
     </LinearLayout>
-
-    <LinearLayout
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:layout_marginBottom="20dp"
-        android:orientation="horizontal">
-
-        <Button
-            android:id="@+id/yes"
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:layout_marginStart="10dp"
-            android:layout_weight="1"
-            android:background="@drawable/depre"
-            android:fontFamily="sans-serif-condensed"
-            android:text="Yes"
-            android:textColor="#18B04B"
-            android:textSize="16sp"
-            tools:ignore="ButtonStyle,HardcodedText,SmallSp" />
-
-        <Button
-            android:id="@+id/no"
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:layout_marginStart="10dp"
-            android:layout_weight="1"
-            android:background="@drawable/depre"
-            android:fontFamily="sans-serif-condensed"
-            android:text="No"
-            android:textColor="#18B04B"
-            android:textSize="16sp"
-            tools:ignore="ButtonStyle,HardcodedText,SmallSp" />
-
-        <Button
-            android:id="@+id/oth"
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:layout_marginStart="10dp"
-            android:layout_weight="1"
-            android:background="@drawable/depre"
-            android:fontFamily="sans-serif-condensed"
-            android:text="oth"
-            android:textColor="#18B04B"
-            android:textSize="16sp"
-            tools:ignore="ButtonStyle,HardcodedText,SmallSp" />
-
-        <Button
-            android:id="@+id/oth2"
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:layout_marginStart="10dp"
-            android:layout_weight="1"
-            android:background="@drawable/depre"
-            android:fontFamily="sans-serif-condensed"
-            android:text="oth 2"
-            android:textColor="#18B04B"
-            android:textSize="16sp"
-            tools:ignore="ButtonStyle,HardcodedText,SmallSp" />
-    </LinearLayout>
-</LinearLayout>
 </ScrollView>

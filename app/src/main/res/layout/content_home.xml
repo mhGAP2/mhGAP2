@@ -11,10 +11,16 @@
     android:background="#ffffff">
 
     <ScrollView
-        android:layout_width="0dp"
+        android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        tools:layout_editor_absoluteY="0dp"
-        tools:layout_editor_absoluteX="8dp">
+        android:layout_marginLeft="2dp"
+        android:layout_marginRight="2dp"
+        android:layout_marginTop="8dp"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintHorizontal_bias="0.0">
+
         <LinearLayout
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
@@ -29,7 +35,7 @@
                 android:layout_marginLeft="8dp"
                 android:layout_marginRight="8dp"
                 android:layout_marginStart="8dp"
-                android:layout_marginTop="8dp"
+                android:layout_marginTop="3dp"
                 android:fontFamily="sans-serif-condensed"
                 android:paddingBottom="3sp"
                 android:text="@string/mcare"
@@ -51,7 +57,7 @@
                 android:layout_marginLeft="32dp"
                 android:layout_marginRight="32dp"
                 android:layout_marginStart="32dp"
-                android:layout_marginTop="3dp"
+                android:layout_marginTop="8dp"
                 android:contentDescription="logo"
                 app:layout_constraintHorizontal_bias="0.0"
                 app:layout_constraintLeft_toLeftOf="parent"
@@ -63,13 +69,13 @@
             <Button
                 android:id="@+id/depression"
                 android:layout_width="match_parent"
-                android:layout_height="34dp"
+                android:layout_height="29dp"
                 android:layout_gravity="center"
                 android:layout_marginEnd="32dp"
                 android:layout_marginLeft="32dp"
                 android:layout_marginRight="32dp"
                 android:layout_marginStart="32dp"
-                android:layout_marginTop="1dp"
+                android:layout_marginTop="8dp"
                 android:layout_weight="1"
                 android:background="@drawable/d1"
                 android:fontFamily="sans-serif-condensed"
@@ -131,7 +137,7 @@
             <Button
                 android:id="@+id/Disorder"
                 android:layout_width="match_parent"
-                android:layout_height="36dp"
+                android:layout_height="29dp"
                 android:layout_gravity="center"
                 android:layout_marginEnd="32dp"
                 android:layout_marginLeft="32dp"
@@ -225,6 +231,7 @@
                 android:layout_width="match_parent"
                 android:layout_height="34dp"
                 android:layout_gravity="center"
+                android:layout_marginBottom="23dp"
                 android:layout_marginEnd="32dp"
                 android:layout_marginLeft="32dp"
                 android:layout_marginRight="32dp"
@@ -237,7 +244,6 @@
                 android:textAlignment="center"
                 android:textColor="#FFFFFF"
                 android:textSize="16sp"
-                android:layout_marginBottom="23dp"
                 app:layout_constraintHorizontal_bias="0.0"
                 app:layout_constraintLeft_toLeftOf="parent"
                 app:layout_constraintRight_toRightOf="parent"

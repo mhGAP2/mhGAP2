@@ -138,10 +138,18 @@ public class Substanceuse_Assessment_Emergency extends AppCompatActivity {
         }
         else if (mquestion.getText().toString().equals(YesQuestions[2]))
             mquestion.setText(YesQuestions[4]);
+        else if (mquestion.getText().toString().equals(YesQuestions[3]))
+            mquestion.setText(YesQuestions[4]);
         else if (mquestion.getText().toString().equals(NoQuestions[2]))
             mquestion.setText(YesQuestions[3]);
         else if (mquestion.getText().toString().equals(NoQuestions[3]))
             mquestion.setText(YesQuestions[4]);
+        else if (mquestion.getText().toString().equals(NoQuestions[4]))
+        {
+            mquestion.setText(YesQuestions[5]);
+            othbtn.setText("Access from A to D");
+            othbtn.setVisibility(View.VISIBLE);
+        }
         else if (mquestion.getText().toString().equals(YesQuestions[4]))
         {
             mquestion.setText(YesQuestions[5]);
@@ -155,6 +163,7 @@ public class Substanceuse_Assessment_Emergency extends AppCompatActivity {
         }
         else if (mquestion.getText().toString().equals(YesQuestions[6]))
             mquestion.setText(YesQuestions[7]);
+
         else if (mquestion.getText().toString().equals(YesQuestions[7]))
         {
             mquestion.setText(NoQuestions[6]);
@@ -206,10 +215,16 @@ public class Substanceuse_Assessment_Emergency extends AppCompatActivity {
             mquestion.setText(NoQuestions[4]);
         else if (mquestion.getText().toString().equals(YesQuestions[2]))
             mquestion.setText(NoQuestions[4]);
+        else if (mquestion.getText().toString().equals(YesQuestions[3]))
+            mquestion.setText(YesQuestions[4]);
         else if (mquestion.getText().toString().equals(YesQuestions[5]))
         {
             mquestion.setText(NoQuestions[6]);
             othbtn.setVisibility(View.GONE);
+            othbtn.setText("Home");
+            othbtn.setVisibility(View.VISIBLE);
+            mtruebtn.setVisibility(View.GONE);
+            mfalsebtn.setVisibility(View.GONE);
         }
         else if (mquestion.getText().toString().equals(YesQuestions[4]))
         {

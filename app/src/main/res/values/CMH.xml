@@ -202,10 +202,7 @@
 
         <item>
     - Provide advise on age-appropriate stimulation and parenting. Refer to Care for Child Development http://www.who.int/maternal_ child_adolescent/documents/care_child_ development/en/  \n
-    - Consider need for additional support for the  child including referral to child protection services where available.
-</item>
-
-        <item>
+    - Consider need for additional support for the  child including referral to child protection services where available. \n
     7) \n
     ASSESS THE SCHOOL ENVIRONMENT \n
     Is the child/adolescent in school?
@@ -228,7 +225,6 @@
     </string-array>
 
     <string-array name="CMH_Asse_No">
-
         <item>
             SKIP to STEP  2
         </item>
@@ -307,6 +303,7 @@
 </item>
 
         <item>
+            Consider  PROBLEMS WITH EMOTIONS \n
     SKIP to STEP  5
 </item>
 

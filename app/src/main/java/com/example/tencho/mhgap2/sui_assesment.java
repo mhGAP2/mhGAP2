@@ -85,7 +85,7 @@ public class sui_assesment extends AppCompatActivity {
                 }
                 else if(othbtn.getText().toString().equals("follow Up"))
                 {
-                    Intent intent = new Intent(sui_assesment.this, suicide2.class);
+                    Intent intent = new Intent(sui_assesment.this, suicide1.class);
                     startActivity(intent);
                 }
             }

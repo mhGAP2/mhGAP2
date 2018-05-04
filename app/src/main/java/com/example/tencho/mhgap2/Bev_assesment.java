@@ -174,13 +174,16 @@ public class Bev_assesment extends AppCompatActivity {
             mquestion.setText(YesQuestions[14]);
         else if (mquestion.getText().toString().equals(YesQuestions[14]))
             mquestion.setText(YesQuestions[15]);
+        else if (mquestion.getText().toString().equals(NoQuestions[15]))
+            mquestion.setText(YesQuestions[15]);
         else if (mquestion.getText().toString().equals(YesQuestions[15])) {
             mquestion.setText(YesQuestions[16]);
             othbtn.setText("Go to Management 2.6 (Carer support)");
             othbtn.setVisibility(View.VISIBLE);
             mtruebtn.setVisibility(View.GONE);
             mfalsebtn.setVisibility(View.GONE);
-        }
+        }else if (mquestion.getText().toString().equals(NoQuestions[17]))
+            mquestion.setText(YesQuestions[17]);
         else if (mquestion.getText().toString().equals(NoQuestions[1]))
             mquestion.setText(YesQuestions[4]);
         else if (mquestion.getText().toString().equals(NoQuestions[5]))
@@ -189,6 +192,14 @@ public class Bev_assesment extends AppCompatActivity {
             mquestion.setText(YesQuestions[9]);
         else if (mquestion.getText().toString().equals(NoQuestions[13]))
             mquestion.setText(YesQuestions[14]);
+        else if (mquestion.getText().toString().equals(NoQuestions[12]))
+        {
+            mquestion.setText("Skip to step 5");
+            othbtn.setText("Skip to step 5");
+            othbtn.setVisibility(View.VISIBLE);
+            mtruebtn.setVisibility(View.GONE);
+            mfalsebtn.setVisibility(View.GONE);
+        }
         else if (mquestion.getText().toString().equals(NoQuestions[2]))
             mquestion.setText(YesQuestions[3]);
     }
@@ -234,6 +245,14 @@ public class Bev_assesment extends AppCompatActivity {
             mtruebtn.setVisibility(View.GONE);
             mfalsebtn.setVisibility(View.GONE);
             othbtn.setVisibility(View.VISIBLE);
+        }
+        else if (mquestion.getText().toString().equals(YesQuestions[6]))
+        {
+            mquestion.setText(NoQuestions[6]);
+            othbtn.setText("Skip to step 4");
+            othbtn.setVisibility(View.VISIBLE);
+            mtruebtn.setVisibility(View.GONE);
+            mfalsebtn.setVisibility(View.GONE);
         }
         else if (mquestion.getText().toString().equals(NoQuestions[2]))
         {
@@ -281,17 +300,31 @@ public class Bev_assesment extends AppCompatActivity {
             othbtn.setText("Go to Protocol 2");
             othbtn.setVisibility(View.VISIBLE);
         }
+        else if (mquestion.getText().toString().equals(YesQuestions[8]))
+        {
+            mquestion.setText("Skip to step 5");
+            othbtn.setText("Skip to step 5");
+            othbtn.setVisibility(View.VISIBLE);
+            mtruebtn.setVisibility(View.GONE);
+            mfalsebtn.setVisibility(View.GONE);
+        }
         else if (mquestion.getText().toString().equals(YesQuestions[10]))
         {
-            mquestion.setText("Go to Protocol 6");
+            mquestion.setText(NoQuestions[12]);
             othbtn.setText("Go to Protocol 6");
             othbtn.setVisibility(View.VISIBLE);
+        }
+        else if (mquestion.getText().toString().equals(NoQuestions[12]))
+        {
+            mquestion.setText(YesQuestions[12]);
+            othbtn.setVisibility(View.GONE);
         }
         else if (mquestion.getText().toString().equals(YesQuestions[11]))
         {
             mquestion.setText("Skip to step 5");
             othbtn.setText("Skip to step 5");
             othbtn.setVisibility(View.VISIBLE);
+            mtruebtn.setVisibility(View.GONE);
         }
         else if (mquestion.getText().toString().equals(YesQuestions[12]))
         {
@@ -299,9 +332,15 @@ public class Bev_assesment extends AppCompatActivity {
             othbtn.setText("Skip to step 5");
             othbtn2.setText("Go to protocol 5");
             othbtn.setVisibility(View.VISIBLE);
+            mtruebtn.setVisibility(View.GONE);
+            mfalsebtn.setVisibility(View.GONE);
         }
+        else if (mquestion.getText().toString().equals(YesQuestions[13]))
+            mquestion.setText(NoQuestions[15]);
         else if (mquestion.getText().toString().equals(YesQuestions[14]))
             mquestion.setText(NoQuestions[15]);
+        else if (mquestion.getText().toString().equals(YesQuestions[15]))
+            mquestion.setText(NoQuestions[17]);
         else if (mquestion.getText().toString().equals(NoQuestions[13]))
             mquestion.setText(NoQuestions[15]);
         else if (mquestion.getText().toString().equals(NoQuestions[15]))
@@ -310,6 +349,8 @@ public class Bev_assesment extends AppCompatActivity {
             mquestion.setText(NoQuestions[17]);
         else if (mquestion.getText().toString().equals(NoQuestions[17]))
             mquestion.setText(NoQuestions[18]);
+        else if (mquestion.getText().toString().equals(NoQuestions[17]))
+            mquestion.setText(NoQuestions[17]);
         else if (mquestion.getText().toString().equals(NoQuestions[18]))
         {
             mquestion.setText(NoQuestions[19]);
