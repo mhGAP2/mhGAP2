@@ -5,6 +5,7 @@
     <dimen name="landscape_height">30sp</dimen>
     <dimen name="navHead">20sp</dimen>
     <dimen name="navCon">14sp</dimen>
+    <dimen name="nav_header_height">150dp</dimen>
 
     <dimen name="Home_header">32sp</dimen>
     <dimen name="s_fontsize">16sp</dimen>

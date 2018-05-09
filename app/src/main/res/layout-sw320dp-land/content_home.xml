@@ -226,6 +226,7 @@
                 android:layout_marginRight="32dp"
                 android:layout_marginStart="32dp"
                 android:layout_marginTop="9dp"
+                android:layout_marginBottom="20dp"
                 android:layout_weight="1"
                 android:background="@drawable/d8"
                 android:fontFamily="sans-serif-condensed"

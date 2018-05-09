@@ -3,7 +3,7 @@
     <dimen name="activity_horizontal_margin">16dp</dimen>
     <dimen name="activity_vertical_margin">16dp</dimen>
     <dimen name="nav_header_vertical_spacing">16dp</dimen>
-    <dimen name="nav_header_height">160dp</dimen>
+    <dimen name="nav_header_height">170dp</dimen>
     <dimen name="fab_margin">16dp</dimen>
     <dimen name="appbar_padding_top">8dp</dimen>
     <dimen name="l_fontsize">30sp</dimen>
@@ -12,7 +12,9 @@
 
     <dimen name="s_fontsize">14sp</dimen>
     <dimen name="s_height">30dp</dimen>
-    <dimen name="navHead">22sp</dimen>
-    <dimen name="navCon">12sp</dimen>
+    <dimen name="navHead">35sp</dimen>
+    <dimen name="navCon">24sp</dimen>
+    <dimen name="content_size">24sp</dimen>
+    <dimen name="content_head">26sp</dimen>
 
 </resources>

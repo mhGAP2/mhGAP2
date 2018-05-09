@@ -1,14 +1,15 @@
 <?xml version="1.0" encoding="utf-8"?>
 <ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
 xmlns:app="http://schemas.android.com/apk/res-auto"
-android:orientation="vertical"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
 android:layout_width="match_parent"
 android:layout_height="match_parent"
 android:background="#18B04B"
 android:weightSum="3">
     <LinearLayout
     android:layout_width="match_parent"
-    android:layout_height="match_parent"
+    android:layout_height="wrap_content"
     android:orientation="vertical"
     android:weightSum="4">
 
@@ -20,7 +21,7 @@ android:weightSum="3">
         android:layout_marginTop="10dp"
         android:layout_weight="1"
         android:fontFamily="sans-serif-condensed"
-        android:text="CMH BEHAVIOURAL DISORDER"
+        android:text="@string/cmh_behavioural_disorder"
         android:textAlignment="center"
         android:textColor="#ffffff"
         android:textSize="35sp" />
@@ -49,7 +50,8 @@ android:weightSum="3">
         android:textSize="16sp"
         android:background="@drawable/depre"
         android:layout_gravity="center"
-        android:textColor="#18B04B" />
+        android:textColor="#18B04B"
+        tools:ignore="HardcodedText" />
 
 
 </LinearLayout>

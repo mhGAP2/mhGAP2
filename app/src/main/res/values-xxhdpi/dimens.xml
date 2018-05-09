@@ -8,4 +8,6 @@
     <dimen name="s_height">30dp</dimen>
     <dimen name="navHead">22sp</dimen>
     <dimen name="navCon">12sp</dimen>
+    <dimen name="content_size">18sp</dimen>
+    <dimen name="content_head">20sp</dimen>
 </resources>

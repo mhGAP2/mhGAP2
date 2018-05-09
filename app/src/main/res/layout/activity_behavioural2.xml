@@ -21,6 +21,7 @@ android:background="#18B04B">
             android:textAlignment="center"
             android:textSize="35dp"
             tools:ignore="HardcodedText,SpUsage" />
+
         <ImageView
         android:id="@+id/imageView3"
         android:layout_width="104dp"
